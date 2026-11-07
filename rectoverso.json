@@ -1,0 +1,106 @@
+{
+  "id": "rectoverso-kana",
+  "version": "0.1.0",
+  "releaseTag": "v0.1.0",
+  "guidPrefix": "rv-kana",
+  "identityBase": 1794200000,
+  "contentModifiedAt": "2026-11-07T23:50:03Z",
+  "publication": {
+    "remote": "https://github.com/rectoversohq/rectoverso-kana",
+    "release": "https://github.com/rectoversohq/rectoverso-kana/releases/tag/v0.1.0",
+    "approved": false,
+    "visibility": "public"
+  },
+  "title": {
+    "en": "Japanese · Kana",
+    "fr": "Japonais · Kana"
+  },
+  "subject": {
+    "en": "Japanese kana",
+    "fr": "Kana japonais"
+  },
+  "headline": {
+    "en": "Read hiragana and katakana, one sound at a time.",
+    "fr": "Lire les hiragana et les katakana, un son à la fois."
+  },
+  "description": {
+    "en": "Start with no Japanese knowledge. Learn hiragana first, then katakana, with short-word reading practice. A new kana is a chance to reveal and listen before practicing recall on later visits.\n\nAim for about ten minutes a day, including reviews. Start with six new questions a day: reading and listening directions count separately. Complete due reviews first and introduce new material only when time remains. If reviews fill your budget, lower “New cards a day”, or set it to 0 to pause new introductions while continuing reviews. There is no fixed finishing date.\n\nFor this prototype, open “Deck options”: set “New cards a day” to 6, “New cards” to “In deck order”, and “Show new cards” to “After reviews”. Course recommendations do not automatically change the app’s settings yet.\n\nRecall mentally; handwriting is optional. Read words without romaji or hints before revealing. Accurate decoding counts even when slow. Meanings provide context, not vocabulary to memorize. Reference tables after relevant answers are for consultation, not extra scheduled questions.",
+    "fr": "Débutez sans connaissance du japonais. Apprenez les hiragana, puis les katakana, avec de courts mots à lire. Face à un nouveau kana, révélez et écoutez d’abord, puis exercez votre rappel lors des révisions suivantes.\n\nVisez environ dix minutes par jour, révisions comprises. Commencez par six nouvelles questions par jour : la lecture et l’écoute comptent séparément. Faites d’abord les révisions dues et ajoutez du nouveau seulement s’il reste du temps. Si les révisions remplissent ce temps, baissez « Nouvelles cartes par jour » ou mettez 0 pour suspendre les nouvelles introductions tout en poursuivant les révisions. Aucune date de fin n’est imposée.\n\nPour ce prototype, ouvrez « Options du deck » : réglez « Nouvelles cartes par jour » sur 6, « Nouvelles cartes » sur « Dans l’ordre du deck » et « Afficher les nouvelles cartes » sur « Après les révisions ». Les recommandations du cours ne modifient pas encore automatiquement les réglages de l’app.\n\nRetrouvez les sons et les formes mentalement ; écrire est facultatif. Lisez les mots sans romaji ni indice avant de révéler. Une lecture exacte suffit, même lente. Le sens fournit un contexte, sans vocabulaire à mémoriser. Les tableaux placés après certaines réponses se consultent au besoin, sans questions supplémentaires programmées."
+  },
+  "languages": {
+    "en": {
+      "id": "rectoverso-kana-en",
+      "title": "Japanese · Kana",
+      "cards": 290,
+      "sample": "rv-kana-en-read-hira-3042",
+      "package": {
+        "file": "Japanese-Kana-en.apkg"
+      }
+    },
+    "fr": {
+      "id": "rectoverso-kana-fr",
+      "title": "Japonais · Kana",
+      "cards": 290,
+      "sample": "rv-kana-fr-read-hira-3042",
+      "package": {
+        "file": "Japanese-Kana-fr.apkg"
+      }
+    }
+  },
+  "cards": 290,
+  "categories": [
+    "languages"
+  ],
+  "creator": "Simon Pinkas",
+  "license": "CC BY 4.0",
+  "proOnly": false,
+  "renderedPictures": true,
+  "pictures": [],
+  "imageCredits": [],
+  "sources": [
+    {
+      "name": "Original authored kana course; primary references recorded per item",
+      "version": "2026-11-07",
+      "url": "https://tsunagarujp.mext.go.jp/assets/download/hiragana_katakana_ver202404.pdf",
+      "license": "CC BY 4.0 (original authored material; no reference artwork copied)"
+    },
+    {
+      "name": "Noto Sans JP, Noto Serif JP and Yomogi fonts",
+      "version": "Pinned commits in artwork/fonts/provenance.json",
+      "url": "https://github.com/google/fonts",
+      "license": "OFL-1.1"
+    },
+    {
+      "name": "Microsoft Nanami audition audio",
+      "version": "edge-tts 7.3.1; ja-JP-NanamiNeural; rate -20%",
+      "url": "https://github.com/rany2/edge-tts",
+      "license": "LicenseRef-Audio-Rights-Deferred"
+    }
+  ],
+  "sourceFiles": {
+    "pictures": "artwork",
+    "sounds": "source/audio",
+    "questions": "source/questions",
+    "kana": "source/kana.json",
+    "artwork": "artwork"
+  },
+  "reviewStatus": {
+    "publication": "not-approved",
+    "copyAndNames": "working candidates pending owner approval",
+    "questionTypes": [
+      "reading",
+      "listening",
+      "rule",
+      "word",
+      "contrast",
+      "variant",
+      "checkpoint"
+    ]
+  },
+  "studyRecommendations": {
+    "status": "requires app issue #805; deck-local data alone does not apply settings",
+    "newQuestionsPerDay": 6,
+    "newOrder": "authored",
+    "placement": "afterReviews"
+  }
+}

@@ -1,0 +1,2323 @@
+[
+  {
+    "id": "read-hira-3042",
+    "type": "reading",
+    "target": "hira-3042",
+    "stage": 0,
+    "batch": "hira-batch-01",
+    "priority": 0,
+    "requires": [],
+    "introduces": [
+      "hira-3042"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "a",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "appendices": [
+      "course"
+    ]
+  },
+  {
+    "id": "read-hira-3044",
+    "type": "reading",
+    "target": "hira-3044",
+    "stage": 0,
+    "batch": "hira-batch-01",
+    "priority": 10,
+    "requires": [],
+    "introduces": [
+      "hira-3044"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "i",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3046",
+    "type": "reading",
+    "target": "hira-3046",
+    "stage": 0,
+    "batch": "hira-batch-01",
+    "priority": 20,
+    "requires": [],
+    "introduces": [
+      "hira-3046"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "u",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Keep the lips relaxed rather than strongly rounded. Follow the vowel in the recording.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Gardez les lèvres détendues, sans les arrondir fortement. Suivez la voyelle de l’enregistrement."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-vowels"
+    ]
+  },
+  {
+    "id": "read-hira-3048",
+    "type": "reading",
+    "target": "hira-3048",
+    "stage": 0,
+    "batch": "hira-batch-02",
+    "priority": 30,
+    "requires": [],
+    "introduces": [
+      "hira-3048"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "e",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Keep the vowel steady. Avoid adding an English “ay” glide.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Gardez une voyelle stable, sans glissement à la fin."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-304a",
+    "type": "reading",
+    "target": "hira-304a",
+    "stage": 0,
+    "batch": "hira-batch-02",
+    "priority": 40,
+    "requires": [],
+    "introduces": [
+      "hira-304a"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "o",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Keep the vowel steady. Avoid adding an English “oh” glide.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Gardez une voyelle stable, sans glissement à la fin."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-304b",
+    "type": "reading",
+    "target": "hira-304b",
+    "stage": 0,
+    "batch": "hira-batch-03",
+    "priority": 50,
+    "requires": [],
+    "introduces": [
+      "hira-304b"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ka",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-304d",
+    "type": "reading",
+    "target": "hira-304d",
+    "stage": 0,
+    "batch": "hira-batch-03",
+    "priority": 60,
+    "requires": [],
+    "introduces": [
+      "hira-304d"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ki",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-304f",
+    "type": "reading",
+    "target": "hira-304f",
+    "stage": 0,
+    "batch": "hira-batch-03",
+    "priority": 70,
+    "requires": [],
+    "introduces": [
+      "hira-304f"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ku",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3051",
+    "type": "reading",
+    "target": "hira-3051",
+    "stage": 0,
+    "batch": "hira-batch-04",
+    "priority": 80,
+    "requires": [],
+    "introduces": [
+      "hira-3051"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ke",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3053",
+    "type": "reading",
+    "target": "hira-3053",
+    "stage": 0,
+    "batch": "hira-batch-04",
+    "priority": 90,
+    "requires": [],
+    "introduces": [
+      "hira-3053"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ko",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3055",
+    "type": "reading",
+    "target": "hira-3055",
+    "stage": 0,
+    "batch": "hira-batch-05",
+    "priority": 100,
+    "requires": [],
+    "introduces": [
+      "hira-3055"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "sa",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3057",
+    "type": "reading",
+    "target": "hira-3057",
+    "stage": 0,
+    "batch": "hira-batch-05",
+    "priority": 110,
+    "requires": [],
+    "introduces": [
+      "hira-3057"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "shi",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3059",
+    "type": "reading",
+    "target": "hira-3059",
+    "stage": 0,
+    "batch": "hira-batch-05",
+    "priority": 120,
+    "requires": [],
+    "introduces": [
+      "hira-3059"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "su",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-305b",
+    "type": "reading",
+    "target": "hira-305b",
+    "stage": 0,
+    "batch": "hira-batch-06",
+    "priority": 130,
+    "requires": [],
+    "introduces": [
+      "hira-305b"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "se",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-305d",
+    "type": "reading",
+    "target": "hira-305d",
+    "stage": 0,
+    "batch": "hira-batch-06",
+    "priority": 140,
+    "requires": [],
+    "introduces": [
+      "hira-305d"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "so",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-305f",
+    "type": "reading",
+    "target": "hira-305f",
+    "stage": 0,
+    "batch": "hira-batch-07",
+    "priority": 150,
+    "requires": [],
+    "introduces": [
+      "hira-305f"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ta",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3061",
+    "type": "reading",
+    "target": "hira-3061",
+    "stage": 0,
+    "batch": "hira-batch-07",
+    "priority": 160,
+    "requires": [],
+    "introduces": [
+      "hira-3061"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "chi",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3064",
+    "type": "reading",
+    "target": "hira-3064",
+    "stage": 0,
+    "batch": "hira-batch-07",
+    "priority": 170,
+    "requires": [],
+    "introduces": [
+      "hira-3064"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "tsu",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3066",
+    "type": "reading",
+    "target": "hira-3066",
+    "stage": 0,
+    "batch": "hira-batch-08",
+    "priority": 180,
+    "requires": [],
+    "introduces": [
+      "hira-3066"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "te",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3068",
+    "type": "reading",
+    "target": "hira-3068",
+    "stage": 0,
+    "batch": "hira-batch-08",
+    "priority": 190,
+    "requires": [],
+    "introduces": [
+      "hira-3068"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "to",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-306a",
+    "type": "reading",
+    "target": "hira-306a",
+    "stage": 0,
+    "batch": "hira-batch-09",
+    "priority": 200,
+    "requires": [],
+    "introduces": [
+      "hira-306a"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "na",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-306b",
+    "type": "reading",
+    "target": "hira-306b",
+    "stage": 0,
+    "batch": "hira-batch-09",
+    "priority": 210,
+    "requires": [],
+    "introduces": [
+      "hira-306b"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ni",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-306c",
+    "type": "reading",
+    "target": "hira-306c",
+    "stage": 0,
+    "batch": "hira-batch-09",
+    "priority": 220,
+    "requires": [],
+    "introduces": [
+      "hira-306c"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "nu",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-306d",
+    "type": "reading",
+    "target": "hira-306d",
+    "stage": 0,
+    "batch": "hira-batch-10",
+    "priority": 230,
+    "requires": [],
+    "introduces": [
+      "hira-306d"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ne",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-306e",
+    "type": "reading",
+    "target": "hira-306e",
+    "stage": 0,
+    "batch": "hira-batch-10",
+    "priority": 240,
+    "requires": [],
+    "introduces": [
+      "hira-306e"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "no",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-306f",
+    "type": "reading",
+    "target": "hira-306f",
+    "stage": 0,
+    "batch": "hira-batch-11",
+    "priority": 250,
+    "requires": [],
+    "introduces": [
+      "hira-306f"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ha",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3072",
+    "type": "reading",
+    "target": "hira-3072",
+    "stage": 0,
+    "batch": "hira-batch-11",
+    "priority": 260,
+    "requires": [],
+    "introduces": [
+      "hira-3072"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "hi",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3075",
+    "type": "reading",
+    "target": "hira-3075",
+    "stage": 0,
+    "batch": "hira-batch-11",
+    "priority": 270,
+    "requires": [],
+    "introduces": [
+      "hira-3075"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "fu",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Bring the lips close and let air pass between them. Keep the upper teeth away from the lower lip.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Rapprochez les lèvres et laissez passer l’air entre elles. Les dents du haut ne touchent pas la lèvre du bas."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-fu"
+    ]
+  },
+  {
+    "id": "read-hira-3078",
+    "type": "reading",
+    "target": "hira-3078",
+    "stage": 0,
+    "batch": "hira-batch-12",
+    "priority": 280,
+    "requires": [],
+    "introduces": [
+      "hira-3078"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "he",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-307b",
+    "type": "reading",
+    "target": "hira-307b",
+    "stage": 0,
+    "batch": "hira-batch-12",
+    "priority": 290,
+    "requires": [],
+    "introduces": [
+      "hira-307b"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ho",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-307e",
+    "type": "reading",
+    "target": "hira-307e",
+    "stage": 0,
+    "batch": "hira-batch-13",
+    "priority": 300,
+    "requires": [],
+    "introduces": [
+      "hira-307e"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ma",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-307f",
+    "type": "reading",
+    "target": "hira-307f",
+    "stage": 0,
+    "batch": "hira-batch-13",
+    "priority": 310,
+    "requires": [],
+    "introduces": [
+      "hira-307f"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "mi",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3080",
+    "type": "reading",
+    "target": "hira-3080",
+    "stage": 0,
+    "batch": "hira-batch-13",
+    "priority": 320,
+    "requires": [],
+    "introduces": [
+      "hira-3080"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "mu",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3081",
+    "type": "reading",
+    "target": "hira-3081",
+    "stage": 0,
+    "batch": "hira-batch-14",
+    "priority": 330,
+    "requires": [],
+    "introduces": [
+      "hira-3081"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "me",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3082",
+    "type": "reading",
+    "target": "hira-3082",
+    "stage": 0,
+    "batch": "hira-batch-14",
+    "priority": 340,
+    "requires": [],
+    "introduces": [
+      "hira-3082"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "mo",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3084",
+    "type": "reading",
+    "target": "hira-3084",
+    "stage": 0,
+    "batch": "hira-batch-15",
+    "priority": 350,
+    "requires": [],
+    "introduces": [
+      "hira-3084"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ya",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3086",
+    "type": "reading",
+    "target": "hira-3086",
+    "stage": 0,
+    "batch": "hira-batch-15",
+    "priority": 360,
+    "requires": [],
+    "introduces": [
+      "hira-3086"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "yu",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3088",
+    "type": "reading",
+    "target": "hira-3088",
+    "stage": 0,
+    "batch": "hira-batch-15",
+    "priority": 370,
+    "requires": [],
+    "introduces": [
+      "hira-3088"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "yo",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3089",
+    "type": "reading",
+    "target": "hira-3089",
+    "stage": 0,
+    "batch": "hira-batch-16",
+    "priority": 380,
+    "requires": [],
+    "introduces": [
+      "hira-3089"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ra",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly. Use the recording as your model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt. Prenez l’enregistrement comme modèle."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-hira-308a",
+    "type": "reading",
+    "target": "hira-308a",
+    "stage": 0,
+    "batch": "hira-batch-16",
+    "priority": 390,
+    "requires": [],
+    "introduces": [
+      "hira-308a"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ri",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly. Use the recording as your model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt. Prenez l’enregistrement comme modèle."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-hira-308b",
+    "type": "reading",
+    "target": "hira-308b",
+    "stage": 0,
+    "batch": "hira-batch-16",
+    "priority": 400,
+    "requires": [],
+    "introduces": [
+      "hira-308b"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ru",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly. Use the recording as your model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt. Prenez l’enregistrement comme modèle."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-hira-308c",
+    "type": "reading",
+    "target": "hira-308c",
+    "stage": 0,
+    "batch": "hira-batch-17",
+    "priority": 410,
+    "requires": [],
+    "introduces": [
+      "hira-308c"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "re",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly. Use the recording as your model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt. Prenez l’enregistrement comme modèle."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-hira-308d",
+    "type": "reading",
+    "target": "hira-308d",
+    "stage": 0,
+    "batch": "hira-batch-17",
+    "priority": 420,
+    "requires": [],
+    "introduces": [
+      "hira-308d"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ro",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly. Use the recording as your model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt. Prenez l’enregistrement comme modèle."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-hira-308f",
+    "type": "reading",
+    "target": "hira-308f",
+    "stage": 0,
+    "batch": "hira-batch-18",
+    "priority": 430,
+    "requires": [],
+    "introduces": [
+      "hira-308f"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "wa",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3092",
+    "type": "reading",
+    "target": "hira-3092",
+    "stage": 0,
+    "batch": "hira-batch-18",
+    "priority": 440,
+    "requires": [],
+    "introduces": [
+      "hira-3092"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "o",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. In modern common Japanese, this kana has the same sound as お. The reading label is o. Its grammatical use is outside this course.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Dans le japonais commun actuel, ce kana a le même son que お. Sa lecture est notée o. Son emploi grammatical dépasse le cadre de ce cours."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3093",
+    "type": "reading",
+    "target": "hira-3093",
+    "stage": 0,
+    "batch": "hira-batch-18",
+    "priority": 450,
+    "requires": [],
+    "introduces": [
+      "hira-3093"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "n",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. This nasal has its own timing beat. Its pronunciation changes with neighboring sounds; this isolated recording is one example.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Ce son nasal occupe un temps à lui seul. Sa prononciation varie selon les sons voisins ; cet enregistrement isolé en donne un exemple."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-n",
+      "tufs-n-other"
+    ]
+  },
+  {
+    "id": "read-kata-30a2",
+    "type": "reading",
+    "target": "kata-30a2",
+    "stage": 2,
+    "batch": "kata-batch-01",
+    "priority": 0,
+    "requires": [],
+    "introduces": [
+      "kata-30a2"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "a",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30a4",
+    "type": "reading",
+    "target": "kata-30a4",
+    "stage": 2,
+    "batch": "kata-batch-01",
+    "priority": 10,
+    "requires": [],
+    "introduces": [
+      "kata-30a4"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "i",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30a6",
+    "type": "reading",
+    "target": "kata-30a6",
+    "stage": 2,
+    "batch": "kata-batch-01",
+    "priority": 20,
+    "requires": [],
+    "introduces": [
+      "kata-30a6"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "u",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Keep the lips relaxed rather than strongly rounded. Follow the vowel in the recording.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Gardez les lèvres détendues, sans les arrondir fortement. Suivez la voyelle de l’enregistrement."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-vowels"
+    ]
+  },
+  {
+    "id": "read-kata-30a8",
+    "type": "reading",
+    "target": "kata-30a8",
+    "stage": 2,
+    "batch": "kata-batch-02",
+    "priority": 30,
+    "requires": [],
+    "introduces": [
+      "kata-30a8"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "e",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Keep the vowel steady. Avoid adding an English “ay” glide.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Gardez une voyelle stable, sans glissement à la fin."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30aa",
+    "type": "reading",
+    "target": "kata-30aa",
+    "stage": 2,
+    "batch": "kata-batch-02",
+    "priority": 40,
+    "requires": [],
+    "introduces": [
+      "kata-30aa"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "o",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Keep the vowel steady. Avoid adding an English “oh” glide.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Gardez une voyelle stable, sans glissement à la fin."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30ab",
+    "type": "reading",
+    "target": "kata-30ab",
+    "stage": 2,
+    "batch": "kata-batch-03",
+    "priority": 50,
+    "requires": [],
+    "introduces": [
+      "kata-30ab"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ka",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30ad",
+    "type": "reading",
+    "target": "kata-30ad",
+    "stage": 2,
+    "batch": "kata-batch-03",
+    "priority": 60,
+    "requires": [],
+    "introduces": [
+      "kata-30ad"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ki",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30af",
+    "type": "reading",
+    "target": "kata-30af",
+    "stage": 2,
+    "batch": "kata-batch-03",
+    "priority": 70,
+    "requires": [],
+    "introduces": [
+      "kata-30af"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ku",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30b1",
+    "type": "reading",
+    "target": "kata-30b1",
+    "stage": 2,
+    "batch": "kata-batch-04",
+    "priority": 80,
+    "requires": [],
+    "introduces": [
+      "kata-30b1"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ke",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30b3",
+    "type": "reading",
+    "target": "kata-30b3",
+    "stage": 2,
+    "batch": "kata-batch-04",
+    "priority": 90,
+    "requires": [],
+    "introduces": [
+      "kata-30b3"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ko",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30b5",
+    "type": "reading",
+    "target": "kata-30b5",
+    "stage": 2,
+    "batch": "kata-batch-05",
+    "priority": 100,
+    "requires": [],
+    "introduces": [
+      "kata-30b5"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "sa",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30b7",
+    "type": "reading",
+    "target": "kata-30b7",
+    "stage": 2,
+    "batch": "kata-batch-05",
+    "priority": 110,
+    "requires": [],
+    "introduces": [
+      "kata-30b7"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "shi",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30b9",
+    "type": "reading",
+    "target": "kata-30b9",
+    "stage": 2,
+    "batch": "kata-batch-05",
+    "priority": 120,
+    "requires": [],
+    "introduces": [
+      "kata-30b9"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "su",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30bb",
+    "type": "reading",
+    "target": "kata-30bb",
+    "stage": 2,
+    "batch": "kata-batch-06",
+    "priority": 130,
+    "requires": [],
+    "introduces": [
+      "kata-30bb"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "se",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30bd",
+    "type": "reading",
+    "target": "kata-30bd",
+    "stage": 2,
+    "batch": "kata-batch-06",
+    "priority": 140,
+    "requires": [],
+    "introduces": [
+      "kata-30bd"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "so",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30bf",
+    "type": "reading",
+    "target": "kata-30bf",
+    "stage": 2,
+    "batch": "kata-batch-07",
+    "priority": 150,
+    "requires": [],
+    "introduces": [
+      "kata-30bf"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ta",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30c1",
+    "type": "reading",
+    "target": "kata-30c1",
+    "stage": 2,
+    "batch": "kata-batch-07",
+    "priority": 160,
+    "requires": [],
+    "introduces": [
+      "kata-30c1"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "chi",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30c4",
+    "type": "reading",
+    "target": "kata-30c4",
+    "stage": 2,
+    "batch": "kata-batch-07",
+    "priority": 170,
+    "requires": [],
+    "introduces": [
+      "kata-30c4"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "tsu",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30c6",
+    "type": "reading",
+    "target": "kata-30c6",
+    "stage": 2,
+    "batch": "kata-batch-08",
+    "priority": 180,
+    "requires": [],
+    "introduces": [
+      "kata-30c6"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "te",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30c8",
+    "type": "reading",
+    "target": "kata-30c8",
+    "stage": 2,
+    "batch": "kata-batch-08",
+    "priority": 190,
+    "requires": [],
+    "introduces": [
+      "kata-30c8"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "to",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30ca",
+    "type": "reading",
+    "target": "kata-30ca",
+    "stage": 2,
+    "batch": "kata-batch-09",
+    "priority": 200,
+    "requires": [],
+    "introduces": [
+      "kata-30ca"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "na",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30cb",
+    "type": "reading",
+    "target": "kata-30cb",
+    "stage": 2,
+    "batch": "kata-batch-09",
+    "priority": 210,
+    "requires": [],
+    "introduces": [
+      "kata-30cb"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ni",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30cc",
+    "type": "reading",
+    "target": "kata-30cc",
+    "stage": 2,
+    "batch": "kata-batch-09",
+    "priority": 220,
+    "requires": [],
+    "introduces": [
+      "kata-30cc"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "nu",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30cd",
+    "type": "reading",
+    "target": "kata-30cd",
+    "stage": 2,
+    "batch": "kata-batch-10",
+    "priority": 230,
+    "requires": [],
+    "introduces": [
+      "kata-30cd"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ne",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30ce",
+    "type": "reading",
+    "target": "kata-30ce",
+    "stage": 2,
+    "batch": "kata-batch-10",
+    "priority": 240,
+    "requires": [],
+    "introduces": [
+      "kata-30ce"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "no",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30cf",
+    "type": "reading",
+    "target": "kata-30cf",
+    "stage": 2,
+    "batch": "kata-batch-11",
+    "priority": 250,
+    "requires": [],
+    "introduces": [
+      "kata-30cf"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ha",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30d2",
+    "type": "reading",
+    "target": "kata-30d2",
+    "stage": 2,
+    "batch": "kata-batch-11",
+    "priority": 260,
+    "requires": [],
+    "introduces": [
+      "kata-30d2"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "hi",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30d5",
+    "type": "reading",
+    "target": "kata-30d5",
+    "stage": 2,
+    "batch": "kata-batch-11",
+    "priority": 270,
+    "requires": [],
+    "introduces": [
+      "kata-30d5"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "fu",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Bring the lips close and let air pass between them. Keep the upper teeth away from the lower lip.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Rapprochez les lèvres et laissez passer l’air entre elles. Les dents du haut ne touchent pas la lèvre du bas."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-fu"
+    ]
+  },
+  {
+    "id": "read-kata-30d8",
+    "type": "reading",
+    "target": "kata-30d8",
+    "stage": 2,
+    "batch": "kata-batch-12",
+    "priority": 280,
+    "requires": [],
+    "introduces": [
+      "kata-30d8"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "he",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30db",
+    "type": "reading",
+    "target": "kata-30db",
+    "stage": 2,
+    "batch": "kata-batch-12",
+    "priority": 290,
+    "requires": [],
+    "introduces": [
+      "kata-30db"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ho",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30de",
+    "type": "reading",
+    "target": "kata-30de",
+    "stage": 2,
+    "batch": "kata-batch-13",
+    "priority": 300,
+    "requires": [],
+    "introduces": [
+      "kata-30de"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ma",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30df",
+    "type": "reading",
+    "target": "kata-30df",
+    "stage": 2,
+    "batch": "kata-batch-13",
+    "priority": 310,
+    "requires": [],
+    "introduces": [
+      "kata-30df"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "mi",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30e0",
+    "type": "reading",
+    "target": "kata-30e0",
+    "stage": 2,
+    "batch": "kata-batch-13",
+    "priority": 320,
+    "requires": [],
+    "introduces": [
+      "kata-30e0"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "mu",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30e1",
+    "type": "reading",
+    "target": "kata-30e1",
+    "stage": 2,
+    "batch": "kata-batch-14",
+    "priority": 330,
+    "requires": [],
+    "introduces": [
+      "kata-30e1"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "me",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30e2",
+    "type": "reading",
+    "target": "kata-30e2",
+    "stage": 2,
+    "batch": "kata-batch-14",
+    "priority": 340,
+    "requires": [],
+    "introduces": [
+      "kata-30e2"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "mo",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30e4",
+    "type": "reading",
+    "target": "kata-30e4",
+    "stage": 2,
+    "batch": "kata-batch-15",
+    "priority": 350,
+    "requires": [],
+    "introduces": [
+      "kata-30e4"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ya",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30e6",
+    "type": "reading",
+    "target": "kata-30e6",
+    "stage": 2,
+    "batch": "kata-batch-15",
+    "priority": 360,
+    "requires": [],
+    "introduces": [
+      "kata-30e6"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "yu",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30e8",
+    "type": "reading",
+    "target": "kata-30e8",
+    "stage": 2,
+    "batch": "kata-batch-15",
+    "priority": 370,
+    "requires": [],
+    "introduces": [
+      "kata-30e8"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "yo",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30e9",
+    "type": "reading",
+    "target": "kata-30e9",
+    "stage": 2,
+    "batch": "kata-batch-16",
+    "priority": 380,
+    "requires": [],
+    "introduces": [
+      "kata-30e9"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ra",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly. Use the recording as your model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt. Prenez l’enregistrement comme modèle."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-kata-30ea",
+    "type": "reading",
+    "target": "kata-30ea",
+    "stage": 2,
+    "batch": "kata-batch-16",
+    "priority": 390,
+    "requires": [],
+    "introduces": [
+      "kata-30ea"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ri",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly. Use the recording as your model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt. Prenez l’enregistrement comme modèle."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-kata-30eb",
+    "type": "reading",
+    "target": "kata-30eb",
+    "stage": 2,
+    "batch": "kata-batch-16",
+    "priority": 400,
+    "requires": [],
+    "introduces": [
+      "kata-30eb"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ru",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly. Use the recording as your model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt. Prenez l’enregistrement comme modèle."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-kata-30ec",
+    "type": "reading",
+    "target": "kata-30ec",
+    "stage": 2,
+    "batch": "kata-batch-17",
+    "priority": 410,
+    "requires": [],
+    "introduces": [
+      "kata-30ec"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "re",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly. Use the recording as your model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt. Prenez l’enregistrement comme modèle."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-kata-30ed",
+    "type": "reading",
+    "target": "kata-30ed",
+    "stage": 2,
+    "batch": "kata-batch-17",
+    "priority": 420,
+    "requires": [],
+    "introduces": [
+      "kata-30ed"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "ro",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly. Use the recording as your model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt. Prenez l’enregistrement comme modèle."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-kata-30ef",
+    "type": "reading",
+    "target": "kata-30ef",
+    "stage": 2,
+    "batch": "kata-batch-18",
+    "priority": 430,
+    "requires": [],
+    "introduces": [
+      "kata-30ef"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "wa",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30f2",
+    "type": "reading",
+    "target": "kata-30f2",
+    "stage": 2,
+    "batch": "kata-batch-18",
+    "priority": 440,
+    "requires": [],
+    "introduces": [
+      "kata-30f2"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "o",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. In modern common Japanese, this kana has the same sound as オ. The reading label is o. Its grammatical use is outside this course.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Dans le japonais commun actuel, ce kana a le même son que オ. Sa lecture est notée o. Son emploi grammatical dépasse le cadre de ce cours."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30f3",
+    "type": "reading",
+    "target": "kata-30f3",
+    "stage": 2,
+    "batch": "kata-batch-18",
+    "priority": 450,
+    "requires": [],
+    "introduces": [
+      "kata-30f3"
+    ],
+    "instruction": {
+      "en": "Recall the sound of the marked kana.",
+      "fr": "Retrouvez le son du kana marqué."
+    },
+    "answer": "n",
+    "note": {
+      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. This nasal has its own timing beat. Its pronunciation changes with neighboring sounds; this isolated recording is one example.",
+      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Ce son nasal occupe un temps à lui seul. Sa prononciation varie selon les sons voisins ; cet enregistrement isolé en donne un exemple."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-n",
+      "tufs-n-other"
+    ]
+  }
+]

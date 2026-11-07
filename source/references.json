@@ -1,0 +1,87 @@
+[
+  {
+    "id": "mext-kana",
+    "url": "https://tsunagarujp.mext.go.jp/assets/download/hiragana_katakana_ver202404.pdf",
+    "use": "Inventory and sound mapping; no source artwork or recordings copied."
+  },
+  {
+    "id": "bunka-romanization",
+    "url": "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/pdf/94336801_01.pdf",
+    "use": "Modern common-Japanese romanization and shared sounds."
+  },
+  {
+    "id": "tufs-fu",
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/03-06-01.php",
+    "use": "Practical pronunciation guidance."
+  },
+  {
+    "id": "tufs-r",
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/01-02-01.php",
+    "use": "Practical pronunciation guidance."
+  },
+  {
+    "id": "tufs-n",
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/02-03-01.php",
+    "use": "Context-dependent nasal and timing guidance."
+  },
+  {
+    "id": "tufs-vowels",
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/01-07-01.php",
+    "use": "Japanese vowel articulation guidance."
+  },
+  {
+    "id": "tufs-n-other",
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/02-04-01.php",
+    "use": "Nasal realization in other and word-final contexts."
+  },
+  {
+    "id": "bunka-spelling",
+    "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/gendaikana/honbun_dai2.html",
+    "use": "Paraphrased teaching guidance; no source artwork or recordings copied."
+  },
+  {
+    "id": "bunka-loanwords",
+    "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/gairai/pdf/94380801_03.pdf",
+    "use": "Paraphrased teaching guidance; no source artwork or recordings copied."
+  },
+  {
+    "id": "tufs-yoon",
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/01-11-01.php",
+    "use": "Paraphrased teaching guidance; no source artwork or recordings copied."
+  },
+  {
+    "id": "tufs-sokuon",
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/02-01-01.php",
+    "use": "Paraphrased teaching guidance; no source artwork or recordings copied."
+  },
+  {
+    "id": "tufs-long",
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/02-02-01.php",
+    "use": "Paraphrased teaching guidance; no source artwork or recordings copied."
+  },
+  {
+    "id": "jf-irodori",
+    "url": "https://www.irodori.jpf.go.jp/starter/pdf.html",
+    "use": "Primary beginner vocabulary and pronunciation examples; original course prose, no copied media."
+  },
+  {
+    "id": "jf-wordlist",
+    "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+    "use": "Direct primary lexical examples; supports selected entries, not every course word."
+  },
+  {
+    "id": "jf-letter-variation",
+    "url": "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/bn/dw_pdfs/tushin45_p12-13.pdf",
+    "use": "Primary guidance on handwriting and print form variation; no figures copied."
+  },
+  {
+    "id": "jf-starter-wordlist",
+    "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+    "use": "Primary support for selected final-check lexical glosses."
+  },
+  {
+    "id": "jf-marugoto-wordlist",
+    "url": "https://marugoto.jpf.go.jp/assets/docs/download/elementary1_a/MarugotoElementary1ActivitiesVocabularyIndex2_EN.pdf",
+    "use": "Primary support for selected final-check lexical glosses."
+  }
+]

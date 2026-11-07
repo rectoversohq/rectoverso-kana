@@ -1,0 +1,5 @@
+anki==26.9.3
+Pillow==13.0.0
+edge-tts==7.3.1
+numpy==2.5.4
+zstandard==0.25.0

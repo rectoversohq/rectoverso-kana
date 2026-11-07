@@ -1,0 +1,314 @@
+[
+  {
+    "id": "contrast-nu-me-nu",
+    "type": "contrast",
+    "stage": 0,
+    "priority": 700,
+    "requires": [
+      "hira-306c",
+      "hira-3081"
+    ],
+    "introduces": [],
+    "display": "ぬ　め",
+    "instruction": {
+      "en": "Listen. Identify the matching kana.",
+      "fr": "Écoutez. Identifiez le kana correspondant."
+    },
+    "answerKana": "ぬ",
+    "answerReading": "nu",
+    "audio": "rv-kana-sound-nu.mp3",
+    "note": {
+      "en": "Look at the lower-right end: ぬ has a closed loop there; め does not in this printed style. Recall the kana itself, not its position. Reveal and compare.",
+      "fr": "Regardez l’extrémité inférieure droite : ぬ y forme une boucle fermée, contrairement à め dans ce style imprimé. Retrouvez le kana lui-même, pas sa position. Révélez et comparez."
+    },
+    "references": [
+      "mext-kana"
+    ]
+  },
+  {
+    "id": "contrast-nu-me-me",
+    "type": "contrast",
+    "stage": 0,
+    "priority": 800,
+    "requires": [
+      "hira-306c",
+      "hira-3081"
+    ],
+    "introduces": [],
+    "display": "ぬ　め",
+    "instruction": {
+      "en": "Listen. Identify the matching kana.",
+      "fr": "Écoutez. Identifiez le kana correspondant."
+    },
+    "answerKana": "め",
+    "answerReading": "me",
+    "audio": "rv-kana-sound-me.mp3",
+    "note": {
+      "en": "Look at the lower-right end: ぬ has a closed loop there; め does not in this printed style. Recall the kana itself, not its position. Reveal and compare.",
+      "fr": "Regardez l’extrémité inférieure droite : ぬ y forme une boucle fermée, contrairement à め dans ce style imprimé. Retrouvez le kana lui-même, pas sa position. Révélez et comparez."
+    },
+    "references": [
+      "mext-kana"
+    ]
+  },
+  {
+    "id": "contrast-ru-ro-ru",
+    "type": "contrast",
+    "stage": 0,
+    "priority": 710,
+    "requires": [
+      "hira-308b",
+      "hira-308d"
+    ],
+    "introduces": [],
+    "display": "ろ　る",
+    "instruction": {
+      "en": "Listen. Identify the matching kana.",
+      "fr": "Écoutez. Identifiez le kana correspondant."
+    },
+    "answerKana": "る",
+    "answerReading": "ru",
+    "audio": "rv-kana-sound-ru.mp3",
+    "note": {
+      "en": "る has a loop near the bottom; ろ ends without that loop. Compare the whole shape. Recall the kana itself, not its position. Reveal and compare.",
+      "fr": "る présente une boucle près du bas ; ろ se termine sans cette boucle. Comparez la forme entière. Retrouvez le kana lui-même, pas sa position. Révélez et comparez."
+    },
+    "references": [
+      "mext-kana"
+    ]
+  },
+  {
+    "id": "contrast-ru-ro-ro",
+    "type": "contrast",
+    "stage": 0,
+    "priority": 810,
+    "requires": [
+      "hira-308b",
+      "hira-308d"
+    ],
+    "introduces": [],
+    "display": "ろ　る",
+    "instruction": {
+      "en": "Listen. Identify the matching kana.",
+      "fr": "Écoutez. Identifiez le kana correspondant."
+    },
+    "answerKana": "ろ",
+    "answerReading": "ro",
+    "audio": "rv-kana-sound-ro.mp3",
+    "note": {
+      "en": "る has a loop near the bottom; ろ ends without that loop. Compare the whole shape. Recall the kana itself, not its position. Reveal and compare.",
+      "fr": "る présente une boucle près du bas ; ろ se termine sans cette boucle. Comparez la forme entière. Retrouvez le kana lui-même, pas sa position. Révélez et comparez."
+    },
+    "references": [
+      "mext-kana"
+    ]
+  },
+  {
+    "id": "contrast-ne-re-ne",
+    "type": "contrast",
+    "stage": 0,
+    "priority": 720,
+    "requires": [
+      "hira-306d",
+      "hira-308c"
+    ],
+    "introduces": [],
+    "display": "ね　れ",
+    "instruction": {
+      "en": "Listen. Identify the matching kana.",
+      "fr": "Écoutez. Identifiez le kana correspondant."
+    },
+    "answerKana": "ね",
+    "answerReading": "ne",
+    "audio": "rv-kana-sound-ne.mp3",
+    "note": {
+      "en": "ね has a loop on the right; れ finishes with an open sweep. Recall the kana itself, not its position. Reveal and compare.",
+      "fr": "ね présente une boucle à droite ; れ se termine par un trait ouvert. Retrouvez le kana lui-même, pas sa position. Révélez et comparez."
+    },
+    "references": [
+      "mext-kana"
+    ]
+  },
+  {
+    "id": "contrast-ne-re-re",
+    "type": "contrast",
+    "stage": 0,
+    "priority": 820,
+    "requires": [
+      "hira-306d",
+      "hira-308c"
+    ],
+    "introduces": [],
+    "display": "ね　れ",
+    "instruction": {
+      "en": "Listen. Identify the matching kana.",
+      "fr": "Écoutez. Identifiez le kana correspondant."
+    },
+    "answerKana": "れ",
+    "answerReading": "re",
+    "audio": "rv-kana-sound-re.mp3",
+    "note": {
+      "en": "ね has a loop on the right; れ finishes with an open sweep. Recall the kana itself, not its position. Reveal and compare.",
+      "fr": "ね présente une boucle à droite ; れ se termine par un trait ouvert. Retrouvez le kana lui-même, pas sa position. Révélez et comparez."
+    },
+    "references": [
+      "mext-kana"
+    ]
+  },
+  {
+    "id": "contrast-shi-tsu-shi",
+    "type": "contrast",
+    "stage": 2,
+    "priority": 730,
+    "requires": [
+      "kata-30b7",
+      "kata-30c4"
+    ],
+    "introduces": [],
+    "display": "ツ　シ",
+    "instruction": {
+      "en": "Listen. Identify the matching kana.",
+      "fr": "Écoutez. Identifiez le kana correspondant."
+    },
+    "answerKana": "シ",
+    "answerReading": "shi",
+    "audio": "rv-kana-sound-shi.mp3",
+    "note": {
+      "en": "The two short strokes of シ are grouped toward the left; those of ツ sit toward the top. Compare the complete forms. Recall the kana itself, not its position. Reveal and compare.",
+      "fr": "Les deux petits traits de シ se regroupent vers la gauche ; ceux de ツ se placent vers le haut. Comparez les formes entières. Retrouvez le kana lui-même, pas sa position. Révélez et comparez."
+    },
+    "references": [
+      "mext-kana"
+    ]
+  },
+  {
+    "id": "contrast-shi-tsu-tsu",
+    "type": "contrast",
+    "stage": 2,
+    "priority": 830,
+    "requires": [
+      "kata-30b7",
+      "kata-30c4"
+    ],
+    "introduces": [],
+    "display": "ツ　シ",
+    "instruction": {
+      "en": "Listen. Identify the matching kana.",
+      "fr": "Écoutez. Identifiez le kana correspondant."
+    },
+    "answerKana": "ツ",
+    "answerReading": "tsu",
+    "audio": "rv-kana-sound-tsu.mp3",
+    "note": {
+      "en": "The two short strokes of シ are grouped toward the left; those of ツ sit toward the top. Compare the complete forms. Recall the kana itself, not its position. Reveal and compare.",
+      "fr": "Les deux petits traits de シ se regroupent vers la gauche ; ceux de ツ se placent vers le haut. Comparez les formes entières. Retrouvez le kana lui-même, pas sa position. Révélez et comparez."
+    },
+    "references": [
+      "mext-kana"
+    ]
+  },
+  {
+    "id": "contrast-so-n-so",
+    "type": "contrast",
+    "stage": 2,
+    "priority": 740,
+    "requires": [
+      "kata-30bd",
+      "kata-30f3"
+    ],
+    "introduces": [],
+    "display": "ソ　ン",
+    "instruction": {
+      "en": "Listen. Identify the matching kana.",
+      "fr": "Écoutez. Identifiez le kana correspondant."
+    },
+    "answerKana": "ソ",
+    "answerReading": "so",
+    "audio": "rv-kana-sound-so.mp3",
+    "note": {
+      "en": "ン has a flatter sweep across the bottom; the long stroke of ソ descends more steeply. This is a shape cue, not a stroke-order exercise. Recall the kana itself, not its position. Reveal and compare.",
+      "fr": "ン présente un trait plus horizontal vers le bas ; le long trait de ソ descend plus fortement. Ce repère visuel n’est pas un exercice d’ordre des traits. Retrouvez le kana lui-même, pas sa position. Révélez et comparez."
+    },
+    "references": [
+      "mext-kana"
+    ]
+  },
+  {
+    "id": "contrast-so-n-n",
+    "type": "contrast",
+    "stage": 2,
+    "priority": 840,
+    "requires": [
+      "kata-30bd",
+      "kata-30f3"
+    ],
+    "introduces": [],
+    "display": "ソ　ン",
+    "instruction": {
+      "en": "Listen. Identify the matching kana.",
+      "fr": "Écoutez. Identifiez le kana correspondant."
+    },
+    "answerKana": "ン",
+    "answerReading": "n",
+    "audio": "rv-kana-sound-n.mp3",
+    "note": {
+      "en": "ン has a flatter sweep across the bottom; the long stroke of ソ descends more steeply. This is a shape cue, not a stroke-order exercise. Recall the kana itself, not its position. Reveal and compare.",
+      "fr": "ン présente un trait plus horizontal vers le bas ; le long trait de ソ descend plus fortement. Ce repère visuel n’est pas un exercice d’ordre des traits. Retrouvez le kana lui-même, pas sa position. Révélez et comparez."
+    },
+    "references": [
+      "mext-kana"
+    ]
+  },
+  {
+    "id": "contrast-ku-ke-ku",
+    "type": "contrast",
+    "stage": 2,
+    "priority": 750,
+    "requires": [
+      "kata-30af",
+      "kata-30b1"
+    ],
+    "introduces": [],
+    "display": "ケ　ク",
+    "instruction": {
+      "en": "Listen. Identify the matching kana.",
+      "fr": "Écoutez. Identifiez le kana correspondant."
+    },
+    "answerKana": "ク",
+    "answerReading": "ku",
+    "audio": "rv-kana-sound-ku.mp3",
+    "note": {
+      "en": "ケ has an extra crossing bar; ク does not. Recall the kana itself, not its position. Reveal and compare.",
+      "fr": "ケ possède une barre transversale supplémentaire, contrairement à ク. Retrouvez le kana lui-même, pas sa position. Révélez et comparez."
+    },
+    "references": [
+      "mext-kana"
+    ]
+  },
+  {
+    "id": "contrast-ku-ke-ke",
+    "type": "contrast",
+    "stage": 2,
+    "priority": 850,
+    "requires": [
+      "kata-30af",
+      "kata-30b1"
+    ],
+    "introduces": [],
+    "display": "ケ　ク",
+    "instruction": {
+      "en": "Listen. Identify the matching kana.",
+      "fr": "Écoutez. Identifiez le kana correspondant."
+    },
+    "answerKana": "ケ",
+    "answerReading": "ke",
+    "audio": "rv-kana-sound-ke.mp3",
+    "note": {
+      "en": "ケ has an extra crossing bar; ク does not. Recall the kana itself, not its position. Reveal and compare.",
+      "fr": "ケ possède une barre transversale supplémentaire, contrairement à ク. Retrouvez le kana lui-même, pas sa position. Révélez et comparez."
+    },
+    "references": [
+      "mext-kana"
+    ]
+  }
+]

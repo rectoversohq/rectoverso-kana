@@ -1,0 +1,2650 @@
+[
+  {
+    "id": "listen-hira-a",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-01",
+    "priority": 23,
+    "requires": [
+      "hira-3042"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "あ"
+    ],
+    "audio": "rv-kana-sound-a.mp3",
+    "answerReading": "a",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-i",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-01",
+    "priority": 24,
+    "requires": [
+      "hira-3044"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "い"
+    ],
+    "audio": "rv-kana-sound-i.mp3",
+    "answerReading": "i",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-u",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-01",
+    "priority": 25,
+    "requires": [
+      "hira-3046"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "う"
+    ],
+    "audio": "rv-kana-sound-u.mp3",
+    "answerReading": "u",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-e",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-02",
+    "priority": 43,
+    "requires": [
+      "hira-3048"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "え"
+    ],
+    "audio": "rv-kana-sound-e.mp3",
+    "answerReading": "e",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-o",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-18",
+    "priority": 454,
+    "requires": [
+      "hira-304a",
+      "hira-3092"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "お",
+      "を"
+    ],
+    "audio": "rv-kana-sound-o.mp3",
+    "answerReading": "o",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model. In modern common Japanese, either お or を matches this sound. This question does not test which spelling a word requires.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore. En japonais commun moderne, お ou を correspondent à ce son. Cette question ne teste pas l’orthographe d’un mot."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-ka",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-03",
+    "priority": 73,
+    "requires": [
+      "hira-304b"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "か"
+    ],
+    "audio": "rv-kana-sound-ka.mp3",
+    "answerReading": "ka",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-ki",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-03",
+    "priority": 74,
+    "requires": [
+      "hira-304d"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "き"
+    ],
+    "audio": "rv-kana-sound-ki.mp3",
+    "answerReading": "ki",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-ku",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-03",
+    "priority": 75,
+    "requires": [
+      "hira-304f"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "く"
+    ],
+    "audio": "rv-kana-sound-ku.mp3",
+    "answerReading": "ku",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-ke",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-04",
+    "priority": 93,
+    "requires": [
+      "hira-3051"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "け"
+    ],
+    "audio": "rv-kana-sound-ke.mp3",
+    "answerReading": "ke",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-ko",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-04",
+    "priority": 94,
+    "requires": [
+      "hira-3053"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "こ"
+    ],
+    "audio": "rv-kana-sound-ko.mp3",
+    "answerReading": "ko",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-sa",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-05",
+    "priority": 123,
+    "requires": [
+      "hira-3055"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "さ"
+    ],
+    "audio": "rv-kana-sound-sa.mp3",
+    "answerReading": "sa",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-shi",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-05",
+    "priority": 124,
+    "requires": [
+      "hira-3057"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "し"
+    ],
+    "audio": "rv-kana-sound-shi.mp3",
+    "answerReading": "shi",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-su",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-05",
+    "priority": 125,
+    "requires": [
+      "hira-3059"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "す"
+    ],
+    "audio": "rv-kana-sound-su.mp3",
+    "answerReading": "su",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-se",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-06",
+    "priority": 143,
+    "requires": [
+      "hira-305b"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "せ"
+    ],
+    "audio": "rv-kana-sound-se.mp3",
+    "answerReading": "se",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-so",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-06",
+    "priority": 144,
+    "requires": [
+      "hira-305d"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "そ"
+    ],
+    "audio": "rv-kana-sound-so.mp3",
+    "answerReading": "so",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-ta",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-07",
+    "priority": 173,
+    "requires": [
+      "hira-305f"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "た"
+    ],
+    "audio": "rv-kana-sound-ta.mp3",
+    "answerReading": "ta",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-chi",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-07",
+    "priority": 174,
+    "requires": [
+      "hira-3061"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "ち"
+    ],
+    "audio": "rv-kana-sound-chi.mp3",
+    "answerReading": "chi",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-tsu",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-07",
+    "priority": 175,
+    "requires": [
+      "hira-3064"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "つ"
+    ],
+    "audio": "rv-kana-sound-tsu.mp3",
+    "answerReading": "tsu",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-te",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-08",
+    "priority": 193,
+    "requires": [
+      "hira-3066"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "て"
+    ],
+    "audio": "rv-kana-sound-te.mp3",
+    "answerReading": "te",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-to",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-08",
+    "priority": 194,
+    "requires": [
+      "hira-3068"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "と"
+    ],
+    "audio": "rv-kana-sound-to.mp3",
+    "answerReading": "to",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-na",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-09",
+    "priority": 223,
+    "requires": [
+      "hira-306a"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "な"
+    ],
+    "audio": "rv-kana-sound-na.mp3",
+    "answerReading": "na",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-ni",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-09",
+    "priority": 224,
+    "requires": [
+      "hira-306b"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "に"
+    ],
+    "audio": "rv-kana-sound-ni.mp3",
+    "answerReading": "ni",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-nu",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-09",
+    "priority": 225,
+    "requires": [
+      "hira-306c"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "ぬ"
+    ],
+    "audio": "rv-kana-sound-nu.mp3",
+    "answerReading": "nu",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-ne",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-10",
+    "priority": 243,
+    "requires": [
+      "hira-306d"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "ね"
+    ],
+    "audio": "rv-kana-sound-ne.mp3",
+    "answerReading": "ne",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-no",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-10",
+    "priority": 244,
+    "requires": [
+      "hira-306e"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "の"
+    ],
+    "audio": "rv-kana-sound-no.mp3",
+    "answerReading": "no",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-ha",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-11",
+    "priority": 273,
+    "requires": [
+      "hira-306f"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "は"
+    ],
+    "audio": "rv-kana-sound-ha.mp3",
+    "answerReading": "ha",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-hi",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-11",
+    "priority": 274,
+    "requires": [
+      "hira-3072"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "ひ"
+    ],
+    "audio": "rv-kana-sound-hi.mp3",
+    "answerReading": "hi",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-fu",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-11",
+    "priority": 275,
+    "requires": [
+      "hira-3075"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "ふ"
+    ],
+    "audio": "rv-kana-sound-fu.mp3",
+    "answerReading": "fu",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-he",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-12",
+    "priority": 293,
+    "requires": [
+      "hira-3078"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "へ"
+    ],
+    "audio": "rv-kana-sound-he.mp3",
+    "answerReading": "he",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-ho",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-12",
+    "priority": 294,
+    "requires": [
+      "hira-307b"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "ほ"
+    ],
+    "audio": "rv-kana-sound-ho.mp3",
+    "answerReading": "ho",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-ma",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-13",
+    "priority": 323,
+    "requires": [
+      "hira-307e"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "ま"
+    ],
+    "audio": "rv-kana-sound-ma.mp3",
+    "answerReading": "ma",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-mi",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-13",
+    "priority": 324,
+    "requires": [
+      "hira-307f"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "み"
+    ],
+    "audio": "rv-kana-sound-mi.mp3",
+    "answerReading": "mi",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-mu",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-13",
+    "priority": 325,
+    "requires": [
+      "hira-3080"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "む"
+    ],
+    "audio": "rv-kana-sound-mu.mp3",
+    "answerReading": "mu",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-me",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-14",
+    "priority": 343,
+    "requires": [
+      "hira-3081"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "め"
+    ],
+    "audio": "rv-kana-sound-me.mp3",
+    "answerReading": "me",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-mo",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-14",
+    "priority": 344,
+    "requires": [
+      "hira-3082"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "も"
+    ],
+    "audio": "rv-kana-sound-mo.mp3",
+    "answerReading": "mo",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-ya",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-15",
+    "priority": 373,
+    "requires": [
+      "hira-3084"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "や"
+    ],
+    "audio": "rv-kana-sound-ya.mp3",
+    "answerReading": "ya",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-yu",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-15",
+    "priority": 374,
+    "requires": [
+      "hira-3086"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "ゆ"
+    ],
+    "audio": "rv-kana-sound-yu.mp3",
+    "answerReading": "yu",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-yo",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-15",
+    "priority": 375,
+    "requires": [
+      "hira-3088"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "よ"
+    ],
+    "audio": "rv-kana-sound-yo.mp3",
+    "answerReading": "yo",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-ra",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-16",
+    "priority": 403,
+    "requires": [
+      "hira-3089"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "ら"
+    ],
+    "audio": "rv-kana-sound-ra.mp3",
+    "answerReading": "ra",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-ri",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-16",
+    "priority": 404,
+    "requires": [
+      "hira-308a"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "り"
+    ],
+    "audio": "rv-kana-sound-ri.mp3",
+    "answerReading": "ri",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-ru",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-16",
+    "priority": 405,
+    "requires": [
+      "hira-308b"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "る"
+    ],
+    "audio": "rv-kana-sound-ru.mp3",
+    "answerReading": "ru",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-re",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-17",
+    "priority": 423,
+    "requires": [
+      "hira-308c"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "れ"
+    ],
+    "audio": "rv-kana-sound-re.mp3",
+    "answerReading": "re",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-ro",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-17",
+    "priority": 424,
+    "requires": [
+      "hira-308d"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "ろ"
+    ],
+    "audio": "rv-kana-sound-ro.mp3",
+    "answerReading": "ro",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-wa",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-18",
+    "priority": 453,
+    "requires": [
+      "hira-308f"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "わ"
+    ],
+    "audio": "rv-kana-sound-wa.mp3",
+    "answerReading": "wa",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-n",
+    "type": "listening",
+    "stage": 0,
+    "batch": "hira-batch-18",
+    "priority": 455,
+    "requires": [
+      "hira-3093"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "ん"
+    ],
+    "audio": "rv-kana-sound-n.mp3",
+    "answerReading": "n",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-a",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-01",
+    "priority": 23,
+    "requires": [
+      "kata-30a2"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ア"
+    ],
+    "audio": "rv-kana-sound-a.mp3",
+    "answerReading": "a",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-i",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-01",
+    "priority": 24,
+    "requires": [
+      "kata-30a4"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "イ"
+    ],
+    "audio": "rv-kana-sound-i.mp3",
+    "answerReading": "i",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-u",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-01",
+    "priority": 25,
+    "requires": [
+      "kata-30a6"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ウ"
+    ],
+    "audio": "rv-kana-sound-u.mp3",
+    "answerReading": "u",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-e",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-02",
+    "priority": 43,
+    "requires": [
+      "kata-30a8"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "エ"
+    ],
+    "audio": "rv-kana-sound-e.mp3",
+    "answerReading": "e",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-o",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-18",
+    "priority": 454,
+    "requires": [
+      "kata-30aa",
+      "kata-30f2"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "オ",
+      "ヲ"
+    ],
+    "audio": "rv-kana-sound-o.mp3",
+    "answerReading": "o",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model. In modern common Japanese, either オ or ヲ matches this sound. This question does not test which spelling a word requires.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore. En japonais commun moderne, オ ou ヲ correspondent à ce son. Cette question ne teste pas l’orthographe d’un mot."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-ka",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-03",
+    "priority": 73,
+    "requires": [
+      "kata-30ab"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "カ"
+    ],
+    "audio": "rv-kana-sound-ka.mp3",
+    "answerReading": "ka",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-ki",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-03",
+    "priority": 74,
+    "requires": [
+      "kata-30ad"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "キ"
+    ],
+    "audio": "rv-kana-sound-ki.mp3",
+    "answerReading": "ki",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-ku",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-03",
+    "priority": 75,
+    "requires": [
+      "kata-30af"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ク"
+    ],
+    "audio": "rv-kana-sound-ku.mp3",
+    "answerReading": "ku",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-ke",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-04",
+    "priority": 93,
+    "requires": [
+      "kata-30b1"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ケ"
+    ],
+    "audio": "rv-kana-sound-ke.mp3",
+    "answerReading": "ke",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-ko",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-04",
+    "priority": 94,
+    "requires": [
+      "kata-30b3"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "コ"
+    ],
+    "audio": "rv-kana-sound-ko.mp3",
+    "answerReading": "ko",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-sa",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-05",
+    "priority": 123,
+    "requires": [
+      "kata-30b5"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "サ"
+    ],
+    "audio": "rv-kana-sound-sa.mp3",
+    "answerReading": "sa",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-shi",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-05",
+    "priority": 124,
+    "requires": [
+      "kata-30b7"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "シ"
+    ],
+    "audio": "rv-kana-sound-shi.mp3",
+    "answerReading": "shi",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-su",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-05",
+    "priority": 125,
+    "requires": [
+      "kata-30b9"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ス"
+    ],
+    "audio": "rv-kana-sound-su.mp3",
+    "answerReading": "su",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-se",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-06",
+    "priority": 143,
+    "requires": [
+      "kata-30bb"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "セ"
+    ],
+    "audio": "rv-kana-sound-se.mp3",
+    "answerReading": "se",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-so",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-06",
+    "priority": 144,
+    "requires": [
+      "kata-30bd"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ソ"
+    ],
+    "audio": "rv-kana-sound-so.mp3",
+    "answerReading": "so",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-ta",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-07",
+    "priority": 173,
+    "requires": [
+      "kata-30bf"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "タ"
+    ],
+    "audio": "rv-kana-sound-ta.mp3",
+    "answerReading": "ta",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-chi",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-07",
+    "priority": 174,
+    "requires": [
+      "kata-30c1"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "チ"
+    ],
+    "audio": "rv-kana-sound-chi.mp3",
+    "answerReading": "chi",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-tsu",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-07",
+    "priority": 175,
+    "requires": [
+      "kata-30c4"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ツ"
+    ],
+    "audio": "rv-kana-sound-tsu.mp3",
+    "answerReading": "tsu",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-te",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-08",
+    "priority": 193,
+    "requires": [
+      "kata-30c6"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "テ"
+    ],
+    "audio": "rv-kana-sound-te.mp3",
+    "answerReading": "te",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-to",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-08",
+    "priority": 194,
+    "requires": [
+      "kata-30c8"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ト"
+    ],
+    "audio": "rv-kana-sound-to.mp3",
+    "answerReading": "to",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-na",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-09",
+    "priority": 223,
+    "requires": [
+      "kata-30ca"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ナ"
+    ],
+    "audio": "rv-kana-sound-na.mp3",
+    "answerReading": "na",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-ni",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-09",
+    "priority": 224,
+    "requires": [
+      "kata-30cb"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ニ"
+    ],
+    "audio": "rv-kana-sound-ni.mp3",
+    "answerReading": "ni",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-nu",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-09",
+    "priority": 225,
+    "requires": [
+      "kata-30cc"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ヌ"
+    ],
+    "audio": "rv-kana-sound-nu.mp3",
+    "answerReading": "nu",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-ne",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-10",
+    "priority": 243,
+    "requires": [
+      "kata-30cd"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ネ"
+    ],
+    "audio": "rv-kana-sound-ne.mp3",
+    "answerReading": "ne",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-no",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-10",
+    "priority": 244,
+    "requires": [
+      "kata-30ce"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ノ"
+    ],
+    "audio": "rv-kana-sound-no.mp3",
+    "answerReading": "no",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-ha",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-11",
+    "priority": 273,
+    "requires": [
+      "kata-30cf"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ハ"
+    ],
+    "audio": "rv-kana-sound-ha.mp3",
+    "answerReading": "ha",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-hi",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-11",
+    "priority": 274,
+    "requires": [
+      "kata-30d2"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ヒ"
+    ],
+    "audio": "rv-kana-sound-hi.mp3",
+    "answerReading": "hi",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-fu",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-11",
+    "priority": 275,
+    "requires": [
+      "kata-30d5"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "フ"
+    ],
+    "audio": "rv-kana-sound-fu.mp3",
+    "answerReading": "fu",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-he",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-12",
+    "priority": 293,
+    "requires": [
+      "kata-30d8"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ヘ"
+    ],
+    "audio": "rv-kana-sound-he.mp3",
+    "answerReading": "he",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-ho",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-12",
+    "priority": 294,
+    "requires": [
+      "kata-30db"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ホ"
+    ],
+    "audio": "rv-kana-sound-ho.mp3",
+    "answerReading": "ho",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-ma",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-13",
+    "priority": 323,
+    "requires": [
+      "kata-30de"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "マ"
+    ],
+    "audio": "rv-kana-sound-ma.mp3",
+    "answerReading": "ma",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-mi",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-13",
+    "priority": 324,
+    "requires": [
+      "kata-30df"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ミ"
+    ],
+    "audio": "rv-kana-sound-mi.mp3",
+    "answerReading": "mi",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-mu",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-13",
+    "priority": 325,
+    "requires": [
+      "kata-30e0"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ム"
+    ],
+    "audio": "rv-kana-sound-mu.mp3",
+    "answerReading": "mu",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-me",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-14",
+    "priority": 343,
+    "requires": [
+      "kata-30e1"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "メ"
+    ],
+    "audio": "rv-kana-sound-me.mp3",
+    "answerReading": "me",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-mo",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-14",
+    "priority": 344,
+    "requires": [
+      "kata-30e2"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "モ"
+    ],
+    "audio": "rv-kana-sound-mo.mp3",
+    "answerReading": "mo",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-ya",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-15",
+    "priority": 373,
+    "requires": [
+      "kata-30e4"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ヤ"
+    ],
+    "audio": "rv-kana-sound-ya.mp3",
+    "answerReading": "ya",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-yu",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-15",
+    "priority": 374,
+    "requires": [
+      "kata-30e6"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ユ"
+    ],
+    "audio": "rv-kana-sound-yu.mp3",
+    "answerReading": "yu",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-yo",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-15",
+    "priority": 375,
+    "requires": [
+      "kata-30e8"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ヨ"
+    ],
+    "audio": "rv-kana-sound-yo.mp3",
+    "answerReading": "yo",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-ra",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-16",
+    "priority": 403,
+    "requires": [
+      "kata-30e9"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ラ"
+    ],
+    "audio": "rv-kana-sound-ra.mp3",
+    "answerReading": "ra",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-ri",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-16",
+    "priority": 404,
+    "requires": [
+      "kata-30ea"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "リ"
+    ],
+    "audio": "rv-kana-sound-ri.mp3",
+    "answerReading": "ri",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-ru",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-16",
+    "priority": 405,
+    "requires": [
+      "kata-30eb"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ル"
+    ],
+    "audio": "rv-kana-sound-ru.mp3",
+    "answerReading": "ru",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-re",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-17",
+    "priority": 423,
+    "requires": [
+      "kata-30ec"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "レ"
+    ],
+    "audio": "rv-kana-sound-re.mp3",
+    "answerReading": "re",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-ro",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-17",
+    "priority": 424,
+    "requires": [
+      "kata-30ed"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ロ"
+    ],
+    "audio": "rv-kana-sound-ro.mp3",
+    "answerReading": "ro",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-wa",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-18",
+    "priority": 453,
+    "requires": [
+      "kata-30ef"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ワ"
+    ],
+    "audio": "rv-kana-sound-wa.mp3",
+    "answerReading": "wa",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-kata-n",
+    "type": "listening",
+    "stage": 2,
+    "batch": "kata-batch-18",
+    "priority": 455,
+    "requires": [
+      "kata-30f3"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ン"
+    ],
+    "audio": "rv-kana-sound-n.mp3",
+    "answerReading": "n",
+    "note": {
+      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
+      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "listen-hira-ji",
+    "type": "listening",
+    "scope": "application",
+    "stage": 1,
+    "priority": 57,
+    "requires": [
+      "hira-marks-z",
+      "hira-marks-d"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "じ",
+      "ぢ"
+    ],
+    "audio": "rv-kana-sound-ji.mp3",
+    "answerReading": "ji",
+    "note": {
+      "en": "In modern common Japanese, じ and ぢ share this sound. Either matches this listening question. Sound alone does not choose the spelling required by a particular word. Recall a form mentally; handwriting is optional.",
+      "fr": "En japonais commun moderne, じ et ぢ partagent ce son. Les deux conviennent à cette question d’écoute. Le son seul ne permet pas de choisir l’orthographe d’un mot. Retrouvez une forme mentalement ; écrire reste facultatif."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "bunka-spelling"
+    ]
+  },
+  {
+    "id": "listen-hira-zu",
+    "type": "listening",
+    "scope": "application",
+    "stage": 1,
+    "priority": 58,
+    "requires": [
+      "hira-marks-z",
+      "hira-marks-d"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching hiragana.",
+      "fr": "Écoutez. Retrouvez un hiragana correspondant à ce son."
+    },
+    "accepted": [
+      "ず",
+      "づ"
+    ],
+    "audio": "rv-kana-sound-zu.mp3",
+    "answerReading": "zu",
+    "note": {
+      "en": "In modern common Japanese, ず and づ share this sound. Either matches this listening question. Sound alone does not choose the spelling required by a particular word. Recall a form mentally; handwriting is optional.",
+      "fr": "En japonais commun moderne, ず et づ partagent ce son. Les deux conviennent à cette question d’écoute. Le son seul ne permet pas de choisir l’orthographe d’un mot. Retrouvez une forme mentalement ; écrire reste facultatif."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "bunka-spelling"
+    ]
+  },
+  {
+    "id": "listen-kata-ji",
+    "type": "listening",
+    "scope": "application",
+    "stage": 3,
+    "priority": 217,
+    "requires": [
+      "kata-marks-z",
+      "kata-marks-d"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ジ",
+      "ヂ"
+    ],
+    "audio": "rv-kana-sound-ji.mp3",
+    "answerReading": "ji",
+    "note": {
+      "en": "In modern common Japanese, ジ and ヂ share this sound. Either matches this listening question. Sound alone does not choose the spelling required by a particular word. Recall a form mentally; handwriting is optional.",
+      "fr": "En japonais commun moderne, ジ et ヂ partagent ce son. Les deux conviennent à cette question d’écoute. Le son seul ne permet pas de choisir l’orthographe d’un mot. Retrouvez une forme mentalement ; écrire reste facultatif."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "bunka-spelling"
+    ]
+  },
+  {
+    "id": "listen-kata-zu",
+    "type": "listening",
+    "scope": "application",
+    "stage": 3,
+    "priority": 218,
+    "requires": [
+      "kata-marks-z",
+      "kata-marks-d"
+    ],
+    "introduces": [],
+    "instruction": {
+      "en": "Listen. Recall a matching katakana.",
+      "fr": "Écoutez. Retrouvez un katakana correspondant à ce son."
+    },
+    "accepted": [
+      "ズ",
+      "ヅ"
+    ],
+    "audio": "rv-kana-sound-zu.mp3",
+    "answerReading": "zu",
+    "note": {
+      "en": "In modern common Japanese, ズ and ヅ share this sound. Either matches this listening question. Sound alone does not choose the spelling required by a particular word. Recall a form mentally; handwriting is optional.",
+      "fr": "En japonais commun moderne, ズ et ヅ partagent ce son. Les deux conviennent à cette question d’écoute. Le son seul ne permet pas de choisir l’orthographe d’un mot. Retrouvez une forme mentalement ; écrire reste facultatif."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "bunka-spelling"
+    ]
+  }
+]

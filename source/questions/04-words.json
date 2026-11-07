@@ -1,0 +1,1148 @@
+[
+  {
+    "id": "word-ao",
+    "type": "word",
+    "stage": 0,
+    "priority": 47,
+    "requires": [
+      "hira-3042",
+      "hira-304a"
+    ],
+    "introduces": [],
+    "display": "あお",
+    "answer": "ao",
+    "audio": "rv-kana-word-ao.mp3",
+    "meaning": {
+      "en": "blue",
+      "fr": "bleu"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-ie",
+    "type": "word",
+    "stage": 0,
+    "priority": 37,
+    "requires": [
+      "hira-3044",
+      "hira-3048"
+    ],
+    "introduces": [],
+    "display": "いえ",
+    "answer": "ie",
+    "audio": "rv-kana-word-ie.mp3",
+    "meaning": {
+      "en": "house",
+      "fr": "maison"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-ue",
+    "type": "word",
+    "stage": 0,
+    "priority": 37,
+    "requires": [
+      "hira-3046",
+      "hira-3048"
+    ],
+    "introduces": [],
+    "display": "うえ",
+    "answer": "ue",
+    "audio": "rv-kana-word-ue.mp3",
+    "meaning": {
+      "en": "above",
+      "fr": "au-dessus"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-kao",
+    "type": "word",
+    "stage": 0,
+    "priority": 57,
+    "requires": [
+      "hira-304b",
+      "hira-304a"
+    ],
+    "introduces": [],
+    "display": "かお",
+    "answer": "kao",
+    "audio": "rv-kana-word-kao.mp3",
+    "meaning": {
+      "en": "face",
+      "fr": "visage"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-ike",
+    "type": "word",
+    "stage": 0,
+    "priority": 87,
+    "requires": [
+      "hira-3044",
+      "hira-3051"
+    ],
+    "introduces": [],
+    "display": "いけ",
+    "answer": "ike",
+    "audio": "rv-kana-word-ike.mp3",
+    "meaning": {
+      "en": "pond",
+      "fr": "étang"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-shio",
+    "type": "word",
+    "stage": 0,
+    "priority": 117,
+    "requires": [
+      "hira-3057",
+      "hira-304a"
+    ],
+    "introduces": [],
+    "display": "しお",
+    "answer": "shio",
+    "audio": "rv-kana-word-shio.mp3",
+    "meaning": {
+      "en": "salt",
+      "fr": "sel"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-sushi",
+    "type": "word",
+    "stage": 0,
+    "priority": 127,
+    "requires": [
+      "hira-3059",
+      "hira-3057"
+    ],
+    "introduces": [],
+    "display": "すし",
+    "answer": "sushi",
+    "audio": "rv-kana-word-sushi.mp3",
+    "meaning": {
+      "en": "sushi",
+      "fr": "sushi"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-tako",
+    "type": "word",
+    "stage": 0,
+    "priority": 157,
+    "requires": [
+      "hira-305f",
+      "hira-3053"
+    ],
+    "introduces": [],
+    "display": "たこ",
+    "answer": "tako",
+    "audio": "rv-kana-word-tako.mp3",
+    "meaning": {
+      "en": "octopus",
+      "fr": "poulpe"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-kuchi",
+    "type": "word",
+    "stage": 0,
+    "priority": 167,
+    "requires": [
+      "hira-304f",
+      "hira-3061"
+    ],
+    "introduces": [],
+    "display": "くち",
+    "answer": "kuchi",
+    "audio": "rv-kana-word-kuchi.mp3",
+    "meaning": {
+      "en": "mouth",
+      "fr": "bouche"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-neko",
+    "type": "word",
+    "stage": 0,
+    "priority": 237,
+    "requires": [
+      "hira-306d",
+      "hira-3053"
+    ],
+    "introduces": [],
+    "display": "ねこ",
+    "answer": "neko",
+    "audio": "rv-kana-word-neko.mp3",
+    "meaning": {
+      "en": "cat",
+      "fr": "chat"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-inu",
+    "type": "word",
+    "stage": 0,
+    "priority": 227,
+    "requires": [
+      "hira-3044",
+      "hira-306c"
+    ],
+    "introduces": [],
+    "display": "いぬ",
+    "answer": "inu",
+    "audio": "rv-kana-word-inu.mp3",
+    "meaning": {
+      "en": "dog",
+      "fr": "chien"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-fune",
+    "type": "word",
+    "stage": 0,
+    "priority": 277,
+    "requires": [
+      "hira-3075",
+      "hira-306d"
+    ],
+    "introduces": [],
+    "display": "ふね",
+    "answer": "fune",
+    "audio": "rv-kana-word-fune.mp3",
+    "meaning": {
+      "en": "boat",
+      "fr": "bateau"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-hana",
+    "type": "word",
+    "stage": 0,
+    "priority": 257,
+    "requires": [
+      "hira-306f",
+      "hira-306a"
+    ],
+    "introduces": [],
+    "display": "はな",
+    "answer": "hana",
+    "audio": "rv-kana-word-hana.mp3",
+    "meaning": {
+      "en": "flower",
+      "fr": "fleur"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori",
+      "jf-wordlist"
+    ]
+  },
+  {
+    "id": "word-heya",
+    "type": "word",
+    "stage": 0,
+    "priority": 357,
+    "requires": [
+      "hira-3078",
+      "hira-3084"
+    ],
+    "introduces": [],
+    "display": "へや",
+    "answer": "heya",
+    "audio": "rv-kana-word-heya.mp3",
+    "meaning": {
+      "en": "room",
+      "fr": "pièce"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-yama",
+    "type": "word",
+    "stage": 0,
+    "priority": 357,
+    "requires": [
+      "hira-3084",
+      "hira-307e"
+    ],
+    "introduces": [],
+    "display": "やま",
+    "answer": "yama",
+    "audio": "rv-kana-word-yama.mp3",
+    "meaning": {
+      "en": "mountain",
+      "fr": "montagne"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-sora",
+    "type": "word",
+    "stage": 0,
+    "priority": 387,
+    "requires": [
+      "hira-305d",
+      "hira-3089"
+    ],
+    "introduces": [],
+    "display": "そら",
+    "answer": "sora",
+    "audio": "rv-kana-word-sora.mp3",
+    "meaning": {
+      "en": "sky",
+      "fr": "ciel"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-yuki",
+    "type": "word",
+    "stage": 0,
+    "priority": 367,
+    "requires": [
+      "hira-3086",
+      "hira-304d"
+    ],
+    "introduces": [],
+    "display": "ゆき",
+    "answer": "yuki",
+    "audio": "rv-kana-word-yuki.mp3",
+    "meaning": {
+      "en": "snow",
+      "fr": "neige"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori",
+      "jf-wordlist"
+    ]
+  },
+  {
+    "id": "word-hon",
+    "type": "word",
+    "stage": 0,
+    "priority": 457,
+    "requires": [
+      "hira-307b",
+      "hira-3093"
+    ],
+    "introduces": [],
+    "display": "ほん",
+    "answer": "hon",
+    "audio": "rv-kana-word-hon.mp3",
+    "meaning": {
+      "en": "book",
+      "fr": "livre"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-jikan",
+    "type": "word",
+    "stage": 1,
+    "priority": 17,
+    "requires": [
+      "hira-304b",
+      "hira-3093",
+      "hira-marks-z"
+    ],
+    "introduces": [],
+    "display": "じかん",
+    "answer": "jikan",
+    "audio": "rv-kana-word-jikan.mp3",
+    "meaning": {
+      "en": "time",
+      "fr": "temps"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori",
+      "tufs-yoon",
+      "tufs-long",
+      "tufs-sokuon"
+    ]
+  },
+  {
+    "id": "word-sanpo",
+    "type": "word",
+    "stage": 1,
+    "priority": 47,
+    "requires": [
+      "hira-3055",
+      "hira-3093",
+      "hira-marks-p"
+    ],
+    "introduces": [],
+    "display": "さんぽ",
+    "answer": "sanpo",
+    "audio": "rv-kana-word-sanpo.mp3",
+    "meaning": {
+      "en": "walk",
+      "fr": "promenade"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori",
+      "tufs-yoon",
+      "tufs-long",
+      "tufs-sokuon"
+    ]
+  },
+  {
+    "id": "word-byoin",
+    "type": "word",
+    "stage": 1,
+    "priority": 137,
+    "requires": [
+      "hira-3046",
+      "hira-3044",
+      "hira-3093",
+      "hira-marks-b",
+      "hira-yoon-kya",
+      "hira-long-ou"
+    ],
+    "introduces": [],
+    "display": "びょういん",
+    "answer": "byōin",
+    "audio": "rv-kana-word-byoin.mp3",
+    "meaning": {
+      "en": "hospital",
+      "fr": "hôpital"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow. びょ · う · い · ん: four beats. Keep small ょ joined to び; preserve the long vowel.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente. びょ · う · い · ん : quatre temps. Joignez le petit ょ à び et conservez la voyelle longue."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori",
+      "tufs-yoon",
+      "tufs-long",
+      "tufs-sokuon",
+      "jf-wordlist"
+    ]
+  },
+  {
+    "id": "word-kyo",
+    "type": "word",
+    "stage": 1,
+    "priority": 137,
+    "requires": [
+      "hira-304d",
+      "hira-3046",
+      "hira-yoon-kya",
+      "hira-long-ou"
+    ],
+    "introduces": [],
+    "display": "きょう",
+    "answer": "kyō",
+    "audio": "rv-kana-word-kyo.mp3",
+    "meaning": {
+      "en": "today",
+      "fr": "aujourd’hui"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow. きょ is one beat; the following う extends its o vowel by another beat.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente. きょ occupe un temps ; le う suivant prolonge sa voyelle o d’un temps."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori",
+      "tufs-yoon",
+      "tufs-long",
+      "tufs-sokuon"
+    ]
+  },
+  {
+    "id": "word-okaasan",
+    "type": "word",
+    "stage": 1,
+    "priority": 97,
+    "requires": [
+      "hira-304a",
+      "hira-304b",
+      "hira-3042",
+      "hira-3055",
+      "hira-3093",
+      "hira-long-aa"
+    ],
+    "introduces": [],
+    "display": "おかあさん",
+    "answer": "okaasan",
+    "audio": "rv-kana-word-okaasan.mp3",
+    "meaning": {
+      "en": "mother",
+      "fr": "mère"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow. Keep the long a in かあ; do not shorten it to か.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente. Gardez le a long de かあ ; ne le réduisez pas à か."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori",
+      "tufs-yoon",
+      "tufs-long",
+      "tufs-sokuon"
+    ]
+  },
+  {
+    "id": "word-happa",
+    "type": "word",
+    "stage": 1,
+    "priority": 87,
+    "requires": [
+      "hira-306f",
+      "hira-marks-p",
+      "hira-sokuon"
+    ],
+    "introduces": [],
+    "display": "はっぱ",
+    "answer": "happa",
+    "audio": "rv-kana-word-happa.mp3",
+    "meaning": {
+      "en": "leaf",
+      "fr": "feuille"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow. は · (p) · ぱ: three beats. Small っ holds the p closure.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente. は · (p) · ぱ : trois temps. Le petit っ maintient la fermeture du p."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori",
+      "tufs-yoon",
+      "tufs-long",
+      "tufs-sokuon"
+    ]
+  },
+  {
+    "id": "word-kamera",
+    "type": "word",
+    "stage": 2,
+    "priority": 387,
+    "requires": [
+      "kata-30ab",
+      "kata-30e1",
+      "kata-30e9"
+    ],
+    "introduces": [],
+    "display": "カメラ",
+    "answer": "kamera",
+    "audio": "rv-kana-word-kamera.mp3",
+    "meaning": {
+      "en": "camera",
+      "fr": "appareil photo"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-memo",
+    "type": "word",
+    "stage": 2,
+    "priority": 347,
+    "requires": [
+      "kata-30e1",
+      "kata-30e2"
+    ],
+    "introduces": [],
+    "display": "メモ",
+    "answer": "memo",
+    "audio": "rv-kana-word-memo.mp3",
+    "meaning": {
+      "en": "memo",
+      "fr": "note"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-tomato",
+    "type": "word",
+    "stage": 2,
+    "priority": 307,
+    "requires": [
+      "kata-30c8",
+      "kata-30de"
+    ],
+    "introduces": [],
+    "display": "トマト",
+    "answer": "tomato",
+    "audio": "rv-kana-word-tomato.mp3",
+    "meaning": {
+      "en": "tomato",
+      "fr": "tomate"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-hoteru",
+    "type": "word",
+    "stage": 2,
+    "priority": 407,
+    "requires": [
+      "kata-30db",
+      "kata-30c6",
+      "kata-30eb"
+    ],
+    "introduces": [],
+    "display": "ホテル",
+    "answer": "hoteru",
+    "audio": "rv-kana-word-hoteru.mp3",
+    "meaning": {
+      "en": "hotel",
+      "fr": "hôtel"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-miruku",
+    "type": "word",
+    "stage": 2,
+    "priority": 407,
+    "requires": [
+      "kata-30df",
+      "kata-30eb",
+      "kata-30af"
+    ],
+    "introduces": [],
+    "display": "ミルク",
+    "answer": "miruku",
+    "audio": "rv-kana-word-miruku.mp3",
+    "meaning": {
+      "en": "milk",
+      "fr": "lait"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori"
+    ]
+  },
+  {
+    "id": "word-basu",
+    "type": "word",
+    "stage": 3,
+    "priority": 197,
+    "requires": [
+      "kata-30b9",
+      "kata-marks-b"
+    ],
+    "introduces": [],
+    "display": "バス",
+    "answer": "basu",
+    "audio": "rv-kana-word-basu.mp3",
+    "meaning": {
+      "en": "bus",
+      "fr": "bus"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori",
+      "tufs-yoon",
+      "tufs-long",
+      "tufs-sokuon"
+    ]
+  },
+  {
+    "id": "word-pan",
+    "type": "word",
+    "stage": 3,
+    "priority": 207,
+    "requires": [
+      "kata-30f3",
+      "kata-marks-p"
+    ],
+    "introduces": [],
+    "display": "パン",
+    "answer": "pan",
+    "audio": "rv-kana-word-pan.mp3",
+    "meaning": {
+      "en": "bread",
+      "fr": "pain"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori",
+      "tufs-yoon",
+      "tufs-long",
+      "tufs-sokuon"
+    ]
+  },
+  {
+    "id": "word-terebi",
+    "type": "word",
+    "stage": 3,
+    "priority": 197,
+    "requires": [
+      "kata-30c6",
+      "kata-30ec",
+      "kata-marks-b"
+    ],
+    "introduces": [],
+    "display": "テレビ",
+    "answer": "terebi",
+    "audio": "rv-kana-word-terebi.mp3",
+    "meaning": {
+      "en": "television",
+      "fr": "télévision"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori",
+      "tufs-yoon",
+      "tufs-long",
+      "tufs-sokuon"
+    ]
+  },
+  {
+    "id": "word-takushi",
+    "type": "word",
+    "stage": 3,
+    "priority": 247,
+    "requires": [
+      "kata-30bf",
+      "kata-30af",
+      "kata-30b7",
+      "kata-long-bar"
+    ],
+    "introduces": [],
+    "display": "タクシー",
+    "answer": "takushī",
+    "audio": "rv-kana-word-takushi.mp3",
+    "meaning": {
+      "en": "taxi",
+      "fr": "taxi"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow. The final ー extends the i vowel in シ.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente. Le ー final prolonge la voyelle i de シ."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori",
+      "tufs-yoon",
+      "tufs-long",
+      "tufs-sokuon"
+    ]
+  },
+  {
+    "id": "word-rajio",
+    "type": "word",
+    "stage": 3,
+    "priority": 177,
+    "requires": [
+      "kata-30e9",
+      "kata-30aa",
+      "kata-marks-z"
+    ],
+    "introduces": [],
+    "display": "ラジオ",
+    "answer": "rajio",
+    "audio": "rv-kana-word-rajio.mp3",
+    "meaning": {
+      "en": "radio",
+      "fr": "radio"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori",
+      "tufs-yoon",
+      "tufs-long",
+      "tufs-sokuon"
+    ]
+  },
+  {
+    "id": "word-jusu",
+    "type": "word",
+    "stage": 3,
+    "priority": 247,
+    "requires": [
+      "kata-30b9",
+      "kata-marks-z",
+      "kata-yoon-shu",
+      "kata-long-bar"
+    ],
+    "introduces": [],
+    "display": "ジュース",
+    "answer": "jūsu",
+    "audio": "rv-kana-word-jusu.mp3",
+    "meaning": {
+      "en": "juice",
+      "fr": "jus"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow. ジュ · ー · ス: three beats. ジュ is one beat; ー supplies the second.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente. ジュ · ー · ス : trois temps. ジュ occupe un temps ; ー apporte le deuxième."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori",
+      "tufs-yoon",
+      "tufs-long",
+      "tufs-sokuon"
+    ]
+  },
+  {
+    "id": "word-poketto",
+    "type": "word",
+    "stage": 3,
+    "priority": 257,
+    "requires": [
+      "kata-30b1",
+      "kata-30c8",
+      "kata-marks-p",
+      "kata-sokuon"
+    ],
+    "introduces": [],
+    "display": "ポケット",
+    "answer": "poketto",
+    "audio": "rv-kana-word-poketto.mp3",
+    "meaning": {
+      "en": "pocket",
+      "fr": "poche"
+    },
+    "instruction": {
+      "en": "Read the word.",
+      "fr": "Lisez le mot."
+    },
+    "note": {
+      "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow. ポ · ケ · (t) · ト: four beats. Hold the t closure for small ッ.",
+      "fr": "Lisez les kana avant de révéler ou d’écouter la réponse. Le sens fournit un contexte ; il n’est pas à mémoriser. Une lecture exacte suffit, même lente. ポ · ケ · (t) · ト : quatre temps. Maintenez la fermeture du t pour le petit ッ."
+    },
+    "references": [
+      "mext-kana",
+      "jf-irodori",
+      "tufs-yoon",
+      "tufs-long",
+      "tufs-sokuon"
+    ]
+  }
+]
