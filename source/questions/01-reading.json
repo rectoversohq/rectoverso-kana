@@ -11,8 +11,8 @@
       "hira-3042"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "a",
     "note": {
@@ -39,8 +39,8 @@
       "hira-3044"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "i",
     "note": {
@@ -64,8 +64,8 @@
       "hira-3046"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "u",
     "note": {
@@ -90,8 +90,8 @@
       "hira-3048"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "e",
     "note": {
@@ -115,8 +115,8 @@
       "hira-304a"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "o",
     "note": {
@@ -140,8 +140,8 @@
       "hira-304b"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ka",
     "note": {
@@ -165,8 +165,8 @@
       "hira-304d"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ki",
     "note": {
@@ -190,8 +190,8 @@
       "hira-304f"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ku",
     "note": {
@@ -215,8 +215,8 @@
       "hira-3051"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ke",
     "note": {
@@ -240,8 +240,8 @@
       "hira-3053"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ko",
     "note": {
@@ -265,8 +265,8 @@
       "hira-3055"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "sa",
     "note": {
@@ -290,8 +290,8 @@
       "hira-3057"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "shi",
     "note": {
@@ -315,8 +315,8 @@
       "hira-3059"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "su",
     "note": {
@@ -340,8 +340,8 @@
       "hira-305b"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "se",
     "note": {
@@ -365,8 +365,8 @@
       "hira-305d"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "so",
     "note": {
@@ -390,8 +390,8 @@
       "hira-305f"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ta",
     "note": {
@@ -415,8 +415,8 @@
       "hira-3061"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "chi",
     "note": {
@@ -440,8 +440,8 @@
       "hira-3064"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "tsu",
     "note": {
@@ -465,8 +465,8 @@
       "hira-3066"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "te",
     "note": {
@@ -490,8 +490,8 @@
       "hira-3068"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "to",
     "note": {
@@ -515,8 +515,8 @@
       "hira-306a"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "na",
     "note": {
@@ -540,8 +540,8 @@
       "hira-306b"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ni",
     "note": {
@@ -565,8 +565,8 @@
       "hira-306c"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "nu",
     "note": {
@@ -590,8 +590,8 @@
       "hira-306d"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ne",
     "note": {
@@ -615,8 +615,8 @@
       "hira-306e"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "no",
     "note": {
@@ -640,8 +640,8 @@
       "hira-306f"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ha",
     "note": {
@@ -665,8 +665,8 @@
       "hira-3072"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "hi",
     "note": {
@@ -690,8 +690,8 @@
       "hira-3075"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "fu",
     "note": {
@@ -716,8 +716,8 @@
       "hira-3078"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "he",
     "note": {
@@ -741,8 +741,8 @@
       "hira-307b"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ho",
     "note": {
@@ -766,8 +766,8 @@
       "hira-307e"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ma",
     "note": {
@@ -791,8 +791,8 @@
       "hira-307f"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "mi",
     "note": {
@@ -816,8 +816,8 @@
       "hira-3080"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "mu",
     "note": {
@@ -841,8 +841,8 @@
       "hira-3081"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "me",
     "note": {
@@ -866,8 +866,8 @@
       "hira-3082"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "mo",
     "note": {
@@ -891,8 +891,8 @@
       "hira-3084"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ya",
     "note": {
@@ -916,8 +916,8 @@
       "hira-3086"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "yu",
     "note": {
@@ -941,8 +941,8 @@
       "hira-3088"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "yo",
     "note": {
@@ -966,8 +966,8 @@
       "hira-3089"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ra",
     "note": {
@@ -992,8 +992,8 @@
       "hira-308a"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ri",
     "note": {
@@ -1018,8 +1018,8 @@
       "hira-308b"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ru",
     "note": {
@@ -1044,8 +1044,8 @@
       "hira-308c"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "re",
     "note": {
@@ -1070,8 +1070,8 @@
       "hira-308d"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ro",
     "note": {
@@ -1096,8 +1096,8 @@
       "hira-308f"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "wa",
     "note": {
@@ -1121,8 +1121,8 @@
       "hira-3092"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "o",
     "note": {
@@ -1146,8 +1146,8 @@
       "hira-3093"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "n",
     "note": {
@@ -1173,8 +1173,8 @@
       "kata-30a2"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "a",
     "note": {
@@ -1198,8 +1198,8 @@
       "kata-30a4"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "i",
     "note": {
@@ -1223,8 +1223,8 @@
       "kata-30a6"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "u",
     "note": {
@@ -1249,8 +1249,8 @@
       "kata-30a8"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "e",
     "note": {
@@ -1274,8 +1274,8 @@
       "kata-30aa"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "o",
     "note": {
@@ -1299,8 +1299,8 @@
       "kata-30ab"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ka",
     "note": {
@@ -1324,8 +1324,8 @@
       "kata-30ad"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ki",
     "note": {
@@ -1349,8 +1349,8 @@
       "kata-30af"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ku",
     "note": {
@@ -1374,8 +1374,8 @@
       "kata-30b1"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ke",
     "note": {
@@ -1399,8 +1399,8 @@
       "kata-30b3"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ko",
     "note": {
@@ -1424,8 +1424,8 @@
       "kata-30b5"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "sa",
     "note": {
@@ -1449,8 +1449,8 @@
       "kata-30b7"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "shi",
     "note": {
@@ -1474,8 +1474,8 @@
       "kata-30b9"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "su",
     "note": {
@@ -1499,8 +1499,8 @@
       "kata-30bb"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "se",
     "note": {
@@ -1524,8 +1524,8 @@
       "kata-30bd"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "so",
     "note": {
@@ -1549,8 +1549,8 @@
       "kata-30bf"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ta",
     "note": {
@@ -1574,8 +1574,8 @@
       "kata-30c1"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "chi",
     "note": {
@@ -1599,8 +1599,8 @@
       "kata-30c4"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "tsu",
     "note": {
@@ -1624,8 +1624,8 @@
       "kata-30c6"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "te",
     "note": {
@@ -1649,8 +1649,8 @@
       "kata-30c8"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "to",
     "note": {
@@ -1674,8 +1674,8 @@
       "kata-30ca"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "na",
     "note": {
@@ -1699,8 +1699,8 @@
       "kata-30cb"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ni",
     "note": {
@@ -1724,8 +1724,8 @@
       "kata-30cc"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "nu",
     "note": {
@@ -1749,8 +1749,8 @@
       "kata-30cd"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ne",
     "note": {
@@ -1774,8 +1774,8 @@
       "kata-30ce"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "no",
     "note": {
@@ -1799,8 +1799,8 @@
       "kata-30cf"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ha",
     "note": {
@@ -1824,8 +1824,8 @@
       "kata-30d2"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "hi",
     "note": {
@@ -1849,8 +1849,8 @@
       "kata-30d5"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "fu",
     "note": {
@@ -1875,8 +1875,8 @@
       "kata-30d8"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "he",
     "note": {
@@ -1900,8 +1900,8 @@
       "kata-30db"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ho",
     "note": {
@@ -1925,8 +1925,8 @@
       "kata-30de"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ma",
     "note": {
@@ -1950,8 +1950,8 @@
       "kata-30df"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "mi",
     "note": {
@@ -1975,8 +1975,8 @@
       "kata-30e0"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "mu",
     "note": {
@@ -2000,8 +2000,8 @@
       "kata-30e1"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "me",
     "note": {
@@ -2025,8 +2025,8 @@
       "kata-30e2"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "mo",
     "note": {
@@ -2050,8 +2050,8 @@
       "kata-30e4"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ya",
     "note": {
@@ -2075,8 +2075,8 @@
       "kata-30e6"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "yu",
     "note": {
@@ -2100,8 +2100,8 @@
       "kata-30e8"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "yo",
     "note": {
@@ -2125,8 +2125,8 @@
       "kata-30e9"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ra",
     "note": {
@@ -2151,8 +2151,8 @@
       "kata-30ea"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ri",
     "note": {
@@ -2177,8 +2177,8 @@
       "kata-30eb"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ru",
     "note": {
@@ -2203,8 +2203,8 @@
       "kata-30ec"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "re",
     "note": {
@@ -2229,8 +2229,8 @@
       "kata-30ed"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "ro",
     "note": {
@@ -2255,8 +2255,8 @@
       "kata-30ef"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "wa",
     "note": {
@@ -2280,8 +2280,8 @@
       "kata-30f2"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "o",
     "note": {
@@ -2305,8 +2305,8 @@
       "kata-30f3"
     ],
     "instruction": {
-      "en": "Recall the sound of the marked kana.",
-      "fr": "Retrouvez le son du kana marqué."
+      "en": "Read this kana.",
+      "fr": "Comment se lit ce kana ?"
     },
     "answer": "n",
     "note": {

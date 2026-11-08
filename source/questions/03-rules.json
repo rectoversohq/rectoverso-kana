@@ -59,8 +59,8 @@
     "answer": "ga",
     "audio": "rv-kana-rule-hira-marks-g.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "The mark ゛ changes this family: k → g. Read the row as が · ぎ · ぐ · げ · ご: ga gi gu ge go. Apply the same change to the other members of the row.",
@@ -132,8 +132,8 @@
     "answer": "za",
     "audio": "rv-kana-rule-hira-marks-z.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "The mark ゛ changes this family: s → z, with し → じ (ji). Read the row as ざ · じ · ず · ぜ · ぞ: za ji zu ze zo. Apply the same change to the other members of the row.",
@@ -205,8 +205,8 @@
     "answer": "da",
     "audio": "rv-kana-rule-hira-marks-d.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "The mark ゛ changes this family: t → d, with ち → ぢ (ji) and つ → づ (zu). Read the row as だ · ぢ · づ · で · ど: da ji zu de do. Apply the same change to the other members of the row. In modern common Japanese, ぢ/じ share ji and づ/ず share zu. Word spelling still matters; sound alone does not select the spelling.",
@@ -278,8 +278,8 @@
     "answer": "ba",
     "audio": "rv-kana-rule-hira-marks-b.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "The mark ゛ changes this family: h → b. Read the row as ば · び · ぶ · べ · ぼ: ba bi bu be bo. Apply the same change to the other members of the row.",
@@ -351,8 +351,8 @@
     "answer": "pa",
     "audio": "rv-kana-rule-hira-marks-p.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "The mark ゜ changes this family: h → p. Read the row as ぱ · ぴ · ぷ · ぺ · ぽ: pa pi pu pe po. Apply the same change to the other members of the row.",
@@ -424,8 +424,8 @@
     "answer": "kya",
     "audio": "rv-kana-rule-hira-kya.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "A small ゃ, ゅ or ょ joins an i-column kana into one timing beat (mora). Here きゃ is kya, not two separate beats. Compare the small sign with full-size や・ゆ・よ. The sound is not an extra i followed by ya, yu or yo.",
@@ -498,8 +498,8 @@
     "answer": "shu",
     "audio": "rv-kana-rule-hira-shu.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "A small ゃ, ゅ or ょ joins an i-column kana into one timing beat (mora). Here しゅ is shu, not two separate beats. Compare the small sign with full-size や・ゆ・よ. The sound is not an extra i followed by ya, yu or yo.",
@@ -569,8 +569,8 @@
     "answer": "cho",
     "audio": "rv-kana-rule-hira-cho.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "A small ゃ, ゅ or ょ joins an i-column kana into one timing beat (mora). Here ちょ is cho, not two separate beats. Compare the small sign with full-size や・ゆ・よ. The sound is not an extra i followed by ya, yu or yo.",
@@ -640,8 +640,8 @@
     "answer": "kitte",
     "audio": "rv-kana-rule-hira-small-tsu.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "Small っ adds one timing beat before the following consonant. In きって, hold the t closure, then release it: ki · (t) · te. Do not pronounce a separate tsu. This differs from きて (kite).",
@@ -716,8 +716,8 @@
     "answer": "obaasan",
     "audio": "rv-kana-rule-hira-long-aa.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "The extra あ sustains a for a second beat. Keep it distinct from おばさん (obasan, aunt). A long vowel occupies two timing beats. Read accurately; speed is not the goal.",
@@ -792,8 +792,8 @@
     "answer": "oniisan",
     "audio": "rv-kana-rule-hira-long-ii.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "The extra い sustains i for a second beat. A long vowel occupies two timing beats. Read accurately; speed is not the goal.",
@@ -868,8 +868,8 @@
     "answer": "kuuki",
     "audio": "rv-kana-rule-hira-long-uu.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "The extra う sustains u for a second beat. A long vowel occupies two timing beats. Read accurately; speed is not the goal.",
@@ -944,8 +944,8 @@
     "answer": "oneesan",
     "audio": "rv-kana-rule-hira-long-ee.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "In this word, え sustains the preceding e for a second beat. A long vowel occupies two timing beats. Read accurately; speed is not the goal.",
@@ -1020,8 +1020,8 @@
     "answer": "tōfu",
     "audio": "rv-kana-rule-hira-long-ou.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "In とうふ, う lengthens the o vowel in と; とう is read tō, with two timing beats. An o-vowel kana followed by う often marks long o. Keep the kana as written. The macron in ō marks vowel length. Read accurately; speed is not the goal.",
@@ -1096,8 +1096,8 @@
     "answer": "kōri",
     "audio": "rv-kana-rule-hira-long-oo.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "An o-vowel kana can be followed by う or お to write a long o. Different words use different spellings; keep the kana as written. Here こお is read kō, with two timing beats. ō marks the long vowel.",
@@ -1172,8 +1172,8 @@
     "answer": "tokei",
     "audio": "rv-kana-rule-hira-long-ei.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "The spelling is ei. In this word, it is commonly pronounced as a long e. Follow the recording without changing the written い to え. Not every e+i sequence in Japanese must be merged. A long vowel occupies two timing beats. Read accurately; speed is not the goal.",
@@ -1248,8 +1248,8 @@
     "answer": "ga",
     "audio": "rv-kana-rule-kata-marks-g.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "The mark ゛ changes this family: k → g. Read the row as ガ · ギ · グ · ゲ · ゴ: ga gi gu ge go. Apply the same change to the other members of the row.",
@@ -1321,8 +1321,8 @@
     "answer": "za",
     "audio": "rv-kana-rule-kata-marks-z.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "The mark ゛ changes this family: s → z, with シ → ジ (ji). Read the row as ザ · ジ · ズ · ゼ · ゾ: za ji zu ze zo. Apply the same change to the other members of the row.",
@@ -1394,8 +1394,8 @@
     "answer": "da",
     "audio": "rv-kana-rule-kata-marks-d.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "The mark ゛ changes this family: t → d, with チ → ヂ (ji) and ツ → ヅ (zu). Read the row as ダ · ヂ · ヅ · デ · ド: da ji zu de do. Apply the same change to the other members of the row. In modern common Japanese, ヂ/ジ share ji and ヅ/ズ share zu. Word spelling still matters; sound alone does not select the spelling.",
@@ -1467,8 +1467,8 @@
     "answer": "ba",
     "audio": "rv-kana-rule-kata-marks-b.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "The mark ゛ changes this family: h → b. Read the row as バ · ビ · ブ · ベ · ボ: ba bi bu be bo. Apply the same change to the other members of the row.",
@@ -1540,8 +1540,8 @@
     "answer": "pa",
     "audio": "rv-kana-rule-kata-marks-p.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "The mark ゜ changes this family: h → p. Read the row as パ · ピ · プ · ペ · ポ: pa pi pu pe po. Apply the same change to the other members of the row.",
@@ -1613,8 +1613,8 @@
     "answer": "kya",
     "audio": "rv-kana-rule-kata-kya.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "A small ャ, ュ or ョ joins an i-column kana into one timing beat (mora). Here キャ is kya, not two separate beats. Compare the small sign with full-size ヤ・ユ・ヨ. The sound is not an extra i followed by ya, yu or yo.",
@@ -1687,8 +1687,8 @@
     "answer": "shu",
     "audio": "rv-kana-rule-kata-shu.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "A small ャ, ュ or ョ joins an i-column kana into one timing beat (mora). Here シュ is shu, not two separate beats. Compare the small sign with full-size ヤ・ユ・ヨ. The sound is not an extra i followed by ya, yu or yo.",
@@ -1758,8 +1758,8 @@
     "answer": "cho",
     "audio": "rv-kana-rule-kata-cho.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "A small ャ, ュ or ョ joins an i-column kana into one timing beat (mora). Here チョ is cho, not two separate beats. Compare the small sign with full-size ヤ・ユ・ヨ. The sound is not an extra i followed by ya, yu or yo.",
@@ -1829,8 +1829,8 @@
     "answer": "kōhī",
     "audio": "rv-kana-rule-kata-long-bar.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "The bar ー extends the preceding vowel by one beat: kō · hī. It has no independent sound. Each long vowel occupies two beats. The same kana principles apply in katakana.",
@@ -1907,8 +1907,8 @@
     "answer": "beddo",
     "audio": "rv-kana-rule-kata-small-tsu.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "Small ッ works like hiragana っ. Hold the following d closure for one beat; do not add tsu. ベッド has three beats: be · (d) · do.",
@@ -1985,8 +1985,8 @@
     "answer": "fan",
     "audio": "rv-kana-rule-kata-extension-fa.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "ファ uses small ァ after フ to spell fa. Read the Japanese word as recorded, rather than substituting the original foreign pronunciation. This is a selected common extension, not an exhaustive list.",
@@ -2062,8 +2062,8 @@
     "answer": "firumu",
     "audio": "rv-kana-rule-kata-extension-fi.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "フィ uses small ィ after フ to spell fi. Read the Japanese word as recorded, rather than substituting the original foreign pronunciation. This is a selected common extension, not an exhaustive list.",
@@ -2139,8 +2139,8 @@
     "answer": "ferī",
     "audio": "rv-kana-rule-kata-extension-fe.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "フェ uses small ェ after フ to spell fe. Read the Japanese word as recorded, rather than substituting the original foreign pronunciation. This is a selected common extension, not an exhaustive list.",
@@ -2216,8 +2216,8 @@
     "answer": "fōku",
     "audio": "rv-kana-rule-kata-extension-fo.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "フォ uses small ォ after フ to spell fo. Read the Japanese word as recorded, rather than substituting the original foreign pronunciation. This is a selected common extension, not an exhaustive list.",
@@ -2293,8 +2293,8 @@
     "answer": "tī",
     "audio": "rv-kana-rule-kata-extension-ti.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "ティ uses small ィ after テ to spell ti; it differs from チ (chi). Read the Japanese word as recorded, rather than substituting the original foreign pronunciation. This is a selected common extension, not an exhaustive list.",
@@ -2373,8 +2373,8 @@
     "answer": "chesu",
     "audio": "rv-kana-rule-kata-extension-che.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "チェ combines チ with small ェ to spell che. Read the Japanese word as recorded, rather than substituting the original foreign pronunciation. This is a selected common extension, not an exhaustive list.",
@@ -2450,8 +2450,8 @@
     "answer": "shefu",
     "audio": "rv-kana-rule-kata-extension-she.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "シェ combines シ with small ェ to spell she. Read the Japanese word as recorded, rather than substituting the original foreign pronunciation. This is a selected common extension, not an exhaustive list.",
@@ -2527,8 +2527,8 @@
     "answer": "disuku",
     "audio": "rv-kana-rule-kata-extension-di.mp3",
     "instruction": {
-      "en": "New rule? Reveal and listen.",
-      "fr": "Nouvelle règle ? Révélez et écoutez."
+      "en": "Read this.",
+      "fr": "Comment ça se lit ?"
     },
     "note": {
       "en": "ディ uses small ィ after デ to spell di; it differs from ジ (ji). Read the Japanese word as recorded, rather than substituting the original foreign pronunciation. This is a selected common extension, not an exhaustive list.",

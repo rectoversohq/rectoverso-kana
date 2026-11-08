@@ -25,7 +25,7 @@ def inspect(package,output):
     if direction=='reading':
      assert not sounds and p['kind']=='occlusion' and p['preparation']['mode']=='hideAll'
      assert len(p['preparation']['regions'])==46 and len(p['occlusion']['siblings'])==45
-     assert 'Reveal and listen' in front or 'Révélez et écoutez' in front
+     assert 'Read this kana.' in front or 'Comment se lit ce kana' in front
      assert '[sound:' in note['Back'] and card.answer_av_tags() and p['originalOcclusionAnswer'] in note['Back']
     if direction=='listening':
      assert sounds and card.question_av_tags() and p['kind']=='basic' and not re.search('[\u3040-\u30ff]',re.sub(r'<[^>]*>','',note['Front']))

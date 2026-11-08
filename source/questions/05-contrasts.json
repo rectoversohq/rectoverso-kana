@@ -11,8 +11,8 @@
     "introduces": [],
     "display": "ぬ　め",
     "instruction": {
-      "en": "Listen. Identify the matching kana.",
-      "fr": "Écoutez. Identifiez le kana correspondant."
+      "en": "Which kana do you hear?",
+      "fr": "Quel kana entendez-vous ?"
     },
     "answerKana": "ぬ",
     "answerReading": "nu",
@@ -37,8 +37,8 @@
     "introduces": [],
     "display": "ぬ　め",
     "instruction": {
-      "en": "Listen. Identify the matching kana.",
-      "fr": "Écoutez. Identifiez le kana correspondant."
+      "en": "Which kana do you hear?",
+      "fr": "Quel kana entendez-vous ?"
     },
     "answerKana": "め",
     "answerReading": "me",
@@ -63,8 +63,8 @@
     "introduces": [],
     "display": "ろ　る",
     "instruction": {
-      "en": "Listen. Identify the matching kana.",
-      "fr": "Écoutez. Identifiez le kana correspondant."
+      "en": "Which kana do you hear?",
+      "fr": "Quel kana entendez-vous ?"
     },
     "answerKana": "る",
     "answerReading": "ru",
@@ -89,8 +89,8 @@
     "introduces": [],
     "display": "ろ　る",
     "instruction": {
-      "en": "Listen. Identify the matching kana.",
-      "fr": "Écoutez. Identifiez le kana correspondant."
+      "en": "Which kana do you hear?",
+      "fr": "Quel kana entendez-vous ?"
     },
     "answerKana": "ろ",
     "answerReading": "ro",
@@ -115,8 +115,8 @@
     "introduces": [],
     "display": "ね　れ",
     "instruction": {
-      "en": "Listen. Identify the matching kana.",
-      "fr": "Écoutez. Identifiez le kana correspondant."
+      "en": "Which kana do you hear?",
+      "fr": "Quel kana entendez-vous ?"
     },
     "answerKana": "ね",
     "answerReading": "ne",
@@ -141,8 +141,8 @@
     "introduces": [],
     "display": "ね　れ",
     "instruction": {
-      "en": "Listen. Identify the matching kana.",
-      "fr": "Écoutez. Identifiez le kana correspondant."
+      "en": "Which kana do you hear?",
+      "fr": "Quel kana entendez-vous ?"
     },
     "answerKana": "れ",
     "answerReading": "re",
@@ -167,8 +167,8 @@
     "introduces": [],
     "display": "ツ　シ",
     "instruction": {
-      "en": "Listen. Identify the matching kana.",
-      "fr": "Écoutez. Identifiez le kana correspondant."
+      "en": "Which kana do you hear?",
+      "fr": "Quel kana entendez-vous ?"
     },
     "answerKana": "シ",
     "answerReading": "shi",
@@ -193,8 +193,8 @@
     "introduces": [],
     "display": "ツ　シ",
     "instruction": {
-      "en": "Listen. Identify the matching kana.",
-      "fr": "Écoutez. Identifiez le kana correspondant."
+      "en": "Which kana do you hear?",
+      "fr": "Quel kana entendez-vous ?"
     },
     "answerKana": "ツ",
     "answerReading": "tsu",
@@ -219,8 +219,8 @@
     "introduces": [],
     "display": "ソ　ン",
     "instruction": {
-      "en": "Listen. Identify the matching kana.",
-      "fr": "Écoutez. Identifiez le kana correspondant."
+      "en": "Which kana do you hear?",
+      "fr": "Quel kana entendez-vous ?"
     },
     "answerKana": "ソ",
     "answerReading": "so",
@@ -245,8 +245,8 @@
     "introduces": [],
     "display": "ソ　ン",
     "instruction": {
-      "en": "Listen. Identify the matching kana.",
-      "fr": "Écoutez. Identifiez le kana correspondant."
+      "en": "Which kana do you hear?",
+      "fr": "Quel kana entendez-vous ?"
     },
     "answerKana": "ン",
     "answerReading": "n",
@@ -271,8 +271,8 @@
     "introduces": [],
     "display": "ケ　ク",
     "instruction": {
-      "en": "Listen. Identify the matching kana.",
-      "fr": "Écoutez. Identifiez le kana correspondant."
+      "en": "Which kana do you hear?",
+      "fr": "Quel kana entendez-vous ?"
     },
     "answerKana": "ク",
     "answerReading": "ku",
@@ -297,8 +297,8 @@
     "introduces": [],
     "display": "ケ　ク",
     "instruction": {
-      "en": "Listen. Identify the matching kana.",
-      "fr": "Écoutez. Identifiez le kana correspondant."
+      "en": "Which kana do you hear?",
+      "fr": "Quel kana entendez-vous ?"
     },
     "answerKana": "ケ",
     "answerReading": "ke",

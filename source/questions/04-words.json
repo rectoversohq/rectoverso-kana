@@ -17,8 +17,8 @@
       "fr": "bleu"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -47,8 +47,8 @@
       "fr": "maison"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -77,8 +77,8 @@
       "fr": "au-dessus"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -107,8 +107,8 @@
       "fr": "visage"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -137,8 +137,8 @@
       "fr": "étang"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -167,8 +167,8 @@
       "fr": "sel"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -197,8 +197,8 @@
       "fr": "sushi"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -227,8 +227,8 @@
       "fr": "poulpe"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -257,8 +257,8 @@
       "fr": "bouche"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -287,8 +287,8 @@
       "fr": "chat"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -317,8 +317,8 @@
       "fr": "chien"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -347,8 +347,8 @@
       "fr": "bateau"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -377,8 +377,8 @@
       "fr": "fleur"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -408,8 +408,8 @@
       "fr": "pièce"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -438,8 +438,8 @@
       "fr": "montagne"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -468,8 +468,8 @@
       "fr": "ciel"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -498,8 +498,8 @@
       "fr": "neige"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -529,8 +529,8 @@
       "fr": "livre"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -560,8 +560,8 @@
       "fr": "temps"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -594,8 +594,8 @@
       "fr": "promenade"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -631,8 +631,8 @@
       "fr": "hôpital"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow. びょ · う · い · ん: four beats. Keep small ょ joined to び; preserve the long vowel.",
@@ -667,8 +667,8 @@
       "fr": "aujourd’hui"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow. きょ is one beat; the following う extends its o vowel by another beat.",
@@ -704,8 +704,8 @@
       "fr": "mère"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow. Keep the long a in かあ; do not shorten it to か.",
@@ -738,8 +738,8 @@
       "fr": "feuille"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow. は · (p) · ぱ: three beats. Small っ holds the p closure.",
@@ -772,8 +772,8 @@
       "fr": "appareil photo"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -802,8 +802,8 @@
       "fr": "note"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -832,8 +832,8 @@
       "fr": "tomate"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -863,8 +863,8 @@
       "fr": "hôtel"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -894,8 +894,8 @@
       "fr": "lait"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -924,8 +924,8 @@
       "fr": "bus"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -957,8 +957,8 @@
       "fr": "pain"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -991,8 +991,8 @@
       "fr": "télévision"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -1026,8 +1026,8 @@
       "fr": "taxi"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow. The final ー extends the i vowel in シ.",
@@ -1060,8 +1060,8 @@
       "fr": "radio"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow.",
@@ -1095,8 +1095,8 @@
       "fr": "jus"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow. ジュ · ー · ス: three beats. ジュ is one beat; ー supplies the second.",
@@ -1130,8 +1130,8 @@
       "fr": "poche"
     },
     "instruction": {
-      "en": "Read the word.",
-      "fr": "Lisez le mot."
+      "en": "Read this word.",
+      "fr": "Comment se lit ce mot ?"
     },
     "note": {
       "en": "Read the kana before revealing or playing the answer. The meaning is context, not something to memorize. Accurate decoding counts even when it is slow. ポ · ケ · (t) · ト: four beats. Hold the t closure for small ッ.",

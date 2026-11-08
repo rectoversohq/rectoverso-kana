@@ -10,3 +10,5 @@
 - 2026-11-08: The owner reauthorized simulator use. Native checking found long answer-side guides pushed replay several screens away; compact answer-side versions retain pacing and broader reference inventories, while the complete guide remains in documentation and the full course description.
 
 2026-11-08 — Native follow-up: shortened emitted guide/reference notes while retaining full bodies and every reference form; clarified French review-first pacing after factual review. No new scheduled questions, identity changes, artwork changes, audio changes or app-source changes. Publication and actual listening remain pending.
+
+2026-11-08 — Owner feedback: reduce verbose listening fronts and replace cryptic exercise labels with explicit tasks. Use one task caption across the course, a short script-specific listening question, and a one-form-is-enough cue only on grouped answers. Voice remains Microsoft Nanami Neural at −20%; no audio is regenerated.

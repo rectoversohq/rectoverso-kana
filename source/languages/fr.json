@@ -11,5 +11,7 @@
   "word": "Lire un mot",
   "contrast": "Comparer",
   "variant": "Une autre forme",
-  "checkpoint": "Bilan de lecture"
+  "checkpoint": "Bilan de lecture",
+  "listenPrompt": "Écoutez le son.",
+  "listenOnePrompt": "Écoutez. Une forme suffit."
 }

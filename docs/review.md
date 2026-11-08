@@ -28,3 +28,6 @@ Offline validation passed in both the working checkout and a fresh clone of comm
 
 
 After these content refinements, the complete offline CI passed again into builds/native-final-ci: both languages, all fourteen components, two independent artwork renders, package semantic equality and preserved study progress. The refined source at d1e3e40 also passed complete CI from a fresh clone into builds/native-final-fresh-ci; cross-checkout semantic digests match for both languages. Six polished iPhone paths passed end to end. The refined evidence index is builds/native-validation-summary.json beside this source checkout. Separate Astra factual and pedagogy follow-ups qualifiedly passed the compact notes and inspected native samples; see reviews/native-facts.md and reviews/native-pedagogy.md.
+
+
+2026-11-08 prompt-clarity follow-up: the owner’s screenshots prompted a concise task-caption system in EN/FR. Both Astra reviewers approved it; both rebuilt packages and delivered-to-revised progress preservation pass. The earlier native screenshots concern the prior wording; current prompt fit remains unverified while the simulators are held by other work. See reviews/prompt-clarity.md and external builds/prompt-clarity-20261108.
