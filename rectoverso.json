@@ -4,16 +4,16 @@
   "releaseTag": "v0.1.0",
   "guidPrefix": "rv-kana",
   "identityBase": 1794200000,
-  "contentModifiedAt": "2026-11-08T07:05:23Z",
+  "contentModifiedAt": "2026-11-08T07:48:17Z",
   "publication": {
     "remote": "https://github.com/rectoversohq/rectoverso-kana",
     "release": "https://github.com/rectoversohq/rectoverso-kana/releases/tag/v0.1.0",
     "approved": false,
-    "visibility": "public"
+    "visibility": "private"
   },
   "title": {
-    "en": "Japanese · Kana",
-    "fr": "Japonais · Kana"
+    "en": "Kana",
+    "fr": "Kana"
   },
   "subject": {
     "en": "Japanese kana",
@@ -30,7 +30,7 @@
   "languages": {
     "en": {
       "id": "rectoverso-kana-en",
-      "title": "Japanese · Kana",
+      "title": "Kana",
       "cards": 290,
       "sample": "rv-kana-en-read-hira-3042",
       "package": {
@@ -39,7 +39,7 @@
     },
     "fr": {
       "id": "rectoverso-kana-fr",
-      "title": "Japonais · Kana",
+      "title": "Kana",
       "cards": 290,
       "sample": "rv-kana-fr-read-hira-3042",
       "package": {
@@ -86,7 +86,7 @@
   },
   "reviewStatus": {
     "publication": "not-approved",
-    "copyAndNames": "working candidates pending owner approval",
+    "copyAndNames": "Deck title Kana approved by owner; gallery copy and sample pending owner approval",
     "questionTypes": [
       "reading",
       "listening",

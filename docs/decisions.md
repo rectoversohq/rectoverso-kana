@@ -16,3 +16,5 @@
 2026-11-08 — Owner reported tiny romanized text in the occlusion. Enlarge labels2.4× within unchanged masks. On the owner’s SF Pro question, clarified that the image’s Latin text currently uses pinned Noto Sans JP; native app text uses Apple’s system fonts. No typeface change was requested or made.
 
 2026-11-08 — Owner confirmed: retain Noto Sans for kana, use SF Pro for romanized text. Reading-source romaji now uses locally installed, pinned SF Pro Text Regular at the previously enlarged 72px size. Japanese glyphs, mask geometry, content and audio are unchanged. SF Pro is external and its binary is not redistributed.
+
+2026-11-08 — Owner named the deck Kana and authorized creating its repository, explicitly confirming that English and French belong in the same repository. Both learner-facing titles are Kana; all GUIDs, book/model/deck identities and existing package filenames stay stable. The repository starts private while this candidate is under review.
