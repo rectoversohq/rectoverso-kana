@@ -28,3 +28,13 @@
 2026-11-08 — Media update verification found that Anki retained old audio when the content marker had not advanced. Advance contentModifiedAt while keeping all identities. Add an optional previous-edition CI preflight that checks the actual referenced audio bytes after update as well as every studied state; retain the rejected intermediate package externally as negative evidence.
 
 2026-11-08 — Owner requested conformance to the implemented study field. Replace advisory studyRecommendations with the agreed shared study preset: newCards=deckOrder, newPerDay=6, newPosition=afterReviews. This metadata migration changes no question, identity, authored position or media. App #823 applies it only on first gallery addition; do not overwrite existing learner options or treat a direct file import as a gallery add.
+
+
+## 2026-11-08 — Keep gold; crop the reading figures (#830)
+
+The owner selected « Keep gold; use cropped per-card figures » instead of neutral shared tables. Each reading keeps its gold kana and underline, its separate note/card identities and authored place. Figures retain three complete neighboring rows, at 1,000 × 1,080 pixels, with the original fonts, colors and pixels. Top and bottom crops clamp to occupied rows 0–10, including ん/ン. All visible pronunciation labels remain covered with hideAll; the target retains its global ordinal. The whole-table canvas is intentionally no longer present. There are still 368 per-card table PNGs and 92 preparations, not eight shared PNGs and two preparations. No release, gallery pin or phone install is authorized.
+
+
+## 2026-11-08 — Gold glyph without an underline
+
+The owner retained the cropped figures and gold kana, and explicitly removed the underline because it looked like part of the symbol. The gold character itself is now the only baked target highlight. Font sizes, glyph shapes, crop geometry, masks, identities and course order remain as above.

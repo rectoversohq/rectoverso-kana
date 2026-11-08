@@ -33,6 +33,8 @@ def inputs(language,artwork=None,only_type=None):
   back=q.get('answer','');extra='';prompt_audio='';answer_audio=''
   if kind=='reading':
    c=forms[q['target']];f=assets['figures'][q['id']];front='<img src="'+f['question']['file']+'" alt="'+c['kana']+'">';media.add(f['question']['file'])
+   # Each cropped figure belongs to this same standalone note; sharing a note
+   # would impose the app's one-sibling-per-day limit on course introductions.
    payload.update(occlusion=f['occlusion'],preparation=f['preparation'],originalOcclusionAnswer=c['reading'])
    for k in ['source','clean','darkSource','darkClean']:
     media.add(f[k]['file']);extra+='<img src="'+f[k]['file']+'">'

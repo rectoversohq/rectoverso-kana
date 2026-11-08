@@ -1,6 +1,7 @@
 """Check an existing, studied edition adopts current content and media on update."""
 import argparse
 import hashlib
+import html
 import importlib.util
 import json
 import re
@@ -39,7 +40,7 @@ def verify(previous,current,output):
             notes={n.guid:n for n in (collection.get_note(i) for i in collection.find_notes(''))}
             if set(notes)!=set(expected['notes']) or {g:n.id for g,n in notes.items()}!=note_ids:
                 raise ValueError('Update changed note identity or inventory')
-            actual_media=Path(collection.media.dir());renamed={};audio=set()
+            actual_media=Path(collection.media.dir());renamed={};audio=set();images=set();preparations=set()
             def canonical(field,media):
                 def sound(match):
                     name=match[1]
@@ -47,11 +48,26 @@ def verify(previous,current,output):
                     else:digest=hashlib.sha256((media/name).read_bytes()).hexdigest()
                     audio.add(digest)
                     return '[sound:'+digest+']'
-                return re.sub(r'\[sound:([^]]+)\]',sound,field)
+                def picture(match):
+                    name=html.unescape(match[2])
+                    digest=media[name] if isinstance(media,dict) else hashlib.sha256((media/name).read_bytes()).hexdigest()
+                    images.add(digest)
+                    return match[1]+digest+match[3]
+                field=re.sub(r'\[sound:([^]]+)\]',sound,field)
+                return re.sub(r'(src=["\'])([^"\']+)(["\'])',picture,field)
             for guid,note in notes.items():
                 mid,fields,tags=expected['notes'][guid]
                 if note.mid!=mid or sorted(note.tags)!=tags:
                     raise ValueError('Update changed model identity or tags: '+guid)
+                field=note['RectoVerso']
+                native=json.JSONDecoder().raw_decode(html.unescape(field))[0]
+                if native['kind']=='occlusion':
+                    preparation=native['preparation']
+                    preparations.add(json.dumps(preparation,sort_keys=True))
+                    for role in ['source','clean','darkSource','darkClean']:
+                        asset=preparation[role];name=asset['file']
+                        if hashlib.sha256((actual_media/name).read_bytes()).hexdigest()!=asset['sha256'] or asset['sha256']!=expected['media'][name]:
+                            raise ValueError('Updated preparation still uses old image bytes: '+guid)
                 for actual,wanted in zip(note.fields,fields,strict=True):
                     if canonical(actual,actual_media)!=canonical(wanted,expected['media']):
                         raise ValueError('Updated note still uses old content or audio: '+guid)
@@ -60,7 +76,7 @@ def verify(previous,current,output):
                     for actual_name,source_name in zip(old_names,new_names,strict=True):
                         if actual_name!=source_name:renamed[source_name]=actual_name
             result=dict(cards=len(ids),noteAndCardIDsPreserved=True,modelFieldTemplateIDsPreserved=True,allStudyStatesPreserved=True,reviewLogPreserved=True,
-                        updatedContentAndReferencedAudioExact=True,audioDigests=len(audio),ankiRenamedAudio=renamed)
+                        updatedContentAndReferencedAudioExact=True,referencedImageBytesExact=True,preparationAssetHashesExact=True,imageDigests=len(images),preparations=len(preparations),audioDigests=len(audio),ankiRenamedAudio=renamed)
         finally:collection.close()
     output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({k:v for k,v in result.items() if k!='ankiRenamedAudio'}),flush=True)

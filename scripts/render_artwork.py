@@ -7,6 +7,8 @@ from font_sources import font_path
 
 ROOT=Path(__file__).resolve().parents[1]
 W,H=1000,4050
+ROW_HEIGHT=360
+CROP_HEIGHT=3*ROW_HEIGHT
 ROMAJI_SIZE=72
 PALETTES={'light':{'paper':'#FAFAF9','ink':'#1A1814','line':'#DDDCD8','accent':'#A96808'},'dark':{'paper':'#211E18','ink':'#EDE6D8','line':'#49443C','accent':'#FFD25B'}}
 
@@ -23,9 +25,19 @@ def text_center(im,text,xy,size,color,hand=False,serif=False,roman=False):
 def save(im,out,name):
  p=out/name;im.save(p,optimize=True)
  return {'file':name,'width':im.width,'height':im.height,'sha256':sha(p)}
-def geometry(c):
- cx=60+176*(c['column']+.5);cy=38+360*c['row']
- return (int(cx-65),int(cy+185),130,70)
+def geometry(c,top=0):
+ cx=60+176*(c['column']+.5);cy=38+ROW_HEIGHT*c['row']
+ return (int(cx-65),int(cy+185)-top,130,70)
+
+def reading_window(target,forms):
+ """Three complete occupied rows, retaining the original 38px top padding."""
+ start=max(0,min(target['row']-1,max(c['row'] for c in forms)-2))
+ return start*ROW_HEIGHT,[c for c in forms if start<=c['row']<start+3]
+
+def normalized_box(c,top):
+ x,y,w,h=geometry(c,top)
+ return [[x/W,y/CROP_HEIGHT],[w/W,h/CROP_HEIGHT]]
+
 
 def render(output,only_type=None):
  if output.resolve().is_relative_to(ROOT):raise ValueError('Rendered artwork belongs outside the source checkout')
@@ -43,11 +55,14 @@ def render(output,only_type=None):
    base_images[mode]=base
   for q in [q for q in questions if q['type']=='reading' and q['target'].startswith(script+'-')]:
    c=next(c for c in forms if c['id']==q['target']);assets={}
-   regions=[{'id':f['id'],'ordinal':i+1,'kind':'label','geometry':{'kind':'rect','coordinates':[geometry(f)[0]/W,geometry(f)[1]/H,130/W,70/H]},'answer':f['reading']} for i,f in enumerate(forms)]
+   top,visible=reading_window(c,forms)
+   ordinals={f['id']:i+1 for i,f in enumerate(forms)}
+   regions=[{'id':f['id'],'ordinal':ordinals[f['id']],'kind':'label','geometry':{'kind':'rect','coordinates':sum(normalized_box(f,top),[])},'answer':f['reading']} for f in visible]
+   assets['crop']={'top':top,'height':CROP_HEIGHT,'rows':sorted({f['row'] for f in visible})}
+
    for mode,pal in PALETTES.items():
     clean=base_images[mode].copy();cx=60+176*(c['column']+.5);cy=38+360*c['row']
     text_center(clean,c['kana'],(cx,cy+56),91,pal['accent'])
-    ImageDraw.Draw(clean).rounded_rectangle((cx-23,cy+108,cx+23,cy+111),radius=1,fill=pal['accent'])
     source=clean.copy()
     for f in forms:
      x,y,w,h=geometry(f);text_center(source,f['reading'],(x+w/2,y+h/2),ROMAJI_SIZE,pal['ink'],roman=True)
@@ -57,13 +72,12 @@ def render(output,only_type=None):
     if ImageChops.subtract(diff,allowed).getbbox():raise ValueError('Kana pixels changed outside pronunciation masks')
     for role,im in [('source',source),('clean',clean)]:
      key=role if mode=='light' else 'dark'+role.capitalize()
-     assets[key]=save(im,output,f'rv-kana-{c["id"]}-{mode}-{role}.png')
+     assets[key]=save(im.crop((0,top,W,top+CROP_HEIGHT)),output,f'rv-kana-{c["id"]}-rows-{mode}-{role}.png')
      if role=='source':assets[key]['fonts']=['NotoSansJP.ttf','SF-Pro-Text-Regular.otf']
      record['files'].append(assets[key])
    standalone=Image.new('RGB',(700,500),PALETTES['light']['paper']);text_center(standalone,c['kana'],(350,245),280,PALETTES['light']['ink'])
    assets['question']=save(standalone,output,f'rv-kana-{c["id"]}-question.png');record['files'].append(assets['question'])
-   x,y,w,h=geometry(c)
-   assets['occlusion']={'imageName':assets['source']['file'],'box':[[x/W,y/H],[w/W,h/H]],'siblings':[{'rect':{'_0':[[geometry(f)[0]/W,geometry(f)[1]/H],[130/W,70/H]]}} for f in forms if f['id']!=c['id']],'label':c['reading'],'mode':'hideAll','ordinal':next(i+1 for i,f in enumerate(forms) if f['id']==c['id']),'imageSize':[W,H]}
+   assets['occlusion']={'imageName':assets['source']['file'],'box':normalized_box(c,top),'siblings':[{'rect':{'_0':normalized_box(f,top)}} for f in visible if f['id']!=c['id']],'label':c['reading'],'mode':'hideAll','ordinal':ordinals[c['id']],'imageSize':[W,CROP_HEIGHT]}
    assets['preparation']={'version':1,**{k:assets[k] for k in ['source','clean','darkSource','darkClean']},'masksSHA256':hashlib.sha256(b'').hexdigest(),'mode':'hideAll','regions':regions,'canvas':{'method':'flat-srgb-v1','light':[250/255,250/255,249/255],'dark':[33/255,30/255,24/255]}}
    record['figures'][q['id']]=assets
   print('Rendered',sum(q['type']=='reading' and q['target'].startswith(script+'-') for q in questions),script,'reading figures',flush=True)

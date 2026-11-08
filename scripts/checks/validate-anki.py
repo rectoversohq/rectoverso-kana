@@ -1,6 +1,9 @@
 """Validate a rendered component through Anki import/render/study/reimport."""
 import argparse,hashlib,html,json,re,tempfile
 from pathlib import Path
+from PIL import Image
+
+ROOT=Path(__file__).resolve().parents[2]
 from anki.collection import Collection,ExportAnkiPackageOptions
 from anki.import_export_pb2 import ImportAnkiPackageRequest,ImportAnkiPackageOptions
 
@@ -16,6 +19,7 @@ def inspect(package,output):
   try:
    load(col,package);ids=col.find_cards('');assert len(ids)==count
    seen=set();states=[]
+   kana=json.loads((ROOT/'source/kana.json').read_text());forms={c['id']:c for c in kana}
    for cid in ids:
     card=col.get_card(cid);note=col.get_note(card.nid);p=payload(note);seen.add(note.guid)
     front,back=card.question(),card.answer();after=back.split('<hr id="answer">',1)[1]
@@ -24,7 +28,29 @@ def inspect(package,output):
     sounds=re.findall(r'\[sound:([^\]]+)\]',note['Front'])
     if direction=='reading':
      assert not sounds and p['kind']=='occlusion' and p['preparation']['mode']=='hideAll'
-     assert len(p['preparation']['regions'])==46 and len(p['occlusion']['siblings'])==45
+     target=forms[note.guid.split('-read-',1)[1]]
+     script=[c for c in kana if c['script']==target['script']]
+     start=max(0,min(target['row']-1,8));top=start*360
+     visible=[c for c in script if start<=c['row']<start+3]
+     def box(c):return [[(83+176*c['column'])/1000,(223+360*c['row']-top)/1080],[.13,70/1080]]
+     regions=p['preparation']['regions'];occlusion=p['occlusion']
+     assert [(r['id'],r['ordinal'],r['answer'],r['geometry']['coordinates']) for r in regions]==[(c['id'],script.index(c)+1,c['reading'],sum(box(c),[])) for c in visible]
+     assert occlusion['mode']=='hideAll' and occlusion['imageSize']==[1000,1080]
+     assert occlusion['ordinal']==script.index(target)+1 and occlusion['box']==box(target)
+     assert occlusion['label']==target['reading'] and p['noteID']==note.guid
+     assert occlusion['siblings']==[{'rect':{'_0':box(c)}} for c in visible if c!=target]
+     assert occlusion['imageName']==p['preparation']['source']['file']
+     for role in ['source','clean','darkSource','darkClean']:
+      asset=p['preparation'][role];path=Path(col.media.dir())/asset['file']
+      assert '-rows-' in asset['file'] and [asset['width'],asset['height']]==[1000,1080]
+      assert hashlib.sha256(path.read_bytes()).hexdigest()==asset['sha256']
+      with Image.open(path) as image:
+       assert image.size==(1000,1080)
+       dark=role.startswith('dark');paper=(33,30,24) if dark else (250,250,249);gold=(255,210,91) if dark else (169,104,8)
+       cx=148+176*target['column'];cy=38+360*target['row']-top
+       # The gold glyph remains; a line below it could look like another stroke.
+       assert image.crop((cx-23,cy+108,cx+24,cy+112)).getextrema()==tuple((v,v) for v in paper)
+       assert gold in image.crop((cx-65,cy-10,cx+65,cy+108)).getdata()
      assert 'Read this kana.' in front or 'Comment se lit ce kana' in front
      assert '[sound:' in note['Back'] and card.answer_av_tags() and p['originalOcclusionAnswer'] in note['Back']
     if direction=='listening':

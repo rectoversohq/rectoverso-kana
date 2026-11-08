@@ -53,3 +53,12 @@ python scripts/ci.py --output /external/kana-update-ci --previous /external/prev
 The previous folder must hold Japanese-Kana-en.apkg and Japanese-Kana-fr.apkg. This same-inventory preflight checks the existing course; deliberate inventory changes need a separate migration check.
 
 The shared root `study` field follows app #823: `{"newCards":"deckOrder","newPerDay":6,"newPosition":"afterReviews"}`. Both expanded language sidecars carry this same value; `studyRecommendations` is removed. Source checks reject missing or drifted settings. Anki’s authored new-queue positions are unchanged. This is a gallery preset: the catalog carries it, and a supporting app applies it only on the first gallery add, preserving learner overrides thereafter. Direct APKG imports do not activate it; their existing manual setup guidance remains applicable.
+
+
+### Gold-preserving reading crops (#830)
+
+The owner chose cropped per-card figures rather than shared neutral tables. The renderer crops the original table to three complete 360-pixel rows, retaining its 38-pixel top padding, full 1,000-pixel width, gold target and font sizes. startRow is clamp(targetRow − 1, 0, 8), cropTop is startRow × 360, and height is 1,080. There are eleven occupied rows; ん/ン remain complete at row 10. No scaling is applied. The owner removed the underline because it could read as part of the kana; the gold glyph is retained.
+
+Each of the 92 reading notes still has its own four files, named rv-kana-<target>-rows-<light|dark>-<source|clean>.png. The new rows names avoid Anki media collisions with older full-table files. The 700 × 500 question PNGs retain their names and bytes. Preparation regions and sibling masks include every kana visible in that crop, normalized to its dimensions, with the original script-global ordinals and hideAll. Each card/note, GUID, stage, batch, priority and authored due position stays separate.
+
+The normal CI command rebuilds and validates these figures. Reading regressions cover sparse edge rows, all target/reading/ordinal/mask mappings, separate note/card identities and label fit. Anki checks verify the actual preparation asset hashes and dimensions; the previous-edition check also compares every referenced image’s bytes, alongside sound bytes and full study-history preservation. Existing collections can retain unused old full-table media; new packages include only cropped tables. Native checks require app PR #831 and remain separately reported.
