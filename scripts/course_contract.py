@@ -49,6 +49,9 @@ def check_questions(items, kana, references):
             accepted={'ji':['じ','ぢ'],'zu':['ず','づ']}[q['answerReading']]
             if script=='kata':accepted=[chr(ord(c)+0x60) for c in accepted]
             if q['accepted']!=accepted or set(q['requires'])!={script+'-marks-z',script+'-marks-d'}:raise ValueError('Marked shared-sound application differs')
+    for i in range(len(sequence)-3):
+        if sum(q['type']=='reading' for q in sequence[i:i+4])>2:
+            raise ValueError('More than two new basic kana in four consecutive questions')
     return sequence
 
 def check_audio(root=ROOT):
@@ -63,7 +66,7 @@ def check_audio(root=ROOT):
     return records
 
 def check_study(metadata):
-    expected={'newCards':'deckOrder','newPerDay':6,'newPosition':'afterReviews'}
+    expected={'newCards':'deckOrder','newPerDay':4,'newPosition':'afterReviews'}
     study=metadata.get('study')
     if study!=expected or type(study['newPerDay']) is not int:
         raise ValueError('Study preset differs from the owner-approved course settings')

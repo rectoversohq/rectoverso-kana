@@ -2,9 +2,9 @@
 
 Débutez sans connaissance du japonais. Apprenez les hiragana, puis les katakana, avec de courts mots à lire. Face à un nouveau kana, révélez et écoutez d’abord, puis exercez votre rappel lors des révisions suivantes.
 
-Visez environ dix minutes par jour, révisions comprises. Commencez par six nouvelles questions par jour : la lecture et l’écoute comptent séparément. Faites d’abord les révisions dues et ajoutez du nouveau seulement s’il reste du temps. Si les révisions remplissent ce temps, baissez « Nouvelles cartes par jour » ou mettez 0 pour suspendre les nouvelles introductions tout en poursuivant les révisions. Aucune date de fin n’est imposée.
+Visez environ dix minutes par jour, révisions comprises. Commencez par quatre nouvelles questions par jour : la lecture et l’écoute comptent séparément. Faites d’abord les révisions dues et ajoutez du nouveau seulement s’il reste du temps. Si les révisions remplissent ce temps, baissez « Nouvelles cartes par jour » ou mettez 0 pour suspendre les nouvelles introductions tout en poursuivant les révisions. Aucune date de fin n’est imposée.
 
-Pour ce prototype, ouvrez « Options du deck » : réglez « Nouvelles cartes par jour » sur 6, « Nouvelles cartes » sur « Dans l’ordre du deck » et « Afficher les nouvelles cartes » sur « Après les révisions ». Les recommandations du cours ne modifient pas encore automatiquement les réglages de l’app.
+Pour importer ce prototype depuis un fichier, ouvrez « Options du deck » : réglez « Nouvelles cartes par jour » sur 4, « Nouvelles cartes » sur « Dans l’ordre du deck » et « Afficher les nouvelles cartes » sur « Après les révisions ». L’import d’un fichier n’applique pas automatiquement les réglages de départ de la galerie.
 
 Retrouvez les sons et les formes mentalement ; écrire est facultatif. Lisez les mots sans romaji ni indice avant de révéler. Une lecture exacte suffit, même lente. Le sens fournit un contexte, sans vocabulaire à mémoriser. Les tableaux placés après certaines réponses se consultent au besoin, sans questions supplémentaires programmées.
 

@@ -43,3 +43,8 @@ The owner retained the cropped figures and gold kana, and explicitly removed the
 ## 2026-11-08 — Kana-only answers for the brush prototype (#832)
 
 The owner authorized preparing the existing 94 listening and 12 comparison answers for the app’s Debug stroke-reveal prototype and chose **Romaji** as the labelled detail in both English and French. Their main answers contain kana only, retaining each existing answer recording. All six grouped listening answers keep every accepted spelling as alternatives and ordinary text reveal. Other question types continue to answer with romaji. The new Romaji field is appended after all eight existing fields, preserving existing identities and course order. Genuine Anki button/hidden-field details and the existing native payload’s resources carry the same reading. Stroke storage, new writing questions and multi-character drawing remain undecided; this change adds none of them. No release, gallery pin or phone installation is authorized.
+
+
+## 2026-11-08 — Gentler Kana introductions
+
+The owner approved the proposed gentler start: up to two new basic kana and four new scheduled questions per day, reading exposure before reverse listening, and early figures showing only already-introduced kana. The supported static starting preset changes from six to four; no automatic ramp or mastery gate is added. All existing learner options, IDs and history remain stable. The first あ figure contains only あ, then the い figure adds い, within the existing gold-preserving frame. Older figures remain introduction-time snapshots. Existing eligible word questions supply consolidation without adding new questions or recordings. No release, gallery pin or phone installation is authorized.

@@ -4,7 +4,7 @@
     "type": "listening",
     "stage": 0,
     "batch": "hira-batch-01",
-    "priority": 23,
+    "priority": 20,
     "requires": [
       "hira-3042"
     ],
@@ -32,7 +32,7 @@
     "type": "listening",
     "stage": 0,
     "batch": "hira-batch-01",
-    "priority": 24,
+    "priority": 30,
     "requires": [
       "hira-3044"
     ],
@@ -59,8 +59,8 @@
     "id": "listen-hira-u",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-01",
-    "priority": 25,
+    "batch": "hira-batch-02",
+    "priority": 60,
     "requires": [
       "hira-3046"
     ],
@@ -88,7 +88,7 @@
     "type": "listening",
     "stage": 0,
     "batch": "hira-batch-02",
-    "priority": 43,
+    "priority": 70,
     "requires": [
       "hira-3048"
     ],
@@ -115,8 +115,8 @@
     "id": "listen-hira-o",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-18",
-    "priority": 454,
+    "batch": "hira-batch-23",
+    "priority": 1060,
     "requires": [
       "hira-304a",
       "hira-3092"
@@ -146,7 +146,7 @@
     "type": "listening",
     "stage": 0,
     "batch": "hira-batch-03",
-    "priority": 73,
+    "priority": 130,
     "requires": [
       "hira-304b"
     ],
@@ -173,8 +173,8 @@
     "id": "listen-hira-ki",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-03",
-    "priority": 74,
+    "batch": "hira-batch-04",
+    "priority": 170,
     "requires": [
       "hira-304d"
     ],
@@ -201,8 +201,8 @@
     "id": "listen-hira-ku",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-03",
-    "priority": 75,
+    "batch": "hira-batch-04",
+    "priority": 180,
     "requires": [
       "hira-304f"
     ],
@@ -229,8 +229,8 @@
     "id": "listen-hira-ke",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-04",
-    "priority": 93,
+    "batch": "hira-batch-05",
+    "priority": 210,
     "requires": [
       "hira-3051"
     ],
@@ -257,8 +257,8 @@
     "id": "listen-hira-ko",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-04",
-    "priority": 94,
+    "batch": "hira-batch-05",
+    "priority": 220,
     "requires": [
       "hira-3053"
     ],
@@ -285,8 +285,8 @@
     "id": "listen-hira-sa",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-05",
-    "priority": 123,
+    "batch": "hira-batch-06",
+    "priority": 260,
     "requires": [
       "hira-3055"
     ],
@@ -313,8 +313,8 @@
     "id": "listen-hira-shi",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-05",
-    "priority": 124,
+    "batch": "hira-batch-06",
+    "priority": 270,
     "requires": [
       "hira-3057"
     ],
@@ -341,8 +341,8 @@
     "id": "listen-hira-su",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-05",
-    "priority": 125,
+    "batch": "hira-batch-07",
+    "priority": 310,
     "requires": [
       "hira-3059"
     ],
@@ -369,8 +369,8 @@
     "id": "listen-hira-se",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-06",
-    "priority": 143,
+    "batch": "hira-batch-07",
+    "priority": 320,
     "requires": [
       "hira-305b"
     ],
@@ -397,8 +397,8 @@
     "id": "listen-hira-so",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-06",
-    "priority": 144,
+    "batch": "hira-batch-08",
+    "priority": 360,
     "requires": [
       "hira-305d"
     ],
@@ -425,8 +425,8 @@
     "id": "listen-hira-ta",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-07",
-    "priority": 173,
+    "batch": "hira-batch-08",
+    "priority": 370,
     "requires": [
       "hira-305f"
     ],
@@ -453,8 +453,8 @@
     "id": "listen-hira-chi",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-07",
-    "priority": 174,
+    "batch": "hira-batch-09",
+    "priority": 410,
     "requires": [
       "hira-3061"
     ],
@@ -481,8 +481,8 @@
     "id": "listen-hira-tsu",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-07",
-    "priority": 175,
+    "batch": "hira-batch-09",
+    "priority": 420,
     "requires": [
       "hira-3064"
     ],
@@ -509,8 +509,8 @@
     "id": "listen-hira-te",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-08",
-    "priority": 193,
+    "batch": "hira-batch-10",
+    "priority": 460,
     "requires": [
       "hira-3066"
     ],
@@ -537,8 +537,8 @@
     "id": "listen-hira-to",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-08",
-    "priority": 194,
+    "batch": "hira-batch-10",
+    "priority": 470,
     "requires": [
       "hira-3068"
     ],
@@ -565,8 +565,8 @@
     "id": "listen-hira-na",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-09",
-    "priority": 223,
+    "batch": "hira-batch-11",
+    "priority": 500,
     "requires": [
       "hira-306a"
     ],
@@ -593,8 +593,8 @@
     "id": "listen-hira-ni",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-09",
-    "priority": 224,
+    "batch": "hira-batch-11",
+    "priority": 510,
     "requires": [
       "hira-306b"
     ],
@@ -621,8 +621,8 @@
     "id": "listen-hira-nu",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-09",
-    "priority": 225,
+    "batch": "hira-batch-12",
+    "priority": 540,
     "requires": [
       "hira-306c"
     ],
@@ -649,8 +649,8 @@
     "id": "listen-hira-ne",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-10",
-    "priority": 243,
+    "batch": "hira-batch-12",
+    "priority": 550,
     "requires": [
       "hira-306d"
     ],
@@ -677,8 +677,8 @@
     "id": "listen-hira-no",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-10",
-    "priority": 244,
+    "batch": "hira-batch-13",
+    "priority": 600,
     "requires": [
       "hira-306e"
     ],
@@ -705,8 +705,8 @@
     "id": "listen-hira-ha",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-11",
-    "priority": 273,
+    "batch": "hira-batch-13",
+    "priority": 610,
     "requires": [
       "hira-306f"
     ],
@@ -733,8 +733,8 @@
     "id": "listen-hira-hi",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-11",
-    "priority": 274,
+    "batch": "hira-batch-14",
+    "priority": 650,
     "requires": [
       "hira-3072"
     ],
@@ -761,8 +761,8 @@
     "id": "listen-hira-fu",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-11",
-    "priority": 275,
+    "batch": "hira-batch-14",
+    "priority": 660,
     "requires": [
       "hira-3075"
     ],
@@ -789,8 +789,8 @@
     "id": "listen-hira-he",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-12",
-    "priority": 293,
+    "batch": "hira-batch-15",
+    "priority": 700,
     "requires": [
       "hira-3078"
     ],
@@ -817,8 +817,8 @@
     "id": "listen-hira-ho",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-12",
-    "priority": 294,
+    "batch": "hira-batch-15",
+    "priority": 710,
     "requires": [
       "hira-307b"
     ],
@@ -845,8 +845,8 @@
     "id": "listen-hira-ma",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-13",
-    "priority": 323,
+    "batch": "hira-batch-16",
+    "priority": 740,
     "requires": [
       "hira-307e"
     ],
@@ -873,8 +873,8 @@
     "id": "listen-hira-mi",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-13",
-    "priority": 324,
+    "batch": "hira-batch-16",
+    "priority": 750,
     "requires": [
       "hira-307f"
     ],
@@ -901,8 +901,8 @@
     "id": "listen-hira-mu",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-13",
-    "priority": 325,
+    "batch": "hira-batch-17",
+    "priority": 780,
     "requires": [
       "hira-3080"
     ],
@@ -929,8 +929,8 @@
     "id": "listen-hira-me",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-14",
-    "priority": 343,
+    "batch": "hira-batch-17",
+    "priority": 790,
     "requires": [
       "hira-3081"
     ],
@@ -957,8 +957,8 @@
     "id": "listen-hira-mo",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-14",
-    "priority": 344,
+    "batch": "hira-batch-18",
+    "priority": 820,
     "requires": [
       "hira-3082"
     ],
@@ -985,8 +985,8 @@
     "id": "listen-hira-ya",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-15",
-    "priority": 373,
+    "batch": "hira-batch-18",
+    "priority": 830,
     "requires": [
       "hira-3084"
     ],
@@ -1013,8 +1013,8 @@
     "id": "listen-hira-yu",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-15",
-    "priority": 374,
+    "batch": "hira-batch-19",
+    "priority": 880,
     "requires": [
       "hira-3086"
     ],
@@ -1041,8 +1041,8 @@
     "id": "listen-hira-yo",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-15",
-    "priority": 375,
+    "batch": "hira-batch-19",
+    "priority": 890,
     "requires": [
       "hira-3088"
     ],
@@ -1069,8 +1069,8 @@
     "id": "listen-hira-ra",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-16",
-    "priority": 403,
+    "batch": "hira-batch-20",
+    "priority": 930,
     "requires": [
       "hira-3089"
     ],
@@ -1097,8 +1097,8 @@
     "id": "listen-hira-ri",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-16",
-    "priority": 404,
+    "batch": "hira-batch-20",
+    "priority": 940,
     "requires": [
       "hira-308a"
     ],
@@ -1125,8 +1125,8 @@
     "id": "listen-hira-ru",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-16",
-    "priority": 405,
+    "batch": "hira-batch-21",
+    "priority": 980,
     "requires": [
       "hira-308b"
     ],
@@ -1153,8 +1153,8 @@
     "id": "listen-hira-re",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-17",
-    "priority": 423,
+    "batch": "hira-batch-21",
+    "priority": 990,
     "requires": [
       "hira-308c"
     ],
@@ -1181,8 +1181,8 @@
     "id": "listen-hira-ro",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-17",
-    "priority": 424,
+    "batch": "hira-batch-22",
+    "priority": 1020,
     "requires": [
       "hira-308d"
     ],
@@ -1209,8 +1209,8 @@
     "id": "listen-hira-wa",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-18",
-    "priority": 453,
+    "batch": "hira-batch-22",
+    "priority": 1030,
     "requires": [
       "hira-308f"
     ],
@@ -1237,8 +1237,8 @@
     "id": "listen-hira-n",
     "type": "listening",
     "stage": 0,
-    "batch": "hira-batch-18",
-    "priority": 455,
+    "batch": "hira-batch-23",
+    "priority": 1070,
     "requires": [
       "hira-3093"
     ],
@@ -1266,7 +1266,7 @@
     "type": "listening",
     "stage": 2,
     "batch": "kata-batch-01",
-    "priority": 23,
+    "priority": 20,
     "requires": [
       "kata-30a2"
     ],
@@ -1294,7 +1294,7 @@
     "type": "listening",
     "stage": 2,
     "batch": "kata-batch-01",
-    "priority": 24,
+    "priority": 30,
     "requires": [
       "kata-30a4"
     ],
@@ -1321,8 +1321,8 @@
     "id": "listen-kata-u",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-01",
-    "priority": 25,
+    "batch": "kata-batch-02",
+    "priority": 60,
     "requires": [
       "kata-30a6"
     ],
@@ -1350,7 +1350,7 @@
     "type": "listening",
     "stage": 2,
     "batch": "kata-batch-02",
-    "priority": 43,
+    "priority": 70,
     "requires": [
       "kata-30a8"
     ],
@@ -1377,8 +1377,8 @@
     "id": "listen-kata-o",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-18",
-    "priority": 454,
+    "batch": "kata-batch-23",
+    "priority": 950,
     "requires": [
       "kata-30aa",
       "kata-30f2"
@@ -1408,7 +1408,7 @@
     "type": "listening",
     "stage": 2,
     "batch": "kata-batch-03",
-    "priority": 73,
+    "priority": 110,
     "requires": [
       "kata-30ab"
     ],
@@ -1435,8 +1435,8 @@
     "id": "listen-kata-ki",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-03",
-    "priority": 74,
+    "batch": "kata-batch-04",
+    "priority": 140,
     "requires": [
       "kata-30ad"
     ],
@@ -1463,8 +1463,8 @@
     "id": "listen-kata-ku",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-03",
-    "priority": 75,
+    "batch": "kata-batch-04",
+    "priority": 150,
     "requires": [
       "kata-30af"
     ],
@@ -1491,8 +1491,8 @@
     "id": "listen-kata-ke",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-04",
-    "priority": 93,
+    "batch": "kata-batch-05",
+    "priority": 180,
     "requires": [
       "kata-30b1"
     ],
@@ -1519,8 +1519,8 @@
     "id": "listen-kata-ko",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-04",
-    "priority": 94,
+    "batch": "kata-batch-05",
+    "priority": 190,
     "requires": [
       "kata-30b3"
     ],
@@ -1547,8 +1547,8 @@
     "id": "listen-kata-sa",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-05",
-    "priority": 123,
+    "batch": "kata-batch-06",
+    "priority": 220,
     "requires": [
       "kata-30b5"
     ],
@@ -1575,8 +1575,8 @@
     "id": "listen-kata-shi",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-05",
-    "priority": 124,
+    "batch": "kata-batch-06",
+    "priority": 230,
     "requires": [
       "kata-30b7"
     ],
@@ -1603,8 +1603,8 @@
     "id": "listen-kata-su",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-05",
-    "priority": 125,
+    "batch": "kata-batch-07",
+    "priority": 260,
     "requires": [
       "kata-30b9"
     ],
@@ -1631,8 +1631,8 @@
     "id": "listen-kata-se",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-06",
-    "priority": 143,
+    "batch": "kata-batch-07",
+    "priority": 270,
     "requires": [
       "kata-30bb"
     ],
@@ -1659,8 +1659,8 @@
     "id": "listen-kata-so",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-06",
-    "priority": 144,
+    "batch": "kata-batch-08",
+    "priority": 300,
     "requires": [
       "kata-30bd"
     ],
@@ -1687,8 +1687,8 @@
     "id": "listen-kata-ta",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-07",
-    "priority": 173,
+    "batch": "kata-batch-08",
+    "priority": 310,
     "requires": [
       "kata-30bf"
     ],
@@ -1715,8 +1715,8 @@
     "id": "listen-kata-chi",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-07",
-    "priority": 174,
+    "batch": "kata-batch-09",
+    "priority": 340,
     "requires": [
       "kata-30c1"
     ],
@@ -1743,8 +1743,8 @@
     "id": "listen-kata-tsu",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-07",
-    "priority": 175,
+    "batch": "kata-batch-09",
+    "priority": 350,
     "requires": [
       "kata-30c4"
     ],
@@ -1771,8 +1771,8 @@
     "id": "listen-kata-te",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-08",
-    "priority": 193,
+    "batch": "kata-batch-10",
+    "priority": 380,
     "requires": [
       "kata-30c6"
     ],
@@ -1799,8 +1799,8 @@
     "id": "listen-kata-to",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-08",
-    "priority": 194,
+    "batch": "kata-batch-10",
+    "priority": 390,
     "requires": [
       "kata-30c8"
     ],
@@ -1827,8 +1827,8 @@
     "id": "listen-kata-na",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-09",
-    "priority": 223,
+    "batch": "kata-batch-11",
+    "priority": 420,
     "requires": [
       "kata-30ca"
     ],
@@ -1855,8 +1855,8 @@
     "id": "listen-kata-ni",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-09",
-    "priority": 224,
+    "batch": "kata-batch-11",
+    "priority": 430,
     "requires": [
       "kata-30cb"
     ],
@@ -1883,8 +1883,8 @@
     "id": "listen-kata-nu",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-09",
-    "priority": 225,
+    "batch": "kata-batch-12",
+    "priority": 460,
     "requires": [
       "kata-30cc"
     ],
@@ -1911,8 +1911,8 @@
     "id": "listen-kata-ne",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-10",
-    "priority": 243,
+    "batch": "kata-batch-12",
+    "priority": 470,
     "requires": [
       "kata-30cd"
     ],
@@ -1939,8 +1939,8 @@
     "id": "listen-kata-no",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-10",
-    "priority": 244,
+    "batch": "kata-batch-13",
+    "priority": 500,
     "requires": [
       "kata-30ce"
     ],
@@ -1967,8 +1967,8 @@
     "id": "listen-kata-ha",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-11",
-    "priority": 273,
+    "batch": "kata-batch-13",
+    "priority": 510,
     "requires": [
       "kata-30cf"
     ],
@@ -1995,8 +1995,8 @@
     "id": "listen-kata-hi",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-11",
-    "priority": 274,
+    "batch": "kata-batch-14",
+    "priority": 540,
     "requires": [
       "kata-30d2"
     ],
@@ -2023,8 +2023,8 @@
     "id": "listen-kata-fu",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-11",
-    "priority": 275,
+    "batch": "kata-batch-14",
+    "priority": 550,
     "requires": [
       "kata-30d5"
     ],
@@ -2051,8 +2051,8 @@
     "id": "listen-kata-he",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-12",
-    "priority": 293,
+    "batch": "kata-batch-15",
+    "priority": 580,
     "requires": [
       "kata-30d8"
     ],
@@ -2079,8 +2079,8 @@
     "id": "listen-kata-ho",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-12",
-    "priority": 294,
+    "batch": "kata-batch-15",
+    "priority": 590,
     "requires": [
       "kata-30db"
     ],
@@ -2107,8 +2107,8 @@
     "id": "listen-kata-ma",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-13",
-    "priority": 323,
+    "batch": "kata-batch-16",
+    "priority": 620,
     "requires": [
       "kata-30de"
     ],
@@ -2135,8 +2135,8 @@
     "id": "listen-kata-mi",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-13",
-    "priority": 324,
+    "batch": "kata-batch-16",
+    "priority": 630,
     "requires": [
       "kata-30df"
     ],
@@ -2163,8 +2163,8 @@
     "id": "listen-kata-mu",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-13",
-    "priority": 325,
+    "batch": "kata-batch-17",
+    "priority": 670,
     "requires": [
       "kata-30e0"
     ],
@@ -2191,8 +2191,8 @@
     "id": "listen-kata-me",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-14",
-    "priority": 343,
+    "batch": "kata-batch-17",
+    "priority": 680,
     "requires": [
       "kata-30e1"
     ],
@@ -2219,8 +2219,8 @@
     "id": "listen-kata-mo",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-14",
-    "priority": 344,
+    "batch": "kata-batch-18",
+    "priority": 710,
     "requires": [
       "kata-30e2"
     ],
@@ -2247,8 +2247,8 @@
     "id": "listen-kata-ya",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-15",
-    "priority": 373,
+    "batch": "kata-batch-18",
+    "priority": 720,
     "requires": [
       "kata-30e4"
     ],
@@ -2275,8 +2275,8 @@
     "id": "listen-kata-yu",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-15",
-    "priority": 374,
+    "batch": "kata-batch-19",
+    "priority": 760,
     "requires": [
       "kata-30e6"
     ],
@@ -2303,8 +2303,8 @@
     "id": "listen-kata-yo",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-15",
-    "priority": 375,
+    "batch": "kata-batch-19",
+    "priority": 770,
     "requires": [
       "kata-30e8"
     ],
@@ -2331,8 +2331,8 @@
     "id": "listen-kata-ra",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-16",
-    "priority": 403,
+    "batch": "kata-batch-20",
+    "priority": 800,
     "requires": [
       "kata-30e9"
     ],
@@ -2359,8 +2359,8 @@
     "id": "listen-kata-ri",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-16",
-    "priority": 404,
+    "batch": "kata-batch-20",
+    "priority": 810,
     "requires": [
       "kata-30ea"
     ],
@@ -2387,8 +2387,8 @@
     "id": "listen-kata-ru",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-16",
-    "priority": 405,
+    "batch": "kata-batch-21",
+    "priority": 850,
     "requires": [
       "kata-30eb"
     ],
@@ -2415,8 +2415,8 @@
     "id": "listen-kata-re",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-17",
-    "priority": 423,
+    "batch": "kata-batch-21",
+    "priority": 860,
     "requires": [
       "kata-30ec"
     ],
@@ -2443,8 +2443,8 @@
     "id": "listen-kata-ro",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-17",
-    "priority": 424,
+    "batch": "kata-batch-22",
+    "priority": 910,
     "requires": [
       "kata-30ed"
     ],
@@ -2471,8 +2471,8 @@
     "id": "listen-kata-wa",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-18",
-    "priority": 453,
+    "batch": "kata-batch-22",
+    "priority": 920,
     "requires": [
       "kata-30ef"
     ],
@@ -2499,8 +2499,8 @@
     "id": "listen-kata-n",
     "type": "listening",
     "stage": 2,
-    "batch": "kata-batch-18",
-    "priority": 455,
+    "batch": "kata-batch-23",
+    "priority": 960,
     "requires": [
       "kata-30f3"
     ],

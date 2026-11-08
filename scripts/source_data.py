@@ -15,6 +15,14 @@ def ordered(items):
   if available is None:raise ValueError('Missing or cyclic curriculum prerequisites: '+','.join(q['id'] for q in pending[:5]))
   pending.remove(available);result.append(available);known.update(available.get('introduces',[]))
  return result
+def reading_introductions(items=None):
+ # Full authored sequence, including the current reading encounter. Component
+ # filtering must not teach future members of that reading's own batch.
+ introduced=set();result={}
+ for q in ordered(questions() if items is None else items):
+  introduced.update(q.get('introduces',[]))
+  if q['type']=='reading':result[q['id']]=frozenset(introduced)
+ return result
 def inputs(language,artwork=None,only_type=None):
  meta=read('rectoverso.json');words=read(f'source/languages/{language}.json');forms={c['id']:c for c in read('source/kana.json')}
  assets=artwork if artwork is not None else read('artwork/artwork.json')

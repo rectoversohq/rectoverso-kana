@@ -1,4 +1,4 @@
-"""The owner's gold-preserving, three-row reading figures."""
+"""Gold-preserving reading figures containing only introduced kana."""
 import html
 import json
 import sys
@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 from render_artwork import geometry,reading_window,ROMAJI_SIZE,font
-from source_data import inputs
+from source_data import inputs,questions,ordered,reading_introductions
 
 ROLES=('source','clean','darkSource','darkClean')
 
@@ -16,32 +16,34 @@ class ReadingArtworkTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.kana=json.loads((ROOT/'source/kana.json').read_text())
+        cls.introductions=reading_introductions()
         cls.figures=json.loads((ROOT/'artwork/artwork.json').read_text())['figures']
 
-    def test_windows_include_three_complete_rows_and_both_sparse_bottom_rows(self):
+    def test_windows_retain_the_frame_and_exclude_unintroduced_cells(self):
         for script in ('hira','kata'):
             forms=[c for c in self.kana if c['script']==script]
             for target in forms:
-                top,visible=reading_window(target,forms)
+                top,visible=reading_window(target,forms,self.introductions['read-'+target['id']])
                 start=max(0,min(target['row']-1,8))
                 self.assertEqual(top,start*360)
-                self.assertEqual({c['row'] for c in visible},set(range(start,start+3)))
+                self.assertLessEqual({c['row'] for c in visible},set(range(start,start+3)))
+                self.assertTrue(all(c['id'] in self.introductions['read-'+target['id']] for c in visible))
                 self.assertIn(target,visible)
                 for c in visible:
                     x,y,w,h=geometry(c,top)
                     self.assertTrue(0<=x<x+w<=1000 and 0<=y<y+h<=1080)
-            self.assertEqual(reading_window(forms[-1],forms)[0],2880)
-            self.assertEqual(len(reading_window(forms[-1],forms)[1]),8)
+            self.assertEqual(reading_window(forms[-1],forms,self.introductions['read-'+forms[-1]['id']])[0],2880)
+            self.assertEqual(len(reading_window(forms[-1],forms,self.introductions['read-'+forms[-1]['id']])[1]),8)
 
     def test_all_92_figures_keep_target_global_ordinal_and_hide_every_visible_reading(self):
         for target in self.kana:
             forms=[c for c in self.kana if c['script']==target['script']]
             figure=self.figures['read-'+target['id']]
             start=max(0,min(target['row']-1,8));top=start*360
-            visible=[c for c in forms if start<=c['row']<start+3]
+            visible=[c for c in forms if start<=c['row']<start+3 and c['id'] in self.introductions['read-'+target['id']]]
             def box(c):return [[(83+176*c['column'])/1000,(223+360*c['row']-top)/1080],[.13,70/1080]]
             with self.subTest(target=target['id']):
-                self.assertEqual(figure['crop'],{'top':top,'height':1080,'rows':list(range(start,start+3))})
+                self.assertEqual(figure['crop'],{'top':top,'height':1080,'rows':sorted({c['row'] for c in visible})})
                 occlusion=figure['occlusion'];preparation=figure['preparation']
                 self.assertEqual(occlusion['imageSize'],[1000,1080])
                 self.assertEqual(occlusion['ordinal'],forms.index(target)+1)
@@ -54,15 +56,15 @@ class ReadingArtworkTests(unittest.TestCase):
                 self.assertEqual(occlusion['imageName'],figure['source']['file'])
                 for role in ROLES:self.assertEqual(preparation[role],figure[role])
 
-    def test_new_crop_names_avoid_collisions_with_previous_full_tables(self):
+    def test_progressive_names_avoid_collisions_with_both_previous_table_editions(self):
         table_files=set();questions=set()
         for target in self.kana:
             f=self.figures['read-'+target['id']]
             for role in ROLES:
                 asset=f[role];table_files.add(asset['file'])
                 self.assertEqual((asset['width'],asset['height']),(1000,1080))
-                self.assertIn('-rows-',asset['file'])
-                self.assertTrue(asset['file'].startswith('rv-kana-'+target['id']+'-rows-'))
+                self.assertIn('-introduced-',asset['file'])
+                self.assertTrue(asset['file'].startswith('rv-kana-'+target['id']+'-introduced-'))
             q=f['question'];questions.add(q['file'])
             self.assertEqual(q['file'],'rv-kana-'+target['id']+'-question.png')
             self.assertEqual((q['width'],q['height']),(700,500))

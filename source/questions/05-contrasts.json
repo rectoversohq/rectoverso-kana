@@ -3,7 +3,7 @@
     "id": "contrast-nu-me-nu",
     "type": "contrast",
     "stage": 0,
-    "priority": 700,
+    "priority": 1080,
     "requires": [
       "hira-306c",
       "hira-3081"
@@ -23,13 +23,14 @@
     },
     "references": [
       "mext-kana"
-    ]
+    ],
+    "batch": "hira-comparisons"
   },
   {
     "id": "contrast-nu-me-me",
     "type": "contrast",
     "stage": 0,
-    "priority": 800,
+    "priority": 1110,
     "requires": [
       "hira-306c",
       "hira-3081"
@@ -49,13 +50,14 @@
     },
     "references": [
       "mext-kana"
-    ]
+    ],
+    "batch": "hira-comparisons"
   },
   {
     "id": "contrast-ru-ro-ru",
     "type": "contrast",
     "stage": 0,
-    "priority": 710,
+    "priority": 1090,
     "requires": [
       "hira-308b",
       "hira-308d"
@@ -75,13 +77,14 @@
     },
     "references": [
       "mext-kana"
-    ]
+    ],
+    "batch": "hira-comparisons"
   },
   {
     "id": "contrast-ru-ro-ro",
     "type": "contrast",
     "stage": 0,
-    "priority": 810,
+    "priority": 1120,
     "requires": [
       "hira-308b",
       "hira-308d"
@@ -101,13 +104,14 @@
     },
     "references": [
       "mext-kana"
-    ]
+    ],
+    "batch": "hira-comparisons"
   },
   {
     "id": "contrast-ne-re-ne",
     "type": "contrast",
     "stage": 0,
-    "priority": 720,
+    "priority": 1100,
     "requires": [
       "hira-306d",
       "hira-308c"
@@ -127,13 +131,14 @@
     },
     "references": [
       "mext-kana"
-    ]
+    ],
+    "batch": "hira-comparisons"
   },
   {
     "id": "contrast-ne-re-re",
     "type": "contrast",
     "stage": 0,
-    "priority": 820,
+    "priority": 1130,
     "requires": [
       "hira-306d",
       "hira-308c"
@@ -153,13 +158,14 @@
     },
     "references": [
       "mext-kana"
-    ]
+    ],
+    "batch": "hira-comparisons"
   },
   {
     "id": "contrast-shi-tsu-shi",
     "type": "contrast",
     "stage": 2,
-    "priority": 730,
+    "priority": 970,
     "requires": [
       "kata-30b7",
       "kata-30c4"
@@ -179,13 +185,14 @@
     },
     "references": [
       "mext-kana"
-    ]
+    ],
+    "batch": "kata-comparisons"
   },
   {
     "id": "contrast-shi-tsu-tsu",
     "type": "contrast",
     "stage": 2,
-    "priority": 830,
+    "priority": 1000,
     "requires": [
       "kata-30b7",
       "kata-30c4"
@@ -205,13 +212,14 @@
     },
     "references": [
       "mext-kana"
-    ]
+    ],
+    "batch": "kata-comparisons"
   },
   {
     "id": "contrast-so-n-so",
     "type": "contrast",
     "stage": 2,
-    "priority": 740,
+    "priority": 980,
     "requires": [
       "kata-30bd",
       "kata-30f3"
@@ -231,13 +239,14 @@
     },
     "references": [
       "mext-kana"
-    ]
+    ],
+    "batch": "kata-comparisons"
   },
   {
     "id": "contrast-so-n-n",
     "type": "contrast",
     "stage": 2,
-    "priority": 840,
+    "priority": 1010,
     "requires": [
       "kata-30bd",
       "kata-30f3"
@@ -257,13 +266,14 @@
     },
     "references": [
       "mext-kana"
-    ]
+    ],
+    "batch": "kata-comparisons"
   },
   {
     "id": "contrast-ku-ke-ku",
     "type": "contrast",
     "stage": 2,
-    "priority": 750,
+    "priority": 990,
     "requires": [
       "kata-30af",
       "kata-30b1"
@@ -283,13 +293,14 @@
     },
     "references": [
       "mext-kana"
-    ]
+    ],
+    "batch": "kata-comparisons"
   },
   {
     "id": "contrast-ku-ke-ke",
     "type": "contrast",
     "stage": 2,
-    "priority": 850,
+    "priority": 1020,
     "requires": [
       "kata-30af",
       "kata-30b1"
@@ -309,6 +320,7 @@
     },
     "references": [
       "mext-kana"
-    ]
+    ],
+    "batch": "kata-comparisons"
   }
 ]

@@ -3,7 +3,7 @@
     "id": "word-ao",
     "type": "word",
     "stage": 0,
-    "priority": 47,
+    "priority": 120,
     "requires": [
       "hira-3042",
       "hira-304a"
@@ -27,13 +27,14 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "hira-batch-03"
   },
   {
     "id": "word-ie",
     "type": "word",
     "stage": 0,
-    "priority": 37,
+    "priority": 80,
     "requires": [
       "hira-3044",
       "hira-3048"
@@ -57,13 +58,14 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "hira-batch-02"
   },
   {
     "id": "word-ue",
     "type": "word",
     "stage": 0,
-    "priority": 37,
+    "priority": 90,
     "requires": [
       "hira-3046",
       "hira-3048"
@@ -87,13 +89,14 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "hira-batch-02"
   },
   {
     "id": "word-kao",
     "type": "word",
     "stage": 0,
-    "priority": 57,
+    "priority": 140,
     "requires": [
       "hira-304b",
       "hira-304a"
@@ -117,13 +120,14 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "hira-batch-03"
   },
   {
     "id": "word-ike",
     "type": "word",
     "stage": 0,
-    "priority": 87,
+    "priority": 230,
     "requires": [
       "hira-3044",
       "hira-3051"
@@ -147,13 +151,14 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "hira-batch-05"
   },
   {
     "id": "word-shio",
     "type": "word",
     "stage": 0,
-    "priority": 117,
+    "priority": 280,
     "requires": [
       "hira-3057",
       "hira-304a"
@@ -177,13 +182,14 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "hira-batch-06"
   },
   {
     "id": "word-sushi",
     "type": "word",
     "stage": 0,
-    "priority": 127,
+    "priority": 330,
     "requires": [
       "hira-3059",
       "hira-3057"
@@ -207,13 +213,14 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "hira-batch-07"
   },
   {
     "id": "word-tako",
     "type": "word",
     "stage": 0,
-    "priority": 157,
+    "priority": 380,
     "requires": [
       "hira-305f",
       "hira-3053"
@@ -237,13 +244,14 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "hira-batch-08"
   },
   {
     "id": "word-kuchi",
     "type": "word",
     "stage": 0,
-    "priority": 167,
+    "priority": 430,
     "requires": [
       "hira-304f",
       "hira-3061"
@@ -267,13 +275,14 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "hira-batch-09"
   },
   {
     "id": "word-neko",
     "type": "word",
     "stage": 0,
-    "priority": 237,
+    "priority": 570,
     "requires": [
       "hira-306d",
       "hira-3053"
@@ -297,13 +306,14 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "hira-batch-12"
   },
   {
     "id": "word-inu",
     "type": "word",
     "stage": 0,
-    "priority": 227,
+    "priority": 560,
     "requires": [
       "hira-3044",
       "hira-306c"
@@ -327,13 +337,14 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "hira-batch-12"
   },
   {
     "id": "word-fune",
     "type": "word",
     "stage": 0,
-    "priority": 277,
+    "priority": 670,
     "requires": [
       "hira-3075",
       "hira-306d"
@@ -357,13 +368,14 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "hira-batch-14"
   },
   {
     "id": "word-hana",
     "type": "word",
     "stage": 0,
-    "priority": 257,
+    "priority": 620,
     "requires": [
       "hira-306f",
       "hira-306a"
@@ -388,13 +400,14 @@
       "mext-kana",
       "jf-irodori",
       "jf-wordlist"
-    ]
+    ],
+    "batch": "hira-batch-13"
   },
   {
     "id": "word-heya",
     "type": "word",
     "stage": 0,
-    "priority": 357,
+    "priority": 840,
     "requires": [
       "hira-3078",
       "hira-3084"
@@ -418,13 +431,14 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "hira-batch-18"
   },
   {
     "id": "word-yama",
     "type": "word",
     "stage": 0,
-    "priority": 357,
+    "priority": 850,
     "requires": [
       "hira-3084",
       "hira-307e"
@@ -448,13 +462,14 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "hira-batch-18"
   },
   {
     "id": "word-sora",
     "type": "word",
     "stage": 0,
-    "priority": 387,
+    "priority": 950,
     "requires": [
       "hira-305d",
       "hira-3089"
@@ -478,13 +493,14 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "hira-batch-20"
   },
   {
     "id": "word-yuki",
     "type": "word",
     "stage": 0,
-    "priority": 367,
+    "priority": 900,
     "requires": [
       "hira-3086",
       "hira-304d"
@@ -509,13 +525,14 @@
       "mext-kana",
       "jf-irodori",
       "jf-wordlist"
-    ]
+    ],
+    "batch": "hira-batch-19"
   },
   {
     "id": "word-hon",
     "type": "word",
-    "stage": 0,
-    "priority": 457,
+    "stage": 2,
+    "priority": 100,
     "requires": [
       "hira-307b",
       "hira-3093"
@@ -539,7 +556,8 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "kata-batch-03"
   },
   {
     "id": "word-jikan",
@@ -757,7 +775,7 @@
     "id": "word-kamera",
     "type": "word",
     "stage": 2,
-    "priority": 387,
+    "priority": 820,
     "requires": [
       "kata-30ab",
       "kata-30e1",
@@ -782,13 +800,14 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "kata-batch-20"
   },
   {
     "id": "word-memo",
     "type": "word",
     "stage": 2,
-    "priority": 347,
+    "priority": 730,
     "requires": [
       "kata-30e1",
       "kata-30e2"
@@ -812,13 +831,14 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "kata-batch-18"
   },
   {
     "id": "word-tomato",
     "type": "word",
     "stage": 2,
-    "priority": 307,
+    "priority": 640,
     "requires": [
       "kata-30c8",
       "kata-30de"
@@ -842,13 +862,14 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "kata-batch-16"
   },
   {
     "id": "word-hoteru",
     "type": "word",
     "stage": 2,
-    "priority": 407,
+    "priority": 870,
     "requires": [
       "kata-30db",
       "kata-30c6",
@@ -873,13 +894,14 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "kata-batch-21"
   },
   {
     "id": "word-miruku",
     "type": "word",
     "stage": 2,
-    "priority": 407,
+    "priority": 880,
     "requires": [
       "kata-30df",
       "kata-30eb",
@@ -904,7 +926,8 @@
     "references": [
       "mext-kana",
       "jf-irodori"
-    ]
+    ],
+    "batch": "kata-batch-21"
   },
   {
     "id": "word-basu",

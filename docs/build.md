@@ -52,7 +52,7 @@ python scripts/ci.py --output /external/kana-update-ci --previous /external/prev
 
 The previous folder must hold Japanese-Kana-en.apkg and Japanese-Kana-fr.apkg. This same-inventory preflight checks the existing course; deliberate inventory changes need a separate migration check.
 
-The shared root `study` field follows app #823: `{"newCards":"deckOrder","newPerDay":6,"newPosition":"afterReviews"}`. Both expanded language sidecars carry this same value; `studyRecommendations` is removed. Source checks reject missing or drifted settings. Anki’s authored new-queue positions are unchanged. This is a gallery preset: the catalog carries it, and a supporting app applies it only on the first gallery add, preserving learner overrides thereafter. Direct APKG imports do not activate it; their existing manual setup guidance remains applicable.
+The shared root `study` field follows app #823: `{"newCards":"deckOrder","newPerDay":4,"newPosition":"afterReviews"}`. Both expanded language sidecars carry this same value; `studyRecommendations` is removed. Source checks reject missing or drifted settings. Anki’s authored new-queue positions are unchanged. This is a gallery preset: the catalog carries it, and a supporting app applies it only on the first gallery add, preserving learner overrides thereafter. Direct APKG imports do not activate it; their existing manual setup guidance remains applicable.
 
 
 ### Gold-preserving reading crops (#830)
@@ -71,3 +71,14 @@ The 94 listening and 12 comparison answers put only their accepted kana in Back,
 Native-payload notes bypass the generic Anki details parser, so the same reading is also carried by the existing resources representation in the native payload. This is an answer resource, not a new stroke-data field or brush flag. In the app's Debug prototype, resources and the answer's sound control appear after the last stroke. The six shared-sound groups retain all accepted alternatives as ordinary text; no spelling is selected to force a single-character answer.
 
 The normal CI checks all 106 affected notes in both languages. The previous-edition command above also permits exactly this approved trailing field addition, verifies that the updated answer template was adopted, and preserves the original schema identities, note/card IDs and studied state. [Brush review](reviews/brush-ready.md) records actual importer/native checks and the prototype's limited character coverage.
+
+
+### Gentler introductions
+
+The supported study preset starts at four new questions per day, after reviews and in deck order. Existing learner options survive updates; direct file imports need the manual settings in the learner guide. No automatic pace increase or mastery lock is encoded.
+
+The full dependency-resolved curriculum pairs basic readings before their reverse questions, with at least one intervening question for each matching reverse. Every rolling four-question window contains at most two basic introductions. The grouped お／を and オ／ヲ answers wait for both spellings; an already-readable hiragana word supplies consolidation during the early katakana exception. IDs, answer sounds and question inventory stay unchanged.
+
+The renderer computes each reading’s introduced-token set from the complete authored sequence before component filtering. Only that target and earlier same-script kana within its existing 1,000 × 1,080 frame are drawn or registered as regions. Future glyphs and readings are absent; unused row dividers disappear. Gold, font sizes, target boxes, global ordinals, hideAll and separate note/card identities remain. These are static introduction snapshots, not a learner-state-aware reference table. The new filenames use -introduced- instead of -rows- to avoid colliding with older stored media.
+
+CI checks the rolling density, grouped prerequisites, exact visible masks/regions, empty future glyph/reading areas in every packaged table, and actual old-edition image adoption with history preservation. The original crop specification above describes the retained frame geometry; its former all-neighbor figure contents are superseded by this progressive visibility rule.

@@ -2,6 +2,9 @@
 import argparse,hashlib,html,json,re,tempfile
 from pathlib import Path
 from PIL import Image
+import sys
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+from source_data import ordered,questions as source_questions
 
 ROOT=Path(__file__).resolve().parents[2]
 
@@ -32,6 +35,10 @@ def inspect(package,output):
    load(col,package);ids=col.find_cards('');assert len(ids)==count
    seen=set();states=[]
    kana=json.loads((ROOT/'source/kana.json').read_text());forms={c['id']:c for c in kana}
+   introduced={};known=set()
+   for q in ordered(source_questions()):
+    known.update(q.get('introduces',[]))
+    if q['type']=='reading':introduced[q['id']]=known.copy()
    questions={q['id']:q for path in sorted((ROOT/'source/questions').glob('*.json')) for q in json.loads(path.read_text())}
    for cid in ids:
     card=col.get_card(cid);note=col.get_note(card.nid);p=payload(note);seen.add(note.guid)
@@ -47,7 +54,7 @@ def inspect(package,output):
      target=forms[note.guid.split('-read-',1)[1]]
      script=[c for c in kana if c['script']==target['script']]
      start=max(0,min(target['row']-1,8));top=start*360
-     visible=[c for c in script if start<=c['row']<start+3]
+     visible=[c for c in script if start<=c['row']<start+3 and c['id'] in introduced[question['id']]]
      def box(c):return [[(83+176*c['column'])/1000,(223+360*c['row']-top)/1080],[.13,70/1080]]
      regions=p['preparation']['regions'];occlusion=p['occlusion']
      assert [(r['id'],r['ordinal'],r['answer'],r['geometry']['coordinates']) for r in regions]==[(c['id'],script.index(c)+1,c['reading'],sum(box(c),[])) for c in visible]
@@ -58,7 +65,7 @@ def inspect(package,output):
      assert occlusion['imageName']==p['preparation']['source']['file']
      for role in ['source','clean','darkSource','darkClean']:
       asset=p['preparation'][role];path=Path(col.media.dir())/asset['file']
-      assert '-rows-' in asset['file'] and [asset['width'],asset['height']]==[1000,1080]
+      assert '-introduced-' in asset['file'] and [asset['width'],asset['height']]==[1000,1080]
       assert hashlib.sha256(path.read_bytes()).hexdigest()==asset['sha256']
       with Image.open(path) as image:
        assert image.size==(1000,1080)
@@ -67,6 +74,11 @@ def inspect(package,output):
        # The gold glyph remains; a line below it could look like another stroke.
        assert image.crop((cx-23,cy+108,cx+24,cy+112)).getextrema()==tuple((v,v) for v in paper)
        assert gold in image.crop((cx-65,cy-10,cx+65,cy+108)).getdata()
+       for future in script:
+        if start<=future['row']<start+3 and future not in visible:
+         fx=148+176*future['column'];fy=38+360*future['row']-top
+         for area in ((fx-65,fy,fx+65,fy+108),(fx-65,fy+185,fx+65,fy+255)):
+          assert image.crop(area).getextrema()==tuple((v,v) for v in paper),('Future kana or reading visible',future['id'],question['id'])
      assert 'Read this kana.' in front or 'Comment se lit ce kana' in front
      assert '[sound:' in note['Back'] and card.answer_av_tags() and p['originalOcclusionAnswer'] in note['Back']
     if direction=='listening':

@@ -2,9 +2,9 @@
 
 Start with no Japanese knowledge. Learn hiragana first, then katakana, with short-word reading practice. A new kana is a chance to reveal and listen before practicing recall on later visits.
 
-Aim for about ten minutes a day, including reviews. Start with six new questions a day: reading and listening directions count separately. Complete due reviews first and introduce new material only when time remains. If reviews fill your budget, lower “New cards a day”, or set it to 0 to pause new introductions while continuing reviews. There is no fixed finishing date.
+Aim for about ten minutes a day, including reviews. Start with four new questions a day: reading and listening directions count separately. Complete due reviews first and introduce new material only when time remains. If reviews fill your budget, lower “New cards a day”, or set it to 0 to pause new introductions while continuing reviews. There is no fixed finishing date.
 
-For this prototype, open “Deck options”: set “New cards a day” to 6, “New cards” to “In deck order”, and “Show new cards” to “After reviews”. Course recommendations do not automatically change the app’s settings yet.
+For a file import of this prototype, open “Deck options”: set “New cards a day” to 4, “New cards” to “In deck order”, and “Show new cards” to “After reviews”. File imports do not apply the gallery’s starting settings automatically.
 
 Recall mentally; handwriting is optional. Read words without romaji or hints before revealing. Accurate decoding counts even when slow. Meanings provide context, not vocabulary to memorize. Reference tables after relevant answers are for consultation, not extra scheduled questions.
 

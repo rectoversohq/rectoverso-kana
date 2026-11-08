@@ -6,7 +6,7 @@ Confirmed by the owner on 7 November 2026. This is the agreed pedagogy, sequenci
 
 A complete beginner can use this course without external lessons to learn hiragana and katakana and accurately decode unfamiliar short words built from the characters and rules taught. Success means unaided reading without romaji or hints, respecting vowel length and doubled consonants. There is no speed requirement.
 
-Reading and sound-to-kana recall are the core skills. Mental recall is sufficient; handwriting is encouraged as optional practice. The exercises must test connections between sounds and written forms, rather than memorisation of positions in a kana table.
+Reading and sound-to-kana recall are the core skills. Mental recall is sufficient; handwriting is encouraged as optional practice. The exercises must test connections between sounds and written forms, rather than memorisation of positions in a kana table. Reading figures show the target and only kana already introduced at that point in the authored sequence, within the retained three-row frame. Every drawn reading is concealed with hideAll. The first figure contains only あ and the second adds い; later cards grow the visible set. These are authored snapshots: an older card retains its earlier view on review, without a claim of measuring mastery.
 
 The shared Japanese curriculum has English and French guidance. Word meanings provide context, rather than a separate vocabulary-recall objective.
 
@@ -17,7 +17,7 @@ The shared Japanese curriculum has English and French guidance. Word meanings pr
 3. **Katakana:** familiar sounds with new written forms, followed by applicable reading conventions and selected common extensions such as ファ, ティ and チェ.
 4. **Cumulative reading:** a final block mixing hiragana and katakana words not previously used as teaching examples, containing only characters and rules already introduced.
 
-Within a small batch, reading exposure comes before listening recall. Matching questions are separated by other material. A grouped listening question appears only after all the forms in its accepted answer have been introduced.
+Basic characters are introduced in pairs. The first four questions are reading あ, reading い, listening あ, listening い; the next four do the same for う and え. Every rolling window of four authored questions introduces at most two new basic kana. Existing eligible word questions provide consolidation, including an already-readable hiragana word during early katakana while its grouped オ／ヲ listening question remains delayed. Within each pair, reading exposure comes before listening recall. Matching questions are separated by other material. A grouped listening question appears only after all the forms in its accepted answer have been introduced.
 
 Authored order controls new introductions. Earlier material continues through spaced reviews while the learner progresses. Checkpoints provide practice and feedback; they do not lock access to later material.
 
@@ -58,11 +58,11 @@ Particle-use readings, phrase or sentence lessons, grammar, kanji, vocabulary me
 
 ## Pacing and app dependency
 
-The study target is **ten minutes per day, including reviews**. Start with **six new scheduled questions per day**, not six new characters. Word and comparison questions use that same allowance. Due reviews take priority; learners should be shown how to reduce or pause new introductions when reviews fill the time budget.
+The study target is **ten minutes per day, including reviews**. Start with **four new scheduled questions per day**. Word and comparison questions use that same allowance. Due reviews take priority; learners should be shown how to reduce or pause new introductions when reviews fill the time budget.
 
-Six questions is a starting preset to check against real study sessions. The course has no fixed completion deadline. The basic inventory alone requires at least 31 days of introductions at that cap; additional exercises and pauses extend the course. Introducing every question is not itself proof of mastery, and spaced reviews continue afterward.
+Four questions is a starting preset to check against real study sessions. The course has no fixed completion deadline. The basic inventory alone requires at least 46 days of introductions at that cap; additional exercises and pauses extend the course. Introducing every question is not itself proof of mastery, and spaced reviews continue afterward.
 
-Automatic authored introduction order is a launch requirement. The source declares `study: {"newCards": "deckOrder", "newPerDay": 6, "newPosition": "afterReviews"}` for both languages, using the contract implemented in **[app #823 / #805](https://github.com/simonpinkas/RectoVerso/pull/823)**. A supporting app applies these options when first adding a new deck from the gallery. Updates, restored decks and saved learner choices retain their options; direct APKG imports receive no gallery preset. Existing learner changes and study history must survive reimports and updates.
+Automatic authored introduction order is a launch requirement. The source declares `study: {"newCards": "deckOrder", "newPerDay": 4, "newPosition": "afterReviews"}` for both languages, using the contract implemented in **[app #823 / #805](https://github.com/simonpinkas/RectoVerso/pull/823)**. A supporting app applies these options when first adding a new deck from the gallery. Updates, restored decks and saved learner choices retain their options; direct APKG imports receive no gallery preset. Existing learner changes and study history must survive reimports and updates.
 
 ## Working references
 
