@@ -12,5 +12,6 @@
   "contrast": "Comparer",
   "variant": "Une autre forme",
   "checkpoint": "Bilan de lecture",
-  "listenOnePrompt": "Une forme suffit."
+  "listenOnePrompt": "Une forme suffit.",
+  "romajiLabel": "Romaji"
 }

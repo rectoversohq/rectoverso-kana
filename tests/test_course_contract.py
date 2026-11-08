@@ -66,7 +66,7 @@ class CourseContractTests(unittest.TestCase):
                     self.assertEqual(fields['Front'],'[sound:'+question['audio']+']')
                     self.assertEqual(fields['Kicker'],question['instruction'][language])
                     self.assertEqual(fields['Meta'],hint if len(question['accepted'])>1 else '')
-                    self.assertEqual(fields['Back'],' / '.join(question['accepted'])+' · '+question['answerReading']+'[sound:'+question['audio']+']')
+                    self.assertEqual(fields['Back'],' / '.join(question['accepted'])+'[sound:'+question['audio']+']')
 
     def test_owner_approved_play_label_is_kept_in_both_expansions(self):
         labels={'en':'Listen','fr':'Écouter'}

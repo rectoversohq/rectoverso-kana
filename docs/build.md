@@ -62,3 +62,12 @@ The owner chose cropped per-card figures rather than shared neutral tables. The 
 Each of the 92 reading notes still has its own four files, named rv-kana-<target>-rows-<light|dark>-<source|clean>.png. The new rows names avoid Anki media collisions with older full-table files. The 700 × 500 question PNGs retain their names and bytes. Preparation regions and sibling masks include every kana visible in that crop, normalized to its dimensions, with the original script-global ordinals and hideAll. Each card/note, GUID, stage, batch, priority and authored due position stays separate.
 
 The normal CI command rebuilds and validates these figures. Reading regressions cover sparse edge rows, all target/reading/ordinal/mask mappings, separate note/card identities and label fit. Anki checks verify the actual preparation asset hashes and dimensions; the previous-edition check also compares every referenced image’s bytes, alongside sound bytes and full study-history preservation. Existing collections can retain unused old full-table media; new packages include only cropped tables. Native checks require app PR #831 and remain separately reported.
+
+
+### Kana-only answers and Romaji details (#832)
+
+The 94 listening and 12 comparison answers put only their accepted kana in Back, followed by the unchanged sound token. Romaji is appended after the original eight fields; existing field, model and template IDs never move. The answer template conditionally renders a real **Explore** / **Explorer** input button opening a hidden **Romaji** detail. Both languages use the owner-approved label **Romaji**. Other question types leave that field empty.
+
+Native-payload notes bypass the generic Anki details parser, so the same reading is also carried by the existing resources representation in the native payload. This is an answer resource, not a new stroke-data field or brush flag. In the app's Debug prototype, resources and the answer's sound control appear after the last stroke. The six shared-sound groups retain all accepted alternatives as ordinary text; no spelling is selected to force a single-character answer.
+
+The normal CI checks all 106 affected notes in both languages. The previous-edition command above also permits exactly this approved trailing field addition, verifies that the updated answer template was adopted, and preserves the original schema identities, note/card IDs and studied state. [Brush review](reviews/brush-ready.md) records actual importer/native checks and the prototype's limited character coverage.

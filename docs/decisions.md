@@ -38,3 +38,8 @@ The owner selected « Keep gold; use cropped per-card figures » instead of neut
 ## 2026-11-08 — Gold glyph without an underline
 
 The owner retained the cropped figures and gold kana, and explicitly removed the underline because it looked like part of the symbol. The gold character itself is now the only baked target highlight. Font sizes, glyph shapes, crop geometry, masks, identities and course order remain as above.
+
+
+## 2026-11-08 — Kana-only answers for the brush prototype (#832)
+
+The owner authorized preparing the existing 94 listening and 12 comparison answers for the app’s Debug stroke-reveal prototype and chose **Romaji** as the labelled detail in both English and French. Their main answers contain kana only, retaining each existing answer recording. All six grouped listening answers keep every accepted spelling as alternatives and ordinary text reveal. Other question types continue to answer with romaji. The new Romaji field is appended after all eight existing fields, preserving existing identities and course order. Genuine Anki button/hidden-field details and the existing native payload’s resources carry the same reading. Stroke storage, new writing questions and multi-character drawing remain undecided; this change adds none of them. No release, gallery pin or phone installation is authorized.

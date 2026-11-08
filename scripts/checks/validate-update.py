@@ -6,8 +6,11 @@ import importlib.util
 import json
 import re
 import tempfile
+import sys
 from pathlib import Path
 from anki.collection import Collection
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+from schema_update import check_schema_update
 
 spec=importlib.util.spec_from_file_location('rebuild',Path(__file__).with_name('validate-rebuild.py'))
 rebuild=importlib.util.module_from_spec(spec);spec.loader.exec_module(rebuild)
@@ -29,14 +32,18 @@ def verify(previous,current,output):
                 return collection.db.all('select id,nid,did,ord,type,queue,due,ivl,factor,reps,lapses,left,odue,odid,flags,data from cards order by id')
             def schema_ids():
                 used={collection.get_note(i).mid for i in collection.find_notes('')}
-                return {m['id']:([f['id'] for f in m['flds']],[t['id'] for t in m['tmpls']]) for m in collection.models.all() if m['id'] in used}
+                return {m['id']:([(f['name'],f['id']) for f in m['flds']],[t['id'] for t in m['tmpls']]) for m in collection.models.all() if m['id'] in used}
             before_schemas=schema_ids()
             before=states();before_log=collection.db.all('select * from revlog order by id');note_ids={collection.get_note(n).guid:n for n in collection.find_notes('')}
             rebuild.load(collection,current)
             if states()!=before or collection.db.all('select * from revlog order by id')!=before_log or set(collection.find_cards(''))!=ids:
                 raise ValueError('Update changed card identity or study history')
-            if schema_ids()!=before_schemas:
-                raise ValueError('Update changed model, field or template identity')
+            wanted_schemas={mid:(schema['fields'],[t[0] for t in schema['templates']]) for mid,schema in expected['schemas'].items()}
+            check_schema_update(before_schemas,schema_ids(),wanted_schemas)
+            for mid,schema in expected['schemas'].items():
+                actual=collection.models.get(mid)
+                if [(t['id'],t['qfmt'],t['afmt']) for t in actual['tmpls']]!=schema['templates']:
+                    raise ValueError('Updated answer template was not adopted')
             notes={n.guid:n for n in (collection.get_note(i) for i in collection.find_notes(''))}
             if set(notes)!=set(expected['notes']) or {g:n.id for g,n in notes.items()}!=note_ids:
                 raise ValueError('Update changed note identity or inventory')
@@ -75,7 +82,7 @@ def verify(previous,current,output):
                     new_names=re.findall(r'\[sound:([^]]+)\]',wanted)
                     for actual_name,source_name in zip(old_names,new_names,strict=True):
                         if actual_name!=source_name:renamed[source_name]=actual_name
-            result=dict(cards=len(ids),noteAndCardIDsPreserved=True,modelFieldTemplateIDsPreserved=True,allStudyStatesPreserved=True,reviewLogPreserved=True,
+            result=dict(cards=len(ids),noteAndCardIDsPreserved=True,modelFieldTemplateIDsPreserved=True,appendedFieldsValidated=True,updatedTemplatesExact=True,allStudyStatesPreserved=True,reviewLogPreserved=True,
                         updatedContentAndReferencedAudioExact=True,referencedImageBytesExact=True,preparationAssetHashesExact=True,imageDigests=len(images),preparations=len(preparations),audioDigests=len(audio),ankiRenamedAudio=renamed)
         finally:collection.close()
     output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')

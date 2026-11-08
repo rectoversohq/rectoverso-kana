@@ -4,6 +4,18 @@ from pathlib import Path
 from PIL import Image
 
 ROOT=Path(__file__).resolve().parents[2]
+
+
+def verify_kana_detail(card,note,native,question,language):
+ expected=' / '.join(question['accepted']) if question['type']=='listening' else question['answerKana']
+ assert note['Back']==expected+'[sound:'+question['audio']+']'
+ assert note['Romaji']==question['answerReading']
+ assert native['resources']==[{'name':'Romaji','text':question['answerReading']}]
+ assert card.answer_av_tags()
+ back=card.answer().split('<hr id="answer">',1)[1]
+ assert '<input type="button"' in back and 'id="rv-details" hidden' in back
+ assert '<strong>Romaji</strong>' in back and 'aria-expanded="false"' in back
+ assert ('value="Explore"' if language=='en' else 'value="Explorer"') in back
 from anki.collection import Collection,ExportAnkiPackageOptions
 from anki.import_export_pb2 import ImportAnkiPackageRequest,ImportAnkiPackageOptions
 
@@ -20,12 +32,16 @@ def inspect(package,output):
    load(col,package);ids=col.find_cards('');assert len(ids)==count
    seen=set();states=[]
    kana=json.loads((ROOT/'source/kana.json').read_text());forms={c['id']:c for c in kana}
+   questions={q['id']:q for path in sorted((ROOT/'source/questions').glob('*.json')) for q in json.loads(path.read_text())}
    for cid in ids:
     card=col.get_card(cid);note=col.get_note(card.nid);p=payload(note);seen.add(note.guid)
     front,back=card.question(),card.answer();after=back.split('<hr id="answer">',1)[1]
     assert front.strip() and after.strip() and 'rv-kana-' not in re.sub(r'<[^>]*>','',front)
     direction=next(t.removeprefix('exercise::') for t in note.tags if t.startswith('exercise::'))
     sounds=re.findall(r'\[sound:([^\]]+)\]',note['Front'])
+    question=questions[note.guid.split('-'+meta['language']+'-',1)[1]]
+    if direction in ('listening','contrast'):verify_kana_detail(card,note,p,question,meta['language'])
+    else:assert not note['Romaji'] and 'rv-details' not in after and 'resources' not in p
     if direction=='reading':
      assert not sounds and p['kind']=='occlusion' and p['preparation']['mode']=='hideAll'
      target=forms[note.guid.split('-read-',1)[1]]
@@ -64,7 +80,7 @@ def inspect(package,output):
     assert note['Note'].strip()
     for media in re.findall(r'(?:src=[\"\']|\[sound:)([^\"\'\]>]+)', '\n'.join(note.fields)):
      assert (Path(col.media.dir())/media).is_file(),media
-    states.append({'guid':note.guid,'kind':direction,'payloadKind':p['kind'],'note':note['Note'],'front':note['Front'],'instruction':note['Meta'],'answer':note['Back']})
+    states.append({'guid':note.guid,'kind':direction,'payloadKind':p['kind'],'note':note['Note'],'front':note['Front'],'instruction':note['Meta'],'answer':note['Back'],'romaji':note['Romaji']})
    assert len(seen)==count
    missing=col.media.check().missing;assert not missing,missing
    hashes={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in Path(col.media.dir()).iterdir() if p.is_file()}

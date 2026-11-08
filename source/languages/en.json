@@ -12,5 +12,6 @@
   "contrast": "Compare",
   "variant": "Another form",
   "checkpoint": "Reading check",
-  "listenOnePrompt": "Recall one valid form."
+  "listenOnePrompt": "Recall one valid form.",
+  "romajiLabel": "Romaji"
 }
