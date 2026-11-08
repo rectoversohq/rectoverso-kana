@@ -11,7 +11,7 @@ Back, answer audio, Note, search metadata, GUIDs, card/book/model/field/template
 - All 94 imported listening-component cards per language satisfy RectoVerso’s listening predicate. Their saved settings contain no override, so Automatic applies. Audio diagnostics record recto playback without a play-button tap.
 - The unmodified instruction-tip app branch at bc749279ed2a40bff59ba81e2b4ca4fd05d9f0e9 was built into an external folder. iPhone 17 at normal text size shows the 56pt primary button and the task on the tip, with the grouped hint only when appropriate. English/light and French/dark basic and grouped examples were inspected. The two recorded preview paths pass uninterrupted replay, eight and ten steps; their already-imported fixture requirement is explicit.
 - Separate high-effort Astra factual and pedagogy reviews pass their source scopes. The pedagogy reviewer also approves the four inspected native presentations; this is not a pronunciation-quality claim.
-- Anki backend preview rendering resolves one question AV tag for all 94 questions per language, and the English package imported as 290 notes in a separate native Anki QA profile. GUI playback remains pending because desktop automation did not reliably activate the preview; no manual listening claim is made.
+- Anki backend preview rendering resolves one question AV tag for all 94 questions per language, and the English package imported as 290 notes in a separate native Anki QA profile. The owner explicitly left GUI playback pending after desktop automation could not reliably activate the preview; no manual listening claim is made. The isolated Kana listening QA profile remains available; the original User 1 collection was not edited.
 
 ## Gallery blocker
 
