@@ -28,7 +28,8 @@ def inspect(package,output):
      assert 'Read this kana.' in front or 'Comment se lit ce kana' in front
      assert '[sound:' in note['Back'] and card.answer_av_tags() and p['originalOcclusionAnswer'] in note['Back']
     if direction=='listening':
-     assert sounds and card.question_av_tags() and p['kind']=='basic' and not re.search('[\u3040-\u30ff]',re.sub(r'<[^>]*>','',note['Front']))
+     assert len(sounds)==1 and note['Front']=='[sound:'+sounds[0]+']' and len(card.question_av_tags())==1 and p['kind']=='basic'
+     assert note['Kicker'].strip() and ('Listen' not in note['Meta'] and 'Écoutez' not in note['Meta'])
     if direction=='contrast':
      assert sounds and card.question_av_tags() and card.answer_av_tags() and p['kind']=='basic'
     if direction in ['rule','word','variant','checkpoint']:

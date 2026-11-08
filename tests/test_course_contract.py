@@ -53,6 +53,33 @@ class CourseContractTests(unittest.TestCase):
         items=copy.deepcopy(self.items);next(q for q in items if q['id']=='listen-hira-o')['accepted']=['お','か']
         with self.assertRaisesRegex(ValueError,'Sound grouping differs'):self.check(items)
 
+    def test_listening_questions_have_sound_only_front_and_explicit_context(self):
+        items={q['id']:q for q in self.items if q['type']=='listening'}
+        self.assertEqual(len(items),94)
+        for language,hint in [('en','Recall one valid form.'),('fr','Une forme suffit.')]:
+            _,notes,_,_=inputs(language)
+            listening=[n for n in notes if n['itemId'] in items]
+            self.assertEqual(len(listening),94)
+            for note in listening:
+                question=items[note['itemId']];fields=note['fields']
+                with self.subTest(language=language,item=note['itemId']):
+                    self.assertEqual(fields['Front'],'[sound:'+question['audio']+']')
+                    self.assertEqual(fields['Kicker'],question['instruction'][language])
+                    self.assertEqual(fields['Meta'],hint if len(question['accepted'])>1 else '')
+                    self.assertEqual(fields['Back'],' / '.join(question['accepted'])+' · '+question['answerReading']+'[sound:'+question['audio']+']')
+
+    def test_comparisons_keep_their_text_prompt_and_recording(self):
+        items={q['id']:q for q in self.items if q['type']=='contrast'}
+        for language in ['en','fr']:
+            _,notes,_,_=inputs(language)
+            for note in notes:
+                if note['itemId'] not in items:continue
+                question=items[note['itemId']];fields=note['fields']
+                with self.subTest(language=language,item=note['itemId']):
+                    self.assertEqual(fields['Front'],question['display']+'[sound:'+question['audio']+']')
+                    self.assertEqual(fields['Kicker'],question['instruction'][language])
+                    self.assertEqual(fields['Meta'],'')
+
     def test_word_context_cannot_supply_cognate_reading_on_front(self):
         for lang in ['en','fr']:
             _,notes,_,_=inputs(lang)

@@ -28,7 +28,7 @@ def inputs(language,artwork=None,only_type=None):
  notes=[];media=set();kinds=set()
  for index,q in enumerate(items):
   kind=q['type'];guid=f'{prefix}-{language}-{q["id"]}';payload={'v':1,'book':book,'card':str(uuid.uuid5(NS,guid)),'kind':'occlusion' if kind=='reading' else 'basic','noteID':guid}
-  instruction=q['instruction'][language];note=q['note'][language];
+  instruction=q['instruction'][language];hint='';note=q['note'][language];
   for appendix in q.get('appendices',[]):note+='\n\n'+guide[appendix]['title'][language]+'\n'+guide[appendix].get('noteBody',guide[appendix]['body'])[language]
   back=q.get('answer','');extra='';prompt_audio='';answer_audio=''
   if kind=='reading':
@@ -38,7 +38,7 @@ def inputs(language,artwork=None,only_type=None):
     media.add(f[k]['file']);extra+='<img src="'+f[k]['file']+'">'
    answer_audio=c['audio']
   elif kind=='listening':
-   front=instruction;prompt_audio=q['audio'];back=' / '.join(q['accepted'])+' · '+q['answerReading'];answer_audio=q['audio'];instruction=words['listenOnePrompt'] if len(q['accepted'])>1 else words['listenPrompt']
+   front='';prompt_audio=q['audio'];back=' / '.join(q['accepted'])+' · '+q['answerReading'];answer_audio=q['audio'];hint=words['listenOnePrompt'] if len(q['accepted'])>1 else ''
   else:
    front=html.escape(q['display'])
    if kind=='variant':
@@ -50,7 +50,7 @@ def inputs(language,artwork=None,only_type=None):
   if answer_audio:back+='[sound:'+answer_audio+']';media.add(answer_audio)
   search={'v':1,'fields':[{'name':'Kana','values':[forms[q['target']]['kana']] if kind=='reading' else q.get('accepted',[q.get('display','')])},{'name':'Exercise' if language=='en' else 'Exercice','values':[kind]}]}
   if q.get('appendices'):search['fields'].append({'name':'Reference' if language=='en' else 'Référence','values':[guide[k]['title'][language] for k in q['appendices']]})
-  fields=dict(zip(FIELDS,[front,back,instruction,'',q.get('meaning',{}).get(language,''),html.escape(note).replace('\n','<br>'),json.dumps(search,ensure_ascii=False),html.escape(json.dumps(payload,ensure_ascii=False))+extra]))
+  fields=dict(zip(FIELDS,[front,back,instruction,hint,q.get('meaning',{}).get(language,''),html.escape(note).replace('\n','<br>'),json.dumps(search,ensure_ascii=False),html.escape(json.dumps(payload,ensure_ascii=False))+extra]))
   notes.append({'guid':guid,'model':'kana','fields':fields,'tags':['exercise::'+kind,'stage::'+str(q['stage'])],'due':index+1,'itemId':q['id']});kinds.add(kind)
  model={'id':model_id,'name':'RectoVerso Kana '+language,'fields':FIELDS,'fieldIDs':{f:stable_id(f'rv-kana/{language}/field/{f}') for f in FIELDS},'templates':[{'name':'Kana practice' if language=='en' else 'Exercices de kana','id':stable_id(f'rv-kana/{language}/template'),'qfmt':'{{Kicker}}<br>{{Front}}<div>{{Meta}}</div>','afmt':'{{FrontSide}}<hr id="answer">{{Back}}<div>{{Example}}</div><div>{{Note}}</div>'}],'css':'.card{font-family:Arial,sans-serif;text-align:center;font-size:28px;background:#FAFAF9;color:#1A1814}img{display:block;max-width:100%;max-height:70vh;margin:auto}.nightMode.card{background:#211E18;color:#EDE6D8}'}
  meta['cards']=len(notes);meta['languages']={k:v|{'cards':len(notes),'sample':f'{prefix}-{k}-{items[0]["id"]}'} for k,v in meta['languages'].items()};meta['guidPrefix']=prefix

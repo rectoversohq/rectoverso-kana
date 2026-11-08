@@ -18,3 +18,5 @@
 2026-11-08 — Owner confirmed: retain Noto Sans for kana, use SF Pro for romanized text. Reading-source romaji now uses locally installed, pinned SF Pro Text Regular at the previously enlarged 72px size. Japanese glyphs, mask geometry, content and audio are unchanged. SF Pro is external and its binary is not redistributed.
 
 2026-11-08 — Owner named the deck Kana and authorized creating its repository, explicitly confirming that English and French belong in the same repository. Both learner-facing titles are Kana; all GUIDs, book/model/deck identities and existing package filenames stay stable. The repository starts private while this candidate is under review.
+
+2026-11-08 — Owner decision in RectoVerso #824: fix Kana listening in the deck. All 94 listening Front fields hold only their sound; Kicker retains the script-specific question, and Meta holds only the grouped-answer hint (Recall one valid form. / Une forme suffit.). Comparisons remain text plus sound. Answers, notes, search metadata, order and all identities stay unchanged.
