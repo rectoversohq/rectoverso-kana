@@ -6,6 +6,7 @@ from PIL import Image, ImageChops, ImageDraw, ImageFont
 
 ROOT=Path(__file__).resolve().parents[1]
 W,H=1000,4050
+ROMAJI_SIZE=72
 PALETTES={'light':{'paper':'#FAFAF9','ink':'#1A1814','line':'#DDDCD8','accent':'#A96808'},'dark':{'paper':'#211E18','ink':'#EDE6D8','line':'#49443C','accent':'#FFD25B'}}
 
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
@@ -47,7 +48,7 @@ def render(output,only_type=None):
     ImageDraw.Draw(clean).rounded_rectangle((cx-23,cy+108,cx+23,cy+111),radius=1,fill=pal['accent'])
     source=clean.copy()
     for f in forms:
-     x,y,w,h=geometry(f);text_center(source,f['reading'],(x+w/2,y+h/2),30,pal['ink'])
+     x,y,w,h=geometry(f);text_center(source,f['reading'],(x+w/2,y+h/2),ROMAJI_SIZE,pal['ink'])
     diff=ImageChops.difference(source,clean);allowed=Image.new('RGB',(W,H));ad=ImageDraw.Draw(allowed)
     for f in forms:
      x,y,w,h=geometry(f);ad.rectangle((x,y,x+w-1,y+h-1),fill='white')

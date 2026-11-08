@@ -12,3 +12,5 @@
 2026-11-08 — Native follow-up: shortened emitted guide/reference notes while retaining full bodies and every reference form; clarified French review-first pacing after factual review. No new scheduled questions, identity changes, artwork changes, audio changes or app-source changes. Publication and actual listening remain pending.
 
 2026-11-08 — Owner feedback: reduce verbose listening fronts and replace cryptic exercise labels with explicit tasks. Use one task caption across the course, a short script-specific listening question, and a one-form-is-enough cue only on grouped answers. Voice remains Microsoft Nanami Neural at −20%; no audio is regenerated.
+
+2026-11-08 — Owner reported tiny romanized text in the occlusion. Enlarge labels2.4× within unchanged masks. On the owner’s SF Pro question, clarified that the image’s Latin text currently uses pinned Noto Sans JP; native app text uses Apple’s system fonts. No typeface change was requested or made.

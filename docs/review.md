@@ -31,3 +31,6 @@ After these content refinements, the complete offline CI passed again into build
 
 
 2026-11-08 prompt-clarity follow-up: the owner’s screenshots prompted a concise task-caption system in EN/FR. Both Astra reviewers approved it; both rebuilt packages and delivered-to-revised progress preservation pass. The earlier native screenshots concern the prior wording; current prompt fit remains unverified while the simulators are held by other work. See reviews/prompt-clarity.md and external builds/prompt-clarity-20261108.
+
+
+2026-11-08 romaji-size follow-up: reading labels grow30→72px in the existing Noto Sans JP font. All mask/capsule source-fit checks and complete offline CI pass; actual native scaling remains unverified while simulators are held by others. See reviews/romaji-size.md and external builds/romaji-size-ci-20261108.
