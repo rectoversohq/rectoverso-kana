@@ -36,8 +36,18 @@ Audio authoring is a separate online operation, never part of a package build:
 python scripts/synthesize_audio.py --requests source/audio/requests-type-07.json --cache /external/provider-originals
 ```
 
-It uses ja-JP-NanamiNeural at −20%, preserves provider originals externally, retains all detected speech with 100 ms lead and 250 ms tail, and applies constant gain without time stretching or pitch shifting. Frozen input/hash disagreements fail instead of silently replacing an approved file. ffmpeg is needed only for authoring, not normal builds.
+It uses ja-JP-NanamiNeural at −20%, preserves provider originals externally, uses scripts/audio_processing.py to retain conservatively detected speech (-65 dBFS in 5 ms windows), with 40 ms lead and 75 ms tail, and applies constant gain toward -20 dBFS active RMS, capped at -3 dBFS peak and +10 dB gain. Speech is never time-stretched or pitch-shifted. The #826 preparation of the existing 131 frozen MP3s used their previous bytes, not a new synthesis: preparation826 records each previous SHA-256 and signal metadata; top-level hashes and signal fields describe the current file. Original inputs and before/after measurements are retained externally in builds/sound-player-826-20261108/audio/. Frozen input/hash disagreements fail instead of silently replacing an approved file. ffmpeg is needed only for authoring, not normal builds.
 
 Native iPhone/Duo validation is separate from offline CI. The owner reauthorized simulator use on 2026-11-08. Respect the app repository's device locks and restore/shut down owned simulators afterward. Current coverage and limits are in docs/review.md; native evidence and replayable paths stay in the external output directory. Normal-size iPhone reveal/replay checks wait for the sheet animation before testing one ordinary answer scroll. The compact noteBody is emitted into native answer notes; body retains the full guide/reference text for documentation and descriptions. Source/build passes are not publication approval or native-speaker audio clearance.
 
 Listening questions use a sound-only Front so RectoVerso classifies them as listening cards and applies Automatic prompt playback. Their question is Kicker; Meta is empty except for a grouped-answer hint. Anki’s existing question template renders the context and the sound. The regression and Anki checks enforce the one-sound Front and preserve comparison cards as text plus sound.
+
+The owner-approved question player word is root playLabel: {"en": "Listen", "fr": "Écouter"}. App #826 reads it from the gallery catalog, not a standalone APKG import. Direct imports therefore retain the app’s Play / Lire fallback unless the deck already has a gallery origin. The answer player always uses the app’s Listen / Écouter.
+
+When replacing recordings, advance contentModifiedAt and check against the previous packages (a retained external folder). Anki can rename a colliding media file and keep an old note when its modification time has not advanced. This check imports the old package, studies a card, imports the new package and compares every referenced sound’s bytes to a fresh import, while preserving all note/card IDs and study states:
+
+```sh
+python scripts/ci.py --output /external/kana-update-ci --previous /external/previous-packages
+```
+
+The previous folder must hold Japanese-Kana-en.apkg and Japanese-Kana-fr.apkg. This same-inventory preflight checks the existing course; deliberate inventory changes need a separate migration check.

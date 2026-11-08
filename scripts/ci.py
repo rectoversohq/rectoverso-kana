@@ -11,7 +11,7 @@ from render_artwork import render
 
 def command(*args):subprocess.run([sys.executable,*map(str,args)],cwd=ROOT,check=True)
 
-def ci(output):
+def ci(output,previous=None):
     output=output.resolve()
     if output.is_relative_to(ROOT) or output.exists():raise ValueError('Choose a new output directory outside the checkout')
     output.mkdir(parents=True)
@@ -23,6 +23,8 @@ def ci(output):
     for language in ['en','fr']:
         package=output/'first/packages'/f'Japanese-Kana-{language}.apkg';build(language,package,artwork=artwork)
         command('scripts/checks/validate-anki.py',package,'--output',output/'evidence'/language)
+        if previous is not None:
+            command('scripts/checks/validate-update.py',previous/package.name,package,'--output',output/'evidence'/f'{language}-edition-update.json')
         for kind in TYPES:
             component=output/'components'/f'Japanese-Kana-{language}-{kind}.apkg';build(language,component,kind,artwork)
             command('scripts/checks/validate-anki.py',component,'--output',output/'evidence'/f'{language}-{kind}')
@@ -36,4 +38,4 @@ def ci(output):
     (output/'result.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report),flush=True)
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--output',type=Path,required=True);a=p.parse_args();ci(a.output)
+    p=argparse.ArgumentParser();p.add_argument('--output',type=Path,required=True);p.add_argument('--previous',type=Path);a=p.parse_args();ci(a.output,a.previous)

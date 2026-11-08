@@ -68,6 +68,13 @@ class CourseContractTests(unittest.TestCase):
                     self.assertEqual(fields['Meta'],hint if len(question['accepted'])>1 else '')
                     self.assertEqual(fields['Back'],' / '.join(question['accepted'])+' · '+question['answerReading']+'[sound:'+question['audio']+']')
 
+    def test_owner_approved_play_label_is_kept_in_both_expansions(self):
+        labels={'en':'Listen','fr':'Écouter'}
+        self.assertEqual(json.loads((ROOT/'rectoverso.json').read_text())['playLabel'],labels)
+        for language in labels:
+            metadata,_,_,_=inputs(language)
+            self.assertEqual(metadata['playLabel'],labels)
+
     def test_comparisons_keep_their_text_prompt_and_recording(self):
         items={q['id']:q for q in self.items if q['type']=='contrast'}
         for language in ['en','fr']:

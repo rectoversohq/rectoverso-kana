@@ -22,3 +22,7 @@
 2026-11-08 — Owner decision in RectoVerso #824: fix Kana listening in the deck. All 94 listening Front fields hold only their sound; Kicker retains the script-specific question, and Meta holds only the grouped-answer hint (Recall one valid form. / Une forme suffit.). Comparisons remain text plus sound. Answers, notes, search metadata, order and all identities stay unchanged.
 
 2026-11-08 — Owner explicitly left native Anki GUI playback pending after the successful Anki import/render/audio-hook checks and the desktop automation timeout.
+
+2026-11-08 — Owner chose Listen / Écouter for Kana’s question sound buttons (playLabel, app #824 / PR #826). Requested compact silence padding and consistent loudness. Keep Nanami −20%, sound-only listening fronts and text-plus-sound comparisons; no release, gallery pin or phone install authorized.
+
+2026-11-08 — Media update verification found that Anki retained old audio when the content marker had not advanced. Advance contentModifiedAt while keeping all identities. Add an optional previous-edition CI preflight that checks the actual referenced audio bytes after update as well as every studied state; retain the rejected intermediate package externally as negative evidence.
