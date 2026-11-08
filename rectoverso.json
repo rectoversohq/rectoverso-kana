@@ -97,14 +97,13 @@
       "checkpoint"
     ]
   },
-  "studyRecommendations": {
-    "status": "requires app issue #805; deck-local data alone does not apply settings",
-    "newQuestionsPerDay": 6,
-    "newOrder": "authored",
-    "placement": "afterReviews"
-  },
   "playLabel": {
     "en": "Listen",
     "fr": "Écouter"
+  },
+  "study": {
+    "newCards": "deckOrder",
+    "newPerDay": 6,
+    "newPosition": "afterReviews"
   }
 }

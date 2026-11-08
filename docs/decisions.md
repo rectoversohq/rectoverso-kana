@@ -26,3 +26,5 @@
 2026-11-08 — Owner chose Listen / Écouter for Kana’s question sound buttons (playLabel, app #824 / PR #826). Requested compact silence padding and consistent loudness. Keep Nanami −20%, sound-only listening fronts and text-plus-sound comparisons; no release, gallery pin or phone install authorized.
 
 2026-11-08 — Media update verification found that Anki retained old audio when the content marker had not advanced. Advance contentModifiedAt while keeping all identities. Add an optional previous-edition CI preflight that checks the actual referenced audio bytes after update as well as every studied state; retain the rejected intermediate package externally as negative evidence.
+
+2026-11-08 — Owner requested conformance to the implemented study field. Replace advisory studyRecommendations with the agreed shared study preset: newCards=deckOrder, newPerDay=6, newPosition=afterReviews. This metadata migration changes no question, identity, authored position or media. App #823 applies it only on first gallery addition; do not overwrite existing learner options or treat a direct file import as a gallery add.

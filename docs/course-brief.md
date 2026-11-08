@@ -62,7 +62,7 @@ The study target is **ten minutes per day, including reviews**. Start with **six
 
 Six questions is a starting preset to check against real study sessions. The course has no fixed completion deadline. The basic inventory alone requires at least 31 days of introductions at that cap; additional exercises and pauses extend the course. Introducing every question is not itself proof of mastery, and spaced reviews continue afterward.
 
-Automatic authored introduction order is a launch requirement. The current package cannot set the necessary app defaults. Developer issue **[#805](https://github.com/simonpinkas/RectoVerso/issues/805)** requests supported author-provided initial study settings: authored new-card order, six new questions per day and placement after reviews. Existing learner changes and study history must survive reimports and updates.
+Automatic authored introduction order is a launch requirement. The source declares `study: {"newCards": "deckOrder", "newPerDay": 6, "newPosition": "afterReviews"}` for both languages, using the contract implemented in **[app #823 / #805](https://github.com/simonpinkas/RectoVerso/pull/823)**. A supporting app applies these options when first adding a new deck from the gallery. Updates, restored decks and saved learner choices retain their options; direct APKG imports receive no gallery preset. Existing learner changes and study history must survive reimports and updates.
 
 ## Working references
 

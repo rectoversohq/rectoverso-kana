@@ -51,3 +51,5 @@ python scripts/ci.py --output /external/kana-update-ci --previous /external/prev
 ```
 
 The previous folder must hold Japanese-Kana-en.apkg and Japanese-Kana-fr.apkg. This same-inventory preflight checks the existing course; deliberate inventory changes need a separate migration check.
+
+The shared root `study` field follows app #823: `{"newCards":"deckOrder","newPerDay":6,"newPosition":"afterReviews"}`. Both expanded language sidecars carry this same value; `studyRecommendations` is removed. Source checks reject missing or drifted settings. Anki’s authored new-queue positions are unchanged. This is a gallery preset: the catalog carries it, and a supporting app applies it only on the first gallery add, preserving learner overrides thereafter. Direct APKG imports do not activate it; their existing manual setup guidance remains applicable.

@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
-from course_contract import check_questions,check_source
+from course_contract import check_questions,check_source,check_study
 from source_data import inputs,questions
 from font_sources import font_path
 
@@ -74,6 +74,27 @@ class CourseContractTests(unittest.TestCase):
         for language in labels:
             metadata,_,_,_=inputs(language)
             self.assertEqual(metadata['playLabel'],labels)
+
+    def test_owner_study_preset_is_shared_by_both_language_expansions(self):
+        expected={'newCards':'deckOrder','newPerDay':6,'newPosition':'afterReviews'}
+        metadata=json.loads((ROOT/'rectoverso.json').read_text())
+        check_study(metadata)
+        for language in ('en','fr'):
+            expanded,notes,_,_=inputs(language)
+            self.assertEqual(expanded['study'],expected)
+            self.assertNotIn('studyRecommendations',expanded)
+            self.assertEqual([n['due'] for n in notes],list(range(1,291)))
+
+    def test_missing_or_drifted_study_preset_is_refused(self):
+        preset={'newCards':'deckOrder','newPerDay':6,'newPosition':'afterReviews'}
+        for study in (None,{},preset|{'newCards':'random'},preset|{'newPosition':'beforeReviews'},preset|{'newPerDay':20},preset|{'newPerDay':6.0},preset|{'newOrder':'authored'}):
+            with self.subTest(study=study),self.assertRaisesRegex(ValueError,'Study preset'):
+                check_study({'study':study})
+
+    def test_old_advisory_metadata_cannot_silently_replace_study(self):
+        preset={'newCards':'deckOrder','newPerDay':6,'newPosition':'afterReviews'}
+        with self.assertRaisesRegex(ValueError,'Legacy studyRecommendations'):
+            check_study({'study':preset,'studyRecommendations':{}})
 
     def test_comparisons_keep_their_text_prompt_and_recording(self):
         items={q['id']:q for q in self.items if q['type']=='contrast'}

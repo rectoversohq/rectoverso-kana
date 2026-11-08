@@ -62,7 +62,16 @@ def check_audio(root=ROOT):
         if hashlib.sha256((directory/name).read_bytes()).hexdigest()!=r['sha256']:raise ValueError('Audio digest differs: '+name)
     return records
 
+def check_study(metadata):
+    expected={'newCards':'deckOrder','newPerDay':6,'newPosition':'afterReviews'}
+    study=metadata.get('study')
+    if study!=expected or type(study['newPerDay']) is not int:
+        raise ValueError('Study preset differs from the owner-approved course settings')
+    if 'studyRecommendations' in metadata:
+        raise ValueError('Legacy studyRecommendations must be replaced by study')
+
 def check_source(root=ROOT):
+    check_study(json.loads((root/'rectoverso.json').read_text()))
     items=questions();kana=json.loads((root/'source/kana.json').read_text())
     refs={r['id'] for r in json.loads((root/'source/references.json').read_text())}
     sequence=check_questions(items,kana,refs);audio=check_audio(root)
