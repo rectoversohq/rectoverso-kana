@@ -6,3 +6,7 @@
 - 2026-11-08: The owner requested the iPhone simulator immediately for Claude. Primary released its lock and services; further native checks stay pending while source/build and dual-review work continue.
 
 - 2026-11-08: Sequential authoring completed seven types with separate high-effort Astra fact/pedagogy reviews. Four selected grouped ji/zu listening applications preserve the approved homophone treatment. Guide/reference material is unscheduled and answer-side. The candidate has 290 questions; app #805, final native inspection and new-audio listening remain outstanding before a gallery release.
+
+- 2026-11-08: The owner reauthorized simulator use. Native checking found long answer-side guides pushed replay several screens away; compact answer-side versions retain pacing and broader reference inventories, while the complete guide remains in documentation and the full course description.
+
+2026-11-08 — Native follow-up: shortened emitted guide/reference notes while retaining full bodies and every reference form; clarified French review-first pacing after factual review. No new scheduled questions, identity changes, artwork changes, audio changes or app-source changes. Publication and actual listening remain pending.

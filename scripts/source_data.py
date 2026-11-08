@@ -29,7 +29,7 @@ def inputs(language,artwork=None,only_type=None):
  for index,q in enumerate(items):
   kind=q['type'];guid=f'{prefix}-{language}-{q["id"]}';payload={'v':1,'book':book,'card':str(uuid.uuid5(NS,guid)),'kind':'occlusion' if kind=='reading' else 'basic','noteID':guid}
   instruction=q['instruction'][language];note=q['note'][language];
-  for appendix in q.get('appendices',[]):note+='\n\n'+guide[appendix]['title'][language]+'\n'+guide[appendix]['body'][language]
+  for appendix in q.get('appendices',[]):note+='\n\n'+guide[appendix]['title'][language]+'\n'+guide[appendix].get('noteBody',guide[appendix]['body'])[language]
   back=q.get('answer','');extra='';prompt_audio='';answer_audio=''
   if kind=='reading':
    c=forms[q['target']];f=assets['figures'][q['id']];front='<img src="'+f['question']['file']+'" alt="'+c['kana']+'">';media.add(f['question']['file'])

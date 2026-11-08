@@ -16,8 +16,8 @@
     },
     "answer": "a",
     "note": {
-      "en": "New kana? Reveal and listen first. On later visits, recall the sound before revealing. Thinking the sound is enough; speaking aloud is optional. Use the recording as your pronunciation model.",
-      "fr": "Un nouveau kana ? Révélez d’abord la réponse et écoutez. Lors des révisions suivantes, retrouvez le son avant de révéler. Vous pouvez le faire mentalement ; le dire à voix haute est facultatif. Prenez l’enregistrement comme modèle de prononciation."
+      "en": "Listen to the recording. On later visits, recall the sound before revealing; mental recall is enough.",
+      "fr": "Écoutez l’enregistrement. Lors des révisions suivantes, retrouvez le son avant de révéler ; un rappel mental suffit."
     },
     "references": [
       "mext-kana",
