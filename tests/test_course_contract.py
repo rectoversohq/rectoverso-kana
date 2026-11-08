@@ -2,12 +2,15 @@ import copy
 import json
 import sys
 import unittest
+import os
+from unittest.mock import patch
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 from course_contract import check_questions,check_source
 from source_data import inputs,questions
+from font_sources import font_path
 
 class CourseContractTests(unittest.TestCase):
     def setUp(self):
@@ -19,6 +22,16 @@ class CourseContractTests(unittest.TestCase):
 
     def test_actual_source_has_no_dependency_or_audio_drift(self):
         self.assertEqual(check_source()['status'],'pass')
+
+    def test_external_font_override_cannot_silently_substitute_another_face(self):
+        with patch.dict(os.environ, {'RECTOVERSO_SF_PRO_FONT': str(ROOT/'artwork/fonts/NotoSansJP.ttf')}):
+            with self.assertRaisesRegex(ValueError, 'Pinned font digest differs: SF-Pro'):
+                font_path('SF-Pro-Text-Regular.otf')
+
+    def test_missing_external_font_fails_instead_of_falling_back(self):
+        with patch.dict(os.environ, {'RECTOVERSO_SF_PRO_FONT': str(ROOT/'artwork/fonts/missing-sf-pro.otf')}):
+            with self.assertRaisesRegex(ValueError, 'Missing pinned font SF-Pro'):
+                font_path('SF-Pro-Text-Regular.otf')
 
     def test_duplicate_identity_is_refused(self):
         items=copy.deepcopy(self.items);items[1]['id']=items[0]['id']

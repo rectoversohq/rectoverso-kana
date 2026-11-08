@@ -57,6 +57,7 @@ def inputs(language,artwork=None,only_type=None):
  artifact=meta['languages'][language];meta.update(id=artifact['id'],title=artifact['title'],cards=len(notes),sample=notes[0]['guid'],package={'file':f'Japanese-Kana-{language}'+('' if only_type is None else '-'+only_type)+'.apkg'},language=language,component=only_type,bookUUID=book)
  meta['pictures']=sorted(n for n in media if n.endswith('.png'))
  font_by_file={f['file']:f.get('font','NotoSansJP.ttf') for f in assets['files']}
- meta['imageCredits']=[{'file':n,'original':'artwork/fonts/'+font_by_file[n],'source':'Original composition using pinned open fonts','creator':'Simon Pinkas','license':'CC BY 4.0; font OFL-1.1'} for n in meta['pictures']]
+ mixed={f['file'] for f in assets['files'] if 'SF-Pro-Text-Regular.otf' in f.get('fonts',[])}
+ meta['imageCredits']=[({'file':n,'original':'scripts/render_artwork.py','source':'Noto Sans JP kana with locally installed pinned SF Pro Text romaji','creator':'Simon Pinkas','license':'Local Apple-platform prototype; Noto Sans JP OFL-1.1; SF Pro Apple license'} if n in mixed else {'file':n,'original':'artwork/fonts/'+font_by_file[n],'source':'Original composition using pinned open fonts','creator':'Simon Pinkas','license':'CC BY 4.0; font OFL-1.1'}) for n in meta['pictures']]
  meta['sounds']=sorted(n for n in media if n.endswith('.mp3'))
  return meta,notes,{'kana':model},{'id':deck_id,'name':words['title']+(' · '+words.get(only_type,only_type)+' · '+('review' if language=='en' else 'à relire') if only_type else ''),'description':words['description']}

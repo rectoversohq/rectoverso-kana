@@ -3,6 +3,7 @@ import argparse, hashlib, json
 from functools import lru_cache
 from pathlib import Path
 from PIL import Image, ImageChops, ImageDraw, ImageFont
+from font_sources import font_path
 
 ROOT=Path(__file__).resolve().parents[1]
 W,H=1000,4050
@@ -11,12 +12,13 @@ PALETTES={'light':{'paper':'#FAFAF9','ink':'#1A1814','line':'#DDDCD8','accent':'
 
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 @lru_cache(maxsize=20)
-def font(size,hand=False,serif=False):
- f=ImageFont.truetype(str(ROOT/'artwork/fonts'/('Yomogi-Regular.ttf' if hand else ('NotoSerifJP.ttf' if serif else 'NotoSansJP.ttf'))),size)
- if not hand:f.set_variation_by_axes([400])
+def font(size,hand=False,serif=False,roman=False):
+ name='SF-Pro-Text-Regular.otf' if roman else ('Yomogi-Regular.ttf' if hand else ('NotoSerifJP.ttf' if serif else 'NotoSansJP.ttf'))
+ f=ImageFont.truetype(str(font_path(name)),size)
+ if not hand and not roman:f.set_variation_by_axes([400])
  return f
-def text_center(im,text,xy,size,color,hand=False,serif=False):
- d=ImageDraw.Draw(im);f=font(size,hand,serif);b=d.textbbox((0,0),text,font=f)
+def text_center(im,text,xy,size,color,hand=False,serif=False,roman=False):
+ d=ImageDraw.Draw(im);f=font(size,hand,serif,roman);b=d.textbbox((0,0),text,font=f)
  d.text((xy[0]-(b[0]+b[2])/2,xy[1]-(b[1]+b[3])/2),text,font=f,fill=color)
 def save(im,out,name):
  p=out/name;im.save(p,optimize=True)
@@ -48,14 +50,16 @@ def render(output,only_type=None):
     ImageDraw.Draw(clean).rounded_rectangle((cx-23,cy+108,cx+23,cy+111),radius=1,fill=pal['accent'])
     source=clean.copy()
     for f in forms:
-     x,y,w,h=geometry(f);text_center(source,f['reading'],(x+w/2,y+h/2),ROMAJI_SIZE,pal['ink'])
+     x,y,w,h=geometry(f);text_center(source,f['reading'],(x+w/2,y+h/2),ROMAJI_SIZE,pal['ink'],roman=True)
     diff=ImageChops.difference(source,clean);allowed=Image.new('RGB',(W,H));ad=ImageDraw.Draw(allowed)
     for f in forms:
      x,y,w,h=geometry(f);ad.rectangle((x,y,x+w-1,y+h-1),fill='white')
     if ImageChops.subtract(diff,allowed).getbbox():raise ValueError('Kana pixels changed outside pronunciation masks')
     for role,im in [('source',source),('clean',clean)]:
      key=role if mode=='light' else 'dark'+role.capitalize()
-     assets[key]=save(im,output,f'rv-kana-{c["id"]}-{mode}-{role}.png');record['files'].append(assets[key])
+     assets[key]=save(im,output,f'rv-kana-{c["id"]}-{mode}-{role}.png')
+     if role=='source':assets[key]['fonts']=['NotoSansJP.ttf','SF-Pro-Text-Regular.otf']
+     record['files'].append(assets[key])
    standalone=Image.new('RGB',(700,500),PALETTES['light']['paper']);text_center(standalone,c['kana'],(350,245),280,PALETTES['light']['ink'])
    assets['question']=save(standalone,output,f'rv-kana-{c["id"]}-question.png');record['files'].append(assets['question'])
    x,y,w,h=geometry(c)

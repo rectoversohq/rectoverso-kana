@@ -21,8 +21,8 @@ python -m pip install -r requirements.txt
 python scripts/ci.py --output /external/kana-ci
 ```
 
-The CI command validates all seven bilingual components, both combined packages, independent rendering and package rebuilds, and preservation of a genuinely studied card. [Build instructions](docs/build.md) also cover individual components and audio authoring. Builds are offline; they use frozen recordings and pinned Noto Sans JP, Noto Serif JP and Yomogi font masters.
+The CI command validates all seven bilingual components, both combined packages, independent rendering and package rebuilds, and preservation of a genuinely studied card. [Build instructions](docs/build.md) also cover individual components and audio authoring. Builds are offline; they use frozen recordings, pinned Noto Sans JP, Noto Serif JP and Yomogi font masters, and a separately installed, checksum-pinned SF Pro Text Regular. Kana stays in Noto Sans JP; the enlarged romaji labels use SF Pro. See the font setup in the build instructions.
 
 The title, gallery copy and sample remain working candidates for owner review. Automatic initial course settings require [app issue #805](https://github.com/simonpinkas/RectoVerso/issues/805). No release, gallery pin or phone installation is authorized by these local review packages.
 
-© Simon Pinkas. Original authored material: CC BY 4.0. Fonts: OFL-1.1, with complete notices in artwork/fonts/. The owner selected Nanami at −20% and deferred publication-rights discussion; source/audio/provenance.json retains that status. New recordings still need listening review.
+© Simon Pinkas. Original authored material: CC BY 4.0. The bundled Japanese fonts use OFL-1.1, with complete notices in artwork/fonts/. SF Pro is an external local dependency under Apple’s terms; its binary is not bundled or redistributed. The mixed-font artwork remains a local Apple-platform prototype. The owner selected Nanami at −20% and deferred publication-rights discussion; source/audio/provenance.json retains that status. New recordings still need listening review.

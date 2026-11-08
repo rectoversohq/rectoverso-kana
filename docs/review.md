@@ -34,3 +34,5 @@ After these content refinements, the complete offline CI passed again into build
 
 
 2026-11-08 romaji-size follow-up: reading labels grow30→72px in the existing Noto Sans JP font. All mask/capsule source-fit checks and complete offline CI pass; actual native scaling remains unverified while simulators are held by others. See reviews/romaji-size.md and external builds/romaji-size-ci-20261108.
+
+2026-11-08 SF Pro follow-up: Noto Sans JP kana is retained; enlarged romaji uses pinned SF Pro Text Regular. Complete offline CI, independent render/package checks, and old-to-new studied-card compatibility pass. iPhone 17 at normal text size was inspected in light/dark for six reading fronts/reveals; French listening/word prompts and an English grouped-listening prompt also fit. Three recorded paths pass uninterrupted replay (59, 42 and 6 steps). Both Astra reviewers qualifiedly approve their inspected source/native scopes. See reviews/sf-pro-romaji.md. The current packages have not been installed on the physical phone. New-audio listening and publication approval remain pending.

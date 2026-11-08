@@ -14,3 +14,5 @@
 2026-11-08 — Owner feedback: reduce verbose listening fronts and replace cryptic exercise labels with explicit tasks. Use one task caption across the course, a short script-specific listening question, and a one-form-is-enough cue only on grouped answers. Voice remains Microsoft Nanami Neural at −20%; no audio is regenerated.
 
 2026-11-08 — Owner reported tiny romanized text in the occlusion. Enlarge labels2.4× within unchanged masks. On the owner’s SF Pro question, clarified that the image’s Latin text currently uses pinned Noto Sans JP; native app text uses Apple’s system fonts. No typeface change was requested or made.
+
+2026-11-08 — Owner confirmed: retain Noto Sans for kana, use SF Pro for romanized text. Reading-source romaji now uses locally installed, pinned SF Pro Text Regular at the previously enlarged 72px size. Japanese glyphs, mask geometry, content and audio are unchanged. SF Pro is external and its binary is not redistributed.

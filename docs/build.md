@@ -2,6 +2,16 @@
 
 Install requirements.txt with Python 3.12. The shared interface is scripts/source_data.py::inputs(language), returning metadata, notes, models and deck. The builder uses Anki's backend. GUIDs, native book/card UUIDs, model IDs, field IDs, template IDs and source deck IDs stay stable. Isolated review components have separate preview identities from the combined course and the earlier phone prototype.
 
+The reading artwork uses Noto Sans JP at weight 400 for kana and SF Pro Text Regular at 72 source pixels for romaji. Noto Serif JP and Yomogi remain limited to selected alternate-form examples. The bundled Japanese font masters retain their OFL notices.
+
+Install SF Pro separately from https://developer.apple.com/fonts/ under Apple’s terms. The default input is /Library/Fonts/SF-Pro-Text-Regular.otf. For another location, set:
+
+```sh
+export RECTOVERSO_SF_PRO_FONT=/absolute/path/to/SF-Pro-Text-Regular.otf
+```
+
+The exact expected SHA-256 is eabf0a67833bbe3c80c800e6ce3f36b65e92f3b6ac1d6226ba2981e5cb3a74a5, recorded in artwork/fonts/provenance.json. A missing or different file fails validation; there is no font fallback. No SF Pro binary is downloaded by the build, committed, or included in the packages. The rendered mixed-font artwork is currently a local Apple-platform UI prototype; this does not claim publication clearance under Apple’s font terms.
+
 Build and verify everything into a new external directory:
 
 ```sh

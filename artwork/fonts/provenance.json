@@ -40,5 +40,17 @@
     "revision": "8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5",
     "license": "OFL-1.1",
     "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+  },
+  {
+    "file": "SF-Pro-Text-Regular.otf",
+    "family": "SF Pro Text",
+    "style": "Regular",
+    "url": "https://developer.apple.com/fonts/",
+    "license": "Apple SF Pro license; local Apple-platform UI prototype",
+    "sha256": "eabf0a67833bbe3c80c800e6ce3f36b65e92f3b6ac1d6226ba2981e5cb3a74a5",
+    "external": true,
+    "environment": "RECTOVERSO_SF_PRO_FONT",
+    "defaultPath": "/Library/Fonts/SF-Pro-Text-Regular.otf",
+    "usage": "Romaji labels only; font file is not bundled or redistributed"
   }
 ]

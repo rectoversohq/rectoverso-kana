@@ -6,6 +6,7 @@ from collections import Counter
 from pathlib import Path
 
 from source_data import ROOT, ordered, questions
+from font_sources import font_path
 
 TYPES = ('reading','listening','rule','word','contrast','variant','checkpoint')
 
@@ -66,7 +67,7 @@ def check_source(root=ROOT):
     refs={r['id'] for r in json.loads((root/'source/references.json').read_text())}
     sequence=check_questions(items,kana,refs);audio=check_audio(root)
     for font in json.loads((root/'artwork/fonts/provenance.json').read_text()):
-        if hashlib.sha256((root/'artwork/fonts'/font['file']).read_bytes()).hexdigest()!=font['sha256']:raise ValueError('Pinned font digest differs')
+        font_path(font['file'], root)
     if {p.name for p in (root/'source/audio').glob('*.mp3')}!=set(audio):raise ValueError('Unrecorded source audio')
     for q in items:
         name=(next(c['audio'] for c in kana if c['id']==q['target']) if q['type']=='reading' else q['audio'])
