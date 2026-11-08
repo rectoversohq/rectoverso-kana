@@ -65,3 +65,15 @@ This evidence supports the gentler visual opening and the intended reading-to-li
 - `native/en-i-answer.png`: `cc4ec5f47f35ea3a2b694a4ad42e881d802abdbe9ea06239675f6bb87b5a666b`
 - `native/fr-i-front.png`: `aa99cea092d29b47ef748c79f6db58967fdb94d747897170c7ff565052b9434f`
 - `native/fr-kata-i-front.png`: `67a2081cd90fb6effe371054c027fd9e969aaa7d3e54c6ba046b51e11a6c6817`
+
+## Narrow Duo follow-up
+
+Directly inspected native/duo-fr-a.png, native/duo-fr-i.png and native/duo-fr-i-open.png. Qualified PASS for these French-deck/dark Duo samples: the closed first front shows only complete gold あ and a concealed target reading; the second adds prior あ in the neutral color beside complete gold い, with no future kana or visible pronunciation. The open hinge-reveal capture correctly shows i in the target mask and answer pane, keeps the neighboring あ reading concealed, and exposes the native replay control. The French task caption is legible.
+
+The duplicated image in the answer pane clips the upper portions of its kana; the main canvas retains complete glyphs, so target identification and reading feedback remain usable. This existing app-layout limitation is explicitly retained, not approved as polished behavior. Only part of the longer Note is visible without scrolling. English app chrome surrounds French deck prose.
+
+Parent reports a passing nine-step import/front/open/close recorded path; the reviewer inspected the still images and did not operate the device or run the path. This supplements the prior iPhone/source review and does not clear app-wide layout, all Duo poses/cards, VoiceOver/spoken ordinal issues or audible pronunciation. Source/code hashes remain those recorded in the preceding follow-up.
+
+- `native/duo-fr-a.png` SHA-256: `c7ea22b21f1ad1d4b3b131e22174e8cf7ef6fac84cf568f0aade49062df6923f`
+- `native/duo-fr-i.png` SHA-256: `67aa354870d68cdfadefa50c7b607d41cf8cb018293d027580e3092968b6bafa`
+- `native/duo-fr-i-open.png` SHA-256: `7e7b0a8066fcc66e85c6df12902250f10c4bd211fdd7b0f49ada25dd306504fd`
