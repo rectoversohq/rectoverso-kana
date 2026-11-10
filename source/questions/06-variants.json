@@ -14,8 +14,8 @@
     "fontStyle": "hand",
     "handwritten": true,
     "instruction": {
-      "en": "Read this kana.",
-      "fr": "Comment se lit ce kana ?"
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
     },
     "note": {
       "en": "This is さ, read sa, shown in Yomogi. This is a handwritten-style typeface, not a stroke-order demonstration. Handwriting and print may connect or separate parts differently. Recognize the character; you do not need to copy this style.",
@@ -41,8 +41,8 @@
     "fontStyle": "hand",
     "handwritten": true,
     "instruction": {
-      "en": "Read this kana.",
-      "fr": "Comment se lit ce kana ?"
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
     },
     "note": {
       "en": "This is き, read ki, shown in Yomogi. This is a handwritten-style typeface, not a stroke-order demonstration. Handwriting and print may connect or separate parts differently. Recognize the character; you do not need to copy this style.",
@@ -68,8 +68,8 @@
     "fontStyle": "hand",
     "handwritten": true,
     "instruction": {
-      "en": "Read this kana.",
-      "fr": "Comment se lit ce kana ?"
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
     },
     "note": {
       "en": "This is り, read ri, shown in Yomogi. This is a handwritten-style typeface, not a stroke-order demonstration. Handwriting and print may connect or separate parts differently. Recognize the character; you do not need to copy this style.",
@@ -95,8 +95,8 @@
     "fontStyle": "hand",
     "handwritten": true,
     "instruction": {
-      "en": "Read this kana.",
-      "fr": "Comment se lit ce kana ?"
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
     },
     "note": {
       "en": "This is ふ, read fu, shown in Yomogi. This is a handwritten-style typeface, not a stroke-order demonstration. Handwriting and print may connect or separate parts differently. Recognize the character; you do not need to copy this style.",
@@ -122,8 +122,8 @@
     "fontStyle": "serif",
     "handwritten": false,
     "instruction": {
-      "en": "Read this kana.",
-      "fr": "Comment se lit ce kana ?"
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
     },
     "note": {
       "en": "This is そ, read so, shown in Noto Serif JP. A serif print style can change stroke endings and contrast without changing the kana or its sound. Recognize the character; you do not need to copy this style.",
@@ -149,8 +149,8 @@
     "fontStyle": "serif",
     "handwritten": false,
     "instruction": {
-      "en": "Read this kana.",
-      "fr": "Comment se lit ce kana ?"
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
     },
     "note": {
       "en": "This is シ, read shi, shown in Noto Serif JP. A serif print style can change stroke endings and contrast without changing the kana or its sound. Recognize the character; you do not need to copy this style.",
@@ -176,8 +176,8 @@
     "fontStyle": "serif",
     "handwritten": false,
     "instruction": {
-      "en": "Read this kana.",
-      "fr": "Comment se lit ce kana ?"
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
     },
     "note": {
       "en": "This is ツ, read tsu, shown in Noto Serif JP. A serif print style can change stroke endings and contrast without changing the kana or its sound. Recognize the character; you do not need to copy this style.",
@@ -203,8 +203,8 @@
     "fontStyle": "serif",
     "handwritten": false,
     "instruction": {
-      "en": "Read this kana.",
-      "fr": "Comment se lit ce kana ?"
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
     },
     "note": {
       "en": "This is ン, read n, shown in Noto Serif JP. A serif print style can change stroke endings and contrast without changing the kana or its sound. Recognize the character; you do not need to copy this style.",

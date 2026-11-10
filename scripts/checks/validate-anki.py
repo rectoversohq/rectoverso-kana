@@ -47,6 +47,7 @@ def inspect(package,output):
     direction=next(t.removeprefix('exercise::') for t in note.tags if t.startswith('exercise::'))
     sounds=re.findall(r'\[sound:([^\]]+)\]',note['Front'])
     question=questions[note.guid.split('-'+meta['language']+'-',1)[1]]
+    assert note['Kicker']==question['instruction'][meta['language']] and note['Kicker'] in front
     if direction in ('listening','contrast'):verify_kana_detail(card,note,p,question,meta['language'])
     else:assert not note['Romaji'] and 'rv-details' not in after and 'resources' not in p
     if direction=='reading':
@@ -79,7 +80,6 @@ def inspect(package,output):
          fx=148+176*future['column'];fy=38+360*future['row']-top
          for area in ((fx-65,fy,fx+65,fy+108),(fx-65,fy+185,fx+65,fy+255)):
           assert image.crop(area).getextrema()==tuple((v,v) for v in paper),('Future kana or reading visible',future['id'],question['id'])
-     assert 'Read this kana.' in front or 'Comment se lit ce kana' in front
      assert '[sound:' in note['Back'] and card.answer_av_tags() and p['originalOcclusionAnswer'] in note['Back']
     if direction=='listening':
      assert len(sounds)==1 and note['Front']=='[sound:'+sounds[0]+']' and len(card.question_av_tags())==1 and p['kind']=='basic'
