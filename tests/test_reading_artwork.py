@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 from render_artwork import geometry,reading_window,ROMAJI_SIZE,font
-from source_data import inputs,questions,ordered,reading_introductions
+from source_data import course,questions,ordered,reading_introductions
 
 ROLES=('source','clean','darkSource','darkClean')
 
@@ -73,7 +73,7 @@ class ReadingArtworkTests(unittest.TestCase):
 
     def test_both_packages_keep_one_note_and_native_card_per_reading(self):
         for language in ('en','fr'):
-            _,notes,_,_=inputs(language)
+            _,notes,_,_=course(language)
             reading=[n for n in notes if n['itemId'].startswith('read-')]
             self.assertEqual(len(reading),92)
             payloads=[json.JSONDecoder().raw_decode(html.unescape(n['fields']['RectoVerso']))[0] for n in reading]

@@ -1,0 +1,34 @@
+name: Deck contract
+
+on:
+  pull_request:
+  push:
+    branches: ['**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: contract-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  contract:
+    name: Deck contract
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+          submodules: true
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.12'
+      # The deck kit's check, by the kit pinned at kit/. Add --rectoverso once 1.0.0 is approved:
+      # RectoVerso's gallery takes approved editions only.
+      - name: The deck holds to the contract
+        run: python3 kit/check.py
+      - name: rectoverso.json states what the course makes
+        run: python3 scripts/metadata.py --check

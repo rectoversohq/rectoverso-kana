@@ -1,15 +1,15 @@
 {
   "id": "rectoverso-kana",
-  "version": "0.2.0",
-  "releaseTag": "v0.2.0",
+  "version": "1.0.0-rc.1",
+  "releaseTag": "v1.0.0-rc.1",
   "guidPrefix": "rv-kana",
   "identityBase": 1794200000,
   "contentModifiedAt": "2026-11-10T18:16:07Z",
   "publication": {
     "remote": "https://github.com/rectoversohq/rectoverso-kana",
-    "release": "https://github.com/rectoversohq/rectoverso-kana/releases/tag/v0.2.0",
+    "release": "https://github.com/rectoversohq/rectoverso-kana/releases/tag/v1.0.0-rc.1",
     "approved": false,
-    "visibility": "private"
+    "visibility": "public"
   },
   "title": {
     "en": "Kana",
@@ -55,8 +55,3285 @@
   "license": "CC-BY-4.0",
   "proOnly": false,
   "renderedPictures": true,
-  "pictures": [],
-  "imageCredits": [],
+  "pictures": 468,
+  "imageCredits": [
+    {
+      "file": "rv-kana-hira-3042-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3042-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3042-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3042-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3042-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3044-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3044-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3044-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3044-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3044-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3046-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3046-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3046-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3046-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3046-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3048-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3048-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3048-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3048-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3048-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304a-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304a-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304a-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304a-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304a-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304b-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304b-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304b-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304b-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304b-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304d-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304d-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304d-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304d-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304d-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304f-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304f-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304f-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304f-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-304f-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3051-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3051-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3051-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3051-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3051-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3053-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3053-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3053-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3053-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3053-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3055-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3055-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3055-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3055-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3055-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3057-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3057-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3057-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3057-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3057-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3059-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3059-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3059-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3059-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3059-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-305b-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-305b-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-305b-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-305b-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-305b-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-305d-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-305d-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-305d-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-305d-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-305d-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-305f-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-305f-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-305f-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-305f-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-305f-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3061-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3061-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3061-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3061-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3061-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3064-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3064-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3064-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3064-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3064-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3066-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3066-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3066-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3066-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3066-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3068-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3068-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3068-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3068-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3068-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306a-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306a-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306a-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306a-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306a-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306b-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306b-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306b-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306b-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306b-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306c-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306c-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306c-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306c-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306c-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306d-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306d-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306d-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306d-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306d-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306e-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306e-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306e-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306e-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306e-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306f-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306f-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306f-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306f-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-306f-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3072-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3072-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3072-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3072-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3072-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3075-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3075-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3075-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3075-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3075-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3078-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3078-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3078-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3078-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3078-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-307b-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-307b-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-307b-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-307b-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-307b-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-307e-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-307e-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-307e-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-307e-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-307e-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-307f-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-307f-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-307f-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-307f-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-307f-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3080-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3080-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3080-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3080-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3080-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3081-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3081-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3081-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3081-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3081-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3082-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3082-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3082-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3082-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3082-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3084-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3084-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3084-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3084-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3084-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3086-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3086-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3086-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3086-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3086-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3088-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3088-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3088-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3088-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3088-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3089-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3089-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3089-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3089-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3089-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308a-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308a-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308a-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308a-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308a-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308b-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308b-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308b-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308b-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308b-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308c-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308c-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308c-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308c-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308c-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308d-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308d-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308d-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308d-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308d-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308f-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308f-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308f-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308f-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-308f-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3092-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3092-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3092-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3092-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3092-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3093-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3093-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3093-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3093-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-hira-3093-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a2-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a2-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a2-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a2-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a2-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a4-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a4-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a4-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a4-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a4-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a6-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a6-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a6-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a6-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a6-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a8-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a8-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a8-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a8-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30a8-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30aa-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30aa-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30aa-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30aa-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30aa-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ab-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ab-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ab-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ab-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ab-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ad-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ad-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ad-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ad-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ad-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30af-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30af-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30af-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30af-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30af-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b1-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b1-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b1-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b1-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b1-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b3-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b3-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b3-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b3-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b3-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b5-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b5-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b5-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b5-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b5-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b7-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b7-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b7-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b7-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b7-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b9-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b9-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b9-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b9-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30b9-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30bb-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30bb-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30bb-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30bb-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30bb-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30bd-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30bd-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30bd-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30bd-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30bd-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30bf-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30bf-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30bf-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30bf-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30bf-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c1-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c1-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c1-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c1-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c1-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c4-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c4-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c4-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c4-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c4-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c6-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c6-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c6-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c6-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c6-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c8-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c8-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c8-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c8-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30c8-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ca-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ca-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ca-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ca-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ca-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cb-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cb-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cb-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cb-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cb-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cc-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cc-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cc-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cc-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cc-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cd-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cd-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cd-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cd-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cd-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ce-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ce-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ce-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ce-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ce-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cf-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cf-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cf-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cf-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30cf-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30d2-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30d2-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30d2-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30d2-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30d2-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30d5-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30d5-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30d5-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30d5-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30d5-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30d8-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30d8-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30d8-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30d8-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30d8-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30db-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30db-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30db-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30db-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30db-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30de-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30de-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30de-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30de-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30de-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30df-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30df-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30df-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30df-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30df-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e0-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e0-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e0-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e0-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e0-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e1-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e1-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e1-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e1-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e1-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e2-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e2-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e2-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e2-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e2-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e4-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e4-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e4-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e4-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e4-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e6-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e6-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e6-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e6-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e6-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e8-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e8-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e8-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e8-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e8-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e9-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e9-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e9-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e9-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30e9-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ea-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ea-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ea-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ea-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ea-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30eb-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30eb-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30eb-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30eb-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30eb-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ec-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ec-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ec-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ec-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ec-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ed-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ed-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ed-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ed-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ed-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ef-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ef-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ef-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ef-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30ef-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30f2-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30f2-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30f2-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30f2-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30f2-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30f3-introduced-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30f3-introduced-dark-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30f3-introduced-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30f3-introduced-light-source.png",
+      "original": "scripts/render_artwork.py",
+      "source": "Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-kata-30f3-question.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-hira-304d-dark.png",
+      "original": "artwork/fonts/Yomogi-Regular.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-hira-3055-dark.png",
+      "original": "artwork/fonts/Yomogi-Regular.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-hira-305d-dark.png",
+      "original": "artwork/fonts/NotoSerifJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-hira-3075-dark.png",
+      "original": "artwork/fonts/Yomogi-Regular.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-hira-308a-dark.png",
+      "original": "artwork/fonts/Yomogi-Regular.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-kata-30b7-dark.png",
+      "original": "artwork/fonts/NotoSerifJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-kata-30c4-dark.png",
+      "original": "artwork/fonts/NotoSerifJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-kata-30f3-dark.png",
+      "original": "artwork/fonts/NotoSerifJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    }
+  ],
   "sources": [
     {
       "name": "Kana — original course and compositions, Simon Pinkas",
@@ -98,7 +3375,7 @@
       "name": "Microsoft — Nanami Japanese voice",
       "version": "ja-JP-NanamiNeural, rate −20%",
       "url": "https://www.microsoft.com/en-us/edge/features/read-aloud",
-      "license": "LicenseRef-Audio-Rights-Deferred"
+      "license": "LicenseRef-Microsoft-Read-Aloud-Not-Relicensed"
     },
     {
       "name": "edge-tts — rany and contributors (audio authoring tool)",
@@ -121,8 +3398,8 @@
     "artwork": "artwork"
   },
   "reviewStatus": {
-    "publication": "not-approved",
-    "copyAndNames": "Deck title Kana and Languages category confirmed by owner; revised bilingual gallery description and credits supplied for review; sample pending owner approval",
+    "publication": "release candidate; approved by the owner at 1.0.0",
+    "copyAndNames": "Owner-approved (2026-11-10): the title Kana, the Languages category, the gallery headline and description, and the sample (the first reading, あ)",
     "questionTypes": [
       "reading",
       "listening",
@@ -141,5 +3418,31 @@
     "newCards": "deckOrder",
     "newPerDay": 4,
     "newPosition": "afterReviews"
+  },
+  "covers": {
+    "en": {
+      "light": [
+        "rv-kana-cover-light-1.png",
+        "rv-kana-cover-light-2.png",
+        "rv-kana-cover-light-3.png"
+      ],
+      "dark": [
+        "rv-kana-cover-dark-1.png",
+        "rv-kana-cover-dark-2.png",
+        "rv-kana-cover-dark-3.png"
+      ]
+    },
+    "fr": {
+      "light": [
+        "rv-kana-cover-light-1.png",
+        "rv-kana-cover-light-2.png",
+        "rv-kana-cover-light-3.png"
+      ],
+      "dark": [
+        "rv-kana-cover-dark-1.png",
+        "rv-kana-cover-dark-2.png",
+        "rv-kana-cover-dark-3.png"
+      ]
+    }
   }
 }

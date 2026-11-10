@@ -24,7 +24,7 @@ def reading_introductions(items=None):
   introduced.update(q.get('introduces',[]))
   if q['type']=='reading':result[q['id']]=frozenset(introduced)
  return result
-def inputs(language,artwork=None,only_type=None,beginner_trial=False):
+def course(language,artwork=None,only_type=None,beginner_trial=False):
  meta=read('rectoverso.json');words=read(f'source/languages/{language}.json');forms={c['id']:c for c in read('source/kana.json')}
  assets=artwork if artwork is not None else read('artwork/artwork.json')
  guide=read('source/learner-guide.json')
@@ -97,6 +97,27 @@ def inputs(language,artwork=None,only_type=None,beginner_trial=False):
  meta['pictures']=sorted(n for n in media if n.endswith('.png'))
  font_by_file={f['file']:f.get('font','NotoSansJP.ttf') for f in assets['files']}
  mixed={f['file'] for f in assets['files'] if 'SF-Pro-Text-Regular.otf' in f.get('fonts',[])}
- meta['imageCredits']=[({'file':n,'original':'scripts/render_artwork.py','source':'Noto Sans JP kana with locally installed pinned SF Pro Text romaji','creator':'Simon Pinkas','license':'Local Apple-platform prototype; Noto Sans JP OFL-1.1; SF Pro Apple license'} if n in mixed else {'file':n,'original':'artwork/fonts/'+font_by_file[n],'source':'Original composition using pinned open fonts','creator':'Simon Pinkas','license':'CC BY 4.0; font OFL-1.1'}) for n in meta['pictures']]
+ meta['imageCredits']=[({'file':n,'original':'scripts/render_artwork.py','source':'Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)','creator':'Simon Pinkas','license':'CC-BY-4.0'} if n in mixed else {'file':n,'original':'artwork/fonts/'+font_by_file[n],'source':'Original composition using pinned open fonts (OFL-1.1)','creator':'Simon Pinkas','license':'CC-BY-4.0'}) for n in meta['pictures']]
  meta['sounds']=sorted(n for n in media if n.endswith('.mp3'))
  return meta,notes,{'kana':model},{'id':deck_id,'name':trial['title'][language] if trial else words['title']+(' · '+words.get(only_type,only_type)+' · '+('review' if language=='en' else 'à relire') if only_type else ''),'description':trial['description'][language] if trial else words['description']}
+
+def declared(language):
+ """The complete course as rectoverso.json declares it for one language, in the deck kit's shape
+ (kit/docs/getting-started.md): the file without `languages`, plus the language's id, package and
+ sample, `deckID` and `language`."""
+ meta=read('rectoverso.json');artifact=meta['languages'][language]
+ return {k:v for k,v in meta.items() if k!='languages'}|{'id':artifact['id'],'deckID':meta['id'],'language':language,'package':artifact['package'],'sample':artifact['sample']}
+
+def made(language,artwork=None):
+ """What the complete course makes of the same facts: rectoverso.json states them, the source decides them."""
+ meta,notes,_,_=course(language,artwork)
+ return {'cards':len(notes),'pictures':len(meta['pictures']),'imageCredits':meta['imageCredits'],'sample':notes[0]['guid'],'package':{'file':meta['package']['file']}}
+
+def inputs(language):
+ """The deck kit's interface (`python3 kit/check.py`): the declared metadata, the notes, the note
+ types and the deck. Refuses a rectoverso.json that states another count, sample, package or
+ credit than the course makes."""
+ expanded=declared(language);facts=made(language);_,notes,models,deck=course(language)
+ for key,value in facts.items():
+  if expanded[key]!=value:raise ValueError(f'rectoverso.json states another {key} than the course makes: run scripts/metadata.py')
+ return expanded,notes,models,deck
