@@ -28,13 +28,19 @@ def ci(output,previous=None):
         for kind in TYPES:
             component=output/'components'/f'Japanese-Kana-{language}-{kind}.apkg';build(language,component,kind,artwork)
             command('scripts/checks/validate-anki.py',component,'--output',output/'evidence'/f'{language}-{kind}')
+        trial=output/'trials'/f'Japanese-Kana-{language}-beginner-trial.apkg'
+        build(language,trial,artwork=artwork,beginner_trial=True)
+        command('scripts/checks/validate-anki.py',trial,'--output',output/'evidence'/f'{language}-beginner-trial')
     other_artwork=output/'second/artwork';other=render(other_artwork)
     if record!=other:raise ValueError('Independent renders are not byte-identical')
     for language in ['en','fr']:
         first=output/'first/packages'/f'Japanese-Kana-{language}.apkg';second=output/'second/packages'/first.name
         build(language,second,artwork=other_artwork)
         command('scripts/checks/validate-rebuild.py',first,second,output/'evidence'/f'{language}-rebuild.json')
-    report=dict(status='pass',cards=source['cards'],types=source['types'],languages=['en','fr'],independentArtworkBytesExact=True,independentPackageSemanticsExact=True,studyProgressPreserved=True,publicationApproved=False,nativeChecks='partial; see docs/review.md',newAudioListening='pending')
+        trial=output/'second/trials'/f'Japanese-Kana-{language}-beginner-trial.apkg'
+        build(language,trial,artwork=other_artwork,beginner_trial=True)
+        command('scripts/checks/validate-rebuild.py',output/'trials'/trial.name,trial,output/'evidence'/f'{language}-trial-rebuild.json')
+    report=dict(status='pass',beginnerTrialCards=20,cards=source['cards'],types=source['types'],languages=['en','fr'],independentArtworkBytesExact=True,independentPackageSemanticsExact=True,studyProgressPreserved=True,publicationApproved=False,nativeChecks='partial; see docs/review.md',newAudioListening='pending')
     (output/'result.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report),flush=True)
 
 if __name__=='__main__':

@@ -58,3 +58,10 @@ After these content refinements, the complete offline CI passed again into build
 ## 2026-11-10 — Kana 0.2.0 teaching-feedback candidate
 
 Both Astra high-effort reviewers passed each revised type and the final 292-item sequence, with the qualifications and exact hashes in [the review](reviews/teaching-feedback.md). Full bilingual CI, Anki history-preserving290→292 updates, deterministic artwork and independent package semantics pass. Actual native/Core/gallery checks and any remaining gates are recorded there. The four-new-question starting preset is unchanged. No release or phone install.
+
+
+## 2026-11-10 — Beginner trial and reported premature words
+
+The exact first 20 questions are packaged separately in English/French: 8 readings, 7 listening, 5 words, 13 existing audio files and 40 existing images. Both Anki imports, front/back/media checks, real study and idempotent reimport pass. Full-course-plus-trial coexistence checks preserve the full 292-card course’s content and study states, producing 312 cards without duplicates. A baseline comparison against 8253060 proves normal course/type inputs remain exact.
+
+Both Astra high-effort reviews qualifiedly pass the trial sources and independently audit actual glyph dependencies, not just requires. Source order satisfies the owner’s prerequisite rule. New regression tests reject an undeclared future word kana and an untaught figure neighbor; all 46 tests pass. Phone UI confirmed a configuration gap: Random/20 was changed to authored order/4, After reviews retained. Subsequent automation watchdog failures are retained; no complete replay or runtime prerequisite guarantee is claimed. See [trial setup](beginner-trial.md), [app handoff](app-prerequisite-handoff.md), and [remaining gallery covers](gallery-todo.md).

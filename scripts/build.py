@@ -7,13 +7,13 @@ from anki.decks import DeckId
 from source_data import ROOT,inputs
 from render_artwork import render
 
-def build(language,out,only_type=None,artwork=None):
+def build(language,out,only_type=None,artwork=None,beginner_trial=False):
  out=out.resolve()
  if out.is_relative_to(ROOT) or out.exists() or out.with_suffix('.rectoverso.json').exists():raise ValueError('Choose a new package outside the source repo')
  out.parent.mkdir(parents=True,exist_ok=True)
  assets_path=artwork or out.parent/'artwork'
  record=json.loads((assets_path/'artwork.json').read_text()) if (assets_path/'artwork.json').exists() else render(assets_path,only_type)
- meta,notes,models,deck=inputs(language,record,only_type)
+ meta,notes,models,deck=inputs(language,record,only_type,beginner_trial)
  modified=int(datetime.fromisoformat(meta['contentModifiedAt'].replace('Z','+00:00')).timestamp())
  if out.name!=meta['package']['file']:raise ValueError('Package filename differs from metadata')
  with tempfile.TemporaryDirectory(dir=out.parent,prefix='anki-build-') as temp:
@@ -44,7 +44,7 @@ def build(language,out,only_type=None,artwork=None):
   finally:col.close()
  meta['package'].update(bytes=out.stat().st_size,sha256=hashlib.sha256(out.read_bytes()).hexdigest())
  out.with_suffix('.rectoverso.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2)+'\n')
- print(json.dumps({'package':str(out),'cards':len(notes),'component':only_type,'language':language}),flush=True)
+ print(json.dumps({'package':str(out),'cards':len(notes),'component':meta['component'],'language':language}),flush=True)
 
 if __name__=='__main__':
- p=argparse.ArgumentParser();p.add_argument('--language',choices=['en','fr'],required=True);p.add_argument('--out',type=Path,required=True);p.add_argument('--type',dest='only_type');p.add_argument('--artwork',type=Path);a=p.parse_args();build(a.language,a.out,a.only_type,a.artwork)
+ p=argparse.ArgumentParser();p.add_argument('--language',choices=['en','fr'],required=True);p.add_argument('--out',type=Path,required=True);p.add_argument('--type',dest='only_type');p.add_argument('--beginner-trial',action='store_true');p.add_argument('--artwork',type=Path);a=p.parse_args();build(a.language,a.out,a.only_type,a.artwork,a.beginner_trial)

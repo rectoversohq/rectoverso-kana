@@ -93,3 +93,8 @@ python scripts/synthesize_audio.py --requests source/audio/requests-v02.json --c
 ```
 
 Normal builds never synthesize audio. The 131 existing recordings and their provenance are unchanged; the two new files retain pending human listening review. All 668 existing rendered image records and geometry remain identical; only the two new words’ light/dark isolated figures are added to the artwork manifest. Those isolated word figures are review renders, not packaged word prompts.
+
+
+### Isolated beginner trial
+
+Use --beginner-trial to build the exact reviewed first 20 questions with separate study identities; see [trial setup and limits](beginner-trial.md). Both languages are checked by scripts/ci.py. The source guard checks actual kana in word/listening prompts and reading figures, but cannot override shuffled app entry points or enforce learner exposure.

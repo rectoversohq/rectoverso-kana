@@ -53,3 +53,10 @@ The owner approved the proposed gentler start: up to two new basic kana and four
 ## 2026-11-10 — More useful feedback and earlier application (0.2.0 candidate)
 
 The owner approved creating the proposed next version: concise kana-specific answer feedback, earlier lookalike comparisons, earlier tiny-word practice and a productive voicing application. Keep the first eight questions and the gentle four-new-question starting preset. Add あい as question9 and かぐ after the g-rule with another question intervening; retain all 290 existing questions, identities and recordings. Move existing comparisons nearer their completed reading/listening pair cycles and separate reciprocal questions. Reading, listening, word and comparison feedback is revised; rules, alternate forms and final checks retain their established content. The two new recordings use Nanami at −20% and await human review. The owner’s approval creates a review candidate, not a release, gallery pin or phone install.
+
+
+## 2026-11-10 — Isolated beginner trial and strict introduction prerequisite
+
+The owner requested a phone trial of the first 20 course questions, and noted that gallery covers remain to be made. The trial is built in both languages; English is installed for testing, under identities separate from the complete course. No original question, artwork or recording changes.
+
+After the owner reported words preceding their kana, the authored sequence was independently audited by actual glyphs and passed; the phone’s trial was observed still configured as Random with 20 new cards/day. It was changed to In deck order and four/day, retaining After reviews. The owner’s rule is that only a kana→sound teaching encounter may introduce a target; all other required kana must already be introduced. Add actual-glyph source regressions and an app handoff. Source order and settings alone do not establish runtime prerequisite enforcement, especially with skipped introductions, Practice or pre-existing dependent-card history. Do not reset learner history to conceal the failure.

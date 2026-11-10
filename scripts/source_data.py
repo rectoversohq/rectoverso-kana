@@ -1,6 +1,7 @@
 """Expand the shared source through the gallery decks' standard interface."""
 import hashlib,html,json,uuid
 from pathlib import Path
+from introduction_order import check_introduction_order
 
 ROOT=Path(__file__).resolve().parents[1]
 NS=uuid.UUID('76d92c6f-ceb5-4d12-9dbc-6aa7210f116c')
@@ -23,21 +24,30 @@ def reading_introductions(items=None):
   introduced.update(q.get('introduces',[]))
   if q['type']=='reading':result[q['id']]=frozenset(introduced)
  return result
-def inputs(language,artwork=None,only_type=None):
+def inputs(language,artwork=None,only_type=None,beginner_trial=False):
  meta=read('rectoverso.json');words=read(f'source/languages/{language}.json');forms={c['id']:c for c in read('source/kana.json')}
  assets=artwork if artwork is not None else read('artwork/artwork.json')
  guide=read('source/learner-guide.json')
- all_items=ordered(questions());items=[q for q in all_items if only_type is None or q['type']==only_type]
+ if beginner_trial and only_type is not None:raise ValueError('Choose a trial or a question-type component, not both')
+ all_items=ordered(questions());trial=read('source/beginner-trial.json') if beginner_trial else None
+ if trial:
+  if trial['items']!=[q['id'] for q in all_items[:20]]:raise ValueError('Trial snapshot no longer matches the reviewed opening')
+  items=all_items[:20]
+  check_introduction_order(items,forms,assets)
+ else:items=[q for q in all_items if only_type is None or q['type']==only_type]
  # Isolated component packages have their own identities; the complete course
  # never replaces a component book or the earlier studied prototype.
- prefix=meta['guidPrefix'] if only_type is None else meta['guidPrefix']+'-preview-'+only_type
- book=str(uuid.uuid5(NS,prefix+'/'+language));deck_id=meta['identityBase']+(100 if language=='fr' else 0)+(0 if only_type is None else 1000+['reading','listening','rule','word','contrast','variant','checkpoint'].index(only_type)*10)
- model_id=meta['identityBase']+10000+(100 if language=='fr' else 0)
+ prefix=meta['guidPrefix']+'-beginner-trial' if trial else (meta['guidPrefix'] if only_type is None else meta['guidPrefix']+'-preview-'+only_type)
+ book=str(uuid.uuid5(NS,prefix+'/'+language));deck_id=meta['identityBase']+(100 if language=='fr' else 0)+(2000 if trial else (0 if only_type is None else 1000+['reading','listening','rule','word','contrast','variant','checkpoint'].index(only_type)*10))
+ model_id=meta['identityBase']+(20000 if trial else 10000)+(100 if language=='fr' else 0)
+ identity_key=prefix if trial else 'rv-kana'
  notes=[];media=set();kinds=set()
  for index,q in enumerate(items):
   kind=q['type'];guid=f'{prefix}-{language}-{q["id"]}';payload={'v':1,'book':book,'card':str(uuid.uuid5(NS,guid)),'kind':'occlusion' if kind=='reading' else 'basic','noteID':guid}
   instruction=q['instruction'][language];hint='';note=q['note'][language];
-  for appendix in q.get('appendices',[]):note+='\n\n'+guide[appendix]['title'][language]+'\n'+guide[appendix].get('noteBody',guide[appendix]['body'])[language]
+  for appendix in q.get('appendices',[]):
+   entry=trial['guide'] if trial and appendix=='course' else guide[appendix]
+   note+='\n\n'+entry['title'][language]+'\n'+entry.get('noteBody',entry['body'])[language]
   back=q.get('answer','');extra='';prompt_audio='';answer_audio='';romaji=''
   if kind=='reading':
    c=forms[q['target']];f=assets['figures'][q['id']];front='<img src="'+f['question']['file']+'" alt="'+c['kana']+'">';media.add(f['question']['file'])
@@ -70,12 +80,15 @@ def inputs(language,artwork=None,only_type=None):
   +'" onclick="var d=document.getElementById(\'rv-details\');d.hidden=!d.hidden;this.setAttribute(\'aria-expanded\',!d.hidden)" aria-expanded="false" aria-controls="rv-details"><div id="rv-details" hidden><p><strong>'
   +html.escape(words['romajiLabel'])+'</strong><br>{{Romaji}}</p></div></section>{{/Romaji}}'
  )
- model={'id':model_id,'name':'RectoVerso Kana '+language,'fields':FIELDS,'fieldIDs':{f:stable_id(f'rv-kana/{language}/field/{f}') for f in FIELDS},'templates':[{'name':'Kana practice' if language=='en' else 'Exercices de kana','id':stable_id(f'rv-kana/{language}/template'),'qfmt':'{{Kicker}}<br>{{Front}}<div>{{Meta}}</div>','afmt':'{{FrontSide}}<hr id="answer">{{Back}}'+details+'<div>{{Example}}</div><div>{{Note}}</div>'}],'css':'.card{font-family:Arial,sans-serif;text-align:center;font-size:28px;background:#FAFAF9;color:#1A1814}img{display:block;max-width:100%;max-height:70vh;margin:auto}.nightMode.card{background:#211E18;color:#EDE6D8}'}
+ model={'id':model_id,'name':'RectoVerso Kana '+('beginner trial ' if trial else '')+language,'fields':FIELDS,'fieldIDs':{f:stable_id(f'{identity_key}/{language}/field/{f}') for f in FIELDS},'templates':[{'name':'Kana practice' if language=='en' else 'Exercices de kana','id':stable_id(f'{identity_key}/{language}/template'),'qfmt':'{{Kicker}}<br>{{Front}}<div>{{Meta}}</div>','afmt':'{{FrontSide}}<hr id="answer">{{Back}}'+details+'<div>{{Example}}</div><div>{{Note}}</div>'}],'css':'.card{font-family:Arial,sans-serif;text-align:center;font-size:28px;background:#FAFAF9;color:#1A1814}img{display:block;max-width:100%;max-height:70vh;margin:auto}.nightMode.card{background:#211E18;color:#EDE6D8}'}
  meta['cards']=len(notes);meta['languages']={k:v|{'cards':len(notes),'sample':f'{prefix}-{k}-{items[0]["id"]}'} for k,v in meta['languages'].items()};meta['guidPrefix']=prefix
- artifact=meta['languages'][language];meta.update(id=artifact['id'],title=artifact['title'],cards=len(notes),sample=notes[0]['guid'],package={'file':f'Japanese-Kana-{language}'+('' if only_type is None else '-'+only_type)+'.apkg'},language=language,component=only_type,bookUUID=book)
+ if trial:
+  meta['languages']={k:v|{'id':'rectoverso-kana-beginner-trial-'+k,'title':trial['title'][k],'package':{'file':f'Japanese-Kana-{k}-beginner-trial.apkg'}} for k,v in meta['languages'].items()}
+ artifact=meta['languages'][language];meta.update(id=artifact['id'],title=artifact['title'],cards=len(notes),sample=notes[0]['guid'],package={'file':f'Japanese-Kana-{language}'+('-beginner-trial' if trial else ('' if only_type is None else '-'+only_type))+'.apkg'},language=language,component='beginner-trial' if trial else only_type,bookUUID=book)
+ if trial:meta.update(description=trial['description'][language],headline=trial['headline'])
  meta['pictures']=sorted(n for n in media if n.endswith('.png'))
  font_by_file={f['file']:f.get('font','NotoSansJP.ttf') for f in assets['files']}
  mixed={f['file'] for f in assets['files'] if 'SF-Pro-Text-Regular.otf' in f.get('fonts',[])}
  meta['imageCredits']=[({'file':n,'original':'scripts/render_artwork.py','source':'Noto Sans JP kana with locally installed pinned SF Pro Text romaji','creator':'Simon Pinkas','license':'Local Apple-platform prototype; Noto Sans JP OFL-1.1; SF Pro Apple license'} if n in mixed else {'file':n,'original':'artwork/fonts/'+font_by_file[n],'source':'Original composition using pinned open fonts','creator':'Simon Pinkas','license':'CC BY 4.0; font OFL-1.1'}) for n in meta['pictures']]
  meta['sounds']=sorted(n for n in media if n.endswith('.mp3'))
- return meta,notes,{'kana':model},{'id':deck_id,'name':words['title']+(' · '+words.get(only_type,only_type)+' · '+('review' if language=='en' else 'à relire') if only_type else ''),'description':words['description']}
+ return meta,notes,{'kana':model},{'id':deck_id,'name':trial['title'][language] if trial else words['title']+(' · '+words.get(only_type,only_type)+' · '+('review' if language=='en' else 'à relire') if only_type else ''),'description':trial['description'][language] if trial else words['description']}

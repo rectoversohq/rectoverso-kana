@@ -1,0 +1,47 @@
+{
+  "format": 1,
+  "items": [
+    "read-hira-3042",
+    "read-hira-3044",
+    "listen-hira-a",
+    "listen-hira-i",
+    "read-hira-3046",
+    "read-hira-3048",
+    "listen-hira-u",
+    "listen-hira-e",
+    "word-ai",
+    "word-ie",
+    "word-ue",
+    "read-hira-304a",
+    "read-hira-304b",
+    "word-ao",
+    "listen-hira-ka",
+    "word-kao",
+    "read-hira-304d",
+    "read-hira-304f",
+    "listen-hira-ki",
+    "listen-hira-ku"
+  ],
+  "title": {
+    "en": "Kana · Beginner trial",
+    "fr": "Kana · Essai débutant"
+  },
+  "description": {
+    "en": "A beginner trial of the first 20 course questions: eight hiragana, seven listening questions and five short words. This is early hiragana practice, not the complete kana course.\n\nUse about ten minutes a day, including reviews. Introduce up to four new questions a day, after due reviews. Pause new questions if reviews fill your time; the trial need not finish in five days. Keep reviewing after all 20 questions have been introduced.\n\nFor this file import, set Deck options: New cards a day → 4; New cards → In deck order; Show new cards → After reviews. Gallery presets do not apply to a file import.\n\nAfter a session, note any unclear prompt, hard-to-use control or sound you could not distinguish. Try reading words before reveal, without looking up kana in the table. Correct reading can be slow; meanings are context, not vocabulary to memorize.",
+    "fr": "Un essai débutant avec les 20 premières questions du cours : huit hiragana, sept questions d’écoute et cinq mots courts. Il s’agit des premiers pas en hiragana, pas du cours complet de kana.\n\nPrévoyez environ dix minutes par jour, révisions comprises. Ajoutez jusqu’à quatre nouvelles questions par jour, après les révisions dues. Suspendez le nouveau si les révisions prennent tout votre temps ; l’essai peut dépasser cinq jours. Continuez à réviser après l’introduction des 20 questions.\n\nPour cet import de fichier, réglez les Options du deck : Nouvelles cartes par jour → 4 ; Nouvelles cartes → Dans l’ordre du deck ; Afficher les nouvelles cartes → Après les révisions. Les réglages de la galerie ne s’appliquent pas à l’import d’un fichier.\n\nAprès une séance, notez toute consigne ambiguë, commande difficile ou son mal distingué. Essayez de lire les mots avant de révéler, sans chercher les kana dans le tableau. Une lecture exacte peut être lente ; le sens fournit un contexte, sans vocabulaire à mémoriser."
+  },
+  "guide": {
+    "title": {
+      "en": "Beginner trial",
+      "fr": "Essai débutant"
+    },
+    "body": {
+      "en": "New kana? Reveal and listen first; try recalling it on later visits. Mental recall is enough; writing is optional. Shape cues describe this print, not writing strokes.\n\nThis trial has 20 questions. Start with four new questions a day, after reviews, aiming for about ten minutes total. Pause new questions when reviews fill your time. Keep reviewing after question 20; finishing introductions is not proof of mastery.",
+      "fr": "Un nouveau kana ? Révélez et écoutez d’abord ; essayez de le retrouver lors des révisions suivantes. Un rappel mental suffit ; écrire est facultatif. Les repères décrivent cette police, pas les traits de l’écriture.\n\nCet essai compte 20 questions. Commencez par quatre nouvelles questions par jour, après les révisions, pour environ dix minutes au total. Suspendez le nouveau si les révisions prennent tout votre temps. Continuez à réviser après la question 20 ; tout introduire ne prouve pas la maîtrise."
+    }
+  },
+  "headline": {
+    "en": "Try your first hiragana, one sound at a time.",
+    "fr": "Vos premiers hiragana, un son à la fois."
+  }
+}
