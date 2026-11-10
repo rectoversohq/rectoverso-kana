@@ -1,13 +1,13 @@
 {
   "id": "rectoverso-kana",
-  "version": "1.0.0-rc.2",
-  "releaseTag": "v1.0.0-rc.2",
+  "version": "1.0.0-rc.3",
+  "releaseTag": "v1.0.0-rc.3",
   "guidPrefix": "rv-kana",
   "identityBase": 1794200000,
   "contentModifiedAt": "2026-11-10T18:29:08Z",
   "publication": {
     "remote": "https://github.com/rectoversohq/rectoverso-kana",
-    "release": "https://github.com/rectoversohq/rectoverso-kana/releases/tag/v1.0.0-rc.2",
+    "release": "https://github.com/rectoversohq/rectoverso-kana/releases/tag/v1.0.0-rc.3",
     "approved": true,
     "visibility": "public"
   },

@@ -110,3 +110,8 @@ RectoVerso’s gallery knows a deck on the shelf by the id it derives from the p
 ## 2026-11-10 — 1.0.0-rc.2, approved for the gallery in TestFlight
 
 The owner tests the course through RectoVerso’s gallery in TestFlight, and the gallery pins approved editions only. 1.0.0-rc.2 is 1.0.0-rc.1 with publication.approved true: the same questions, identities, answers, order, pictures and sounds, and the same contentModifiedAt. It is still a candidate by its number: 1.0.0 follows the owner’s test and the listening review of the eighty-three recordings. The workflow now runs the kit’s check as RectoVerso’s gallery takes a deck.
+
+
+## 2026-11-10 — 1.0.0-rc.3: the Anki check reads RectoVerso’s export
+
+RectoVerso’s gallery checks a deck in Anki twice: its package, then the app’s own export of it. A deck whose notes carry a payload comes out of the app as the app’s notes (its own note type, each note named by its card’s id, no tags, no Romaji field), which scripts/checks/validate-anki.py took for a broken package: the gallery’s check stopped there on 1.0.0-rc.2. The check now recognizes that export and holds it to the source: every note once, by the noteID in its payload; its fields (an occlusion’s front is the app’s own drawing over the same pictures, another front keeps its words and pictures); its kind, what it requires and introduces, its card and book ids; every picture and sound byte for byte; then real study and a reimport that keeps progress. The gallery reads the check from the pinned tag, so this is a new candidate; the packages’ notes, identities, media and contentModifiedAt are those of 1.0.0-rc.2.
