@@ -2,10 +2,10 @@
 import html,json,sys,unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'scripts'))
-from source_data import inputs
+from source_data import course
 
 def payloads(language,**options):
- notes=inputs(language,**options)[1]
+ notes=course(language,**options)[1]
  return {n['itemId']:json.JSONDecoder().raw_decode(html.unescape(n['fields']['RectoVerso']))[0] for n in notes}
 
 class PrerequisitePayloadTests(unittest.TestCase):

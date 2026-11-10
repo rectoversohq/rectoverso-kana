@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 from course_contract import check_questions,check_source,check_study
-from source_data import inputs,questions
+from source_data import course,questions
 from font_sources import font_path
 
 class CourseContractTests(unittest.TestCase):
@@ -57,7 +57,7 @@ class CourseContractTests(unittest.TestCase):
         items={q['id']:q for q in self.items if q['type']=='listening'}
         self.assertEqual(len(items),94)
         for language,hint in [('en','Recall one valid form.'),('fr','Une forme suffit.')]:
-            _,notes,_,_=inputs(language)
+            _,notes,_,_=course(language)
             listening=[n for n in notes if n['itemId'] in items]
             self.assertEqual(len(listening),94)
             for note in listening:
@@ -72,7 +72,7 @@ class CourseContractTests(unittest.TestCase):
         labels={'en':'Listen','fr':'Écouter'}
         self.assertEqual(json.loads((ROOT/'rectoverso.json').read_text())['playLabel'],labels)
         for language in labels:
-            metadata,_,_,_=inputs(language)
+            metadata,_,_,_=course(language)
             self.assertEqual(metadata['playLabel'],labels)
 
     def test_owner_study_preset_is_shared_by_both_language_expansions(self):
@@ -80,7 +80,7 @@ class CourseContractTests(unittest.TestCase):
         metadata=json.loads((ROOT/'rectoverso.json').read_text())
         check_study(metadata)
         for language in ('en','fr'):
-            expanded,notes,_,_=inputs(language)
+            expanded,notes,_,_=course(language)
             self.assertEqual(expanded['study'],expected)
             self.assertNotIn('studyRecommendations',expanded)
             self.assertEqual([n['due'] for n in notes],list(range(1,len(notes)+1)))
@@ -99,7 +99,7 @@ class CourseContractTests(unittest.TestCase):
     def test_comparisons_keep_their_text_prompt_and_recording(self):
         items={q['id']:q for q in self.items if q['type']=='contrast'}
         for language in ['en','fr']:
-            _,notes,_,_=inputs(language)
+            _,notes,_,_=course(language)
             for note in notes:
                 if note['itemId'] not in items:continue
                 question=items[note['itemId']];fields=note['fields']
@@ -110,7 +110,7 @@ class CourseContractTests(unittest.TestCase):
 
     def test_word_context_cannot_supply_cognate_reading_on_front(self):
         for lang in ['en','fr']:
-            _,notes,_,_=inputs(lang)
+            _,notes,_,_=course(lang)
             by={n['itemId']:n for n in notes}
             for id in ['word-sushi','word-memo','word-tomato']:
                 fields=by[id]['fields']

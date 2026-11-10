@@ -101,7 +101,7 @@ def inspect(package,output):
    def state(c):return(c.id,c.nid,c.type,c.queue,c.due,c.reps,c.ivl)
    kept=state(before);load(col,package);assert col.card_count()==count and state(col.get_card(studied.id))==kept
    col.export_anki_package(out_path=str(output/'roundtrip.apkg'),options=ExportAnkiPackageOptions(with_scheduling=True,with_media=True),limit=None)
-   report={'cards':count,'language':meta['language'],'component':meta['component'],'import':'pass','frontBack':'pass','media':'pass','realStudy':'pass','reimportPreservesProgress':'pass','audioFiles':len([n for n in hashes if n.endswith('.mp3')]),'imageFiles':len([n for n in hashes if n.endswith('.png')]),'mediaHashes':hashes,'items':states}
+   report={'cards':count,'language':meta['language'],'component':meta.get('component'),'import':'pass','frontBack':'pass','media':'pass','realStudy':'pass','reimportPreservesProgress':'pass','audioFiles':len([n for n in hashes if n.endswith('.mp3')]),'imageFiles':len([n for n in hashes if n.endswith('.png')]),'mediaHashes':hashes,'items':states}
    (output/'anki-verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
   finally:col.close()
  print(json.dumps({k:v for k,v in report.items() if k not in ['mediaHashes','items']}),flush=True)
