@@ -1,6 +1,6 @@
 # Kana
 
-An English/French beginner course, at its release candidate 1.0.0-rc.1 (not yet approved for publication), following the owner-confirmed [course brief](docs/course-brief.md). Its 292 questions were authored one type at a time, with separate Astra reviewers at high effort for facts and pedagogy.
+An English/French beginner course, at its release candidate 1.0.0-rc.2, which the owner approved for RectoVerso’s gallery in TestFlight (1.0.0 follows the listening review), following the owner-confirmed [course brief](docs/course-brief.md). Its 292 questions were authored one type at a time, with separate Astra reviewers at high effort for facts and pedagogy.
 
 | Type | Questions |
 | --- | ---: |

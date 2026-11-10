@@ -105,3 +105,8 @@ The deck now follows the deck kit (kit/, pinned at v1.0.1), which replaced the a
 ## 2026-11-10 — The book is the id RectoVerso gives the package’s Anki deck
 
 RectoVerso’s gallery knows a deck on the shelf by the id it derives from the package’s Anki deck (UUID(stableFrom: "anki/deck/<id>"), two FNV-1a passes). This course’s payload named a book of its own (a UUID from the GUID prefix and the language), so the app filed the deck under that one, and the gallery would have offered **Get** for a deck already there: the app’s gallery round trip refused both packages. The owner chose to fix it here rather than in the app’s catalog. Each package’s book is now that derived id (scripts/source_data.py, library_id), the complete course’s, the trial’s and each component’s alike; a test holds it to literals computed with the app’s own function. Card ids, GUIDs, note types and Anki ids are unchanged. Nothing was published under the earlier book; a build already imported into RectoVerso stays a deck of its own beside the new one. contentModifiedAt advances with the payload.
+
+
+## 2026-11-10 — 1.0.0-rc.2, approved for the gallery in TestFlight
+
+The owner tests the course through RectoVerso’s gallery in TestFlight, and the gallery pins approved editions only. 1.0.0-rc.2 is 1.0.0-rc.1 with publication.approved true: the same questions, identities, answers, order, pictures and sounds, and the same contentModifiedAt. It is still a candidate by its number: 1.0.0 follows the owner’s test and the listening review of the eighty-three recordings. The workflow now runs the kit’s check as RectoVerso’s gallery takes a deck.
