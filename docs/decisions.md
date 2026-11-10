@@ -100,3 +100,8 @@ The owner decided, for the 1.1 gallery:
 - **The repository is public,** and its metadata now says so.
 
 The deck now follows the deck kit (kit/, pinned at v1.0.1), which replaced the app’s own copy of the contract: rectoverso.json states the count of pictures and a credit for each of the 468 (each an original composition, CC-BY-4.0, its fonts named in its source), lists the six covers, and is held to what the course makes by scripts/metadata.py and the kit’s check; scripts/source_data.py gives the kit its inputs(language) beside the course’s own course(language, …); the complete course’s sidecar is the kit’s. No question, identity, answer, order, picture or sound changes.
+
+
+## 2026-11-10 — The book is the id RectoVerso gives the package’s Anki deck
+
+RectoVerso’s gallery knows a deck on the shelf by the id it derives from the package’s Anki deck (UUID(stableFrom: "anki/deck/<id>"), two FNV-1a passes). This course’s payload named a book of its own (a UUID from the GUID prefix and the language), so the app filed the deck under that one, and the gallery would have offered **Get** for a deck already there: the app’s gallery round trip refused both packages. The owner chose to fix it here rather than in the app’s catalog. Each package’s book is now that derived id (scripts/source_data.py, library_id), the complete course’s, the trial’s and each component’s alike; a test holds it to literals computed with the app’s own function. Card ids, GUIDs, note types and Anki ids are unchanged. Nothing was published under the earlier book; a build already imported into RectoVerso stays a deck of its own beside the new one. contentModifiedAt advances with the payload.

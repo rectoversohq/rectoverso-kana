@@ -8,6 +8,16 @@ NS=uuid.UUID('76d92c6f-ceb5-4d12-9dbc-6aa7210f116c')
 FIELDS=['Front','Back','Kicker','Meta','Example','Note','RectoVerso search','RectoVerso','Romaji']
 def read(path):return json.loads((ROOT/path).read_text())
 def stable_id(text):return int.from_bytes(hashlib.sha256(text.encode()).digest()[:8],'big',signed=True)
+def library_id(deck_id):
+ """The id RectoVerso gives a deck it reads from an Anki package: its UUID(stableFrom: "anki/deck/<id>"),
+ two FNV-1a passes over the text. The payload's `book` is that id, so the gallery, which knows a deck on
+ the shelf by it, and the notes agree."""
+ text=f'anki/deck/{deck_id}'.encode()
+ def fnv(seed):
+  value=seed
+  for byte in text:value=((value^byte)*0x100000001b3)&0xFFFFFFFFFFFFFFFF
+  return value
+ return str(uuid.UUID(f'{fnv(0xcbf29ce484222325):016x}{fnv(0x84222325cbf29ce4):016x}'))
 def questions():return [q for p in sorted((ROOT/'source/questions').glob('*.json')) for q in json.loads(p.read_text())]
 def ordered(items):
  pending=sorted(items,key=lambda q:(q['stage'],q['priority'],q['id']));result=[];known=set()
@@ -38,7 +48,8 @@ def course(language,artwork=None,only_type=None,beginner_trial=False):
  # Isolated component packages have their own identities; the complete course
  # never replaces a component book or the earlier studied prototype.
  prefix=meta['guidPrefix']+'-beginner-trial' if trial else (meta['guidPrefix'] if only_type is None else meta['guidPrefix']+'-preview-'+only_type)
- book=str(uuid.uuid5(NS,prefix+'/'+language));deck_id=meta['identityBase']+(100 if language=='fr' else 0)+(2000 if trial else (0 if only_type is None else 1000+['reading','listening','rule','word','contrast','variant','checkpoint'].index(only_type)*10))
+ deck_id=meta['identityBase']+(100 if language=='fr' else 0)+(2000 if trial else (0 if only_type is None else 1000+['reading','listening','rule','word','contrast','variant','checkpoint'].index(only_type)*10))
+ book=library_id(deck_id)
  model_id=meta['identityBase']+(20000 if trial else 10000)+(100 if language=='fr' else 0)
  identity_key=prefix if trial else 'rv-kana'
  notes=[];media=set();kinds=set()
