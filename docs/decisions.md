@@ -70,3 +70,8 @@ The owner selected workshop order 1–3–2 (brush, stroke order, reading reveal
 ## 2026-11-10 — Gallery description, Languages and credits
 
 The owner requested the gallery description, confirmed the Languages category and asked for credits. The English/French gallery and package descriptions now concisely describe sound ↔ kana recall, stroke-by-stroke answers, reading rules and short-word practice; import-setup details remain in the learner guide. The source list separately credits the original course, KanjiVG, the pinned Japanese/SF fonts, Microsoft Nanami, edge-tts and the teaching reference index. Original-material licensing is normalized to the equivalent CC-BY-4.0 identifier; each third-party contribution keeps its own recorded terms, including deferred audio rights. This is metadata/copy work, with no question/media/identity changes and no publication approval.
+
+
+## 2026-11-10 — Name the script in reading prompts
+
+The owner approved replacing “Read this kana.” with “Read this hiragana.” or “Read this katakana.” The 92 basic reading questions and eight alternate-form questions name their actual script in English and French. French keeps the existing question wording, using « Comment se lit ce hiragana ? » and « Comment se lit ce katakana ? ». Word, rule, listening, comparison and final-check prompts stay unchanged. Advance contentModifiedAt so existing Anki notes receive the revised instructions; retain all question identities, answers, ordering and media. No release, gallery pin or phone installation is authorized.
