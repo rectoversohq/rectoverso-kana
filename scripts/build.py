@@ -4,7 +4,7 @@ from pathlib import Path
 from datetime import datetime
 from anki.collection import Collection,ExportAnkiPackageOptions
 from anki.decks import DeckId
-from source_data import ROOT,inputs
+from source_data import ROOT,course,declared
 from render_artwork import render
 from covers import render_covers
 
@@ -14,7 +14,7 @@ def build(language,out,only_type=None,artwork=None,beginner_trial=False):
  out.parent.mkdir(parents=True,exist_ok=True)
  assets_path=artwork or out.parent/'artwork'
  record=json.loads((assets_path/'artwork.json').read_text()) if (assets_path/'artwork.json').exists() else render(assets_path,only_type)
- meta,notes,models,deck=inputs(language,record,only_type,beginner_trial)
+ meta,notes,models,deck=course(language,record,only_type,beginner_trial)
  modified=int(datetime.fromisoformat(meta['contentModifiedAt'].replace('Z','+00:00')).timestamp())
  if out.name!=meta['package']['file']:raise ValueError('Package filename differs from metadata')
  # Gallery covers accompany complete packages, never their Anki media.
@@ -46,7 +46,10 @@ def build(language,out,only_type=None,artwork=None,beginner_trial=False):
    col.export_anki_package(out_path=str(out),options=ExportAnkiPackageOptions(with_scheduling=False,with_media=True),limit=None)
   finally:col.close()
  meta['package'].update(bytes=out.stat().st_size,sha256=hashlib.sha256(out.read_bytes()).hexdigest())
- out.with_suffix('.rectoverso.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2)+'\n')
+ # The complete course's sidecar is the deck kit's: what rectoverso.json declares for the language,
+ # plus the package's size and hash. A component or the trial keeps the course's own record.
+ sidecar=declared(language)|{'package':meta['package']} if only_type is None and not beginner_trial else meta
+ out.with_suffix('.rectoverso.json').write_text(json.dumps(sidecar,ensure_ascii=False,indent=2)+'\n')
  print(json.dumps({'package':str(out),'cards':len(notes),'component':meta['component'],'language':language}),flush=True)
 
 if __name__=='__main__':

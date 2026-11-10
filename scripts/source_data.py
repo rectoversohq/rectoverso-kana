@@ -8,6 +8,16 @@ NS=uuid.UUID('76d92c6f-ceb5-4d12-9dbc-6aa7210f116c')
 FIELDS=['Front','Back','Kicker','Meta','Example','Note','RectoVerso search','RectoVerso','Romaji']
 def read(path):return json.loads((ROOT/path).read_text())
 def stable_id(text):return int.from_bytes(hashlib.sha256(text.encode()).digest()[:8],'big',signed=True)
+def library_id(deck_id):
+ """The id RectoVerso gives a deck it reads from an Anki package: its UUID(stableFrom: "anki/deck/<id>"),
+ two FNV-1a passes over the text. The payload's `book` is that id, so the gallery, which knows a deck on
+ the shelf by it, and the notes agree."""
+ text=f'anki/deck/{deck_id}'.encode()
+ def fnv(seed):
+  value=seed
+  for byte in text:value=((value^byte)*0x100000001b3)&0xFFFFFFFFFFFFFFFF
+  return value
+ return str(uuid.UUID(f'{fnv(0xcbf29ce484222325):016x}{fnv(0x84222325cbf29ce4):016x}'))
 def questions():return [q for p in sorted((ROOT/'source/questions').glob('*.json')) for q in json.loads(p.read_text())]
 def ordered(items):
  pending=sorted(items,key=lambda q:(q['stage'],q['priority'],q['id']));result=[];known=set()
@@ -24,7 +34,7 @@ def reading_introductions(items=None):
   introduced.update(q.get('introduces',[]))
   if q['type']=='reading':result[q['id']]=frozenset(introduced)
  return result
-def inputs(language,artwork=None,only_type=None,beginner_trial=False):
+def course(language,artwork=None,only_type=None,beginner_trial=False):
  meta=read('rectoverso.json');words=read(f'source/languages/{language}.json');forms={c['id']:c for c in read('source/kana.json')}
  assets=artwork if artwork is not None else read('artwork/artwork.json')
  guide=read('source/learner-guide.json')
@@ -38,13 +48,22 @@ def inputs(language,artwork=None,only_type=None,beginner_trial=False):
  # Isolated component packages have their own identities; the complete course
  # never replaces a component book or the earlier studied prototype.
  prefix=meta['guidPrefix']+'-beginner-trial' if trial else (meta['guidPrefix'] if only_type is None else meta['guidPrefix']+'-preview-'+only_type)
- book=str(uuid.uuid5(NS,prefix+'/'+language));deck_id=meta['identityBase']+(100 if language=='fr' else 0)+(2000 if trial else (0 if only_type is None else 1000+['reading','listening','rule','word','contrast','variant','checkpoint'].index(only_type)*10))
+ deck_id=meta['identityBase']+(100 if language=='fr' else 0)+(2000 if trial else (0 if only_type is None else 1000+['reading','listening','rule','word','contrast','variant','checkpoint'].index(only_type)*10))
+ book=library_id(deck_id)
  model_id=meta['identityBase']+(20000 if trial else 10000)+(100 if language=='fr' else 0)
  identity_key=prefix if trial else 'rv-kana'
  notes=[];media=set();kinds=set()
  for index,q in enumerate(items):
   kind=q['type'];guid=f'{prefix}-{language}-{q["id"]}';payload={'v':1,'book':book,'card':str(uuid.uuid5(NS,guid)),'kind':'occlusion' if kind=='reading' else 'basic','noteID':guid}
   instruction=q['instruction'][language];hint='';note=q['note'][language];
+  # The app's Lesson mode (its Library page, "Prerequisites"): what the card requires and what it
+  # introduces, in the course's own tokens. A reading also requires the other kana its figure
+  # shows. A type preview alone can't teach what it requires, so it declares nothing.
+  if only_type is None:
+   requires=list(q.get('requires',[]))
+   if kind=='reading':requires+=[k for k in assets['figures'][q['id']]['visibleKana'] if k!=q['target'] and k not in requires]
+   if requires:payload['requires']=requires
+   if q.get('introduces'):payload['introduces']=list(q['introduces'])
   for appendix in q.get('appendices',[]):
    entry=trial['guide'] if trial and appendix=='course' else guide[appendix]
    note+='\n\n'+entry['title'][language]+'\n'+entry.get('noteBody',entry['body'])[language]
@@ -89,6 +108,27 @@ def inputs(language,artwork=None,only_type=None,beginner_trial=False):
  meta['pictures']=sorted(n for n in media if n.endswith('.png'))
  font_by_file={f['file']:f.get('font','NotoSansJP.ttf') for f in assets['files']}
  mixed={f['file'] for f in assets['files'] if 'SF-Pro-Text-Regular.otf' in f.get('fonts',[])}
- meta['imageCredits']=[({'file':n,'original':'scripts/render_artwork.py','source':'Noto Sans JP kana with locally installed pinned SF Pro Text romaji','creator':'Simon Pinkas','license':'Local Apple-platform prototype; Noto Sans JP OFL-1.1; SF Pro Apple license'} if n in mixed else {'file':n,'original':'artwork/fonts/'+font_by_file[n],'source':'Original composition using pinned open fonts','creator':'Simon Pinkas','license':'CC BY 4.0; font OFL-1.1'}) for n in meta['pictures']]
+ meta['imageCredits']=[({'file':n,'original':'scripts/render_artwork.py','source':'Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)','creator':'Simon Pinkas','license':'CC-BY-4.0'} if n in mixed else {'file':n,'original':'artwork/fonts/'+font_by_file[n],'source':'Original composition using pinned open fonts (OFL-1.1)','creator':'Simon Pinkas','license':'CC-BY-4.0'}) for n in meta['pictures']]
  meta['sounds']=sorted(n for n in media if n.endswith('.mp3'))
  return meta,notes,{'kana':model},{'id':deck_id,'name':trial['title'][language] if trial else words['title']+(' · '+words.get(only_type,only_type)+' · '+('review' if language=='en' else 'à relire') if only_type else ''),'description':trial['description'][language] if trial else words['description']}
+
+def declared(language):
+ """The complete course as rectoverso.json declares it for one language, in the deck kit's shape
+ (kit/docs/getting-started.md): the file without `languages`, plus the language's id, package and
+ sample, `deckID` and `language`."""
+ meta=read('rectoverso.json');artifact=meta['languages'][language]
+ return {k:v for k,v in meta.items() if k!='languages'}|{'id':artifact['id'],'deckID':meta['id'],'language':language,'package':artifact['package'],'sample':artifact['sample']}
+
+def made(language,artwork=None):
+ """What the complete course makes of the same facts: rectoverso.json states them, the source decides them."""
+ meta,notes,_,_=course(language,artwork)
+ return {'cards':len(notes),'pictures':len(meta['pictures']),'imageCredits':meta['imageCredits'],'sample':notes[0]['guid'],'package':{'file':meta['package']['file']}}
+
+def inputs(language):
+ """The deck kit's interface (`python3 kit/check.py`): the declared metadata, the notes, the note
+ types and the deck. Refuses a rectoverso.json that states another count, sample, package or
+ credit than the course makes."""
+ expanded=declared(language);facts=made(language);_,notes,models,deck=course(language)
+ for key,value in facts.items():
+  if expanded[key]!=value:raise ValueError(f'rectoverso.json states another {key} than the course makes: run scripts/metadata.py')
+ return expanded,notes,models,deck

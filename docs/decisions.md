@@ -72,6 +72,36 @@ The owner selected workshop order 1–3–2 (brush, stroke order, reading reveal
 The owner requested the gallery description, confirmed the Languages category and asked for credits. The English/French gallery and package descriptions now concisely describe sound ↔ kana recall, stroke-by-stroke answers, reading rules and short-word practice; import-setup details remain in the learner guide. The source list separately credits the original course, KanjiVG, the pinned Japanese/SF fonts, Microsoft Nanami, edge-tts and the teaching reference index. Original-material licensing is normalized to the equivalent CC-BY-4.0 identifier; each third-party contribution keeps its own recorded terms, including deferred audio rights. This is metadata/copy work, with no question/media/identity changes and no publication approval.
 
 
+## 2026-11-10 — Prerequisites in the package
+
+The owner had the app enforce prerequisites (RectoVerso #876, Lesson mode) and included this source’s writer in that work. Each note’s native payload now carries requires and introduces: the source’s tokens, plus, for a reading, the other kana its figure shows, so a figure never shows an untaught neighbor. The complete course and the beginner trial carry them; a type preview declares nothing, since it cannot teach what it requires. Question identities, artwork, audio and study state are unchanged; only the payload gains keys, which earlier app versions ignore. contentModifiedAt advances with the payload (2026-11-10T15:46:16Z): Anki updates a note only when it is newer, and with the earlier marker an existing learner kept the notes without the keys, which the previous-edition update check caught. With it advanced, the full CI passes against the gallery-metadata edition: content updated, every study state and review preserved, in both languages. Publication and gallery pinning remain separate owner decisions.
+
+
 ## 2026-11-10 — Name the script in reading prompts
 
 The owner approved replacing “Read this kana.” with “Read this hiragana.” or “Read this katakana.” The 92 basic reading questions and eight alternate-form questions name their actual script in English and French. French keeps the existing question wording, using « Comment se lit ce hiragana ? » and « Comment se lit ce katakana ? ». Word, rule, listening, comparison and final-check prompts stay unchanged. Advance contentModifiedAt so existing Anki notes receive the revised instructions; retain all question identities, answers, ordering and media. No release, gallery pin or phone installation is authorized.
+
+
+## 2026-11-10 — The prompts and the prerequisites, in one edition
+
+The script-specific reading prompts and the prerequisite payload were written on two branches, each advancing contentModifiedAt for its own change. Together they make notes that neither branch's packages hold, so contentModifiedAt advances once more (2026-11-10T18:16:07Z): an update over either earlier build then replaces every note, where the later of the two times alone left Anki keeping the older ones (the update check refused it). No question, identity, answer, order or media changes.
+
+
+## 2026-11-10 — The first gallery edition: 1.0.0-rc.1, on the deck kit’s contract
+
+The owner decided, for the 1.1 gallery:
+
+- **Version:** a release candidate first, 1.0.0-rc.1, tried in the app; then 1.0.0, approved for publication on the owner’s go for that release. Until then publication.approved stays false: the kit’s check passes, RectoVerso’s gallery (which takes approved editions only) does not yet.
+- **Kana joins the 1.1 gallery,** its two languages delivered together in one of the gallery’s asset packs (the gallery’s grouping; the deck still builds and releases one package a language).
+- **SF Pro is cleared:** the pictures that draw romaji in SF Pro Text are published with the deck. The font’s binary stays out of the repository and the packages.
+- **The recordings ship as they are.** They are Microsoft’s Nanami voice (ja-JP-NanamiNeural, −20%), made through edge-tts, an unofficial client of Edge’s read-aloud service; their publication rights were never established. The owner accepts that risk. The source records them as LicenseRef-Microsoft-Read-Aloud-Not-Relicensed: they are not CC BY 4.0, and nothing here presents them as licensed or cleared.
+- **Listening review:** eighty-three recordings have not been listened to by a person. The review happens before 1.0.0, not before the candidate.
+- **The sample** is the first reading, あ; **the gallery copy** (headline and description, both languages) is approved as written.
+- **The repository is public,** and its metadata now says so.
+
+The deck now follows the deck kit (kit/, pinned at v1.0.1), which replaced the app’s own copy of the contract: rectoverso.json states the count of pictures and a credit for each of the 468 (each an original composition, CC-BY-4.0, its fonts named in its source), lists the six covers, and is held to what the course makes by scripts/metadata.py and the kit’s check; scripts/source_data.py gives the kit its inputs(language) beside the course’s own course(language, …); the complete course’s sidecar is the kit’s. No question, identity, answer, order, picture or sound changes.
+
+
+## 2026-11-10 — The book is the id RectoVerso gives the package’s Anki deck
+
+RectoVerso’s gallery knows a deck on the shelf by the id it derives from the package’s Anki deck (UUID(stableFrom: "anki/deck/<id>"), two FNV-1a passes). This course’s payload named a book of its own (a UUID from the GUID prefix and the language), so the app filed the deck under that one, and the gallery would have offered **Get** for a deck already there: the app’s gallery round trip refused both packages. The owner chose to fix it here rather than in the app’s catalog. Each package’s book is now that derived id (scripts/source_data.py, library_id), the complete course’s, the trial’s and each component’s alike; a test holds it to literals computed with the app’s own function. Card ids, GUIDs, note types and Anki ids are unchanged. Nothing was published under the earlier book; a build already imported into RectoVerso stays a deck of its own beside the new one. contentModifiedAt advances with the payload.

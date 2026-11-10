@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
-from source_data import inputs,questions,stable_id
+from source_data import course,questions,stable_id
 from schema_update import check_schema_update
 
 OLD_FIELDS=['Front','Back','Kicker','Meta','Example','Note','RectoVerso search','RectoVerso']
@@ -16,7 +16,7 @@ class KanaAnswerTests(unittest.TestCase):
     def test_all_kana_answers_keep_recordings_and_put_romaji_in_both_detail_formats(self):
         items={q['id']:q for q in questions()}
         for language in ('en','fr'):
-            _,notes,models,_=inputs(language);seen=0;single=0;grouped=0
+            _,notes,models,_=course(language);seen=0;single=0;grouped=0
             for note in notes:
                 q=items[note['itemId']];f=note['fields']
                 native=json.JSONDecoder().raw_decode(html.unescape(f['RectoVerso']))[0]
@@ -39,7 +39,7 @@ class KanaAnswerTests(unittest.TestCase):
 
     def test_old_field_names_ids_and_template_identity_stay_before_new_field(self):
         for language in ('en','fr'):
-            _,_,models,_=inputs(language);model=models['kana']
+            _,_,models,_=course(language);model=models['kana']
             self.assertEqual(model['fields'],OLD_FIELDS+['Romaji'])
             for name in OLD_FIELDS:
                 self.assertEqual(model['fieldIDs'][name],stable_id(f'rv-kana/{language}/field/{name}'))
