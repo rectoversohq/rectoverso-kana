@@ -70,3 +70,8 @@ The owner selected workshop order 1–3–2 (brush, stroke order, reading reveal
 ## 2026-11-10 — Gallery description, Languages and credits
 
 The owner requested the gallery description, confirmed the Languages category and asked for credits. The English/French gallery and package descriptions now concisely describe sound ↔ kana recall, stroke-by-stroke answers, reading rules and short-word practice; import-setup details remain in the learner guide. The source list separately credits the original course, KanjiVG, the pinned Japanese/SF fonts, Microsoft Nanami, edge-tts and the teaching reference index. Original-material licensing is normalized to the equivalent CC-BY-4.0 identifier; each third-party contribution keeps its own recorded terms, including deferred audio rights. This is metadata/copy work, with no question/media/identity changes and no publication approval.
+
+
+## 2026-11-10 — Prerequisites in the package
+
+The owner had the app enforce prerequisites (RectoVerso #876, Lesson mode) and included this source’s writer in that work. Each note’s native payload now carries requires and introduces: the source’s tokens, plus, for a reading, the other kana its figure shows, so a figure never shows an untaught neighbor. The complete course and the beginner trial carry them; a type preview declares nothing, since it cannot teach what it requires. Question identities, artwork, audio and study state are unchanged; only the payload gains keys, which earlier app versions ignore. Publication and gallery pinning remain separate owner decisions.

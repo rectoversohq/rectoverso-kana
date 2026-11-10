@@ -45,6 +45,14 @@ def inputs(language,artwork=None,only_type=None,beginner_trial=False):
  for index,q in enumerate(items):
   kind=q['type'];guid=f'{prefix}-{language}-{q["id"]}';payload={'v':1,'book':book,'card':str(uuid.uuid5(NS,guid)),'kind':'occlusion' if kind=='reading' else 'basic','noteID':guid}
   instruction=q['instruction'][language];hint='';note=q['note'][language];
+  # The app's Lesson mode (its Library page, "Prerequisites"): what the card requires and what it
+  # introduces, in the course's own tokens. A reading also requires the other kana its figure
+  # shows. A type preview alone can't teach what it requires, so it declares nothing.
+  if only_type is None:
+   requires=list(q.get('requires',[]))
+   if kind=='reading':requires+=[k for k in assets['figures'][q['id']]['visibleKana'] if k!=q['target'] and k not in requires]
+   if requires:payload['requires']=requires
+   if q.get('introduces'):payload['introduces']=list(q['introduces'])
   for appendix in q.get('appendices',[]):
    entry=trial['guide'] if trial and appendix=='course' else guide[appendix]
    note+='\n\n'+entry['title'][language]+'\n'+entry.get('noteBody',entry['body'])[language]
