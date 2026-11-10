@@ -2,7 +2,7 @@
   "title": "Kana",
   "subject": "Japanese kana",
   "headline": "Read hiragana and katakana, one sound at a time.",
-  "description": "Start with no Japanese knowledge. Learn hiragana first, then katakana, with short-word reading practice. A new kana is a chance to reveal and listen before practicing recall on later visits.\n\nAim for about ten minutes a day, including reviews. Start with four new questions a day: reading and listening directions count separately. Complete due reviews first and introduce new material only when time remains. If reviews fill your budget, lower “New cards a day”, or set it to 0 to pause new introductions while continuing reviews. There is no fixed finishing date.\n\nFor a file import of this prototype, open “Deck options”: set “New cards a day” to 4, “New cards” to “In deck order”, and “Show new cards” to “After reviews”. File imports do not apply the gallery’s starting settings automatically.\n\nRecall mentally; handwriting is optional. Read words without romaji or hints before revealing. Accurate decoding counts even when slow. Meanings provide context, not vocabulary to memorize. Reference tables after relevant answers are for consultation, not extra scheduled questions.",
+  "description": "Start with hiragana, then learn katakana. Connect each kana with its sound in both directions: read it and recall the sound, or listen and recall the character.\n\nWatch single-kana answers appear stroke by stroke. Practice sound marks, small kana and long vowels through short words, with explanations and comparisons to help you tell similar characters apart. No previous Japanese needed; handwriting is optional.",
   "reading": "Kana → sound",
   "listening": "Sound → kana",
   "explore": "Explore",

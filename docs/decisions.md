@@ -65,3 +65,8 @@ After the owner reported words preceding their kana, the authored sequence was i
 ## 2026-11-10 — Gallery cover builder
 
 The owner selected workshop order 1–3–2 (brush, stroke order, reading reveal) and requested the same cover build workflow as the other authored decks. Six self-contained outlined SVG masters retain separate light/dark artwork and share teaching symbols across English and French. Complete builds render covers externally; checks enforce dimensions, naming, appearance/language coverage, localization, unambiguous scopes and language-pill clearance, with independent-byte comparison. KanjiVG attribution and share-alike terms accompany the frozen stroke source and its derived covers. No study content or identities, publication status, gallery pin or phone installation changes.
+
+
+## 2026-11-10 — Gallery description, Languages and credits
+
+The owner requested the gallery description, confirmed the Languages category and asked for credits. The English/French gallery and package descriptions now concisely describe sound ↔ kana recall, stroke-by-stroke answers, reading rules and short-word practice; import-setup details remain in the learner guide. The source list separately credits the original course, KanjiVG, the pinned Japanese/SF fonts, Microsoft Nanami, edge-tts and the teaching reference index. Original-material licensing is normalized to the equivalent CC-BY-4.0 identifier; each third-party contribution keeps its own recorded terms, including deferred audio rights. This is metadata/copy work, with no question/media/identity changes and no publication approval.

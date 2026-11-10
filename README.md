@@ -38,3 +38,5 @@ The owner-approved title is **Kana** in both languages. This single repository s
 © Simon Pinkas. Original authored material: CC BY 4.0. The bundled Japanese fonts use OFL-1.1, with complete notices in artwork/fonts/. SF Pro is an external local dependency under Apple’s terms; its binary is not bundled or redistributed. The mixed-font artwork remains a local Apple-platform prototype. The owner selected Nanami at −20% and deferred publication-rights discussion; source/audio/provenance.json retains that status. New recordings still need listening review.
 
 Gallery covers use six outlined SVG masters in the owner-selected order: brush, stroke order and reading reveal, each in light and dark. Complete builds render deterministic 2,010 × 1,340 PNGs beside the package; see [cover commands and provenance](docs/build.md#gallery-covers). The independent cover workflow attaches the six PNGs for review.
+
+The gallery category is **Languages**. [Credits / Crédits](docs/credits.md) identifies the original course, stroke artwork, fonts, Japanese voice, authoring tool and teaching references. Both language descriptions are kept aligned with the gallery metadata.
