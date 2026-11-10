@@ -1,5 +1,5 @@
-"""Write into rectoverso.json what the complete course makes: each language's card count, sample and
-package name, the count of pictures and their credits. The deck kit's check (kit/check.py) holds the
+"""Write into rectoverso.json what the complete course makes: each language's card count and package
+name, the count of pictures and their credits (the sample is the owner's choice, and stays as written). The deck kit's check (kit/check.py) holds the
 file to the course; this keeps the two together after a change to the questions or the artwork.
 
   python scripts/metadata.py           write rectoverso.json
@@ -13,7 +13,10 @@ def updated(meta):
  first=next(iter(facts.values()))
  if any((f['cards'],f['pictures'],f['imageCredits'])!=(first['cards'],first['pictures'],first['imageCredits']) for f in facts.values()):raise ValueError('The languages differ in cards or pictures')
  meta.update(cards=first['cards'],pictures=first['pictures'],imageCredits=first['imageCredits'])
- for language,f in facts.items():meta['languages'][language].update(cards=f['cards'],sample=f['sample'],package=f['package'])
+ for language,f in facts.items():meta['languages'][language].update(cards=f['cards'],package=f['package'])
+ # The deck's own entry among its sources (RectoVerso's About shows it) carries this edition's version.
+ for source in meta['sources']:
+  if source['url']==meta['publication']['remote']:source['version']=meta['version']
  return meta
 
 if __name__=='__main__':

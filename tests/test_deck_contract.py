@@ -41,4 +41,29 @@ class DeckContractTests(unittest.TestCase):
     self.assertEqual(deck['id'],deck_id);self.assertEqual(meta['bookUUID'],book)
     self.assertEqual({json.JSONDecoder().raw_decode(html.unescape(note['fields']['RectoVerso']))[0]['book'] for note in notes},{book})
 
+ def test_the_sample_is_the_listening_card_the_owner_chose_for_the_brush(self):
+  # The owner (2026-11-10): the gallery's sample showcases the brush. A listening card's answer is
+  # one kana, which the app draws stroke by stroke; ふ has a sound English lacks and four strokes.
+  for language in ('en','fr'):
+   with self.subTest(language=language):
+    expanded,notes,_,_=inputs(language);self.assertEqual(expanded['sample'],f'rv-kana-{language}-listen-hira-fu')
+    sample=next(note for note in notes if note['guid']==expanded['sample'])
+    self.assertEqual(sample['fields']['Front'],'[sound:rv-kana-sound-fu.mp3]');self.assertEqual(sample['fields']['Back'],'ふ[sound:rv-kana-sound-fu.mp3]')
+ def test_a_sample_that_names_no_card_is_refused(self):
+  import source_data
+  real=source_data.read
+  def stale(path):
+   value=real(path)
+   if path=='rectoverso.json':value['languages']['en']['sample']='rv-kana-en-listen-none'
+   return value
+  source_data.read=stale
+  try:
+   with self.assertRaises(ValueError):inputs('en')
+  finally:source_data.read=real
+
+ def test_the_decks_own_source_carries_this_editions_version(self):
+  # RectoVerso's About shows a deck's sources: this one read 0.2.0 beside the edition's own number.
+  meta=json.loads((ROOT/'rectoverso.json').read_text());own=[s for s in meta['sources'] if s['url']==meta['publication']['remote']]
+  self.assertEqual([s['version'] for s in own],[meta['version']])
+
 if __name__=='__main__':unittest.main()
