@@ -80,3 +80,8 @@ The owner had the app enforce prerequisites (RectoVerso #876, Lesson mode) and i
 ## 2026-11-10 — Name the script in reading prompts
 
 The owner approved replacing “Read this kana.” with “Read this hiragana.” or “Read this katakana.” The 92 basic reading questions and eight alternate-form questions name their actual script in English and French. French keeps the existing question wording, using « Comment se lit ce hiragana ? » and « Comment se lit ce katakana ? ». Word, rule, listening, comparison and final-check prompts stay unchanged. Advance contentModifiedAt so existing Anki notes receive the revised instructions; retain all question identities, answers, ordering and media. No release, gallery pin or phone installation is authorized.
+
+
+## 2026-11-10 — The prompts and the prerequisites, in one edition
+
+The script-specific reading prompts and the prerequisite payload were written on two branches, each advancing contentModifiedAt for its own change. Together they make notes that neither branch's packages hold, so contentModifiedAt advances once more (2026-11-10T18:16:07Z): an update over either earlier build then replaces every note, where the later of the two times alone left Anki keeping the older ones (the update check refused it). No question, identity, answer, order or media changes.
