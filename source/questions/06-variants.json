@@ -1,0 +1,218 @@
+[
+  {
+    "id": "variant-hira-3055",
+    "type": "variant",
+    "stage": 1,
+    "priority": 1000,
+    "requires": [
+      "hira-3055"
+    ],
+    "introduces": [],
+    "display": "さ",
+    "answer": "sa",
+    "audio": "rv-kana-sound-sa.mp3",
+    "fontStyle": "hand",
+    "handwritten": true,
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "note": {
+      "en": "This is さ, read sa, shown in Yomogi. This is a handwritten-style typeface, not a stroke-order demonstration. Handwriting and print may connect or separate parts differently. Recognize the character; you do not need to copy this style.",
+      "fr": "Il s’agit de さ, qui se lit sa, dans la police Yomogi. Cette police évoque l’écriture manuscrite ; elle ne démontre pas l’ordre des traits. L’écriture et l’impression peuvent relier ou séparer certaines parties différemment. Reconnaissez le caractère ; vous n’avez pas à reproduire ce style."
+    },
+    "references": [
+      "mext-kana",
+      "jf-letter-variation"
+    ]
+  },
+  {
+    "id": "variant-hira-304d",
+    "type": "variant",
+    "stage": 1,
+    "priority": 1010,
+    "requires": [
+      "hira-304d"
+    ],
+    "introduces": [],
+    "display": "き",
+    "answer": "ki",
+    "audio": "rv-kana-sound-ki.mp3",
+    "fontStyle": "hand",
+    "handwritten": true,
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "note": {
+      "en": "This is き, read ki, shown in Yomogi. This is a handwritten-style typeface, not a stroke-order demonstration. Handwriting and print may connect or separate parts differently. Recognize the character; you do not need to copy this style.",
+      "fr": "Il s’agit de き, qui se lit ki, dans la police Yomogi. Cette police évoque l’écriture manuscrite ; elle ne démontre pas l’ordre des traits. L’écriture et l’impression peuvent relier ou séparer certaines parties différemment. Reconnaissez le caractère ; vous n’avez pas à reproduire ce style."
+    },
+    "references": [
+      "mext-kana",
+      "jf-letter-variation"
+    ]
+  },
+  {
+    "id": "variant-hira-308a",
+    "type": "variant",
+    "stage": 1,
+    "priority": 1020,
+    "requires": [
+      "hira-308a"
+    ],
+    "introduces": [],
+    "display": "り",
+    "answer": "ri",
+    "audio": "rv-kana-sound-ri.mp3",
+    "fontStyle": "hand",
+    "handwritten": true,
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "note": {
+      "en": "This is り, read ri, shown in Yomogi. This is a handwritten-style typeface, not a stroke-order demonstration. Handwriting and print may connect or separate parts differently. Recognize the character; you do not need to copy this style.",
+      "fr": "Il s’agit de り, qui se lit ri, dans la police Yomogi. Cette police évoque l’écriture manuscrite ; elle ne démontre pas l’ordre des traits. L’écriture et l’impression peuvent relier ou séparer certaines parties différemment. Reconnaissez le caractère ; vous n’avez pas à reproduire ce style."
+    },
+    "references": [
+      "mext-kana",
+      "jf-letter-variation"
+    ]
+  },
+  {
+    "id": "variant-hira-3075",
+    "type": "variant",
+    "stage": 1,
+    "priority": 1030,
+    "requires": [
+      "hira-3075"
+    ],
+    "introduces": [],
+    "display": "ふ",
+    "answer": "fu",
+    "audio": "rv-kana-sound-fu.mp3",
+    "fontStyle": "hand",
+    "handwritten": true,
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "note": {
+      "en": "This is ふ, read fu, shown in Yomogi. This is a handwritten-style typeface, not a stroke-order demonstration. Handwriting and print may connect or separate parts differently. Recognize the character; you do not need to copy this style.",
+      "fr": "Il s’agit de ふ, qui se lit fu, dans la police Yomogi. Cette police évoque l’écriture manuscrite ; elle ne démontre pas l’ordre des traits. L’écriture et l’impression peuvent relier ou séparer certaines parties différemment. Reconnaissez le caractère ; vous n’avez pas à reproduire ce style."
+    },
+    "references": [
+      "mext-kana",
+      "jf-letter-variation"
+    ]
+  },
+  {
+    "id": "variant-hira-305d",
+    "type": "variant",
+    "stage": 1,
+    "priority": 1040,
+    "requires": [
+      "hira-305d"
+    ],
+    "introduces": [],
+    "display": "そ",
+    "answer": "so",
+    "audio": "rv-kana-sound-so.mp3",
+    "fontStyle": "serif",
+    "handwritten": false,
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "note": {
+      "en": "This is そ, read so, shown in Noto Serif JP. A serif print style can change stroke endings and contrast without changing the kana or its sound. Recognize the character; you do not need to copy this style.",
+      "fr": "Il s’agit de そ, qui se lit so, dans la police Noto Serif JP. Un style imprimé avec empattements peut modifier les terminaisons et le contraste des traits, sans changer le kana ni son son. Reconnaissez le caractère ; vous n’avez pas à reproduire ce style."
+    },
+    "references": [
+      "mext-kana",
+      "jf-letter-variation"
+    ]
+  },
+  {
+    "id": "variant-kata-30b7",
+    "type": "variant",
+    "stage": 3,
+    "priority": 1050,
+    "requires": [
+      "kata-30b7"
+    ],
+    "introduces": [],
+    "display": "シ",
+    "answer": "shi",
+    "audio": "rv-kana-sound-shi.mp3",
+    "fontStyle": "serif",
+    "handwritten": false,
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "note": {
+      "en": "This is シ, read shi, shown in Noto Serif JP. A serif print style can change stroke endings and contrast without changing the kana or its sound. Recognize the character; you do not need to copy this style.",
+      "fr": "Il s’agit de シ, qui se lit shi, dans la police Noto Serif JP. Un style imprimé avec empattements peut modifier les terminaisons et le contraste des traits, sans changer le kana ni son son. Reconnaissez le caractère ; vous n’avez pas à reproduire ce style."
+    },
+    "references": [
+      "mext-kana",
+      "jf-letter-variation"
+    ]
+  },
+  {
+    "id": "variant-kata-30c4",
+    "type": "variant",
+    "stage": 3,
+    "priority": 1060,
+    "requires": [
+      "kata-30c4"
+    ],
+    "introduces": [],
+    "display": "ツ",
+    "answer": "tsu",
+    "audio": "rv-kana-sound-tsu.mp3",
+    "fontStyle": "serif",
+    "handwritten": false,
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "note": {
+      "en": "This is ツ, read tsu, shown in Noto Serif JP. A serif print style can change stroke endings and contrast without changing the kana or its sound. Recognize the character; you do not need to copy this style.",
+      "fr": "Il s’agit de ツ, qui se lit tsu, dans la police Noto Serif JP. Un style imprimé avec empattements peut modifier les terminaisons et le contraste des traits, sans changer le kana ni son son. Reconnaissez le caractère ; vous n’avez pas à reproduire ce style."
+    },
+    "references": [
+      "mext-kana",
+      "jf-letter-variation"
+    ]
+  },
+  {
+    "id": "variant-kata-30f3",
+    "type": "variant",
+    "stage": 3,
+    "priority": 1070,
+    "requires": [
+      "kata-30f3"
+    ],
+    "introduces": [],
+    "display": "ン",
+    "answer": "n",
+    "audio": "rv-kana-sound-n.mp3",
+    "fontStyle": "serif",
+    "handwritten": false,
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "note": {
+      "en": "This is ン, read n, shown in Noto Serif JP. A serif print style can change stroke endings and contrast without changing the kana or its sound. Recognize the character; you do not need to copy this style.",
+      "fr": "Il s’agit de ン, qui se lit n, dans la police Noto Serif JP. Un style imprimé avec empattements peut modifier les terminaisons et le contraste des traits, sans changer le kana ni son son. Reconnaissez le caractère ; vous n’avez pas à reproduire ce style."
+    },
+    "references": [
+      "mext-kana",
+      "jf-letter-variation"
+    ]
+  }
+]

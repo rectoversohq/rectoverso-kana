@@ -1,0 +1,86 @@
+[
+  {
+    "file": "rv-kana-check-asa.mp3",
+    "input": "朝",
+    "reading": "asa",
+    "purpose": "check-asa"
+  },
+  {
+    "file": "rv-kana-check-kare.mp3",
+    "input": "カレー",
+    "reading": "karē",
+    "purpose": "check-kare"
+  },
+  {
+    "file": "rv-kana-check-umi.mp3",
+    "input": "海",
+    "reading": "umi",
+    "purpose": "check-umi"
+  },
+  {
+    "file": "rv-kana-check-keki.mp3",
+    "input": "ケーキ",
+    "reading": "kēki",
+    "purpose": "check-keki"
+  },
+  {
+    "file": "rv-kana-check-tamago.mp3",
+    "input": "卵",
+    "reading": "tamago",
+    "purpose": "check-tamago"
+  },
+  {
+    "file": "rv-kana-check-sakka.mp3",
+    "input": "サッカー",
+    "reading": "sakkā",
+    "purpose": "check-sakka"
+  },
+  {
+    "file": "rv-kana-check-shashin.mp3",
+    "input": "写真",
+    "reading": "shashin",
+    "purpose": "check-shashin"
+  },
+  {
+    "file": "rv-kana-check-fairu.mp3",
+    "input": "ファイル",
+    "reading": "fairu",
+    "purpose": "check-fairu"
+  },
+  {
+    "file": "rv-kana-check-gakko.mp3",
+    "input": "学校",
+    "reading": "gakkō",
+    "purpose": "check-gakko"
+  },
+  {
+    "file": "rv-kana-check-chen.mp3",
+    "input": "チェーン",
+    "reading": "chēn",
+    "purpose": "check-chen"
+  },
+  {
+    "file": "rv-kana-check-kyuri.mp3",
+    "input": "きゅうり",
+    "reading": "kyūri",
+    "purpose": "check-kyuri"
+  },
+  {
+    "file": "rv-kana-check-dina.mp3",
+    "input": "ディナー",
+    "reading": "dinā",
+    "purpose": "check-dina"
+  },
+  {
+    "file": "rv-kana-check-ojiisan.mp3",
+    "input": "おじいさん",
+    "reading": "ojiisan",
+    "purpose": "check-ojiisan"
+  },
+  {
+    "file": "rv-kana-check-denwa.mp3",
+    "input": "電話",
+    "reading": "denwa",
+    "purpose": "check-denwa"
+  }
+]

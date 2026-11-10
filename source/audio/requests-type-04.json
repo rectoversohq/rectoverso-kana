@@ -1,0 +1,188 @@
+[
+  {
+    "file": "rv-kana-word-ao.mp3",
+    "input": "あお",
+    "reading": "ao",
+    "purpose": "word-ao"
+  },
+  {
+    "file": "rv-kana-word-ie.mp3",
+    "input": "いえ",
+    "reading": "ie",
+    "purpose": "word-ie"
+  },
+  {
+    "file": "rv-kana-word-ue.mp3",
+    "input": "うえ",
+    "reading": "ue",
+    "purpose": "word-ue"
+  },
+  {
+    "file": "rv-kana-word-kao.mp3",
+    "input": "かお",
+    "reading": "kao",
+    "purpose": "word-kao"
+  },
+  {
+    "file": "rv-kana-word-ike.mp3",
+    "input": "いけ",
+    "reading": "ike",
+    "purpose": "word-ike"
+  },
+  {
+    "file": "rv-kana-word-sushi.mp3",
+    "input": "すし",
+    "reading": "sushi",
+    "purpose": "word-sushi"
+  },
+  {
+    "file": "rv-kana-word-tako.mp3",
+    "input": "たこ",
+    "reading": "tako",
+    "purpose": "word-tako"
+  },
+  {
+    "file": "rv-kana-word-kuchi.mp3",
+    "input": "くち",
+    "reading": "kuchi",
+    "purpose": "word-kuchi"
+  },
+  {
+    "file": "rv-kana-word-neko.mp3",
+    "input": "ねこ",
+    "reading": "neko",
+    "purpose": "word-neko"
+  },
+  {
+    "file": "rv-kana-word-inu.mp3",
+    "input": "いぬ",
+    "reading": "inu",
+    "purpose": "word-inu"
+  },
+  {
+    "file": "rv-kana-word-hana.mp3",
+    "input": "花",
+    "reading": "hana",
+    "purpose": "word-hana"
+  },
+  {
+    "file": "rv-kana-word-yama.mp3",
+    "input": "やま",
+    "reading": "yama",
+    "purpose": "word-yama"
+  },
+  {
+    "file": "rv-kana-word-sora.mp3",
+    "input": "そら",
+    "reading": "sora",
+    "purpose": "word-sora"
+  },
+  {
+    "file": "rv-kana-word-yuki.mp3",
+    "input": "雪",
+    "reading": "yuki",
+    "purpose": "word-yuki"
+  },
+  {
+    "file": "rv-kana-word-jikan.mp3",
+    "input": "じかん",
+    "reading": "jikan",
+    "purpose": "word-jikan"
+  },
+  {
+    "file": "rv-kana-word-byoin.mp3",
+    "input": "病院",
+    "reading": "byōin",
+    "purpose": "word-byoin"
+  },
+  {
+    "file": "rv-kana-word-kyo.mp3",
+    "input": "今日",
+    "reading": "kyō",
+    "purpose": "word-kyo"
+  },
+  {
+    "file": "rv-kana-word-okaasan.mp3",
+    "input": "おかあさん",
+    "reading": "okaasan",
+    "purpose": "word-okaasan"
+  },
+  {
+    "file": "rv-kana-word-happa.mp3",
+    "input": "はっぱ",
+    "reading": "happa",
+    "purpose": "word-happa"
+  },
+  {
+    "file": "rv-kana-word-kamera.mp3",
+    "input": "カメラ",
+    "reading": "kamera",
+    "purpose": "word-kamera"
+  },
+  {
+    "file": "rv-kana-word-memo.mp3",
+    "input": "メモ",
+    "reading": "memo",
+    "purpose": "word-memo"
+  },
+  {
+    "file": "rv-kana-word-tomato.mp3",
+    "input": "トマト",
+    "reading": "tomato",
+    "purpose": "word-tomato"
+  },
+  {
+    "file": "rv-kana-word-hoteru.mp3",
+    "input": "ホテル",
+    "reading": "hoteru",
+    "purpose": "word-hoteru"
+  },
+  {
+    "file": "rv-kana-word-miruku.mp3",
+    "input": "ミルク",
+    "reading": "miruku",
+    "purpose": "word-miruku"
+  },
+  {
+    "file": "rv-kana-word-basu.mp3",
+    "input": "バス",
+    "reading": "basu",
+    "purpose": "word-basu"
+  },
+  {
+    "file": "rv-kana-word-pan.mp3",
+    "input": "パン",
+    "reading": "pan",
+    "purpose": "word-pan"
+  },
+  {
+    "file": "rv-kana-word-terebi.mp3",
+    "input": "テレビ",
+    "reading": "terebi",
+    "purpose": "word-terebi"
+  },
+  {
+    "file": "rv-kana-word-takushi.mp3",
+    "input": "タクシー",
+    "reading": "takushī",
+    "purpose": "word-takushi"
+  },
+  {
+    "file": "rv-kana-word-rajio.mp3",
+    "input": "ラジオ",
+    "reading": "rajio",
+    "purpose": "word-rajio"
+  },
+  {
+    "file": "rv-kana-word-jusu.mp3",
+    "input": "ジュース",
+    "reading": "jūsu",
+    "purpose": "word-jusu"
+  },
+  {
+    "file": "rv-kana-word-poketto.mp3",
+    "input": "ポケット",
+    "reading": "poketto",
+    "purpose": "word-poketto"
+  }
+]

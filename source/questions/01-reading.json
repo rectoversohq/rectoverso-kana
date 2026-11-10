@@ -1,0 +1,2323 @@
+[
+  {
+    "id": "read-hira-3042",
+    "type": "reading",
+    "target": "hira-3042",
+    "stage": 0,
+    "batch": "hira-batch-01",
+    "priority": 0,
+    "requires": [],
+    "introduces": [
+      "hira-3042"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "a",
+    "note": {
+      "en": "Notice the rounded lower part crossed by the descending line.",
+      "fr": "Repérez la partie arrondie du bas, traversée par le trait descendant."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "appendices": [
+      "course"
+    ]
+  },
+  {
+    "id": "read-hira-3044",
+    "type": "reading",
+    "target": "hira-3044",
+    "stage": 0,
+    "batch": "hira-batch-01",
+    "priority": 10,
+    "requires": [],
+    "introduces": [
+      "hira-3044"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "i",
+    "note": {
+      "en": "The left curve is longer than the short mark on the right.",
+      "fr": "La courbe de gauche est plus longue que le petit trait de droite."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3046",
+    "type": "reading",
+    "target": "hira-3046",
+    "stage": 0,
+    "batch": "hira-batch-02",
+    "priority": 40,
+    "requires": [],
+    "introduces": [
+      "hira-3046"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "u",
+    "note": {
+      "en": "Keep the lips relaxed rather than strongly rounded. Follow the vowel in the recording.",
+      "fr": "Gardez les lèvres détendues, sans les arrondir fortement. Suivez la voyelle de l’enregistrement."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-vowels"
+    ]
+  },
+  {
+    "id": "read-hira-3048",
+    "type": "reading",
+    "target": "hira-3048",
+    "stage": 0,
+    "batch": "hira-batch-02",
+    "priority": 50,
+    "requires": [],
+    "introduces": [
+      "hira-3048"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "e",
+    "note": {
+      "en": "Keep the vowel steady. Avoid adding an English “ay” glide.",
+      "fr": "Gardez une voyelle stable, sans glissement à la fin."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-304a",
+    "type": "reading",
+    "target": "hira-304a",
+    "stage": 0,
+    "batch": "hira-batch-03",
+    "priority": 100,
+    "requires": [],
+    "introduces": [
+      "hira-304a"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "o",
+    "note": {
+      "en": "Keep the vowel steady. Avoid adding an English “oh” glide.",
+      "fr": "Gardez une voyelle stable, sans glissement à la fin."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-304b",
+    "type": "reading",
+    "target": "hira-304b",
+    "stage": 0,
+    "batch": "hira-batch-03",
+    "priority": 110,
+    "requires": [],
+    "introduces": [
+      "hira-304b"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "ka",
+    "note": {
+      "en": "Notice the separate short mark on the right.",
+      "fr": "Repérez le petit trait séparé à droite."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-304d",
+    "type": "reading",
+    "target": "hira-304d",
+    "stage": 0,
+    "batch": "hira-batch-04",
+    "priority": 150,
+    "requires": [],
+    "introduces": [
+      "hira-304d"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "ki",
+    "note": {
+      "en": "Two bars cross the slanting stem; a separate broad curve sits below in this print.",
+      "fr": "Deux barres traversent la tige inclinée ; une large courbe séparée se trouve en dessous dans cette police."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-304f",
+    "type": "reading",
+    "target": "hira-304f",
+    "stage": 0,
+    "batch": "hira-batch-04",
+    "priority": 160,
+    "requires": [],
+    "introduces": [
+      "hira-304f"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "ku",
+    "note": {
+      "en": "One angular bend opens to the right.",
+      "fr": "Un coude anguleux s’ouvre vers la droite."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3051",
+    "type": "reading",
+    "target": "hira-3051",
+    "stage": 0,
+    "batch": "hira-batch-05",
+    "priority": 190,
+    "requires": [],
+    "introduces": [
+      "hira-3051"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "ke",
+    "note": {
+      "en": "A separate left stem sits beside the crossed part on the right.",
+      "fr": "Une tige séparée à gauche accompagne la partie barrée à droite."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3053",
+    "type": "reading",
+    "target": "hira-3053",
+    "stage": 0,
+    "batch": "hira-batch-05",
+    "priority": 200,
+    "requires": [],
+    "introduces": [
+      "hira-3053"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "ko",
+    "note": {
+      "en": "Two short curves sit one above the other.",
+      "fr": "Deux courbes courtes se superposent."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3055",
+    "type": "reading",
+    "target": "hira-3055",
+    "stage": 0,
+    "batch": "hira-batch-06",
+    "priority": 240,
+    "requires": [],
+    "introduces": [
+      "hira-3055"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "sa",
+    "note": {
+      "en": "A single bar crosses the stem; a separate broad curve sits below in this print.",
+      "fr": "Une seule barre traverse la tige ; une large courbe séparée se trouve en dessous dans cette police."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3057",
+    "type": "reading",
+    "target": "hira-3057",
+    "stage": 0,
+    "batch": "hira-batch-06",
+    "priority": 250,
+    "requires": [],
+    "introduces": [
+      "hira-3057"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "shi",
+    "note": {
+      "en": "The long curve turns upward at the lower right.",
+      "fr": "La longue courbe remonte en bas à droite."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3059",
+    "type": "reading",
+    "target": "hira-3059",
+    "stage": 0,
+    "batch": "hira-batch-07",
+    "priority": 290,
+    "requires": [],
+    "introduces": [
+      "hira-3059"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "su",
+    "note": {
+      "en": "Look for the small loop under the horizontal bar.",
+      "fr": "Repérez la petite boucle sous la barre horizontale."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-305b",
+    "type": "reading",
+    "target": "hira-305b",
+    "stage": 0,
+    "batch": "hira-batch-07",
+    "priority": 300,
+    "requires": [],
+    "introduces": [
+      "hira-305b"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "se",
+    "note": {
+      "en": "The horizontal bar crosses two upright parts.",
+      "fr": "La barre horizontale traverse deux parties verticales."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-305d",
+    "type": "reading",
+    "target": "hira-305d",
+    "stage": 0,
+    "batch": "hira-batch-08",
+    "priority": 340,
+    "requires": [],
+    "introduces": [
+      "hira-305d"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "so",
+    "note": {
+      "en": "The angular top leads into one broad lower curve.",
+      "fr": "Le haut anguleux se prolonge par une large courbe en bas."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-305f",
+    "type": "reading",
+    "target": "hira-305f",
+    "stage": 0,
+    "batch": "hira-batch-08",
+    "priority": 350,
+    "requires": [],
+    "introduces": [
+      "hira-305f"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "ta",
+    "note": {
+      "en": "A crossed stem is followed by two short curves on the right.",
+      "fr": "Une tige barrée est suivie de deux petites courbes à droite."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3061",
+    "type": "reading",
+    "target": "hira-3061",
+    "stage": 0,
+    "batch": "hira-batch-09",
+    "priority": 390,
+    "requires": [],
+    "introduces": [
+      "hira-3061"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "chi",
+    "note": {
+      "en": "The crossed top leads into a rounded lower curve.",
+      "fr": "Le haut barré se prolonge par une courbe arrondie en bas."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3064",
+    "type": "reading",
+    "target": "hira-3064",
+    "stage": 0,
+    "batch": "hira-batch-09",
+    "priority": 400,
+    "requires": [],
+    "introduces": [
+      "hira-3064"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "tsu",
+    "note": {
+      "en": "The broad curve is open on the left.",
+      "fr": "La large courbe est ouverte à gauche."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3066",
+    "type": "reading",
+    "target": "hira-3066",
+    "stage": 0,
+    "batch": "hira-batch-10",
+    "priority": 440,
+    "requires": [],
+    "introduces": [
+      "hira-3066"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "te",
+    "note": {
+      "en": "The top bar leads down into a curve toward the right.",
+      "fr": "La barre du haut descend en une courbe vers la droite."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3068",
+    "type": "reading",
+    "target": "hira-3068",
+    "stage": 0,
+    "batch": "hira-batch-10",
+    "priority": 450,
+    "requires": [],
+    "introduces": [
+      "hira-3068"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "to",
+    "note": {
+      "en": "A short upper line meets the broad lower curve.",
+      "fr": "Un petit trait en haut rejoint la large courbe du bas."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-306a",
+    "type": "reading",
+    "target": "hira-306a",
+    "stage": 0,
+    "batch": "hira-batch-11",
+    "priority": 480,
+    "requires": [],
+    "introduces": [
+      "hira-306a"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "na",
+    "note": {
+      "en": "Notice the crossed left part, the small upper-right mark and the lower loop.",
+      "fr": "Repérez la partie barrée à gauche, le petit trait en haut à droite et la boucle du bas."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-306b",
+    "type": "reading",
+    "target": "hira-306b",
+    "stage": 0,
+    "batch": "hira-batch-11",
+    "priority": 490,
+    "requires": [],
+    "introduces": [
+      "hira-306b"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "ni",
+    "note": {
+      "en": "A separate left stem sits beside two short curves.",
+      "fr": "Une tige séparée à gauche accompagne deux petites courbes."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-306c",
+    "type": "reading",
+    "target": "hira-306c",
+    "stage": 0,
+    "batch": "hira-batch-12",
+    "priority": 520,
+    "requires": [],
+    "introduces": [
+      "hira-306c"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "nu",
+    "note": {
+      "en": "In this print, a small closed loop finishes the lower-right end.",
+      "fr": "Dans cette police, une petite boucle fermée termine le bas à droite."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-306d",
+    "type": "reading",
+    "target": "hira-306d",
+    "stage": 0,
+    "batch": "hira-batch-12",
+    "priority": 530,
+    "requires": [],
+    "introduces": [
+      "hira-306d"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "ne",
+    "note": {
+      "en": "Notice the closed loop on the right.",
+      "fr": "Repérez la boucle fermée à droite."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-306e",
+    "type": "reading",
+    "target": "hira-306e",
+    "stage": 0,
+    "batch": "hira-batch-13",
+    "priority": 580,
+    "requires": [],
+    "introduces": [
+      "hira-306e"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "no",
+    "note": {
+      "en": "One broad rounded curve turns inward.",
+      "fr": "Une large courbe arrondie revient vers l’intérieur."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-306f",
+    "type": "reading",
+    "target": "hira-306f",
+    "stage": 0,
+    "batch": "hira-batch-13",
+    "priority": 590,
+    "requires": [],
+    "introduces": [
+      "hira-306f"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "ha",
+    "note": {
+      "en": "A separate left stem accompanies a crossed stem with a lower loop.",
+      "fr": "Une tige séparée à gauche accompagne une tige barrée et bouclée en bas."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3072",
+    "type": "reading",
+    "target": "hira-3072",
+    "stage": 0,
+    "batch": "hira-batch-14",
+    "priority": 630,
+    "requires": [],
+    "introduces": [
+      "hira-3072"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "hi",
+    "note": {
+      "en": "The broad lower curve rises at both ends.",
+      "fr": "La large courbe du bas remonte aux deux extrémités."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3075",
+    "type": "reading",
+    "target": "hira-3075",
+    "stage": 0,
+    "batch": "hira-batch-14",
+    "priority": 640,
+    "requires": [],
+    "introduces": [
+      "hira-3075"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "fu",
+    "note": {
+      "en": "Bring the lips close and let air pass between them. Keep the upper teeth away from the lower lip.",
+      "fr": "Rapprochez les lèvres et laissez passer l’air entre elles. Les dents du haut ne touchent pas la lèvre du bas."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-fu"
+    ]
+  },
+  {
+    "id": "read-hira-3078",
+    "type": "reading",
+    "target": "hira-3078",
+    "stage": 0,
+    "batch": "hira-batch-15",
+    "priority": 680,
+    "requires": [],
+    "introduces": [
+      "hira-3078"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "he",
+    "note": {
+      "en": "One broad angled line forms a low peak.",
+      "fr": "Un large trait anguleux forme un sommet peu élevé."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-307b",
+    "type": "reading",
+    "target": "hira-307b",
+    "stage": 0,
+    "batch": "hira-batch-15",
+    "priority": 690,
+    "requires": [],
+    "introduces": [
+      "hira-307b"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "ho",
+    "note": {
+      "en": "The right part has two bars above its lower loop.",
+      "fr": "La partie droite comporte deux barres au-dessus de sa boucle."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-307e",
+    "type": "reading",
+    "target": "hira-307e",
+    "stage": 0,
+    "batch": "hira-batch-16",
+    "priority": 720,
+    "requires": [],
+    "introduces": [
+      "hira-307e"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "ma",
+    "note": {
+      "en": "Two bars cross a stem that loops near the bottom.",
+      "fr": "Deux barres traversent une tige qui forme une boucle en bas."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-307f",
+    "type": "reading",
+    "target": "hira-307f",
+    "stage": 0,
+    "batch": "hira-batch-16",
+    "priority": 730,
+    "requires": [],
+    "introduces": [
+      "hira-307f"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "mi",
+    "note": {
+      "en": "The low loop continues into a long curve toward the right.",
+      "fr": "La boucle basse se prolonge en une longue courbe vers la droite."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3080",
+    "type": "reading",
+    "target": "hira-3080",
+    "stage": 0,
+    "batch": "hira-batch-17",
+    "priority": 760,
+    "requires": [],
+    "introduces": [
+      "hira-3080"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "mu",
+    "note": {
+      "en": "Notice the small left loop and the separate mark on the right.",
+      "fr": "Repérez la petite boucle à gauche et le trait séparé à droite."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3081",
+    "type": "reading",
+    "target": "hira-3081",
+    "stage": 0,
+    "batch": "hira-batch-17",
+    "priority": 770,
+    "requires": [],
+    "introduces": [
+      "hira-3081"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "me",
+    "note": {
+      "en": "In this print, the lower-right end has no small closed loop.",
+      "fr": "Dans cette police, le bas à droite se termine sans petite boucle fermée."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3082",
+    "type": "reading",
+    "target": "hira-3082",
+    "stage": 0,
+    "batch": "hira-batch-18",
+    "priority": 800,
+    "requires": [],
+    "introduces": [
+      "hira-3082"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "mo",
+    "note": {
+      "en": "Two bars cross the stem above its rounded bottom.",
+      "fr": "Deux barres traversent la tige au-dessus de sa base arrondie."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3084",
+    "type": "reading",
+    "target": "hira-3084",
+    "stage": 0,
+    "batch": "hira-batch-18",
+    "priority": 810,
+    "requires": [],
+    "introduces": [
+      "hira-3084"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "ya",
+    "note": {
+      "en": "The upper curve crosses a long slanting line.",
+      "fr": "La courbe du haut croise un long trait incliné."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3086",
+    "type": "reading",
+    "target": "hira-3086",
+    "stage": 0,
+    "batch": "hira-batch-19",
+    "priority": 860,
+    "requires": [],
+    "introduces": [
+      "hira-3086"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "yu",
+    "note": {
+      "en": "A broad rounded part surrounds the central descending line.",
+      "fr": "Une large partie arrondie entoure le trait central descendant."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3088",
+    "type": "reading",
+    "target": "hira-3088",
+    "stage": 0,
+    "batch": "hira-batch-19",
+    "priority": 870,
+    "requires": [],
+    "introduces": [
+      "hira-3088"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "yo",
+    "note": {
+      "en": "A short upper bar sits above the bottom loop.",
+      "fr": "Une petite barre en haut surmonte la boucle du bas."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3089",
+    "type": "reading",
+    "target": "hira-3089",
+    "stage": 0,
+    "batch": "hira-batch-20",
+    "priority": 910,
+    "requires": [],
+    "introduces": [
+      "hira-3089"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "ra",
+    "note": {
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-hira-308a",
+    "type": "reading",
+    "target": "hira-308a",
+    "stage": 0,
+    "batch": "hira-batch-20",
+    "priority": 920,
+    "requires": [],
+    "introduces": [
+      "hira-308a"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "ri",
+    "note": {
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-hira-308b",
+    "type": "reading",
+    "target": "hira-308b",
+    "stage": 0,
+    "batch": "hira-batch-21",
+    "priority": 960,
+    "requires": [],
+    "introduces": [
+      "hira-308b"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "ru",
+    "note": {
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-hira-308c",
+    "type": "reading",
+    "target": "hira-308c",
+    "stage": 0,
+    "batch": "hira-batch-21",
+    "priority": 970,
+    "requires": [],
+    "introduces": [
+      "hira-308c"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "re",
+    "note": {
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-hira-308d",
+    "type": "reading",
+    "target": "hira-308d",
+    "stage": 0,
+    "batch": "hira-batch-22",
+    "priority": 1000,
+    "requires": [],
+    "introduces": [
+      "hira-308d"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "ro",
+    "note": {
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-hira-308f",
+    "type": "reading",
+    "target": "hira-308f",
+    "stage": 0,
+    "batch": "hira-batch-22",
+    "priority": 1010,
+    "requires": [],
+    "introduces": [
+      "hira-308f"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "wa",
+    "note": {
+      "en": "The crossed left stem leads into a broad curve on the right.",
+      "fr": "La tige barrée à gauche se prolonge par une large courbe à droite."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3092",
+    "type": "reading",
+    "target": "hira-3092",
+    "stage": 0,
+    "batch": "hira-batch-23",
+    "priority": 1040,
+    "requires": [],
+    "introduces": [
+      "hira-3092"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "o",
+    "note": {
+      "en": "In modern common Japanese, this kana has the same sound as お. The reading label is o. Its grammatical use is outside this course.",
+      "fr": "Dans le japonais commun actuel, ce kana a le même son que お. Sa lecture est notée o. Son emploi grammatical dépasse le cadre de ce cours."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-hira-3093",
+    "type": "reading",
+    "target": "hira-3093",
+    "stage": 0,
+    "batch": "hira-batch-23",
+    "priority": 1050,
+    "requires": [],
+    "introduces": [
+      "hira-3093"
+    ],
+    "instruction": {
+      "en": "Read this hiragana.",
+      "fr": "Comment se lit ce hiragana ?"
+    },
+    "answer": "n",
+    "note": {
+      "en": "This nasal has its own timing beat. Its pronunciation changes with neighboring sounds; this isolated recording is one example.",
+      "fr": "Ce son nasal occupe un temps à lui seul. Sa prononciation varie selon les sons voisins ; cet enregistrement isolé en donne un exemple."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-n",
+      "tufs-n-other"
+    ]
+  },
+  {
+    "id": "read-kata-30a2",
+    "type": "reading",
+    "target": "kata-30a2",
+    "stage": 2,
+    "batch": "kata-batch-01",
+    "priority": 0,
+    "requires": [],
+    "introduces": [
+      "kata-30a2"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "a",
+    "note": {
+      "en": "The top angle is separate from the long descending curve.",
+      "fr": "L’angle du haut est séparé de la longue courbe descendante."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30a4",
+    "type": "reading",
+    "target": "kata-30a4",
+    "stage": 2,
+    "batch": "kata-batch-01",
+    "priority": 10,
+    "requires": [],
+    "introduces": [
+      "kata-30a4"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "i",
+    "note": {
+      "en": "A long slanting line meets a more upright line.",
+      "fr": "Un long trait incliné rejoint un trait plus vertical."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30a6",
+    "type": "reading",
+    "target": "kata-30a6",
+    "stage": 2,
+    "batch": "kata-batch-02",
+    "priority": 40,
+    "requires": [],
+    "introduces": [
+      "kata-30a6"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "u",
+    "note": {
+      "en": "Keep the lips relaxed rather than strongly rounded. Follow the vowel in the recording.",
+      "fr": "Gardez les lèvres détendues, sans les arrondir fortement. Suivez la voyelle de l’enregistrement."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-vowels"
+    ]
+  },
+  {
+    "id": "read-kata-30a8",
+    "type": "reading",
+    "target": "kata-30a8",
+    "stage": 2,
+    "batch": "kata-batch-02",
+    "priority": 50,
+    "requires": [],
+    "introduces": [
+      "kata-30a8"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "e",
+    "note": {
+      "en": "Keep the vowel steady. Avoid adding an English “ay” glide.",
+      "fr": "Gardez une voyelle stable, sans glissement à la fin."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30aa",
+    "type": "reading",
+    "target": "kata-30aa",
+    "stage": 2,
+    "batch": "kata-batch-03",
+    "priority": 80,
+    "requires": [],
+    "introduces": [
+      "kata-30aa"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "o",
+    "note": {
+      "en": "Keep the vowel steady. Avoid adding an English “oh” glide.",
+      "fr": "Gardez une voyelle stable, sans glissement à la fin."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30ab",
+    "type": "reading",
+    "target": "kata-30ab",
+    "stage": 2,
+    "batch": "kata-batch-03",
+    "priority": 90,
+    "requires": [],
+    "introduces": [
+      "kata-30ab"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "ka",
+    "note": {
+      "en": "A bent outer line is crossed by a long diagonal.",
+      "fr": "Un trait extérieur coudé est traversé par une longue diagonale."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30ad",
+    "type": "reading",
+    "target": "kata-30ad",
+    "stage": 2,
+    "batch": "kata-batch-04",
+    "priority": 120,
+    "requires": [],
+    "introduces": [
+      "kata-30ad"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "ki",
+    "note": {
+      "en": "Two bars cross the long slanting stem.",
+      "fr": "Deux barres traversent la longue tige inclinée."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30af",
+    "type": "reading",
+    "target": "kata-30af",
+    "stage": 2,
+    "batch": "kata-batch-04",
+    "priority": 130,
+    "requires": [],
+    "introduces": [
+      "kata-30af"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "ku",
+    "note": {
+      "en": "The upper corner leads into a long diagonal; there is no crossing bar.",
+      "fr": "Le coin du haut se prolonge en une longue diagonale, sans barre transversale."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30b1",
+    "type": "reading",
+    "target": "kata-30b1",
+    "stage": 2,
+    "batch": "kata-batch-05",
+    "priority": 160,
+    "requires": [],
+    "introduces": [
+      "kata-30b1"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "ke",
+    "note": {
+      "en": "Notice the crossing bar near the top.",
+      "fr": "Repérez la barre transversale près du haut."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30b3",
+    "type": "reading",
+    "target": "kata-30b3",
+    "stage": 2,
+    "batch": "kata-batch-05",
+    "priority": 170,
+    "requires": [],
+    "introduces": [
+      "kata-30b3"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "ko",
+    "note": {
+      "en": "The top and bottom bars join along the right side.",
+      "fr": "Les barres du haut et du bas sont reliées à droite."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30b5",
+    "type": "reading",
+    "target": "kata-30b5",
+    "stage": 2,
+    "batch": "kata-batch-06",
+    "priority": 200,
+    "requires": [],
+    "introduces": [
+      "kata-30b5"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "sa",
+    "note": {
+      "en": "A horizontal bar crosses two upright parts.",
+      "fr": "Une barre horizontale traverse deux parties verticales."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30b7",
+    "type": "reading",
+    "target": "kata-30b7",
+    "stage": 2,
+    "batch": "kata-batch-06",
+    "priority": 210,
+    "requires": [],
+    "introduces": [
+      "kata-30b7"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "shi",
+    "note": {
+      "en": "The two short marks are grouped toward the left.",
+      "fr": "Les deux petits traits se regroupent vers la gauche."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30b9",
+    "type": "reading",
+    "target": "kata-30b9",
+    "stage": 2,
+    "batch": "kata-batch-07",
+    "priority": 240,
+    "requires": [],
+    "introduces": [
+      "kata-30b9"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "su",
+    "note": {
+      "en": "The long descending line is joined by a shorter lower-right diagonal.",
+      "fr": "Une diagonale plus courte rejoint le long trait descendant en bas à droite."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30bb",
+    "type": "reading",
+    "target": "kata-30bb",
+    "stage": 2,
+    "batch": "kata-batch-07",
+    "priority": 250,
+    "requires": [],
+    "introduces": [
+      "kata-30bb"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "se",
+    "note": {
+      "en": "The upper bar crosses a stem that turns right at the bottom.",
+      "fr": "La barre du haut traverse une tige qui tourne à droite en bas."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30bd",
+    "type": "reading",
+    "target": "kata-30bd",
+    "stage": 2,
+    "batch": "kata-batch-08",
+    "priority": 280,
+    "requires": [],
+    "introduces": [
+      "kata-30bd"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "so",
+    "note": {
+      "en": "The long line slopes steeply down toward the left.",
+      "fr": "Le long trait descend fortement vers la gauche."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30bf",
+    "type": "reading",
+    "target": "kata-30bf",
+    "stage": 2,
+    "batch": "kata-batch-08",
+    "priority": 290,
+    "requires": [],
+    "introduces": [
+      "kata-30bf"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "ta",
+    "note": {
+      "en": "The short inner bar sits inside the upper angle.",
+      "fr": "La petite barre intérieure se place dans l’angle du haut."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30c1",
+    "type": "reading",
+    "target": "kata-30c1",
+    "stage": 2,
+    "batch": "kata-batch-09",
+    "priority": 320,
+    "requires": [],
+    "introduces": [
+      "kata-30c1"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "chi",
+    "note": {
+      "en": "The short slanting top sits above a longer crossing bar.",
+      "fr": "Le petit trait incliné du haut surmonte une barre transversale plus longue."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30c4",
+    "type": "reading",
+    "target": "kata-30c4",
+    "stage": 2,
+    "batch": "kata-batch-09",
+    "priority": 330,
+    "requires": [],
+    "introduces": [
+      "kata-30c4"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "tsu",
+    "note": {
+      "en": "The two short marks sit toward the top.",
+      "fr": "Les deux petits traits se placent vers le haut."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30c6",
+    "type": "reading",
+    "target": "kata-30c6",
+    "stage": 2,
+    "batch": "kata-batch-10",
+    "priority": 360,
+    "requires": [],
+    "introduces": [
+      "kata-30c6"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "te",
+    "note": {
+      "en": "A short top bar sits above the longer bar and descending curve.",
+      "fr": "Une petite barre surmonte la barre plus longue et la courbe descendante."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30c8",
+    "type": "reading",
+    "target": "kata-30c8",
+    "stage": 2,
+    "batch": "kata-batch-10",
+    "priority": 370,
+    "requires": [],
+    "introduces": [
+      "kata-30c8"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "to",
+    "note": {
+      "en": "A short slanting mark branches right from the upright stem.",
+      "fr": "Un petit trait incliné part vers la droite depuis la tige verticale."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30ca",
+    "type": "reading",
+    "target": "kata-30ca",
+    "stage": 2,
+    "batch": "kata-batch-11",
+    "priority": 400,
+    "requires": [],
+    "introduces": [
+      "kata-30ca"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "na",
+    "note": {
+      "en": "A horizontal bar crosses the descending diagonal.",
+      "fr": "Une barre horizontale traverse la diagonale descendante."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30cb",
+    "type": "reading",
+    "target": "kata-30cb",
+    "stage": 2,
+    "batch": "kata-batch-11",
+    "priority": 410,
+    "requires": [],
+    "introduces": [
+      "kata-30cb"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "ni",
+    "note": {
+      "en": "Two horizontal bars: the lower one is longer.",
+      "fr": "Deux barres horizontales : celle du bas est plus longue."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30cc",
+    "type": "reading",
+    "target": "kata-30cc",
+    "stage": 2,
+    "batch": "kata-batch-12",
+    "priority": 440,
+    "requires": [],
+    "introduces": [
+      "kata-30cc"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "nu",
+    "note": {
+      "en": "The upper angle continues into crossing diagonals.",
+      "fr": "L’angle du haut se prolonge par des diagonales croisées."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30cd",
+    "type": "reading",
+    "target": "kata-30cd",
+    "stage": 2,
+    "batch": "kata-batch-12",
+    "priority": 450,
+    "requires": [],
+    "introduces": [
+      "kata-30cd"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "ne",
+    "note": {
+      "en": "A short top mark sits above the angular middle and lower branches.",
+      "fr": "Un petit trait surmonte le milieu anguleux et les branches du bas."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30ce",
+    "type": "reading",
+    "target": "kata-30ce",
+    "stage": 2,
+    "batch": "kata-batch-13",
+    "priority": 480,
+    "requires": [],
+    "introduces": [
+      "kata-30ce"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "no",
+    "note": {
+      "en": "One long curve slopes down toward the left.",
+      "fr": "Une longue courbe descend vers la gauche."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30cf",
+    "type": "reading",
+    "target": "kata-30cf",
+    "stage": 2,
+    "batch": "kata-batch-13",
+    "priority": 490,
+    "requires": [],
+    "introduces": [
+      "kata-30cf"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "ha",
+    "note": {
+      "en": "Two separate lines spread apart toward the bottom.",
+      "fr": "Deux traits séparés s’écartent vers le bas."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30d2",
+    "type": "reading",
+    "target": "kata-30d2",
+    "stage": 2,
+    "batch": "kata-batch-14",
+    "priority": 520,
+    "requires": [],
+    "introduces": [
+      "kata-30d2"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "hi",
+    "note": {
+      "en": "An upper slanting bar meets a stem that bends right below.",
+      "fr": "Une barre inclinée en haut rejoint la tige qui se courbe à droite en bas."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30d5",
+    "type": "reading",
+    "target": "kata-30d5",
+    "stage": 2,
+    "batch": "kata-batch-14",
+    "priority": 530,
+    "requires": [],
+    "introduces": [
+      "kata-30d5"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "fu",
+    "note": {
+      "en": "Bring the lips close and let air pass between them. Keep the upper teeth away from the lower lip.",
+      "fr": "Rapprochez les lèvres et laissez passer l’air entre elles. Les dents du haut ne touchent pas la lèvre du bas."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-fu"
+    ]
+  },
+  {
+    "id": "read-kata-30d8",
+    "type": "reading",
+    "target": "kata-30d8",
+    "stage": 2,
+    "batch": "kata-batch-15",
+    "priority": 560,
+    "requires": [],
+    "introduces": [
+      "kata-30d8"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "he",
+    "note": {
+      "en": "One broad angled line forms a low peak.",
+      "fr": "Un large trait anguleux forme un sommet peu élevé."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30db",
+    "type": "reading",
+    "target": "kata-30db",
+    "stage": 2,
+    "batch": "kata-batch-15",
+    "priority": 570,
+    "requires": [],
+    "introduces": [
+      "kata-30db"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "ho",
+    "note": {
+      "en": "The crossed central stem has a short diagonal on either side.",
+      "fr": "La tige centrale barrée est accompagnée d’une petite diagonale de chaque côté."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30de",
+    "type": "reading",
+    "target": "kata-30de",
+    "stage": 2,
+    "batch": "kata-batch-16",
+    "priority": 600,
+    "requires": [],
+    "introduces": [
+      "kata-30de"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "ma",
+    "note": {
+      "en": "A wide upper angle leads toward a short lower diagonal.",
+      "fr": "Un large angle en haut rejoint une petite diagonale en bas."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30df",
+    "type": "reading",
+    "target": "kata-30df",
+    "stage": 2,
+    "batch": "kata-batch-16",
+    "priority": 610,
+    "requires": [],
+    "introduces": [
+      "kata-30df"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "mi",
+    "note": {
+      "en": "Three separate short bars slope in the same direction.",
+      "fr": "Trois petits traits séparés s’inclinent dans le même sens."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30e0",
+    "type": "reading",
+    "target": "kata-30e0",
+    "stage": 2,
+    "batch": "kata-batch-17",
+    "priority": 650,
+    "requires": [],
+    "introduces": [
+      "kata-30e0"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "mu",
+    "note": {
+      "en": "The long left diagonal turns along the bottom toward the short right side.",
+      "fr": "La longue diagonale de gauche tourne en bas vers le petit côté droit."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30e1",
+    "type": "reading",
+    "target": "kata-30e1",
+    "stage": 2,
+    "batch": "kata-batch-17",
+    "priority": 660,
+    "requires": [],
+    "introduces": [
+      "kata-30e1"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "me",
+    "note": {
+      "en": "Two long diagonals cross.",
+      "fr": "Deux longues diagonales se croisent."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30e2",
+    "type": "reading",
+    "target": "kata-30e2",
+    "stage": 2,
+    "batch": "kata-batch-18",
+    "priority": 690,
+    "requires": [],
+    "introduces": [
+      "kata-30e2"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "mo",
+    "note": {
+      "en": "Two bars cross the stem that turns right at the bottom.",
+      "fr": "Deux barres traversent la tige qui tourne à droite en bas."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30e4",
+    "type": "reading",
+    "target": "kata-30e4",
+    "stage": 2,
+    "batch": "kata-batch-18",
+    "priority": 700,
+    "requires": [],
+    "introduces": [
+      "kata-30e4"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "ya",
+    "note": {
+      "en": "The upper angle crosses a long slanting line.",
+      "fr": "L’angle du haut croise un long trait incliné."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30e6",
+    "type": "reading",
+    "target": "kata-30e6",
+    "stage": 2,
+    "batch": "kata-batch-19",
+    "priority": 740,
+    "requires": [],
+    "introduces": [
+      "kata-30e6"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "yu",
+    "note": {
+      "en": "The short right side links the top to the longer bottom bar.",
+      "fr": "Le petit côté droit relie le haut à la barre du bas, plus longue."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30e8",
+    "type": "reading",
+    "target": "kata-30e8",
+    "stage": 2,
+    "batch": "kata-batch-19",
+    "priority": 750,
+    "requires": [],
+    "introduces": [
+      "kata-30e8"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "yo",
+    "note": {
+      "en": "Three horizontal bars join along the right side.",
+      "fr": "Trois barres horizontales sont reliées à droite."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30e9",
+    "type": "reading",
+    "target": "kata-30e9",
+    "stage": 2,
+    "batch": "kata-batch-20",
+    "priority": 780,
+    "requires": [],
+    "introduces": [
+      "kata-30e9"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "ra",
+    "note": {
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-kata-30ea",
+    "type": "reading",
+    "target": "kata-30ea",
+    "stage": 2,
+    "batch": "kata-batch-20",
+    "priority": 790,
+    "requires": [],
+    "introduces": [
+      "kata-30ea"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "ri",
+    "note": {
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-kata-30eb",
+    "type": "reading",
+    "target": "kata-30eb",
+    "stage": 2,
+    "batch": "kata-batch-21",
+    "priority": 830,
+    "requires": [],
+    "introduces": [
+      "kata-30eb"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "ru",
+    "note": {
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-kata-30ec",
+    "type": "reading",
+    "target": "kata-30ec",
+    "stage": 2,
+    "batch": "kata-batch-21",
+    "priority": 840,
+    "requires": [],
+    "introduces": [
+      "kata-30ec"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "re",
+    "note": {
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-kata-30ed",
+    "type": "reading",
+    "target": "kata-30ed",
+    "stage": 2,
+    "batch": "kata-batch-22",
+    "priority": 890,
+    "requires": [],
+    "introduces": [
+      "kata-30ed"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "ro",
+    "note": {
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-r"
+    ]
+  },
+  {
+    "id": "read-kata-30ef",
+    "type": "reading",
+    "target": "kata-30ef",
+    "stage": 2,
+    "batch": "kata-batch-22",
+    "priority": 900,
+    "requires": [],
+    "introduces": [
+      "kata-30ef"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "wa",
+    "note": {
+      "en": "The short left side and top bar lead into a long descending curve.",
+      "fr": "Le petit côté gauche et la barre du haut se prolongent par une longue courbe descendante."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30f2",
+    "type": "reading",
+    "target": "kata-30f2",
+    "stage": 2,
+    "batch": "kata-batch-23",
+    "priority": 930,
+    "requires": [],
+    "introduces": [
+      "kata-30f2"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "o",
+    "note": {
+      "en": "In modern common Japanese, this kana has the same sound as オ. The reading label is o. Its grammatical use is outside this course.",
+      "fr": "Dans le japonais commun actuel, ce kana a le même son que オ. Sa lecture est notée o. Son emploi grammatical dépasse le cadre de ce cours."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ]
+  },
+  {
+    "id": "read-kata-30f3",
+    "type": "reading",
+    "target": "kata-30f3",
+    "stage": 2,
+    "batch": "kata-batch-23",
+    "priority": 940,
+    "requires": [],
+    "introduces": [
+      "kata-30f3"
+    ],
+    "instruction": {
+      "en": "Read this katakana.",
+      "fr": "Comment se lit ce katakana ?"
+    },
+    "answer": "n",
+    "note": {
+      "en": "This nasal has its own timing beat. Its pronunciation changes with neighboring sounds; this isolated recording is one example.",
+      "fr": "Ce son nasal occupe un temps à lui seul. Sa prononciation varie selon les sons voisins ; cet enregistrement isolé en donne un exemple."
+    },
+    "references": [
+      "mext-kana",
+      "bunka-romanization",
+      "tufs-n",
+      "tufs-n-other"
+    ]
+  }
+]

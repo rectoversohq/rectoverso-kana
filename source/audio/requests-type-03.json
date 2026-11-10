@@ -1,0 +1,206 @@
+[
+  {
+    "file": "rv-kana-rule-hira-marks-g.mp3",
+    "input": "が",
+    "reading": "ga",
+    "purpose": "rule-hira-marks-g"
+  },
+  {
+    "file": "rv-kana-rule-hira-marks-z.mp3",
+    "input": "ざ",
+    "reading": "za",
+    "purpose": "rule-hira-marks-z"
+  },
+  {
+    "file": "rv-kana-rule-hira-marks-d.mp3",
+    "input": "だ",
+    "reading": "da",
+    "purpose": "rule-hira-marks-d"
+  },
+  {
+    "file": "rv-kana-rule-hira-marks-b.mp3",
+    "input": "ば",
+    "reading": "ba",
+    "purpose": "rule-hira-marks-b"
+  },
+  {
+    "file": "rv-kana-rule-hira-marks-p.mp3",
+    "input": "ぱ",
+    "reading": "pa",
+    "purpose": "rule-hira-marks-p"
+  },
+  {
+    "file": "rv-kana-rule-hira-kya.mp3",
+    "input": "きゃ",
+    "reading": "kya",
+    "purpose": "rule-hira-kya"
+  },
+  {
+    "file": "rv-kana-rule-hira-shu.mp3",
+    "input": "しゅ",
+    "reading": "shu",
+    "purpose": "rule-hira-shu"
+  },
+  {
+    "file": "rv-kana-rule-hira-cho.mp3",
+    "input": "ちょ",
+    "reading": "cho",
+    "purpose": "rule-hira-cho"
+  },
+  {
+    "file": "rv-kana-rule-hira-small-tsu.mp3",
+    "input": "きって",
+    "reading": "kitte",
+    "purpose": "rule-hira-small-tsu"
+  },
+  {
+    "file": "rv-kana-rule-hira-long-aa.mp3",
+    "input": "おばあさん",
+    "reading": "obaasan",
+    "purpose": "rule-hira-long-aa"
+  },
+  {
+    "file": "rv-kana-rule-hira-long-ii.mp3",
+    "input": "おにいさん",
+    "reading": "oniisan",
+    "purpose": "rule-hira-long-ii"
+  },
+  {
+    "file": "rv-kana-rule-hira-long-uu.mp3",
+    "input": "くうき",
+    "reading": "kuuki",
+    "purpose": "rule-hira-long-uu"
+  },
+  {
+    "file": "rv-kana-rule-hira-long-ee.mp3",
+    "input": "おねえさん",
+    "reading": "oneesan",
+    "purpose": "rule-hira-long-ee"
+  },
+  {
+    "file": "rv-kana-rule-hira-long-ou.mp3",
+    "input": "とうふ",
+    "reading": "tōfu",
+    "purpose": "rule-hira-long-ou"
+  },
+  {
+    "file": "rv-kana-rule-hira-long-oo.mp3",
+    "input": "こおり",
+    "reading": "kōri",
+    "purpose": "rule-hira-long-oo"
+  },
+  {
+    "file": "rv-kana-rule-hira-long-ei.mp3",
+    "input": "とけい",
+    "reading": "tokei",
+    "purpose": "rule-hira-long-ei"
+  },
+  {
+    "file": "rv-kana-rule-kata-marks-g.mp3",
+    "input": "ガ",
+    "reading": "ga",
+    "purpose": "rule-kata-marks-g"
+  },
+  {
+    "file": "rv-kana-rule-kata-marks-z.mp3",
+    "input": "ザ",
+    "reading": "za",
+    "purpose": "rule-kata-marks-z"
+  },
+  {
+    "file": "rv-kana-rule-kata-marks-d.mp3",
+    "input": "ダ",
+    "reading": "da",
+    "purpose": "rule-kata-marks-d"
+  },
+  {
+    "file": "rv-kana-rule-kata-marks-b.mp3",
+    "input": "バ",
+    "reading": "ba",
+    "purpose": "rule-kata-marks-b"
+  },
+  {
+    "file": "rv-kana-rule-kata-marks-p.mp3",
+    "input": "パ",
+    "reading": "pa",
+    "purpose": "rule-kata-marks-p"
+  },
+  {
+    "file": "rv-kana-rule-kata-kya.mp3",
+    "input": "キャ",
+    "reading": "kya",
+    "purpose": "rule-kata-kya"
+  },
+  {
+    "file": "rv-kana-rule-kata-shu.mp3",
+    "input": "シュ",
+    "reading": "shu",
+    "purpose": "rule-kata-shu"
+  },
+  {
+    "file": "rv-kana-rule-kata-cho.mp3",
+    "input": "チョ",
+    "reading": "cho",
+    "purpose": "rule-kata-cho"
+  },
+  {
+    "file": "rv-kana-rule-kata-long-bar.mp3",
+    "input": "コーヒー",
+    "reading": "kōhī",
+    "purpose": "rule-kata-long-bar"
+  },
+  {
+    "file": "rv-kana-rule-kata-small-tsu.mp3",
+    "input": "ベッド",
+    "reading": "beddo",
+    "purpose": "rule-kata-small-tsu"
+  },
+  {
+    "file": "rv-kana-rule-kata-extension-fa.mp3",
+    "input": "ファン",
+    "reading": "fan",
+    "purpose": "rule-kata-extension-fa"
+  },
+  {
+    "file": "rv-kana-rule-kata-extension-fi.mp3",
+    "input": "フィルム",
+    "reading": "firumu",
+    "purpose": "rule-kata-extension-fi"
+  },
+  {
+    "file": "rv-kana-rule-kata-extension-fe.mp3",
+    "input": "フェリー",
+    "reading": "ferī",
+    "purpose": "rule-kata-extension-fe"
+  },
+  {
+    "file": "rv-kana-rule-kata-extension-fo.mp3",
+    "input": "フォーク",
+    "reading": "fōku",
+    "purpose": "rule-kata-extension-fo"
+  },
+  {
+    "file": "rv-kana-rule-kata-extension-ti.mp3",
+    "input": "ティー",
+    "reading": "tī",
+    "purpose": "rule-kata-extension-ti"
+  },
+  {
+    "file": "rv-kana-rule-kata-extension-che.mp3",
+    "input": "チェス",
+    "reading": "chesu",
+    "purpose": "rule-kata-extension-che"
+  },
+  {
+    "file": "rv-kana-rule-kata-extension-she.mp3",
+    "input": "シェフ",
+    "reading": "shefu",
+    "purpose": "rule-kata-extension-she"
+  },
+  {
+    "file": "rv-kana-rule-kata-extension-di.mp3",
+    "input": "ディスク",
+    "reading": "disuku",
+    "purpose": "rule-kata-extension-di"
+  }
+]

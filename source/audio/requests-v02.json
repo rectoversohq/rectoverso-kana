@@ -1,0 +1,14 @@
+[
+  {
+    "file": "rv-kana-word-ai.mp3",
+    "input": "愛",
+    "reading": "ai",
+    "purpose": "word-ai"
+  },
+  {
+    "file": "rv-kana-word-kagu.mp3",
+    "input": "家具",
+    "reading": "kagu",
+    "purpose": "word-kagu"
+  }
+]

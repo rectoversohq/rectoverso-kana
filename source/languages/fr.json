@@ -1,0 +1,17 @@
+{
+  "title": "Kana",
+  "subject": "Kana japonais",
+  "headline": "Lire les hiragana et les katakana, un son à la fois.",
+  "description": "Commencez par les hiragana, puis apprenez les katakana. Associez chaque kana à sa prononciation dans les deux sens : lisez-le et retrouvez le son, ou écoutez et retrouvez le caractère.\n\nLes réponses d’un seul kana se dessinent trait par trait. Exercez-vous aux signes qui modifient la prononciation, aux petits kana et aux voyelles longues à travers des mots courts, avec des explications et des comparaisons entre caractères proches. Aucune connaissance préalable du japonais n’est nécessaire ; écrire reste facultatif.",
+  "reading": "Kana → son",
+  "listening": "Son → kana",
+  "explore": "Explorer",
+  "first": "Nouveau ? Révélez et écoutez.",
+  "rule": "Règle de lecture",
+  "word": "Lire un mot",
+  "contrast": "Comparer",
+  "variant": "Une autre forme",
+  "checkpoint": "Bilan de lecture",
+  "listenOnePrompt": "Une forme suffit.",
+  "romajiLabel": "Romaji"
+}

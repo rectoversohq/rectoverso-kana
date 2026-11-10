@@ -1,0 +1,17 @@
+{
+  "title": "Kana",
+  "subject": "Japanese kana",
+  "headline": "Read hiragana and katakana, one sound at a time.",
+  "description": "Start with hiragana, then learn katakana. Connect each kana with its sound in both directions: read it and recall the sound, or listen and recall the character.\n\nWatch single-kana answers appear stroke by stroke. Practice sound marks, small kana and long vowels through short words, with explanations and comparisons to help you tell similar characters apart. No previous Japanese needed; handwriting is optional.",
+  "reading": "Kana → sound",
+  "listening": "Sound → kana",
+  "explore": "Explore",
+  "first": "New? Reveal and listen.",
+  "rule": "Reading rule",
+  "word": "Read a word",
+  "contrast": "Compare",
+  "variant": "Another form",
+  "checkpoint": "Reading check",
+  "listenOnePrompt": "Recall one valid form.",
+  "romajiLabel": "Romaji"
+}

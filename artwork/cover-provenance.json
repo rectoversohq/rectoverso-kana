@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "order": [
+    "brush",
+    "stroke-order",
+    "reading-reveal"
+  ],
+  "size": [
+    2010,
+    1340
+  ],
+  "languages": [
+    "en",
+    "fr"
+  ],
+  "appearanceSpecific": true,
+  "masters": [
+    {
+      "file": "rv-kana-cover-dark-1.svg",
+      "sha256": "3447e0a19189ec4b98aadbfce22724bc40a57001fc9a32726e2066bd5da290f6",
+      "license": "CC-BY-SA-3.0",
+      "title": "The brush, mid-stroke"
+    },
+    {
+      "file": "rv-kana-cover-dark-2.svg",
+      "sha256": "6101ff5ab3312a626497396411dcd7d940d02c4e97b56ecee2e32b04a400df21",
+      "license": "CC-BY-SA-3.0",
+      "title": "Stroke by stroke"
+    },
+    {
+      "file": "rv-kana-cover-dark-3.svg",
+      "sha256": "61e75a450ec127c68f4531174ff05ce9ae2183db87314777342baa3240dae9bb",
+      "license": "CC-BY-4.0",
+      "title": "Reveal the reading"
+    },
+    {
+      "file": "rv-kana-cover-light-1.svg",
+      "sha256": "bafb930bd7d32e3baeb854e30e3e957b626093c28cb4383470aa71640a4cdd8e",
+      "license": "CC-BY-SA-3.0",
+      "title": "The brush, mid-stroke"
+    },
+    {
+      "file": "rv-kana-cover-light-2.svg",
+      "sha256": "246837af18d4220721265ffb73d5639f84c12a018dc3edc9306e0b0c1670a3e0",
+      "license": "CC-BY-SA-3.0",
+      "title": "Stroke by stroke"
+    },
+    {
+      "file": "rv-kana-cover-light-3.svg",
+      "sha256": "947dc93d3264b0caa47c42489c36f5f138993b8e643c65bd4e3f722dac2c381f",
+      "license": "CC-BY-4.0",
+      "title": "Reveal the reading"
+    }
+  ],
+  "strokeSource": {
+    "file": "artwork/sources/kanjivg/a.json",
+    "sha256": "76201822fe1165ca3b93e37682dce7ed48e32ba2343d49fef34dfa06c65db103",
+    "source": "https://github.com/KanjiVG/kanjivg/releases/tag/r20260714",
+    "creator": "Ulrich Apel",
+    "license": "CC-BY-SA-3.0",
+    "changes": "Original cover composition; app brush taper and localized light applied to the unchanged centerlines and stroke order.",
+    "notice": "artwork/sources/kanjivg/LICENSE.txt"
+  },
+  "fonts": [
+    {
+      "file": "NotoSansJP.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/66a36c8c94b1a5d992ee4e7f392fccfe4945767c/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf",
+      "revision": "66a36c8c94b1a5d992ee4e7f392fccfe4945767c",
+      "license": "OFL-1.1",
+      "sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f"
+    },
+    {
+      "file": "SF-Pro-Text-Regular.otf",
+      "family": "SF Pro Text",
+      "style": "Regular",
+      "url": "https://developer.apple.com/fonts/",
+      "license": "Apple SF Pro license; local Apple-platform UI prototype",
+      "sha256": "eabf0a67833bbe3c80c800e6ce3f36b65e92f3b6ac1d6226ba2981e5cb3a74a5",
+      "external": true,
+      "environment": "RECTOVERSO_SF_PRO_FONT",
+      "defaultPath": "/Library/Fonts/SF-Pro-Text-Regular.otf",
+      "usage": "Romaji labels only; font file is not bundled or redistributed"
+    }
+  ],
+  "creator": "Simon Pinkas",
+  "notes": "Kana, romaji i and step numerals are shared teaching symbols, not translated cover copy. Normal renders load only the self-contained outlined SVG masters. Gallery publication and pins remain unapproved."
+}

@@ -1,0 +1,1290 @@
+[
+  {
+    "id": "hira-3042",
+    "script": "hira",
+    "kana": "あ",
+    "reading": "a",
+    "row": 0,
+    "column": 0,
+    "index": 0,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-a.mp3"
+  },
+  {
+    "id": "hira-3044",
+    "script": "hira",
+    "kana": "い",
+    "reading": "i",
+    "row": 0,
+    "column": 1,
+    "index": 1,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-i.mp3"
+  },
+  {
+    "id": "hira-3046",
+    "script": "hira",
+    "kana": "う",
+    "reading": "u",
+    "row": 0,
+    "column": 2,
+    "index": 2,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-u.mp3"
+  },
+  {
+    "id": "hira-3048",
+    "script": "hira",
+    "kana": "え",
+    "reading": "e",
+    "row": 0,
+    "column": 3,
+    "index": 3,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-e.mp3"
+  },
+  {
+    "id": "hira-304a",
+    "script": "hira",
+    "kana": "お",
+    "reading": "o",
+    "row": 0,
+    "column": 4,
+    "index": 4,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-o.mp3"
+  },
+  {
+    "id": "hira-304b",
+    "script": "hira",
+    "kana": "か",
+    "reading": "ka",
+    "row": 1,
+    "column": 0,
+    "index": 5,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ka.mp3"
+  },
+  {
+    "id": "hira-304d",
+    "script": "hira",
+    "kana": "き",
+    "reading": "ki",
+    "row": 1,
+    "column": 1,
+    "index": 6,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ki.mp3"
+  },
+  {
+    "id": "hira-304f",
+    "script": "hira",
+    "kana": "く",
+    "reading": "ku",
+    "row": 1,
+    "column": 2,
+    "index": 7,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ku.mp3"
+  },
+  {
+    "id": "hira-3051",
+    "script": "hira",
+    "kana": "け",
+    "reading": "ke",
+    "row": 1,
+    "column": 3,
+    "index": 8,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ke.mp3"
+  },
+  {
+    "id": "hira-3053",
+    "script": "hira",
+    "kana": "こ",
+    "reading": "ko",
+    "row": 1,
+    "column": 4,
+    "index": 9,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ko.mp3"
+  },
+  {
+    "id": "hira-3055",
+    "script": "hira",
+    "kana": "さ",
+    "reading": "sa",
+    "row": 2,
+    "column": 0,
+    "index": 10,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-sa.mp3"
+  },
+  {
+    "id": "hira-3057",
+    "script": "hira",
+    "kana": "し",
+    "reading": "shi",
+    "row": 2,
+    "column": 1,
+    "index": 11,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-shi.mp3"
+  },
+  {
+    "id": "hira-3059",
+    "script": "hira",
+    "kana": "す",
+    "reading": "su",
+    "row": 2,
+    "column": 2,
+    "index": 12,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-su.mp3"
+  },
+  {
+    "id": "hira-305b",
+    "script": "hira",
+    "kana": "せ",
+    "reading": "se",
+    "row": 2,
+    "column": 3,
+    "index": 13,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-se.mp3"
+  },
+  {
+    "id": "hira-305d",
+    "script": "hira",
+    "kana": "そ",
+    "reading": "so",
+    "row": 2,
+    "column": 4,
+    "index": 14,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-so.mp3"
+  },
+  {
+    "id": "hira-305f",
+    "script": "hira",
+    "kana": "た",
+    "reading": "ta",
+    "row": 3,
+    "column": 0,
+    "index": 15,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ta.mp3"
+  },
+  {
+    "id": "hira-3061",
+    "script": "hira",
+    "kana": "ち",
+    "reading": "chi",
+    "row": 3,
+    "column": 1,
+    "index": 16,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-chi.mp3"
+  },
+  {
+    "id": "hira-3064",
+    "script": "hira",
+    "kana": "つ",
+    "reading": "tsu",
+    "row": 3,
+    "column": 2,
+    "index": 17,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-tsu.mp3"
+  },
+  {
+    "id": "hira-3066",
+    "script": "hira",
+    "kana": "て",
+    "reading": "te",
+    "row": 3,
+    "column": 3,
+    "index": 18,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-te.mp3"
+  },
+  {
+    "id": "hira-3068",
+    "script": "hira",
+    "kana": "と",
+    "reading": "to",
+    "row": 3,
+    "column": 4,
+    "index": 19,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-to.mp3"
+  },
+  {
+    "id": "hira-306a",
+    "script": "hira",
+    "kana": "な",
+    "reading": "na",
+    "row": 4,
+    "column": 0,
+    "index": 20,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-na.mp3"
+  },
+  {
+    "id": "hira-306b",
+    "script": "hira",
+    "kana": "に",
+    "reading": "ni",
+    "row": 4,
+    "column": 1,
+    "index": 21,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ni.mp3"
+  },
+  {
+    "id": "hira-306c",
+    "script": "hira",
+    "kana": "ぬ",
+    "reading": "nu",
+    "row": 4,
+    "column": 2,
+    "index": 22,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-nu.mp3"
+  },
+  {
+    "id": "hira-306d",
+    "script": "hira",
+    "kana": "ね",
+    "reading": "ne",
+    "row": 4,
+    "column": 3,
+    "index": 23,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ne.mp3"
+  },
+  {
+    "id": "hira-306e",
+    "script": "hira",
+    "kana": "の",
+    "reading": "no",
+    "row": 4,
+    "column": 4,
+    "index": 24,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-no.mp3"
+  },
+  {
+    "id": "hira-306f",
+    "script": "hira",
+    "kana": "は",
+    "reading": "ha",
+    "row": 5,
+    "column": 0,
+    "index": 25,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ha.mp3"
+  },
+  {
+    "id": "hira-3072",
+    "script": "hira",
+    "kana": "ひ",
+    "reading": "hi",
+    "row": 5,
+    "column": 1,
+    "index": 26,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-hi.mp3"
+  },
+  {
+    "id": "hira-3075",
+    "script": "hira",
+    "kana": "ふ",
+    "reading": "fu",
+    "row": 5,
+    "column": 2,
+    "index": 27,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-fu.mp3"
+  },
+  {
+    "id": "hira-3078",
+    "script": "hira",
+    "kana": "へ",
+    "reading": "he",
+    "row": 5,
+    "column": 3,
+    "index": 28,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-he.mp3"
+  },
+  {
+    "id": "hira-307b",
+    "script": "hira",
+    "kana": "ほ",
+    "reading": "ho",
+    "row": 5,
+    "column": 4,
+    "index": 29,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ho.mp3"
+  },
+  {
+    "id": "hira-307e",
+    "script": "hira",
+    "kana": "ま",
+    "reading": "ma",
+    "row": 6,
+    "column": 0,
+    "index": 30,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ma.mp3"
+  },
+  {
+    "id": "hira-307f",
+    "script": "hira",
+    "kana": "み",
+    "reading": "mi",
+    "row": 6,
+    "column": 1,
+    "index": 31,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-mi.mp3"
+  },
+  {
+    "id": "hira-3080",
+    "script": "hira",
+    "kana": "む",
+    "reading": "mu",
+    "row": 6,
+    "column": 2,
+    "index": 32,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-mu.mp3"
+  },
+  {
+    "id": "hira-3081",
+    "script": "hira",
+    "kana": "め",
+    "reading": "me",
+    "row": 6,
+    "column": 3,
+    "index": 33,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-me.mp3"
+  },
+  {
+    "id": "hira-3082",
+    "script": "hira",
+    "kana": "も",
+    "reading": "mo",
+    "row": 6,
+    "column": 4,
+    "index": 34,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-mo.mp3"
+  },
+  {
+    "id": "hira-3084",
+    "script": "hira",
+    "kana": "や",
+    "reading": "ya",
+    "row": 7,
+    "column": 0,
+    "index": 35,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ya.mp3"
+  },
+  {
+    "id": "hira-3086",
+    "script": "hira",
+    "kana": "ゆ",
+    "reading": "yu",
+    "row": 7,
+    "column": 2,
+    "index": 36,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-yu.mp3"
+  },
+  {
+    "id": "hira-3088",
+    "script": "hira",
+    "kana": "よ",
+    "reading": "yo",
+    "row": 7,
+    "column": 4,
+    "index": 37,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-yo.mp3"
+  },
+  {
+    "id": "hira-3089",
+    "script": "hira",
+    "kana": "ら",
+    "reading": "ra",
+    "row": 8,
+    "column": 0,
+    "index": 38,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ra.mp3"
+  },
+  {
+    "id": "hira-308a",
+    "script": "hira",
+    "kana": "り",
+    "reading": "ri",
+    "row": 8,
+    "column": 1,
+    "index": 39,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ri.mp3"
+  },
+  {
+    "id": "hira-308b",
+    "script": "hira",
+    "kana": "る",
+    "reading": "ru",
+    "row": 8,
+    "column": 2,
+    "index": 40,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ru.mp3"
+  },
+  {
+    "id": "hira-308c",
+    "script": "hira",
+    "kana": "れ",
+    "reading": "re",
+    "row": 8,
+    "column": 3,
+    "index": 41,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-re.mp3"
+  },
+  {
+    "id": "hira-308d",
+    "script": "hira",
+    "kana": "ろ",
+    "reading": "ro",
+    "row": 8,
+    "column": 4,
+    "index": 42,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ro.mp3"
+  },
+  {
+    "id": "hira-308f",
+    "script": "hira",
+    "kana": "わ",
+    "reading": "wa",
+    "row": 9,
+    "column": 0,
+    "index": 43,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-wa.mp3"
+  },
+  {
+    "id": "hira-3092",
+    "script": "hira",
+    "kana": "を",
+    "reading": "o",
+    "row": 9,
+    "column": 4,
+    "index": 44,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-o.mp3"
+  },
+  {
+    "id": "hira-3093",
+    "script": "hira",
+    "kana": "ん",
+    "reading": "n",
+    "row": 10,
+    "column": 0,
+    "index": 45,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-n.mp3"
+  },
+  {
+    "id": "kata-30a2",
+    "script": "kata",
+    "kana": "ア",
+    "reading": "a",
+    "row": 0,
+    "column": 0,
+    "index": 0,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-a.mp3"
+  },
+  {
+    "id": "kata-30a4",
+    "script": "kata",
+    "kana": "イ",
+    "reading": "i",
+    "row": 0,
+    "column": 1,
+    "index": 1,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-i.mp3"
+  },
+  {
+    "id": "kata-30a6",
+    "script": "kata",
+    "kana": "ウ",
+    "reading": "u",
+    "row": 0,
+    "column": 2,
+    "index": 2,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-u.mp3"
+  },
+  {
+    "id": "kata-30a8",
+    "script": "kata",
+    "kana": "エ",
+    "reading": "e",
+    "row": 0,
+    "column": 3,
+    "index": 3,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-e.mp3"
+  },
+  {
+    "id": "kata-30aa",
+    "script": "kata",
+    "kana": "オ",
+    "reading": "o",
+    "row": 0,
+    "column": 4,
+    "index": 4,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-o.mp3"
+  },
+  {
+    "id": "kata-30ab",
+    "script": "kata",
+    "kana": "カ",
+    "reading": "ka",
+    "row": 1,
+    "column": 0,
+    "index": 5,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ka.mp3"
+  },
+  {
+    "id": "kata-30ad",
+    "script": "kata",
+    "kana": "キ",
+    "reading": "ki",
+    "row": 1,
+    "column": 1,
+    "index": 6,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ki.mp3"
+  },
+  {
+    "id": "kata-30af",
+    "script": "kata",
+    "kana": "ク",
+    "reading": "ku",
+    "row": 1,
+    "column": 2,
+    "index": 7,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ku.mp3"
+  },
+  {
+    "id": "kata-30b1",
+    "script": "kata",
+    "kana": "ケ",
+    "reading": "ke",
+    "row": 1,
+    "column": 3,
+    "index": 8,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ke.mp3"
+  },
+  {
+    "id": "kata-30b3",
+    "script": "kata",
+    "kana": "コ",
+    "reading": "ko",
+    "row": 1,
+    "column": 4,
+    "index": 9,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ko.mp3"
+  },
+  {
+    "id": "kata-30b5",
+    "script": "kata",
+    "kana": "サ",
+    "reading": "sa",
+    "row": 2,
+    "column": 0,
+    "index": 10,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-sa.mp3"
+  },
+  {
+    "id": "kata-30b7",
+    "script": "kata",
+    "kana": "シ",
+    "reading": "shi",
+    "row": 2,
+    "column": 1,
+    "index": 11,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-shi.mp3"
+  },
+  {
+    "id": "kata-30b9",
+    "script": "kata",
+    "kana": "ス",
+    "reading": "su",
+    "row": 2,
+    "column": 2,
+    "index": 12,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-su.mp3"
+  },
+  {
+    "id": "kata-30bb",
+    "script": "kata",
+    "kana": "セ",
+    "reading": "se",
+    "row": 2,
+    "column": 3,
+    "index": 13,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-se.mp3"
+  },
+  {
+    "id": "kata-30bd",
+    "script": "kata",
+    "kana": "ソ",
+    "reading": "so",
+    "row": 2,
+    "column": 4,
+    "index": 14,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-so.mp3"
+  },
+  {
+    "id": "kata-30bf",
+    "script": "kata",
+    "kana": "タ",
+    "reading": "ta",
+    "row": 3,
+    "column": 0,
+    "index": 15,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ta.mp3"
+  },
+  {
+    "id": "kata-30c1",
+    "script": "kata",
+    "kana": "チ",
+    "reading": "chi",
+    "row": 3,
+    "column": 1,
+    "index": 16,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-chi.mp3"
+  },
+  {
+    "id": "kata-30c4",
+    "script": "kata",
+    "kana": "ツ",
+    "reading": "tsu",
+    "row": 3,
+    "column": 2,
+    "index": 17,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-tsu.mp3"
+  },
+  {
+    "id": "kata-30c6",
+    "script": "kata",
+    "kana": "テ",
+    "reading": "te",
+    "row": 3,
+    "column": 3,
+    "index": 18,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-te.mp3"
+  },
+  {
+    "id": "kata-30c8",
+    "script": "kata",
+    "kana": "ト",
+    "reading": "to",
+    "row": 3,
+    "column": 4,
+    "index": 19,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-to.mp3"
+  },
+  {
+    "id": "kata-30ca",
+    "script": "kata",
+    "kana": "ナ",
+    "reading": "na",
+    "row": 4,
+    "column": 0,
+    "index": 20,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-na.mp3"
+  },
+  {
+    "id": "kata-30cb",
+    "script": "kata",
+    "kana": "ニ",
+    "reading": "ni",
+    "row": 4,
+    "column": 1,
+    "index": 21,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ni.mp3"
+  },
+  {
+    "id": "kata-30cc",
+    "script": "kata",
+    "kana": "ヌ",
+    "reading": "nu",
+    "row": 4,
+    "column": 2,
+    "index": 22,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-nu.mp3"
+  },
+  {
+    "id": "kata-30cd",
+    "script": "kata",
+    "kana": "ネ",
+    "reading": "ne",
+    "row": 4,
+    "column": 3,
+    "index": 23,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ne.mp3"
+  },
+  {
+    "id": "kata-30ce",
+    "script": "kata",
+    "kana": "ノ",
+    "reading": "no",
+    "row": 4,
+    "column": 4,
+    "index": 24,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-no.mp3"
+  },
+  {
+    "id": "kata-30cf",
+    "script": "kata",
+    "kana": "ハ",
+    "reading": "ha",
+    "row": 5,
+    "column": 0,
+    "index": 25,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ha.mp3"
+  },
+  {
+    "id": "kata-30d2",
+    "script": "kata",
+    "kana": "ヒ",
+    "reading": "hi",
+    "row": 5,
+    "column": 1,
+    "index": 26,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-hi.mp3"
+  },
+  {
+    "id": "kata-30d5",
+    "script": "kata",
+    "kana": "フ",
+    "reading": "fu",
+    "row": 5,
+    "column": 2,
+    "index": 27,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-fu.mp3"
+  },
+  {
+    "id": "kata-30d8",
+    "script": "kata",
+    "kana": "ヘ",
+    "reading": "he",
+    "row": 5,
+    "column": 3,
+    "index": 28,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-he.mp3"
+  },
+  {
+    "id": "kata-30db",
+    "script": "kata",
+    "kana": "ホ",
+    "reading": "ho",
+    "row": 5,
+    "column": 4,
+    "index": 29,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ho.mp3"
+  },
+  {
+    "id": "kata-30de",
+    "script": "kata",
+    "kana": "マ",
+    "reading": "ma",
+    "row": 6,
+    "column": 0,
+    "index": 30,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ma.mp3"
+  },
+  {
+    "id": "kata-30df",
+    "script": "kata",
+    "kana": "ミ",
+    "reading": "mi",
+    "row": 6,
+    "column": 1,
+    "index": 31,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-mi.mp3"
+  },
+  {
+    "id": "kata-30e0",
+    "script": "kata",
+    "kana": "ム",
+    "reading": "mu",
+    "row": 6,
+    "column": 2,
+    "index": 32,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-mu.mp3"
+  },
+  {
+    "id": "kata-30e1",
+    "script": "kata",
+    "kana": "メ",
+    "reading": "me",
+    "row": 6,
+    "column": 3,
+    "index": 33,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-me.mp3"
+  },
+  {
+    "id": "kata-30e2",
+    "script": "kata",
+    "kana": "モ",
+    "reading": "mo",
+    "row": 6,
+    "column": 4,
+    "index": 34,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-mo.mp3"
+  },
+  {
+    "id": "kata-30e4",
+    "script": "kata",
+    "kana": "ヤ",
+    "reading": "ya",
+    "row": 7,
+    "column": 0,
+    "index": 35,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ya.mp3"
+  },
+  {
+    "id": "kata-30e6",
+    "script": "kata",
+    "kana": "ユ",
+    "reading": "yu",
+    "row": 7,
+    "column": 2,
+    "index": 36,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-yu.mp3"
+  },
+  {
+    "id": "kata-30e8",
+    "script": "kata",
+    "kana": "ヨ",
+    "reading": "yo",
+    "row": 7,
+    "column": 4,
+    "index": 37,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-yo.mp3"
+  },
+  {
+    "id": "kata-30e9",
+    "script": "kata",
+    "kana": "ラ",
+    "reading": "ra",
+    "row": 8,
+    "column": 0,
+    "index": 38,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ra.mp3"
+  },
+  {
+    "id": "kata-30ea",
+    "script": "kata",
+    "kana": "リ",
+    "reading": "ri",
+    "row": 8,
+    "column": 1,
+    "index": 39,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ri.mp3"
+  },
+  {
+    "id": "kata-30eb",
+    "script": "kata",
+    "kana": "ル",
+    "reading": "ru",
+    "row": 8,
+    "column": 2,
+    "index": 40,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ru.mp3"
+  },
+  {
+    "id": "kata-30ec",
+    "script": "kata",
+    "kana": "レ",
+    "reading": "re",
+    "row": 8,
+    "column": 3,
+    "index": 41,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-re.mp3"
+  },
+  {
+    "id": "kata-30ed",
+    "script": "kata",
+    "kana": "ロ",
+    "reading": "ro",
+    "row": 8,
+    "column": 4,
+    "index": 42,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-ro.mp3"
+  },
+  {
+    "id": "kata-30ef",
+    "script": "kata",
+    "kana": "ワ",
+    "reading": "wa",
+    "row": 9,
+    "column": 0,
+    "index": 43,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-wa.mp3"
+  },
+  {
+    "id": "kata-30f2",
+    "script": "kata",
+    "kana": "ヲ",
+    "reading": "o",
+    "row": 9,
+    "column": 4,
+    "index": 44,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-o.mp3"
+  },
+  {
+    "id": "kata-30f3",
+    "script": "kata",
+    "kana": "ン",
+    "reading": "n",
+    "row": 10,
+    "column": 0,
+    "index": 45,
+    "references": [
+      "mext-kana",
+      "bunka-romanization"
+    ],
+    "audio": "rv-kana-sound-n.mp3"
+  }
+]
