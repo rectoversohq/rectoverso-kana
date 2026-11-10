@@ -125,7 +125,7 @@ python scripts/make_cover_masters.py --output /external/kana-cover-master-candid
 
 Normal builds do not run this authoring command. No absolute workshop paths, app-checkout files, network requests or installed fonts are used by the production cover renderer. `artwork/cover-provenance.json` records all master hashes and inputs.
 
-The brush artwork adapts **KanjiVG r20260714**, © Ulrich Apel, CC BY-SA 3.0: the source centerlines and stroke order for あ are frozen in `artwork/sources/kanjivg/a.json`, with the full attribution and license beside it. Covers 1 and 2 retain CC BY-SA 3.0 for those adaptations; their layout and brush treatment are original. Cover 3’s composition is © Simon Pinkas, CC BY 4.0. Its kana and the step/readout lettering are outlined from the checksum-pinned Noto Sans JP and SF Pro inputs described above; font software retains its own terms. No font binary is embedded in a cover.
+The brush artwork adapts **KanjiVG r20260714**, © Ulrich Apel, CC BY-SA 3.0: the source centerlines and stroke order for あ are frozen in `artwork/sources/kanjivg/a.json`, with its attribution and license notice beside it. Covers 1 and 2 retain CC BY-SA 3.0 for those adaptations; their layout and brush treatment are original. Cover 3’s composition is © Simon Pinkas, CC BY 4.0. Its kana and the step/readout lettering are outlined from the checksum-pinned Noto Sans JP and SF Pro inputs described above; font software retains its own terms. No font binary is embedded in a cover.
 
 The covers and build support do not approve a release or gallery pin. `rectoverso.json`, including publication status and gallery cover selection, remains unchanged by this work. The gallery/importer release gates already recorded in the review remain separate.
 
