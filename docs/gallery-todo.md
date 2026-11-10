@@ -1,5 +1,4 @@
-# Kana gallery work remaining
+# Kana gallery integration remaining
 
-- Design the gallery covers with the owner. Use contextual contact sheets including regular iPhone and Duo, in both appearances, consistent with the earlier decks. Covers are not yet designed or approved.
-- After approval, add deterministic cover masters/rendering and gallery dimension, naming, language/appearance coverage and clear-corner checks using the current shared contract.
-- Resolve the existing gallery library/Anki identity-check mismatch while preserving studied IDs, and complete publication review before any release or gallery pin.
+- The cover builder now produces the owner-selected brush → stroke order → reading reveal sequence, in light and dark. Shared English/French artwork has six self-contained masters, deterministic rendering, clear-corner/coverage checks, regressions and a cover artifact workflow. See [build commands and provenance](build.md#gallery-covers).
+- Gallery publication, cover selection in `rectoverso.json`, metadata/sample approval and the existing gallery library/Anki identity-check mismatch remain release gates. The local contact sheets are layout mockups rather than screenshots of a catalog import.

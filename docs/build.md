@@ -98,3 +98,42 @@ Normal builds never synthesize audio. The 131 existing recordings and their prov
 ### Isolated beginner trial
 
 Use --beginner-trial to build the exact reviewed first 20 questions with separate study identities; see [trial setup and limits](beginner-trial.md). Both languages are checked by scripts/ci.py. The source guard checks actual kana in word/listening prompts and reading figures, but cannot override shuffled app entry points or enforce learner exposure.
+
+
+### Gallery covers
+
+The three compositions follow the owner’s selected order: **brush**, **stroke order**, then **reading reveal** (workshop studies 1–3–2). Each has a distinct light and dark version, shared by English and French: the kana, reading `i` and step numerals are teaching symbols rather than localized prose. The cover has no deck title.
+
+Render the six self-contained masters, independently of any package or locally installed fonts:
+
+```sh
+python scripts/covers.py --output /external/kana-covers
+python scripts/checks/verify-covers.py --output /external/kana-covers
+```
+
+Masters live in `artwork/covers/`, named `rv-kana[-<en|fr>]-cover[-<light|dark>]-<n>.svg`; the renderer writes the matching `.png` names. Omit a language when the artwork is shared by every shipped language. Omit an appearance only when the same artwork serves both modes. A localized cover needs every shipped language at the same number and appearance. Shared/localized numbers and shared/explicit appearances must not overlap.
+
+The complete-package builder renders all six covers beside the APKG and its sidecar. Covers stay outside Anki’s card media and out of the repository; component previews and the isolated trial do not generate gallery covers. `scripts/ci.py` checks the two complete builds’ cover bytes independently, alongside the existing deck checks. The **Gallery covers** GitHub workflow runs the cover regressions without proprietary font inputs and attaches the six PNGs as `kana-covers`.
+
+Every PNG is exactly 2,010 × 1,340 pixels, optimized below 400 KB for this set. CI checks filenames, language/appearance coverage, matching localized variants, unambiguous scopes and the language-pill corner (`x ≥ 1608`, `y ≤ 335`, within 4 per RGBA channel of that corner’s dominant color). Masters reject live text, external image/style references and a non-3:2 viewport. Their subject stays within the central crop safe area.
+
+To regenerate the editable vector masters after an intentional design change, use the pinned font and authoring dependencies, render into a new external folder, review the results and then explicitly promote the SVGs and update the provenance hashes:
+
+```sh
+python scripts/make_cover_masters.py --output /external/kana-cover-master-candidates
+```
+
+Normal builds do not run this authoring command. No absolute workshop paths, app-checkout files, network requests or installed fonts are used by the production cover renderer. `artwork/cover-provenance.json` records all master hashes and inputs.
+
+The brush artwork adapts **KanjiVG r20260714**, © Ulrich Apel, CC BY-SA 3.0: the source centerlines and stroke order for あ are frozen in `artwork/sources/kanjivg/a.json`, with the full attribution and license beside it. Covers 1 and 2 retain CC BY-SA 3.0 for those adaptations; their layout and brush treatment are original. Cover 3’s composition is © Simon Pinkas, CC BY 4.0. Its kana and the step/readout lettering are outlined from the checksum-pinned Noto Sans JP and SF Pro inputs described above; font software retains its own terms. No font binary is embedded in a cover.
+
+The covers and build support do not approve a release or gallery pin. `rectoverso.json`, including publication status and gallery cover selection, remains unchanged by this work. The gallery/importer release gates already recorded in the review remain separate.
+
+| Master | SHA-256 |
+|---|---|
+| [rv-kana-cover-dark-1.svg](../artwork/covers/rv-kana-cover-dark-1.svg) | `3447e0a19189ec4b98aadbfce22724bc40a57001fc9a32726e2066bd5da290f6` |
+| [rv-kana-cover-dark-2.svg](../artwork/covers/rv-kana-cover-dark-2.svg) | `6101ff5ab3312a626497396411dcd7d940d02c4e97b56ecee2e32b04a400df21` |
+| [rv-kana-cover-dark-3.svg](../artwork/covers/rv-kana-cover-dark-3.svg) | `61e75a450ec127c68f4531174ff05ce9ae2183db87314777342baa3240dae9bb` |
+| [rv-kana-cover-light-1.svg](../artwork/covers/rv-kana-cover-light-1.svg) | `bafb930bd7d32e3baeb854e30e3e957b626093c28cb4383470aa71640a4cdd8e` |
+| [rv-kana-cover-light-2.svg](../artwork/covers/rv-kana-cover-light-2.svg) | `246837af18d4220721265ffb73d5639f84c12a018dc3edc9306e0b0c1670a3e0` |
+| [rv-kana-cover-light-3.svg](../artwork/covers/rv-kana-cover-light-3.svg) | `947dc93d3264b0caa47c42489c36f5f138993b8e643c65bd4e3f722dac2c381f` |

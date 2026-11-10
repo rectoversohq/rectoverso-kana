@@ -6,6 +6,7 @@ from anki.collection import Collection,ExportAnkiPackageOptions
 from anki.decks import DeckId
 from source_data import ROOT,inputs
 from render_artwork import render
+from covers import render_covers
 
 def build(language,out,only_type=None,artwork=None,beginner_trial=False):
  out=out.resolve()
@@ -16,6 +17,8 @@ def build(language,out,only_type=None,artwork=None,beginner_trial=False):
  meta,notes,models,deck=inputs(language,record,only_type,beginner_trial)
  modified=int(datetime.fromisoformat(meta['contentModifiedAt'].replace('Z','+00:00')).timestamp())
  if out.name!=meta['package']['file']:raise ValueError('Package filename differs from metadata')
+ # Gallery covers accompany complete packages, never their Anki media.
+ if only_type is None and not beginner_trial:render_covers(out.parent)
  with tempfile.TemporaryDirectory(dir=out.parent,prefix='anki-build-') as temp:
   col=Collection(str(Path(temp)/'collection.anki2'))
   try:

@@ -1,0 +1,44 @@
+name: Gallery covers
+
+on:
+  pull_request:
+  push:
+    branches: ['**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: covers-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  covers:
+    name: Gallery covers
+    runs-on: macos-26
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.12'
+      - name: Install pinned dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Check masters and cover regressions
+        run: python -m unittest discover -s tests -p test_covers.py -v
+      - name: Render twice and check the independent PNGs
+        run: |
+          python scripts/covers.py --output "$RUNNER_TEMP/kana-covers/first"
+          python scripts/covers.py --output "$RUNNER_TEMP/kana-covers/second"
+          python scripts/checks/verify-covers.py --output "$RUNNER_TEMP/kana-covers/first" --compare "$RUNNER_TEMP/kana-covers/second"
+      - name: Attach the six gallery PNGs
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: kana-covers
+          path: ${{ runner.temp }}/kana-covers/first/*.png
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 14
