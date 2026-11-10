@@ -53,3 +53,8 @@ After these content refinements, the complete offline CI passed again into build
 
 
 2026-11-08 — Gentler opening: owner-approved four-question starting preset, at most two new basic kana in every rolling four questions, and reading exposure before reverse listening. Early figures now draw only their target and earlier introduced kana; the first contains only あ and the next adds い. All 34 tests and bilingual CI pass in the working checkout and a fresh clone of e4cc94b, including full previous-edition image/content/history adoption and a 368-image pixel comparison. Cross-checkout content, order, schema and media comparisons match the final review packages. The real Core importer/reimport accepts every progressive preparation and the new order with stable native identities. Selected EN/light and FR/dark iPhone captures and a 25-step replay pass; a later French/dark closed/open Duo check and nine-step replay also pass. Separate Astra factual and pedagogy reviews qualifiedly pass, with the two copy corrections resolved. Existing learner options are preserved; file imports require the four-question setting manually. See [exact evidence and limits](reviews/gentler-opening.md). No release or phone installation.
+
+
+## 2026-11-10 — Kana 0.2.0 teaching-feedback candidate
+
+Both Astra high-effort reviewers passed each revised type and the final 292-item sequence, with the qualifications and exact hashes in [the review](reviews/teaching-feedback.md). Full bilingual CI, Anki history-preserving290→292 updates, deterministic artwork and independent package semantics pass. Actual native/Core/gallery checks and any remaining gates are recorded there. The four-new-question starting preset is unchanged. No release or phone install.

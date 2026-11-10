@@ -19,8 +19,8 @@
     "audio": "rv-kana-sound-a.mp3",
     "answerReading": "a",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Notice the rounded lower part crossed by the descending line.",
+      "fr": "Repérez la partie arrondie du bas, traversée par le trait descendant."
     },
     "references": [
       "mext-kana",
@@ -47,8 +47,8 @@
     "audio": "rv-kana-sound-i.mp3",
     "answerReading": "i",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The left curve is longer than the short mark on the right.",
+      "fr": "La courbe de gauche est plus longue que le petit trait de droite."
     },
     "references": [
       "mext-kana",
@@ -75,8 +75,8 @@
     "audio": "rv-kana-sound-u.mp3",
     "answerReading": "u",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Keep the lips relaxed rather than strongly rounded. Follow the vowel in the recording.",
+      "fr": "Gardez les lèvres détendues, sans les arrondir fortement. Suivez la voyelle de l’enregistrement."
     },
     "references": [
       "mext-kana",
@@ -103,8 +103,8 @@
     "audio": "rv-kana-sound-e.mp3",
     "answerReading": "e",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Keep the vowel steady. Avoid adding an English “ay” glide.",
+      "fr": "Gardez une voyelle stable, sans glissement à la fin."
     },
     "references": [
       "mext-kana",
@@ -133,8 +133,8 @@
     "audio": "rv-kana-sound-o.mp3",
     "answerReading": "o",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model. In modern common Japanese, either お or を matches this sound. This question does not test which spelling a word requires.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore. En japonais commun moderne, お ou を correspondent à ce son. Cette question ne teste pas l’orthographe d’un mot."
+      "en": "お and を share this sound in modern common Japanese. Either is accepted here; the sound alone does not determine a word’s spelling.",
+      "fr": "お et を partagent ce son en japonais commun moderne. Les deux conviennent ici ; le son seul ne détermine pas l’orthographe d’un mot."
     },
     "references": [
       "mext-kana",
@@ -161,8 +161,8 @@
     "audio": "rv-kana-sound-ka.mp3",
     "answerReading": "ka",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Notice the separate short mark on the right.",
+      "fr": "Repérez le petit trait séparé à droite."
     },
     "references": [
       "mext-kana",
@@ -189,8 +189,8 @@
     "audio": "rv-kana-sound-ki.mp3",
     "answerReading": "ki",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Two bars cross the slanting upper part; a broad curve sits below.",
+      "fr": "Deux barres traversent la partie supérieure inclinée ; une large courbe se trouve en dessous."
     },
     "references": [
       "mext-kana",
@@ -217,8 +217,8 @@
     "audio": "rv-kana-sound-ku.mp3",
     "answerReading": "ku",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "One angular bend opens to the right.",
+      "fr": "Un coude anguleux s’ouvre vers la droite."
     },
     "references": [
       "mext-kana",
@@ -245,8 +245,8 @@
     "audio": "rv-kana-sound-ke.mp3",
     "answerReading": "ke",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "A separate left stem sits beside the crossed part on the right.",
+      "fr": "Une tige séparée à gauche accompagne la partie barrée à droite."
     },
     "references": [
       "mext-kana",
@@ -273,8 +273,8 @@
     "audio": "rv-kana-sound-ko.mp3",
     "answerReading": "ko",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Two short curves sit one above the other.",
+      "fr": "Deux courbes courtes se superposent."
     },
     "references": [
       "mext-kana",
@@ -301,8 +301,8 @@
     "audio": "rv-kana-sound-sa.mp3",
     "answerReading": "sa",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "A single bar crosses the upper part; a broad curve sits below.",
+      "fr": "Une seule barre traverse la partie supérieure ; une large courbe se trouve en dessous."
     },
     "references": [
       "mext-kana",
@@ -329,8 +329,8 @@
     "audio": "rv-kana-sound-shi.mp3",
     "answerReading": "shi",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The long curve turns upward at the lower right.",
+      "fr": "La longue courbe remonte en bas à droite."
     },
     "references": [
       "mext-kana",
@@ -357,8 +357,8 @@
     "audio": "rv-kana-sound-su.mp3",
     "answerReading": "su",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Look for the small loop under the horizontal bar.",
+      "fr": "Repérez la petite boucle sous la barre horizontale."
     },
     "references": [
       "mext-kana",
@@ -385,8 +385,8 @@
     "audio": "rv-kana-sound-se.mp3",
     "answerReading": "se",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The horizontal bar crosses two upright parts.",
+      "fr": "La barre horizontale traverse deux parties verticales."
     },
     "references": [
       "mext-kana",
@@ -413,8 +413,8 @@
     "audio": "rv-kana-sound-so.mp3",
     "answerReading": "so",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The angular top leads into one broad lower curve.",
+      "fr": "Le haut anguleux se prolonge par une large courbe en bas."
     },
     "references": [
       "mext-kana",
@@ -441,8 +441,8 @@
     "audio": "rv-kana-sound-ta.mp3",
     "answerReading": "ta",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "A crossed stem is followed by two short curves on the right.",
+      "fr": "Une tige barrée est suivie de deux petites courbes à droite."
     },
     "references": [
       "mext-kana",
@@ -469,8 +469,8 @@
     "audio": "rv-kana-sound-chi.mp3",
     "answerReading": "chi",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The crossed top leads into a rounded lower curve.",
+      "fr": "Le haut barré se prolonge par une courbe arrondie en bas."
     },
     "references": [
       "mext-kana",
@@ -497,8 +497,8 @@
     "audio": "rv-kana-sound-tsu.mp3",
     "answerReading": "tsu",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The broad curve is open on the left.",
+      "fr": "La large courbe est ouverte à gauche."
     },
     "references": [
       "mext-kana",
@@ -525,8 +525,8 @@
     "audio": "rv-kana-sound-te.mp3",
     "answerReading": "te",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The top bar leads down into a curve toward the right.",
+      "fr": "La barre du haut descend en une courbe vers la droite."
     },
     "references": [
       "mext-kana",
@@ -553,8 +553,8 @@
     "audio": "rv-kana-sound-to.mp3",
     "answerReading": "to",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Notice the short upper line and broad lower curve.",
+      "fr": "Repérez le petit trait du haut et la large courbe du bas."
     },
     "references": [
       "mext-kana",
@@ -581,8 +581,8 @@
     "audio": "rv-kana-sound-na.mp3",
     "answerReading": "na",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Notice the crossed left part, the small upper-right mark and the lower loop.",
+      "fr": "Repérez la partie barrée à gauche, le petit trait en haut à droite et la boucle du bas."
     },
     "references": [
       "mext-kana",
@@ -609,8 +609,8 @@
     "audio": "rv-kana-sound-ni.mp3",
     "answerReading": "ni",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "A separate left stem sits beside two short curves.",
+      "fr": "Une tige séparée à gauche accompagne deux petites courbes."
     },
     "references": [
       "mext-kana",
@@ -637,8 +637,8 @@
     "audio": "rv-kana-sound-nu.mp3",
     "answerReading": "nu",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "A small closed loop finishes the lower-right end.",
+      "fr": "Une petite boucle fermée termine le bas à droite."
     },
     "references": [
       "mext-kana",
@@ -665,8 +665,8 @@
     "audio": "rv-kana-sound-ne.mp3",
     "answerReading": "ne",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Notice the closed loop on the right.",
+      "fr": "Repérez la boucle fermée à droite."
     },
     "references": [
       "mext-kana",
@@ -693,8 +693,8 @@
     "audio": "rv-kana-sound-no.mp3",
     "answerReading": "no",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "One broad rounded curve turns inward.",
+      "fr": "Une large courbe arrondie revient vers l’intérieur."
     },
     "references": [
       "mext-kana",
@@ -721,8 +721,8 @@
     "audio": "rv-kana-sound-ha.mp3",
     "answerReading": "ha",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "A separate left stem accompanies a crossed stem with a lower loop.",
+      "fr": "Une tige séparée à gauche accompagne une tige barrée et bouclée en bas."
     },
     "references": [
       "mext-kana",
@@ -749,8 +749,8 @@
     "audio": "rv-kana-sound-hi.mp3",
     "answerReading": "hi",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The broad lower curve rises at both ends.",
+      "fr": "La large courbe du bas remonte aux deux extrémités."
     },
     "references": [
       "mext-kana",
@@ -777,8 +777,8 @@
     "audio": "rv-kana-sound-fu.mp3",
     "answerReading": "fu",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Bring the lips close and let air pass between them. Keep the upper teeth away from the lower lip.",
+      "fr": "Rapprochez les lèvres et laissez passer l’air entre elles. Les dents du haut ne touchent pas la lèvre du bas."
     },
     "references": [
       "mext-kana",
@@ -805,8 +805,8 @@
     "audio": "rv-kana-sound-he.mp3",
     "answerReading": "he",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "One broad angled line forms a low peak.",
+      "fr": "Un large trait anguleux forme un sommet peu élevé."
     },
     "references": [
       "mext-kana",
@@ -833,8 +833,8 @@
     "audio": "rv-kana-sound-ho.mp3",
     "answerReading": "ho",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The right part has two bars above its lower loop.",
+      "fr": "La partie droite comporte deux barres au-dessus de sa boucle."
     },
     "references": [
       "mext-kana",
@@ -861,8 +861,8 @@
     "audio": "rv-kana-sound-ma.mp3",
     "answerReading": "ma",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Two bars cross a stem that loops near the bottom.",
+      "fr": "Deux barres traversent une tige qui forme une boucle en bas."
     },
     "references": [
       "mext-kana",
@@ -889,8 +889,8 @@
     "audio": "rv-kana-sound-mi.mp3",
     "answerReading": "mi",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The low loop continues into a long curve toward the right.",
+      "fr": "La boucle basse se prolonge en une longue courbe vers la droite."
     },
     "references": [
       "mext-kana",
@@ -917,8 +917,8 @@
     "audio": "rv-kana-sound-mu.mp3",
     "answerReading": "mu",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Notice the small left loop and the separate mark on the right.",
+      "fr": "Repérez la petite boucle à gauche et le trait séparé à droite."
     },
     "references": [
       "mext-kana",
@@ -945,8 +945,8 @@
     "audio": "rv-kana-sound-me.mp3",
     "answerReading": "me",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "In this print, the lower-right end has no small closed loop.",
+      "fr": "Le bas à droite se termine sans petite boucle fermée."
     },
     "references": [
       "mext-kana",
@@ -973,8 +973,8 @@
     "audio": "rv-kana-sound-mo.mp3",
     "answerReading": "mo",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Two bars cross the stem above its rounded bottom.",
+      "fr": "Deux barres traversent la tige au-dessus de sa base arrondie."
     },
     "references": [
       "mext-kana",
@@ -1001,8 +1001,8 @@
     "audio": "rv-kana-sound-ya.mp3",
     "answerReading": "ya",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The upper curve crosses a long slanting line.",
+      "fr": "La courbe du haut croise un long trait incliné."
     },
     "references": [
       "mext-kana",
@@ -1029,8 +1029,8 @@
     "audio": "rv-kana-sound-yu.mp3",
     "answerReading": "yu",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "A broad rounded part surrounds the central descending line.",
+      "fr": "Une large partie arrondie entoure le trait central descendant."
     },
     "references": [
       "mext-kana",
@@ -1057,8 +1057,8 @@
     "audio": "rv-kana-sound-yo.mp3",
     "answerReading": "yo",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "A short upper bar sits above the bottom loop.",
+      "fr": "Une petite barre en haut surmonte la boucle du bas."
     },
     "references": [
       "mext-kana",
@@ -1085,8 +1085,8 @@
     "audio": "rv-kana-sound-ra.mp3",
     "answerReading": "ra",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
     },
     "references": [
       "mext-kana",
@@ -1113,8 +1113,8 @@
     "audio": "rv-kana-sound-ri.mp3",
     "answerReading": "ri",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
     },
     "references": [
       "mext-kana",
@@ -1141,8 +1141,8 @@
     "audio": "rv-kana-sound-ru.mp3",
     "answerReading": "ru",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
     },
     "references": [
       "mext-kana",
@@ -1169,8 +1169,8 @@
     "audio": "rv-kana-sound-re.mp3",
     "answerReading": "re",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
     },
     "references": [
       "mext-kana",
@@ -1197,8 +1197,8 @@
     "audio": "rv-kana-sound-ro.mp3",
     "answerReading": "ro",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
     },
     "references": [
       "mext-kana",
@@ -1225,8 +1225,8 @@
     "audio": "rv-kana-sound-wa.mp3",
     "answerReading": "wa",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The crossed left stem leads into a broad curve on the right.",
+      "fr": "La tige barrée à gauche se prolonge par une large courbe à droite."
     },
     "references": [
       "mext-kana",
@@ -1253,8 +1253,8 @@
     "audio": "rv-kana-sound-n.mp3",
     "answerReading": "n",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "This nasal has its own timing beat. Its pronunciation changes with neighboring sounds; this isolated recording is one example.",
+      "fr": "Ce son nasal occupe un temps à lui seul. Sa prononciation varie selon les sons voisins ; cet enregistrement isolé en donne un exemple."
     },
     "references": [
       "mext-kana",
@@ -1281,8 +1281,8 @@
     "audio": "rv-kana-sound-a.mp3",
     "answerReading": "a",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The top angle is separate from the long descending curve.",
+      "fr": "L’angle du haut est séparé de la longue courbe descendante."
     },
     "references": [
       "mext-kana",
@@ -1309,8 +1309,8 @@
     "audio": "rv-kana-sound-i.mp3",
     "answerReading": "i",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "A long slanting line meets a more upright line.",
+      "fr": "Un long trait incliné rejoint un trait plus vertical."
     },
     "references": [
       "mext-kana",
@@ -1337,8 +1337,8 @@
     "audio": "rv-kana-sound-u.mp3",
     "answerReading": "u",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Keep the lips relaxed rather than strongly rounded. Follow the vowel in the recording.",
+      "fr": "Gardez les lèvres détendues, sans les arrondir fortement. Suivez la voyelle de l’enregistrement."
     },
     "references": [
       "mext-kana",
@@ -1365,8 +1365,8 @@
     "audio": "rv-kana-sound-e.mp3",
     "answerReading": "e",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Keep the vowel steady. Avoid adding an English “ay” glide.",
+      "fr": "Gardez une voyelle stable, sans glissement à la fin."
     },
     "references": [
       "mext-kana",
@@ -1395,8 +1395,8 @@
     "audio": "rv-kana-sound-o.mp3",
     "answerReading": "o",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model. In modern common Japanese, either オ or ヲ matches this sound. This question does not test which spelling a word requires.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore. En japonais commun moderne, オ ou ヲ correspondent à ce son. Cette question ne teste pas l’orthographe d’un mot."
+      "en": "オ and ヲ share this sound in modern common Japanese. Either is accepted here; the sound alone does not determine a word’s spelling.",
+      "fr": "オ et ヲ partagent ce son en japonais commun moderne. Les deux conviennent ici ; le son seul ne détermine pas l’orthographe d’un mot."
     },
     "references": [
       "mext-kana",
@@ -1423,8 +1423,8 @@
     "audio": "rv-kana-sound-ka.mp3",
     "answerReading": "ka",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "A bent outer line is crossed by a long diagonal.",
+      "fr": "Un trait extérieur coudé est traversé par une longue diagonale."
     },
     "references": [
       "mext-kana",
@@ -1451,8 +1451,8 @@
     "audio": "rv-kana-sound-ki.mp3",
     "answerReading": "ki",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Two bars cross the long slanting stem.",
+      "fr": "Deux barres traversent la longue tige inclinée."
     },
     "references": [
       "mext-kana",
@@ -1479,8 +1479,8 @@
     "audio": "rv-kana-sound-ku.mp3",
     "answerReading": "ku",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The upper corner leads into a long diagonal; there is no crossing bar.",
+      "fr": "Le coin du haut se prolonge en une longue diagonale, sans barre transversale."
     },
     "references": [
       "mext-kana",
@@ -1507,8 +1507,8 @@
     "audio": "rv-kana-sound-ke.mp3",
     "answerReading": "ke",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Notice the crossing bar near the top.",
+      "fr": "Repérez la barre transversale près du haut."
     },
     "references": [
       "mext-kana",
@@ -1535,8 +1535,8 @@
     "audio": "rv-kana-sound-ko.mp3",
     "answerReading": "ko",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The top and bottom bars join along the right side.",
+      "fr": "Les barres du haut et du bas sont reliées à droite."
     },
     "references": [
       "mext-kana",
@@ -1563,8 +1563,8 @@
     "audio": "rv-kana-sound-sa.mp3",
     "answerReading": "sa",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "A horizontal bar crosses two upright parts.",
+      "fr": "Une barre horizontale traverse deux parties verticales."
     },
     "references": [
       "mext-kana",
@@ -1591,8 +1591,8 @@
     "audio": "rv-kana-sound-shi.mp3",
     "answerReading": "shi",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The two short marks are grouped toward the left.",
+      "fr": "Les deux petits traits se regroupent vers la gauche."
     },
     "references": [
       "mext-kana",
@@ -1619,8 +1619,8 @@
     "audio": "rv-kana-sound-su.mp3",
     "answerReading": "su",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The long descending line is joined by a shorter lower-right diagonal.",
+      "fr": "Une diagonale plus courte rejoint le long trait descendant en bas à droite."
     },
     "references": [
       "mext-kana",
@@ -1647,8 +1647,8 @@
     "audio": "rv-kana-sound-se.mp3",
     "answerReading": "se",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The upper bar crosses a stem that turns right at the bottom.",
+      "fr": "La barre du haut traverse une tige qui tourne à droite en bas."
     },
     "references": [
       "mext-kana",
@@ -1675,8 +1675,8 @@
     "audio": "rv-kana-sound-so.mp3",
     "answerReading": "so",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The long line slopes steeply down toward the left.",
+      "fr": "Le long trait descend fortement vers la gauche."
     },
     "references": [
       "mext-kana",
@@ -1703,8 +1703,8 @@
     "audio": "rv-kana-sound-ta.mp3",
     "answerReading": "ta",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The short inner bar sits inside the upper angle.",
+      "fr": "La petite barre intérieure se place dans l’angle du haut."
     },
     "references": [
       "mext-kana",
@@ -1731,8 +1731,8 @@
     "audio": "rv-kana-sound-chi.mp3",
     "answerReading": "chi",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The short slanting top sits above a longer crossing bar.",
+      "fr": "Le petit trait incliné du haut surmonte une barre transversale plus longue."
     },
     "references": [
       "mext-kana",
@@ -1759,8 +1759,8 @@
     "audio": "rv-kana-sound-tsu.mp3",
     "answerReading": "tsu",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The two short marks sit toward the top.",
+      "fr": "Les deux petits traits se placent vers le haut."
     },
     "references": [
       "mext-kana",
@@ -1787,8 +1787,8 @@
     "audio": "rv-kana-sound-te.mp3",
     "answerReading": "te",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "A short top bar sits above the longer bar and descending curve.",
+      "fr": "Une petite barre surmonte la barre plus longue et la courbe descendante."
     },
     "references": [
       "mext-kana",
@@ -1815,8 +1815,8 @@
     "audio": "rv-kana-sound-to.mp3",
     "answerReading": "to",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "A short slanting mark branches right from the upright stem.",
+      "fr": "Un petit trait incliné part vers la droite depuis la tige verticale."
     },
     "references": [
       "mext-kana",
@@ -1843,8 +1843,8 @@
     "audio": "rv-kana-sound-na.mp3",
     "answerReading": "na",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "A horizontal bar crosses the descending diagonal.",
+      "fr": "Une barre horizontale traverse la diagonale descendante."
     },
     "references": [
       "mext-kana",
@@ -1871,8 +1871,8 @@
     "audio": "rv-kana-sound-ni.mp3",
     "answerReading": "ni",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Two horizontal bars: the lower one is longer.",
+      "fr": "Deux barres horizontales : celle du bas est plus longue."
     },
     "references": [
       "mext-kana",
@@ -1899,8 +1899,8 @@
     "audio": "rv-kana-sound-nu.mp3",
     "answerReading": "nu",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The upper angle continues into crossing diagonals.",
+      "fr": "L’angle du haut se prolonge par des diagonales croisées."
     },
     "references": [
       "mext-kana",
@@ -1927,8 +1927,8 @@
     "audio": "rv-kana-sound-ne.mp3",
     "answerReading": "ne",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "A short top mark sits above the angular middle and lower branches.",
+      "fr": "Un petit trait surmonte le milieu anguleux et les branches du bas."
     },
     "references": [
       "mext-kana",
@@ -1955,8 +1955,8 @@
     "audio": "rv-kana-sound-no.mp3",
     "answerReading": "no",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "One long curve slopes down toward the left.",
+      "fr": "Une longue courbe descend vers la gauche."
     },
     "references": [
       "mext-kana",
@@ -1983,8 +1983,8 @@
     "audio": "rv-kana-sound-ha.mp3",
     "answerReading": "ha",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Two separate lines spread apart toward the bottom.",
+      "fr": "Deux traits séparés s’écartent vers le bas."
     },
     "references": [
       "mext-kana",
@@ -2011,8 +2011,8 @@
     "audio": "rv-kana-sound-hi.mp3",
     "answerReading": "hi",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "An upper slanting bar meets a stem that bends right below.",
+      "fr": "Une barre inclinée en haut rejoint la tige qui se courbe à droite en bas."
     },
     "references": [
       "mext-kana",
@@ -2039,8 +2039,8 @@
     "audio": "rv-kana-sound-fu.mp3",
     "answerReading": "fu",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Bring the lips close and let air pass between them. Keep the upper teeth away from the lower lip.",
+      "fr": "Rapprochez les lèvres et laissez passer l’air entre elles. Les dents du haut ne touchent pas la lèvre du bas."
     },
     "references": [
       "mext-kana",
@@ -2067,8 +2067,8 @@
     "audio": "rv-kana-sound-he.mp3",
     "answerReading": "he",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "One broad angled line forms a low peak.",
+      "fr": "Un large trait anguleux forme un sommet peu élevé."
     },
     "references": [
       "mext-kana",
@@ -2095,8 +2095,8 @@
     "audio": "rv-kana-sound-ho.mp3",
     "answerReading": "ho",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The crossed central stem has a short diagonal on either side.",
+      "fr": "La tige centrale barrée est accompagnée d’une petite diagonale de chaque côté."
     },
     "references": [
       "mext-kana",
@@ -2123,8 +2123,8 @@
     "audio": "rv-kana-sound-ma.mp3",
     "answerReading": "ma",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "A wide upper angle leads toward a short lower diagonal.",
+      "fr": "Un large angle en haut rejoint une petite diagonale en bas."
     },
     "references": [
       "mext-kana",
@@ -2151,8 +2151,8 @@
     "audio": "rv-kana-sound-mi.mp3",
     "answerReading": "mi",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Three separate short bars slope in the same direction.",
+      "fr": "Trois petits traits séparés s’inclinent dans le même sens."
     },
     "references": [
       "mext-kana",
@@ -2179,8 +2179,8 @@
     "audio": "rv-kana-sound-mu.mp3",
     "answerReading": "mu",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The long left diagonal turns along the bottom toward the short right side.",
+      "fr": "La longue diagonale de gauche tourne en bas vers le petit côté droit."
     },
     "references": [
       "mext-kana",
@@ -2207,8 +2207,8 @@
     "audio": "rv-kana-sound-me.mp3",
     "answerReading": "me",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Two long diagonals cross.",
+      "fr": "Deux longues diagonales se croisent."
     },
     "references": [
       "mext-kana",
@@ -2235,8 +2235,8 @@
     "audio": "rv-kana-sound-mo.mp3",
     "answerReading": "mo",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Two bars cross the stem that turns right at the bottom.",
+      "fr": "Deux barres traversent la tige qui tourne à droite en bas."
     },
     "references": [
       "mext-kana",
@@ -2263,8 +2263,8 @@
     "audio": "rv-kana-sound-ya.mp3",
     "answerReading": "ya",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The upper angle crosses a long slanting line.",
+      "fr": "L’angle du haut croise un long trait incliné."
     },
     "references": [
       "mext-kana",
@@ -2291,8 +2291,8 @@
     "audio": "rv-kana-sound-yu.mp3",
     "answerReading": "yu",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The short right side links the top to the longer bottom bar.",
+      "fr": "Le petit côté droit relie le haut à la barre du bas, plus longue."
     },
     "references": [
       "mext-kana",
@@ -2319,8 +2319,8 @@
     "audio": "rv-kana-sound-yo.mp3",
     "answerReading": "yo",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Three horizontal bars join along the right side.",
+      "fr": "Trois barres horizontales sont reliées à droite."
     },
     "references": [
       "mext-kana",
@@ -2347,8 +2347,8 @@
     "audio": "rv-kana-sound-ra.mp3",
     "answerReading": "ra",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
     },
     "references": [
       "mext-kana",
@@ -2375,8 +2375,8 @@
     "audio": "rv-kana-sound-ri.mp3",
     "answerReading": "ri",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
     },
     "references": [
       "mext-kana",
@@ -2403,8 +2403,8 @@
     "audio": "rv-kana-sound-ru.mp3",
     "answerReading": "ru",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
     },
     "references": [
       "mext-kana",
@@ -2431,8 +2431,8 @@
     "audio": "rv-kana-sound-re.mp3",
     "answerReading": "re",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
     },
     "references": [
       "mext-kana",
@@ -2459,8 +2459,8 @@
     "audio": "rv-kana-sound-ro.mp3",
     "answerReading": "ro",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "Touch the tongue tip lightly near the ridge behind the upper teeth, then release it quickly.",
+      "fr": "Touchez légèrement la zone derrière les dents du haut avec la pointe de la langue, puis relâchez aussitôt."
     },
     "references": [
       "mext-kana",
@@ -2487,8 +2487,8 @@
     "audio": "rv-kana-sound-wa.mp3",
     "answerReading": "wa",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "The short left side and top bar lead into a long descending curve.",
+      "fr": "Le petit côté gauche et la barre du haut se prolongent par une longue courbe descendante."
     },
     "references": [
       "mext-kana",
@@ -2515,8 +2515,8 @@
     "audio": "rv-kana-sound-n.mp3",
     "answerReading": "n",
     "note": {
-      "en": "Recall the shape mentally, or write it if you wish. Reveal and compare; handwriting is optional. Use the recording as the sound model.",
-      "fr": "Retrouvez la forme mentalement, ou écrivez-la si vous le souhaitez. Révélez et comparez ; écrire est facultatif. Prenez l’enregistrement comme modèle sonore."
+      "en": "This nasal has its own timing beat. Its pronunciation changes with neighboring sounds; this isolated recording is one example.",
+      "fr": "Ce son nasal occupe un temps à lui seul. Sa prononciation varie selon les sons voisins ; cet enregistrement isolé en donne un exemple."
     },
     "references": [
       "mext-kana",
@@ -2545,8 +2545,8 @@
     "audio": "rv-kana-sound-ji.mp3",
     "answerReading": "ji",
     "note": {
-      "en": "In modern common Japanese, じ and ぢ share this sound. Either matches this listening question. Sound alone does not choose the spelling required by a particular word. Recall a form mentally; handwriting is optional.",
-      "fr": "En japonais commun moderne, じ et ぢ partagent ce son. Les deux conviennent à cette question d’écoute. Le son seul ne permet pas de choisir l’orthographe d’un mot. Retrouvez une forme mentalement ; écrire reste facultatif."
+      "en": "じ and ぢ share this sound in modern common Japanese. Either is accepted here; the sound alone does not determine a word’s spelling.",
+      "fr": "じ et ぢ partagent ce son en japonais commun moderne. Les deux conviennent ici ; le son seul ne détermine pas l’orthographe d’un mot."
     },
     "references": [
       "mext-kana",
@@ -2576,8 +2576,8 @@
     "audio": "rv-kana-sound-zu.mp3",
     "answerReading": "zu",
     "note": {
-      "en": "In modern common Japanese, ず and づ share this sound. Either matches this listening question. Sound alone does not choose the spelling required by a particular word. Recall a form mentally; handwriting is optional.",
-      "fr": "En japonais commun moderne, ず et づ partagent ce son. Les deux conviennent à cette question d’écoute. Le son seul ne permet pas de choisir l’orthographe d’un mot. Retrouvez une forme mentalement ; écrire reste facultatif."
+      "en": "ず and づ share this sound in modern common Japanese. Either is accepted here; the sound alone does not determine a word’s spelling.",
+      "fr": "ず et づ partagent ce son en japonais commun moderne. Les deux conviennent ici ; le son seul ne détermine pas l’orthographe d’un mot."
     },
     "references": [
       "mext-kana",
@@ -2607,8 +2607,8 @@
     "audio": "rv-kana-sound-ji.mp3",
     "answerReading": "ji",
     "note": {
-      "en": "In modern common Japanese, ジ and ヂ share this sound. Either matches this listening question. Sound alone does not choose the spelling required by a particular word. Recall a form mentally; handwriting is optional.",
-      "fr": "En japonais commun moderne, ジ et ヂ partagent ce son. Les deux conviennent à cette question d’écoute. Le son seul ne permet pas de choisir l’orthographe d’un mot. Retrouvez une forme mentalement ; écrire reste facultatif."
+      "en": "ジ and ヂ share this sound in modern common Japanese. Either is accepted here; the sound alone does not determine a word’s spelling.",
+      "fr": "ジ et ヂ partagent ce son en japonais commun moderne. Les deux conviennent ici ; le son seul ne détermine pas l’orthographe d’un mot."
     },
     "references": [
       "mext-kana",
@@ -2638,8 +2638,8 @@
     "audio": "rv-kana-sound-zu.mp3",
     "answerReading": "zu",
     "note": {
-      "en": "In modern common Japanese, ズ and ヅ share this sound. Either matches this listening question. Sound alone does not choose the spelling required by a particular word. Recall a form mentally; handwriting is optional.",
-      "fr": "En japonais commun moderne, ズ et ヅ partagent ce son. Les deux conviennent à cette question d’écoute. Le son seul ne permet pas de choisir l’orthographe d’un mot. Retrouvez une forme mentalement ; écrire reste facultatif."
+      "en": "ズ and ヅ share this sound in modern common Japanese. Either is accepted here; the sound alone does not determine a word’s spelling.",
+      "fr": "ズ et ヅ partagent ce son en japonais commun moderne. Les deux conviennent ici ; le son seul ne détermine pas l’orthographe d’un mot."
     },
     "references": [
       "mext-kana",

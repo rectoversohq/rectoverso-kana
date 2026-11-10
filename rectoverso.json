@@ -1,13 +1,13 @@
 {
   "id": "rectoverso-kana",
-  "version": "0.1.0",
-  "releaseTag": "v0.1.0",
+  "version": "0.2.0",
+  "releaseTag": "v0.2.0",
   "guidPrefix": "rv-kana",
   "identityBase": 1794200000,
-  "contentModifiedAt": "2026-11-08T22:26:00Z",
+  "contentModifiedAt": "2026-11-10T07:00:52Z",
   "publication": {
     "remote": "https://github.com/rectoversohq/rectoverso-kana",
-    "release": "https://github.com/rectoversohq/rectoverso-kana/releases/tag/v0.1.0",
+    "release": "https://github.com/rectoversohq/rectoverso-kana/releases/tag/v0.2.0",
     "approved": false,
     "visibility": "private"
   },
@@ -31,7 +31,7 @@
     "en": {
       "id": "rectoverso-kana-en",
       "title": "Kana",
-      "cards": 290,
+      "cards": 292,
       "sample": "rv-kana-en-read-hira-3042",
       "package": {
         "file": "Japanese-Kana-en.apkg"
@@ -40,14 +40,14 @@
     "fr": {
       "id": "rectoverso-kana-fr",
       "title": "Kana",
-      "cards": 290,
+      "cards": 292,
       "sample": "rv-kana-fr-read-hira-3042",
       "package": {
         "file": "Japanese-Kana-fr.apkg"
       }
     }
   },
-  "cards": 290,
+  "cards": 292,
   "categories": [
     "languages"
   ],

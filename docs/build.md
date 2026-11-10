@@ -50,7 +50,7 @@ When replacing recordings, advance contentModifiedAt and check against the previ
 python scripts/ci.py --output /external/kana-update-ci --previous /external/previous-packages
 ```
 
-The previous folder must hold Japanese-Kana-en.apkg and Japanese-Kana-fr.apkg. This same-inventory preflight checks the existing course; deliberate inventory changes need a separate migration check.
+The previous folder must hold Japanese-Kana-en.apkg and Japanese-Kana-fr.apkg. The update preflight permits authored additions while requiring every existing GUID, note/card ID, study state and review-log entry to survive. The imported inventory must exactly match a fresh import of the new package, with one card per note. A second import must be idempotent. Version 0.2.0 checks the studied 290-question edition against the 292-question edition, adding exactly word-ai and word-kagu in each language. Existing Anki new-card queue positions are preserved; this does not reset a learner’s queue or options. RectoVerso’s reimport separately adopts the authored card order.
 
 The shared root `study` field follows app #823: `{"newCards":"deckOrder","newPerDay":4,"newPosition":"afterReviews"}`. Both expanded language sidecars carry this same value; `studyRecommendations` is removed. Source checks reject missing or drifted settings. Anki’s authored new-queue positions are unchanged. This is a gallery preset: the catalog carries it, and a supporting app applies it only on the first gallery add, preserving learner overrides thereafter. Direct APKG imports do not activate it; their existing manual setup guidance remains applicable.
 
@@ -82,3 +82,14 @@ The full dependency-resolved curriculum pairs basic readings before their revers
 The renderer computes each reading’s introduced-token set from the complete authored sequence before component filtering. Only that target and earlier same-script kana within its existing 1,000 × 1,080 frame are drawn or registered as regions. Future glyphs and readings are absent; unused row dividers disappear. Gold, font sizes, target boxes, global ordinals, hideAll and separate note/card identities remain. These are static introduction snapshots, not a learner-state-aware reference table. The new filenames use -introduced- instead of -rows- to avoid colliding with older stored media.
 
 CI checks the rolling density, grouped prerequisites, exact visible masks/regions, empty future glyph/reading areas in every packaged table, and actual old-edition image adoption with history preservation. The original crop specification above describes the retained frame geometry; its former all-neighbor figure contents are superseded by this progressive visibility rule.
+
+
+### 0.2.0 word recordings
+
+The two new frozen sources are authored with the existing voice and processing settings:
+
+```sh
+python scripts/synthesize_audio.py --requests source/audio/requests-v02.json --cache /external/kana-provider-originals
+```
+
+Normal builds never synthesize audio. The 131 existing recordings and their provenance are unchanged; the two new files retain pending human listening review. All 668 existing rendered image records and geometry remain identical; only the two new words’ light/dark isolated figures are added to the artwork manifest. Those isolated word figures are review renders, not packaged word prompts.

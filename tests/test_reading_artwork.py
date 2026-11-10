@@ -83,7 +83,7 @@ class ReadingArtworkTests(unittest.TestCase):
             for n,p in zip(reading,payloads):
                 self.assertEqual(p['noteID'],n['guid'])
                 self.assertEqual(p['occlusion'],self.figures[n['itemId']]['occlusion'])
-            self.assertEqual([n['due'] for n in notes],list(range(1,291)))
+            self.assertEqual([n['due'] for n in notes],list(range(1,len(notes)+1)))
 
     def test_all_sf_pro_labels_still_fit_the_unchanged_pixel_masks(self):
         face=font(ROMAJI_SIZE,roman=True)

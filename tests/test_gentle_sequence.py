@@ -11,6 +11,23 @@ class GentleSequenceTests(unittest.TestCase):
  def setUp(self):self.items=questions();self.sequence=ordered(self.items)
  def test_first_two_days_are_two_readings_then_their_two_listening_questions(self):
   self.assertEqual([q['id'] for q in self.sequence[:8]],['read-hira-3042','read-hira-3044','listen-hira-a','listen-hira-i','read-hira-3046','read-hira-3048','listen-hira-u','listen-hira-e'])
+ def test_first_word_blends_familiar_vowels_before_the_next_new_pair(self):
+  self.assertEqual(self.sequence[8]['id'],'word-ai')
+  self.assertEqual(self.sequence[8]['requires'],['hira-3042','hira-3044'])
+ def test_productive_voicing_application_follows_a_different_rule_question(self):
+  ids=[q['id'] for q in self.sequence]
+  self.assertEqual(ids[ids.index('rule-hira-marks-g'):ids.index('word-kagu')+1],['rule-hira-marks-g','rule-hira-marks-z','word-kagu'])
+ def test_comparisons_follow_both_initial_reverse_attempts_and_do_not_come_in_reciprocal_pairs(self):
+  positions={q['id']:i for i,q in enumerate(self.sequence)}
+  kana={q['id']:q for q in json.loads((ROOT/'source/kana.json').read_text())}
+  groups={}
+  for q in self.sequence:
+   if q['type']!='contrast':continue
+   for target in q['requires']:
+    c=kana[target];self.assertGreater(positions[q['id']],positions['listen-'+c['script']+'-'+c['reading']])
+   groups.setdefault(q['display'],[]).append(positions[q['id']])
+  for display,indices in groups.items():
+   self.assertEqual(len(indices),2,display);self.assertGreater(indices[1]-indices[0],1,display)
  def test_every_rolling_four_questions_introduces_at_most_two_basic_kana(self):
   for start in range(len(self.sequence)-3):
    with self.subTest(start=start):self.assertLessEqual(sum(q['type']=='reading' for q in self.sequence[start:start+4]),2)

@@ -48,3 +48,8 @@ The owner authorized preparing the existing 94 listening and 12 comparison answe
 ## 2026-11-08 — Gentler Kana introductions
 
 The owner approved the proposed gentler start: up to two new basic kana and four new scheduled questions per day, reading exposure before reverse listening, and early figures showing only already-introduced kana. The supported static starting preset changes from six to four; no automatic ramp or mastery gate is added. All existing learner options, IDs and history remain stable. The first あ figure contains only あ, then the い figure adds い, within the existing gold-preserving frame. Older figures remain introduction-time snapshots. Existing eligible word questions supply consolidation without adding new questions or recordings. No release, gallery pin or phone installation is authorized.
+
+
+## 2026-11-10 — More useful feedback and earlier application (0.2.0 candidate)
+
+The owner approved creating the proposed next version: concise kana-specific answer feedback, earlier lookalike comparisons, earlier tiny-word practice and a productive voicing application. Keep the first eight questions and the gentle four-new-question starting preset. Add あい as question9 and かぐ after the g-rule with another question intervening; retain all 290 existing questions, identities and recordings. Move existing comparisons nearer their completed reading/listening pair cycles and separate reciprocal questions. Reading, listening, word and comparison feedback is revised; rules, alternate forms and final checks retain their established content. The two new recordings use Nanami at −20% and await human review. The owner’s approval creates a review candidate, not a release, gallery pin or phone install.

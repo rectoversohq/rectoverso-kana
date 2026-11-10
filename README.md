@@ -1,13 +1,13 @@
 # Kana
 
-An unpublished English/French beginner course candidate following the owner-confirmed [course brief](docs/course-brief.md). Its 290 questions were authored one type at a time, with separate Astra reviewers at high effort for facts and pedagogy.
+An unpublished English/French beginner course candidate following the owner-confirmed [course brief](docs/course-brief.md). Its 292 questions were authored one type at a time, with separate Astra reviewers at high effort for facts and pedagogy.
 
 | Type | Questions |
 | --- | ---: |
 | Kana → sound | 92 |
 | Sound → kana | 94: 90 basic + 4 selected marked-form applications |
 | Reading-rule applications | 34 |
-| Short-word reading | 36 |
+| Short-word reading | 38 |
 | Targeted comparisons | 12 |
 | Alternate written forms | 8 |
 | Cumulative new-word checks | 14 |
@@ -26,6 +26,8 @@ The CI command validates all seven bilingual components, both combined packages,
 Reading figures retain the gold target kana without an underline and use three-row, 1,000 × 1,080 crops. Each reading stays a separate note/card, with only kana already introduced by that point visible, and all their neighboring readings concealed. The [progressive-figure review](docs/reviews/gentler-opening.md) records current validation and limits.
 
 Listening and comparison answers now reveal kana alone, with **Romaji** as a labelled answer detail. This prepares single-character answers for the app’s Debug brush prototype without adding writing questions or changing the existing audio and history. [Brush review](docs/reviews/brush-ready.md) states the tested scope.
+
+The 0.2.0 candidate adds specific shape/sound feedback to reading and listening answers, concise timing cues to word answers, and earlier, separated lookalike comparisons. あい is the ninth question; かぐ applies the voicing rule to a different member of the row. All existing question identities and recordings are retained. [Review and limits](docs/reviews/teaching-feedback.md).
 
 The first eight questions introduce あ・い and then う・え through reading followed by listening recall. Every rolling four-question window contains at most two new basic kana, with eligible word practice in between. Early figures grow with the authored introduction sequence; an older card retains its original snapshot when reviewed.
 

@@ -16,6 +16,26 @@ spec=importlib.util.spec_from_file_location('rebuild',Path(__file__).with_name('
 rebuild=importlib.util.module_from_spec(spec);spec.loader.exec_module(rebuild)
 
 
+def check_identity_update(expected_guids, before_notes, after_notes, before_cards, after_cards):
+    """Allow authored additions while preserving every existing note and card."""
+    expected_guids=set(expected_guids)
+    if not set(before_notes)<=expected_guids:
+        raise ValueError('Update removes an existing note')
+    if set(after_notes)!=expected_guids:
+        raise ValueError('Updated note inventory differs from current package')
+    if any(after_notes[g]!=nid for g,nid in before_notes.items()):
+        raise ValueError('Update changed note identity')
+    before={row[0]:row for row in before_cards};after={row[0]:row for row in after_cards}
+    if any(after.get(cid)!=row for cid,row in before.items()):
+        raise ValueError('Update changed card identity or study history')
+    additions=expected_guids-set(before_notes)
+    if len(after)-len(before)!=len(additions) or len(after)!=len(expected_guids):
+        raise ValueError('Updated card inventory differs from current package')
+    if {row[1] for row in after_cards}!=set(after_notes.values()):
+        raise ValueError('Updated cards do not match note identities')
+    return sorted(additions)
+
+
 def verify(previous,current,output):
     output.parent.mkdir(parents=True,exist_ok=True)
     with tempfile.TemporaryDirectory(dir=output.parent,prefix='edition-update-') as temporary:
@@ -36,7 +56,7 @@ def verify(previous,current,output):
             before_schemas=schema_ids()
             before=states();before_log=collection.db.all('select * from revlog order by id');note_ids={collection.get_note(n).guid:n for n in collection.find_notes('')}
             rebuild.load(collection,current)
-            if states()!=before or collection.db.all('select * from revlog order by id')!=before_log or set(collection.find_cards(''))!=ids:
+            if collection.db.all('select * from revlog order by id')!=before_log:
                 raise ValueError('Update changed card identity or study history')
             wanted_schemas={mid:(schema['fields'],[t[0] for t in schema['templates']]) for mid,schema in expected['schemas'].items()}
             check_schema_update(before_schemas,schema_ids(),wanted_schemas)
@@ -45,8 +65,7 @@ def verify(previous,current,output):
                 if [(t['id'],t['qfmt'],t['afmt']) for t in actual['tmpls']]!=schema['templates']:
                     raise ValueError('Updated answer template was not adopted')
             notes={n.guid:n for n in (collection.get_note(i) for i in collection.find_notes(''))}
-            if set(notes)!=set(expected['notes']) or {g:n.id for g,n in notes.items()}!=note_ids:
-                raise ValueError('Update changed note identity or inventory')
+            added=check_identity_update(expected['notes'],note_ids,{g:n.id for g,n in notes.items()},before,states())
             actual_media=Path(collection.media.dir());renamed={};audio=set();images=set();preparations=set()
             def canonical(field,media):
                 def sound(match):
@@ -82,7 +101,11 @@ def verify(previous,current,output):
                     new_names=re.findall(r'\[sound:([^]]+)\]',wanted)
                     for actual_name,source_name in zip(old_names,new_names,strict=True):
                         if actual_name!=source_name:renamed[source_name]=actual_name
-            result=dict(cards=len(ids),noteAndCardIDsPreserved=True,modelFieldTemplateIDsPreserved=True,appendedFieldsValidated=True,updatedTemplatesExact=True,allStudyStatesPreserved=True,reviewLogPreserved=True,
+            updated_states=states();updated_notes={g:n.id for g,n in notes.items()}
+            rebuild.load(collection,current)
+            if states()!=updated_states or {collection.get_note(n).guid:n for n in collection.find_notes('')}!=updated_notes or collection.db.all('select * from revlog order by id')!=before_log:
+                raise ValueError('Reimport changed updated identities or history')
+            result=dict(cards=len(updated_states),previousCards=len(ids),addedGUIDs=added,reimportIdempotent=True,noteAndCardIDsPreserved=True,modelFieldTemplateIDsPreserved=True,appendedFieldsValidated=True,updatedTemplatesExact=True,allStudyStatesPreserved=True,reviewLogPreserved=True,
                         updatedContentAndReferencedAudioExact=True,referencedImageBytesExact=True,preparationAssetHashesExact=True,imageDigests=len(images),preparations=len(preparations),audioDigests=len(audio),ankiRenamedAudio=renamed)
         finally:collection.close()
     output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')

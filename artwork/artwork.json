@@ -30907,6 +30907,38 @@
         "font": "NotoSansJP.ttf"
       }
     },
+    "word-ai": {
+      "light": {
+        "file": "rv-kana-word-ai-light.png",
+        "width": 1000,
+        "height": 600,
+        "sha256": "806b0093f2e9126bcc86a064d78a836249f02cdd92c83d99309a62656dcae82f",
+        "font": "NotoSansJP.ttf"
+      },
+      "dark": {
+        "file": "rv-kana-word-ai-dark.png",
+        "width": 1000,
+        "height": 600,
+        "sha256": "0e3d433c776be8d80378a26ed7fb7c1bab37df5576a4fbd2eddf09e0eac748e2",
+        "font": "NotoSansJP.ttf"
+      }
+    },
+    "word-kagu": {
+      "light": {
+        "file": "rv-kana-word-kagu-light.png",
+        "width": 1000,
+        "height": 600,
+        "sha256": "5a37b9a7d4c6022793e832c292ca29d44a58db15d8dceb6a444e76fd8199c19d",
+        "font": "NotoSansJP.ttf"
+      },
+      "dark": {
+        "file": "rv-kana-word-kagu-dark.png",
+        "width": 1000,
+        "height": 600,
+        "sha256": "64498f822c909f3f4f71dd52cb7d0f8559527cc5b24c82a5dd7d9d51ebfa2c68",
+        "font": "NotoSansJP.ttf"
+      }
+    },
     "contrast-nu-me-nu": {
       "light": {
         "file": "rv-kana-contrast-nu-me-nu-light.png",
@@ -35927,6 +35959,34 @@
       "width": 1000,
       "height": 600,
       "sha256": "5af2a22f94bcb97bc63128507ac7fb00d881fca8901e7972d05453f34473bb9a",
+      "font": "NotoSansJP.ttf"
+    },
+    {
+      "file": "rv-kana-word-ai-light.png",
+      "width": 1000,
+      "height": 600,
+      "sha256": "806b0093f2e9126bcc86a064d78a836249f02cdd92c83d99309a62656dcae82f",
+      "font": "NotoSansJP.ttf"
+    },
+    {
+      "file": "rv-kana-word-ai-dark.png",
+      "width": 1000,
+      "height": 600,
+      "sha256": "0e3d433c776be8d80378a26ed7fb7c1bab37df5576a4fbd2eddf09e0eac748e2",
+      "font": "NotoSansJP.ttf"
+    },
+    {
+      "file": "rv-kana-word-kagu-light.png",
+      "width": 1000,
+      "height": 600,
+      "sha256": "5a37b9a7d4c6022793e832c292ca29d44a58db15d8dceb6a444e76fd8199c19d",
+      "font": "NotoSansJP.ttf"
+    },
+    {
+      "file": "rv-kana-word-kagu-dark.png",
+      "width": 1000,
+      "height": 600,
+      "sha256": "64498f822c909f3f4f71dd52cb7d0f8559527cc5b24c82a5dd7d9d51ebfa2c68",
       "font": "NotoSansJP.ttf"
     },
     {

@@ -4798,5 +4798,43 @@
         "trailingFlatBars": 5
       }
     }
+  },
+  {
+    "file": "rv-kana-word-ai.mp3",
+    "input": "愛",
+    "reading": "ai",
+    "purpose": "word-ai",
+    "sha256": "f5eebd8a7cd5272425c7d1765915b38a4142c95144ea9abd65597d7cb635d22a",
+    "voice": "ja-JP-NanamiNeural",
+    "rate": "-20%",
+    "engine": "edge-tts 7.3.1",
+    "rawSHA256": "191fec53bcd6fe3722d1e53d5f846191c466a37aa14f055dfd0584d59315c318",
+    "sourceFile": "/Volumes/SSD/RectoVerso/raw/japanese-kana-course-20261107/builds/teaching-feedback-20261110/audio-originals/rv-kana-word-ai.mp3",
+    "processing": "40 ms lead; 75 ms tail at -65 dBFS activity; active RMS -20 dBFS, peak <= -3 dBFS; constant gain, no time stretch or pitch shift",
+    "listeningReview": "pending",
+    "seconds": 0.465,
+    "activitySeconds": 0.35,
+    "gainDB": -5.715,
+    "trimStartSamples": 5520,
+    "trimEndSamples": 16680
+  },
+  {
+    "file": "rv-kana-word-kagu.mp3",
+    "input": "家具",
+    "reading": "kagu",
+    "purpose": "word-kagu",
+    "sha256": "398974ad7a89df9f614be9f0f3d21ae116763323d80230cffa364c210da337f7",
+    "voice": "ja-JP-NanamiNeural",
+    "rate": "-20%",
+    "engine": "edge-tts 7.3.1",
+    "rawSHA256": "9cf744bbf01692c0dfc005cdbdbcde78a915c6f20431f9c793d9d6ea35d791da",
+    "sourceFile": "/Volumes/SSD/RectoVerso/raw/japanese-kana-course-20261107/builds/teaching-feedback-20261110/audio-originals/rv-kana-word-kagu.mp3",
+    "processing": "40 ms lead; 75 ms tail at -65 dBFS activity; active RMS -20 dBFS, peak <= -3 dBFS; constant gain, no time stretch or pitch shift",
+    "listeningReview": "pending",
+    "seconds": 0.55,
+    "activitySeconds": 0.435,
+    "gainDB": -5.327,
+    "trimStartSamples": 5400,
+    "trimEndSamples": 18600
   }
 ]

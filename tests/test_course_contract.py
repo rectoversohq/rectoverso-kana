@@ -83,7 +83,7 @@ class CourseContractTests(unittest.TestCase):
             expanded,notes,_,_=inputs(language)
             self.assertEqual(expanded['study'],expected)
             self.assertNotIn('studyRecommendations',expanded)
-            self.assertEqual([n['due'] for n in notes],list(range(1,291)))
+            self.assertEqual([n['due'] for n in notes],list(range(1,len(notes)+1)))
 
     def test_missing_or_drifted_study_preset_is_refused(self):
         preset={'newCards':'deckOrder','newPerDay':4,'newPosition':'afterReviews'}

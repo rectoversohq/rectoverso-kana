@@ -83,5 +83,10 @@
     "id": "jf-marugoto-wordlist",
     "url": "https://marugoto.jpf.go.jp/assets/docs/download/elementary1_a/MarugotoElementary1ActivitiesVocabularyIndex2_EN.pdf",
     "use": "Primary support for selected final-check lexical glosses."
+  },
+  {
+    "id": "jf-vcaa-wordlist",
+    "url": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/syllabus/pdf/sy_honyaku_14_AU_vic.pdf",
+    "use": "JF-published VCAA word list, printed page12/PDF page17: あい（する）, love (to love); noun gloss only. No copied artwork or audio."
   }
 ]
