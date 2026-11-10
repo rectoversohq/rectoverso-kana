@@ -76,3 +76,10 @@ The 68-test suite and full bilingual CI pass in the working checkout and a genui
 Every PNG is 2,010 × 1,340, 27,902–40,963 bytes; the crop-safe subject bounds and inclusive upper-right corner pass. The output was visually inspected alone and in proportion-preserving iPhone/Duo light/dark gallery layout mockups. These are composites, not a native catalog-import claim. The actual app gallery parser accepts all six names. Its full metadata preflight remains intentionally gated by `publication.approved=false`; the existing metadata/importer release gates remain unresolved. No release, tag, merge, gallery pin or phone installation was made.
 
 Evidence is external beside the checkout at `builds/covers-20261110/`: `ci/`, `fresh-ci/`, their logs, `master-rebuild.json` and `validation-summary.json`. `artwork/cover-provenance.json` binds the reviewed master filenames to their SHA-256s and sources; `docs/build.md` records the commands and terms.
+
+
+## Gallery description and credits
+
+The owner requested the description, confirmed Languages and asked for credits. Commit `5da78c3` replaces the long prototype setup text with matching concise English/French gallery and package descriptions, and records nine linked source credits plus a bilingual credits page. Import guidance remains in the learner guide. The original-material license is normalized to CC-BY-4.0; third-party terms and deferred audio rights remain explicit.
+
+All 68 existing tests and full bilingual CI pass in a genuine fresh clone of that commit, including both packages, all previews, both trials, two independent renders/builds, previous-edition Anki updates and study-history preservation. Exact note/model hashes and book/deck identities match the prior `27495b7` snapshot; question content and media are unchanged. Both language sidecars retain the descriptions, Languages category and all nine source credits. Evidence is external at `builds/gallery-metadata-20261110/ci/` and `validation-summary.json` beside the source checkout. The prior catalog/publication gates remain; no release or gallery pin was made.
