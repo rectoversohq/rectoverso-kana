@@ -1,14 +1,14 @@
 {
   "id": "rectoverso-kana",
-  "version": "1.0.0-rc.1",
-  "releaseTag": "v1.0.0-rc.1",
+  "version": "1.0.0-rc.2",
+  "releaseTag": "v1.0.0-rc.2",
   "guidPrefix": "rv-kana",
   "identityBase": 1794200000,
   "contentModifiedAt": "2026-11-10T18:29:08Z",
   "publication": {
     "remote": "https://github.com/rectoversohq/rectoverso-kana",
-    "release": "https://github.com/rectoversohq/rectoverso-kana/releases/tag/v1.0.0-rc.1",
-    "approved": false,
+    "release": "https://github.com/rectoversohq/rectoverso-kana/releases/tag/v1.0.0-rc.2",
+    "approved": true,
     "visibility": "public"
   },
   "title": {
@@ -3398,7 +3398,7 @@
     "artwork": "artwork"
   },
   "reviewStatus": {
-    "publication": "release candidate; approved by the owner at 1.0.0",
+    "publication": "release candidate, approved by the owner for RectoVerso's gallery in TestFlight (2026-11-10); 1.0.0 follows the listening review",
     "copyAndNames": "Owner-approved (2026-11-10): the title Kana, the Languages category, the gallery headline and description, and the sample (the first reading, あ)",
     "questionTypes": [
       "reading",

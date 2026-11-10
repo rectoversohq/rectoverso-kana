@@ -26,9 +26,8 @@ jobs:
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
         with:
           python-version: '3.12'
-      # The deck kit's check, by the kit pinned at kit/. Add --rectoverso once 1.0.0 is approved:
-      # RectoVerso's gallery takes approved editions only.
+      # The deck kit's check, by the kit pinned at kit/, as RectoVerso's gallery takes a deck.
       - name: The deck holds to the contract
-        run: python3 kit/check.py
+        run: python3 kit/check.py --rectoverso
       - name: rectoverso.json states what the course makes
         run: python3 scripts/metadata.py --check
