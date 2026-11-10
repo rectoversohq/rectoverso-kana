@@ -120,15 +120,17 @@ def declared(language):
  return {k:v for k,v in meta.items() if k!='languages'}|{'id':artifact['id'],'deckID':meta['id'],'language':language,'package':artifact['package'],'sample':artifact['sample']}
 
 def made(language,artwork=None):
- """What the complete course makes of the same facts: rectoverso.json states them, the source decides them."""
+ """What the complete course makes of the same facts: rectoverso.json states them, the source decides them.
+ The sample isn't among them: it is the owner's choice of one card, which rectoverso.json names."""
  meta,notes,_,_=course(language,artwork)
- return {'cards':len(notes),'pictures':len(meta['pictures']),'imageCredits':meta['imageCredits'],'sample':notes[0]['guid'],'package':{'file':meta['package']['file']}}
+ return {'cards':len(notes),'pictures':len(meta['pictures']),'imageCredits':meta['imageCredits'],'package':{'file':meta['package']['file']}}
 
 def inputs(language):
  """The deck kit's interface (`python3 kit/check.py`): the declared metadata, the notes, the note
- types and the deck. Refuses a rectoverso.json that states another count, sample, package or
- credit than the course makes."""
+ types and the deck. Refuses a rectoverso.json that states another count, package or credit than the
+ course makes, or a sample that isn't one of its cards."""
  expanded=declared(language);facts=made(language);_,notes,models,deck=course(language)
  for key,value in facts.items():
   if expanded[key]!=value:raise ValueError(f'rectoverso.json states another {key} than the course makes: run scripts/metadata.py')
+ if expanded['sample'] not in {note['guid'] for note in notes}:raise ValueError(f"rectoverso.json's sample {expanded['sample']} is not a card of the course")
  return expanded,notes,models,deck

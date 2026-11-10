@@ -1,13 +1,13 @@
 {
   "id": "rectoverso-kana",
-  "version": "1.0.0-rc.3",
-  "releaseTag": "v1.0.0-rc.3",
+  "version": "1.0.0-rc.4",
+  "releaseTag": "v1.0.0-rc.4",
   "guidPrefix": "rv-kana",
   "identityBase": 1794200000,
   "contentModifiedAt": "2026-11-10T18:29:08Z",
   "publication": {
     "remote": "https://github.com/rectoversohq/rectoverso-kana",
-    "release": "https://github.com/rectoversohq/rectoverso-kana/releases/tag/v1.0.0-rc.3",
+    "release": "https://github.com/rectoversohq/rectoverso-kana/releases/tag/v1.0.0-rc.4",
     "approved": true,
     "visibility": "public"
   },
@@ -32,7 +32,7 @@
       "id": "rectoverso-kana-en",
       "title": "Kana",
       "cards": 292,
-      "sample": "rv-kana-en-read-hira-3042",
+      "sample": "rv-kana-en-listen-hira-fu",
       "package": {
         "file": "Japanese-Kana-en.apkg"
       }
@@ -41,7 +41,7 @@
       "id": "rectoverso-kana-fr",
       "title": "Kana",
       "cards": 292,
-      "sample": "rv-kana-fr-read-hira-3042",
+      "sample": "rv-kana-fr-listen-hira-fu",
       "package": {
         "file": "Japanese-Kana-fr.apkg"
       }
@@ -3337,7 +3337,7 @@
   "sources": [
     {
       "name": "Kana — original course and compositions, Simon Pinkas",
-      "version": "0.2.0",
+      "version": "1.0.0-rc.4",
       "url": "https://github.com/rectoversohq/rectoverso-kana",
       "license": "CC-BY-4.0 (original material; third-party contributions separately credited)"
     },
@@ -3399,7 +3399,7 @@
   },
   "reviewStatus": {
     "publication": "release candidate, approved by the owner for RectoVerso's gallery in TestFlight (2026-11-10); 1.0.0 follows the listening review",
-    "copyAndNames": "Owner-approved (2026-11-10): the title Kana, the Languages category, the gallery headline and description, and the sample (the first reading, あ)",
+    "copyAndNames": "Owner-approved (2026-11-10): the title Kana, the Languages category, the gallery headline and description, and the sample (the listening card ふ, whose answer the app draws with the brush)",
     "questionTypes": [
       "reading",
       "listening",
