@@ -2,15 +2,15 @@
 
 Install requirements.txt with Python 3.12. The shared interface is scripts/source_data.py::inputs(language), returning metadata, notes, models and deck. The builder uses Anki's backend. GUIDs, native book/card UUIDs, model IDs, field IDs, template IDs and source deck IDs stay stable. Isolated review components have separate preview identities from the combined course and the earlier phone prototype.
 
-The reading artwork uses Noto Sans JP at weight 400 for kana and SF Pro Text Regular at 72 source pixels for romaji. Noto Serif JP and Yomogi remain limited to selected alternate-form examples. The bundled Japanese font masters retain their OFL notices.
+The reading artwork uses Noto Sans JP at weight 400 for kana; it prints no romaji. SF Pro Text Regular is used only by the cover masters’ lettering (covers 2 and 3), outlined in their committed SVGs. Noto Serif JP and Yomogi remain limited to selected alternate-form examples. The bundled Japanese font masters retain their OFL notices.
 
-Install SF Pro separately from https://developer.apple.com/fonts/ under Apple’s terms. The default input is /Library/Fonts/SF-Pro-Text-Regular.otf. For another location, set:
+To make the cover masters again (or to run the source check, which verifies every pinned font), install SF Pro separately from https://developer.apple.com/fonts/ under Apple’s terms. The default input is /Library/Fonts/SF-Pro-Text-Regular.otf. For another location, set:
 
 ```sh
 export RECTOVERSO_SF_PRO_FONT=/absolute/path/to/SF-Pro-Text-Regular.otf
 ```
 
-The exact expected SHA-256 is eabf0a67833bbe3c80c800e6ce3f36b65e92f3b6ac1d6226ba2981e5cb3a74a5, recorded in artwork/fonts/provenance.json. A missing or different file fails validation; there is no font fallback. No SF Pro binary is downloaded by the build, committed, or included in the packages. The rendered mixed-font artwork is currently a local Apple-platform UI prototype; this does not claim publication clearance under Apple’s font terms.
+The exact expected SHA-256 is eabf0a67833bbe3c80c800e6ce3f36b65e92f3b6ac1d6226ba2981e5cb3a74a5, recorded in artwork/fonts/provenance.json. A missing or different file fails validation; there is no font fallback. No SF Pro binary is downloaded by the build, committed, or included in the packages. The owner cleared SF Pro for the deck’s published pictures (docs/decisions.md, 2026-11-10), when the reading charts still drew it; no card picture draws it now.
 
 Build and verify everything into a new external directory:
 
@@ -66,6 +66,12 @@ Each of the 92 reading notes still has its own four files, named rv-kana-<target
 
 The normal CI command rebuilds and validates these figures. Reading regressions cover sparse edge rows, all target/reading/ordinal/mask mappings, separate note/card identities and label fit. Anki checks verify the actual preparation asset hashes and dimensions; the previous-edition check also compares every referenced image’s bytes, alongside sound bytes and full study-history preservation. Existing collections can retain unused old full-table media; new packages include only cropped tables. Native checks require app PR #831 and remain separately reported.
 
+
+### Lit reading figures (#8)
+
+The reading cards are lit figures (the deck kit’s card payload, “A prepared figure”, `"mode": "lit"`, as the Periodic table’s name cards): the app shows the whole chart, nothing masked, outlines the card’s region in gold and asks for its reading, the region’s `title`, which is the answer. The chart prints no romaji. Each kana sits in the middle of its 360-unit row, dividers between occupied rows; the card’s kana is drawn in gold, the others in ink, only the kana introduced so far, in the same three-row window as before. The region is the 150 × 150-unit square around the card’s kana; the preparation has that one region, at the kana’s script-global ordinal, and the card’s occlusion has no siblings. The clean pictures leave that square empty.
+
+The chart is laid out in 1,000 × 1,080 units and drawn at three pixels a unit (3,000 × 3,240 pixels), so it stays sharp on a 3x screen; the regions are fractions of it and scale with it. The files are named rv-kana-<target>-lit-<light|dark>-<source|clean>.png, so an update never collides with the masked editions’ -introduced- pictures, and contentModifiedAt advances with them. The 700 × 500 question PNGs are unchanged. Notes, cards, GUIDs, card ids and order are unchanged; the update over 1.0.0-rc.3 and 1.0.0-rc.4 keeps every card, note and review. The masked crops described in the two sections above are superseded; their windows and introduction rules remain.
 
 ### Kana-only answers and Romaji details (#832)
 

@@ -51,6 +51,6 @@
     "external": true,
     "environment": "RECTOVERSO_SF_PRO_FONT",
     "defaultPath": "/Library/Fonts/SF-Pro-Text-Regular.otf",
-    "usage": "Romaji labels only; font file is not bundled or redistributed"
+    "usage": "The digits and romaji of covers 2 and 3, outlined in their SVG masters (scripts/make_cover_masters.py); font file is not bundled or redistributed"
   }
 ]

@@ -1,4 +1,4 @@
-"""Gold-preserving reading figures containing only introduced kana."""
+"""Lit reading figures: introduced kana only, no romaji, the card's kana in gold, drawn at 3x."""
 import html
 import json
 import sys
@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
-from render_artwork import geometry,reading_window,ROMAJI_SIZE,font
+from render_artwork import geometry,reading_window,SCALE
 from source_data import course,questions,ordered,reading_introductions
 
 ROLES=('source','clean','darkSource','darkClean')
@@ -32,39 +32,48 @@ class ReadingArtworkTests(unittest.TestCase):
                 for c in visible:
                     x,y,w,h=geometry(c,top)
                     self.assertTrue(0<=x<x+w<=1000 and 0<=y<y+h<=1080)
+                # Squares never overlap: each is its own kana's.
+                for a in visible:
+                    for b in visible:
+                        if a!=b:
+                            ax,ay,aw,ah=geometry(a,top);bx,by,bw,bh=geometry(b,top)
+                            self.assertTrue(ax+aw<=bx or bx+bw<=ax or ay+ah<=by or by+bh<=ay)
             self.assertEqual(reading_window(forms[-1],forms,self.introductions['read-'+forms[-1]['id']])[0],2880)
             self.assertEqual(len(reading_window(forms[-1],forms,self.introductions['read-'+forms[-1]['id']])[1]),8)
 
-    def test_all_92_figures_keep_target_global_ordinal_and_hide_every_visible_reading(self):
+    def test_all_92_figures_are_lit_with_one_titled_region_at_the_target_global_ordinal(self):
         for target in self.kana:
             forms=[c for c in self.kana if c['script']==target['script']]
             figure=self.figures['read-'+target['id']]
             start=max(0,min(target['row']-1,8));top=start*360
             visible=[c for c in forms if start<=c['row']<start+3 and c['id'] in self.introductions['read-'+target['id']]]
-            def box(c):return [[(83+176*c['column'])/1000,(223+360*c['row']-top)/1080],[.13,70/1080]]
+            def box(c):
+                x,y,w,h=geometry(c,top);return [[x/1000,y/1080],[w/1000,h/1080]]
             with self.subTest(target=target['id']):
                 self.assertEqual(figure['crop'],{'top':top,'height':1080,'rows':sorted({c['row'] for c in visible})})
                 occlusion=figure['occlusion'];preparation=figure['preparation']
-                self.assertEqual(occlusion['imageSize'],[1000,1080])
+                self.assertEqual(occlusion['imageSize'],[3000,3240])
                 self.assertEqual(occlusion['ordinal'],forms.index(target)+1)
                 self.assertEqual(occlusion['box'],box(target))
                 self.assertEqual(occlusion['label'],target['reading'])
                 self.assertEqual(occlusion['mode'],'hideAll')
-                self.assertEqual(preparation['mode'],'hideAll')
-                self.assertEqual(occlusion['siblings'],[{'rect':{'_0':box(c)}} for c in visible if c!=target])
-                self.assertEqual(preparation['regions'],[{'id':c['id'],'ordinal':forms.index(c)+1,'kind':'label','geometry':{'kind':'rect','coordinates':sum(box(c),[])},'answer':c['reading']} for c in visible])
+                self.assertEqual(occlusion['siblings'],[])
+                self.assertEqual(preparation['mode'],'lit')
+                self.assertEqual(preparation['masksSHA256'],'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855')
+                self.assertEqual(preparation['regions'],[{'id':target['id'],'ordinal':forms.index(target)+1,'kind':'label','geometry':{'kind':'rect','coordinates':sum(box(target),[])},'answer':target['reading'],'title':target['reading']}])
                 self.assertEqual(occlusion['imageName'],figure['source']['file'])
                 for role in ROLES:self.assertEqual(preparation[role],figure[role])
+                self.assertEqual(figure['visibleKana'],[c['id'] for c in visible])
 
-    def test_progressive_names_avoid_collisions_with_both_previous_table_editions(self):
+    def test_lit_names_avoid_collisions_with_every_previous_table_edition(self):
         table_files=set();questions=set()
         for target in self.kana:
             f=self.figures['read-'+target['id']]
             for role in ROLES:
                 asset=f[role];table_files.add(asset['file'])
-                self.assertEqual((asset['width'],asset['height']),(1000,1080))
-                self.assertIn('-introduced-',asset['file'])
-                self.assertTrue(asset['file'].startswith('rv-kana-'+target['id']+'-introduced-'))
+                self.assertEqual((asset['width'],asset['height']),(1000*SCALE,1080*SCALE))
+                self.assertNotIn('fonts',asset)
+                self.assertTrue(asset['file'].startswith('rv-kana-'+target['id']+'-lit-'))
             q=f['question'];questions.add(q['file'])
             self.assertEqual(q['file'],'rv-kana-'+target['id']+'-question.png')
             self.assertEqual((q['width'],q['height']),(700,500))
@@ -84,12 +93,5 @@ class ReadingArtworkTests(unittest.TestCase):
                 self.assertEqual(p['noteID'],n['guid'])
                 self.assertEqual(p['occlusion'],self.figures[n['itemId']]['occlusion'])
             self.assertEqual([n['due'] for n in notes],list(range(1,len(notes)+1)))
-
-    def test_all_sf_pro_labels_still_fit_the_unchanged_pixel_masks(self):
-        face=font(ROMAJI_SIZE,roman=True)
-        for reading in {c['reading'] for c in self.kana}:
-            left,top,right,bottom=face.getbbox(reading)
-            self.assertLessEqual(right-left,130,reading)
-            self.assertLessEqual(bottom-top,70,reading)
 
 if __name__=='__main__':unittest.main()

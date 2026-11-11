@@ -107,8 +107,7 @@ def course(language,artwork=None,only_type=None,beginner_trial=False):
  if trial:meta.update(description=trial['description'][language],headline=trial['headline'])
  meta['pictures']=sorted(n for n in media if n.endswith('.png'))
  font_by_file={f['file']:f.get('font','NotoSansJP.ttf') for f in assets['files']}
- mixed={f['file'] for f in assets['files'] if 'SF-Pro-Text-Regular.otf' in f.get('fonts',[])}
- meta['imageCredits']=[({'file':n,'original':'scripts/render_artwork.py','source':'Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)','creator':'Simon Pinkas','license':'CC-BY-4.0'} if n in mixed else {'file':n,'original':'artwork/fonts/'+font_by_file[n],'source':'Original composition using pinned open fonts (OFL-1.1)','creator':'Simon Pinkas','license':'CC-BY-4.0'}) for n in meta['pictures']]
+ meta['imageCredits']=[{'file':n,'original':'artwork/fonts/'+font_by_file[n],'source':'Original composition using pinned open fonts (OFL-1.1)','creator':'Simon Pinkas','license':'CC-BY-4.0'} for n in meta['pictures']]
  meta['sounds']=sorted(n for n in media if n.endswith('.mp3'))
  return meta,notes,{'kana':model},{'id':deck_id,'name':trial['title'][language] if trial else words['title']+(' · '+words.get(only_type,only_type)+' · '+('review' if language=='en' else 'à relire') if only_type else ''),'description':trial['description'][language] if trial else words['description']}
 
