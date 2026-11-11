@@ -129,6 +129,41 @@ The owner had the course’s recordings made again through Azure AI Speech, whic
 The owner then listened to all 133 on a review sheet (2026-11-11) and approved them by ear: 130 as made, and three retaken from a request the owner picked, each spoken from other text than the card shows (they were wrong with edge-tts too). い is spoken as い。, with a full stop: alone, it was heard as “ii-ki”. シュ is spoken as しゅ, in hiragana: as シュ, nothing was heard. 卵 is spoken as たまご: as 卵, the voice read “tengo”. Azure’s own recognizer agreed with the owner each time. The cards still show い, シュ and 卵; each request and provenance row carries an inputNote saying why its spoken text differs. listeningReview records the owner’s approval, which is not a native-speaker review.
 
 
+## 2026-11-11 — Reading cards are lit figures, without romaji, drawn at 3x (#8)
+
+The owner, settling RectoVerso's simulator findings on the reading cards (simonpinkas/RectoVerso#898, #899): a reading card masked the romaji printed under its kana, so the app framed the mask, not the kana, and the answer sheet's magnifier cut the kana in book pose and open flat. The reading cards are now lit figures (the deck kit's `"mode": "lit"`, as the Periodic table's name cards): the whole chart, nothing masked, the card's kana in gold and its square outlined by the app, its reading the region's title and the answer. The owner chose to drop the printed romaji rather than bold them; each kana now sits in the middle of its row. The charts were drawn at 2.4 to 2.8 device pixels a source pixel on a 3x phone and read soft: they are drawn at three pixels a chart unit (3,000 × 3,240), every region scaled with them. New file names (-lit-) keep an update from colliding with the masked pictures, and contentModifiedAt advances. No note, card, GUID, id, order or answer changes; the update over 1.0.0-rc.3 and 1.0.0-rc.4 keeps every card, note and review. No card picture draws SF Pro now; it stays for the lettering of covers 2 and 3, outlined in their masters, and its credit says so. The packages grow from about 9 MB to 18 MB a language. For the next candidate, 1.0.0-rc.5, whose number and approval are the owner's at its release.
+
+
 ## 2026-11-11 — The recordings' credit carries an SPDX-style id (#6)
 
 The owner: the recordings' credit names its terms with an SPDX-style id, as the edge-tts credit did (LicenseRef-Microsoft-Read-Aloud-Not-Relicensed): `LicenseRef-Microsoft-Azure-AI-Speech`, Microsoft’s Nanami voice through Azure AI Speech, under Microsoft’s Product Terms for Azure; not CC BY 4.0 and not relicensed here. The credits page (in both languages), rectoverso.json’s credit and the README say so. No recording changes.
+
+
+## 2026-11-11 — SF Pro's credit names the covers only (#8)
+
+The owner: SF Pro's credit says what the deck now uses it for, “SF Pro (Apple), for the Latin lettering of covers 2 and 3 only, outlined in their artwork; the font file isn’t included”, and keeps the owner's clearance of 2026-11-10 as the reason it may be published, under Apple's font terms. The credits page (in both languages), rectoverso.json's credit and the README say so.
+
+
+## 2026-11-11 — Reading cards show the whole chart, filling in card by card (#8)
+
+The owner tried the lit cards on an iPhone 15 Pro Max: better, but the kana around the target were unclear (the three-row window showed only what had been taught: sometimes many, sometimes none), the kana was lost in whitespace, and the card lacked delight. From mockups the owner chose “A, the chart fills in”: every reading card's figure is its script's whole gojūon chart, always the same (five columns, a i u e o, by eleven rows, –, k, s, t, n, h, m, y, r, w, n; や/ゆ/よ and わ/を in their standard cells, ん on its own row; no romaji, no headers). The kana the card has taught (the same introductions as before) are in ink, every other kana a faint ghost in the palette's line colour, the target lit in gold; over the course the learner sees the chart fill in. The chart fills the figure (180-unit cells, 20-unit margins, kana at 118 units), drawn at three pixels a unit (2,820 × 6,060), its pictures indexed so every flat colour stays exact. Only the inked kana count as the card's visibleKana and requirements. New file names (-chart-), contentModifiedAt advances; no note, card, GUID, id, order or answer changes. The packages are about 44 MB a language. The version stays 1.0.0-rc.4.
+
+
+## 2026-11-11 — The chart moves to the answer (#8)
+
+The owner tried the whole-chart packages on an iPhone 15 Pro Max: 44 MB a language was too heavy, the chart came out small under the big question kana, lost in whitespace, and a fixed chart gives the reading away by its row and column. The owner's go: the question is the big kana alone; the whole chart, filling in, moves to the answer as an ordinary answer picture under the reading, shown only once the learner has answered, so it gives nothing away. A reading card is now `basic`: the chart is the picture in `Back` (the deck kit's card payload). The app keeps a card's progress by its id, so the change of kind keeps every review (checked in the app over 1.0.0-rc.4). The chart lies on its side, eleven columns by five rows, because the app gives a picture beside a text answer a short, wide place; it is drawn at 1,040 × 488 pixels, at least the device's pixels for the width it is shown at, an indexed PNG on its own paper (the app shows one answer picture in light and dark), its ghosts a little stronger (#CDCBC6). The packages are about 3 MB a language. The version stays 1.0.0-rc.4.
+
+
+## 2026-11-11 — The answer shows the kana's own row, with its romaji (#8)
+
+The owner, on the whole chart on the answer: “not as delightful”, its kana about 15 points and half hidden under the sheet. The owner's go: the answer picture is the target's own row of its script (さ: さ し す せ そ; や: や ゆ よ; わ: わ を; ん alone), the target in gold, the row's taught kana in ink and the rest as ghosts, stronger than before; then, “with maybe the grid's info appearing after reveal”, each kana's romaji under it, so the row teaches its family, irregular readings included, which “s + i” headers would get wrong. The romaji are printed in Noto Sans JP, in their kana's colour. The question stays the big kana alone and the picture stays a plain answer picture, so progress is kept as before. The row is sized to the app's answer column: its five slots across fix the kana's size, and the strip is no taller than they and their romaji need. The version stays 1.0.0-rc.4.
+
+
+## 2026-11-11 — The row, lit, on the canvas (#8)
+
+The owner, firmly: the row belongs on the canvas, not in a small answer picture. Reading cards are lit figures again (the deck kit's `"mode": "lit"`), and the figure is the card's kana's own row (さ: さ し す せ そ; や: や ゆ よ; わ: わ を; ん alone), the card's kana in gold, the row's taught kana in ink and the rest as ghosts, stronger in light mode; no romaji printed, the answer the region's title. The region is the whole row rather than the card's kana: the app centres a lit region in the question's window and zooms out to fit it there, and the window is narrower than the canvas beside the bar or a fold, so a one-kana region pushed an a- or o-column kana out of sight; with the row as the region every kana stays whole in every pose, the gold kana saying which is asked. The row's romaji after the answer (the owner's “grid's info”) would be the region's `detail`, but the app shows the card's own note there instead, so the figure has none; that needs the app. The version stays 1.0.0-rc.4.
+
+
+## 2026-11-11 — The reading card, settled (#8)
+
+The owner, after a grilling session: the question is the lit figure of the card's kana's own row, taught kana in ink, the rest as ghosts, no romaji; the lit region is the card's kana alone, so the app's gold outline surrounds only the kana asked; the whole row stays in view by padding the figure with blank paper (the deck, not an app change), the margins set from the app's framing; the answer is the region's title, the romaji, and the note opens with the row as text, `さ sa · し shi · す su · せ se · そ so`, the asked kana and its romaji in bold. The app reads a note as plain text, so the bold shows in Anki only. The version stays 1.0.0-rc.4.

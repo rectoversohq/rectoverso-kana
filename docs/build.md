@@ -2,15 +2,15 @@
 
 Install requirements.txt with Python 3.12. The shared interface is scripts/source_data.py::inputs(language), returning metadata, notes, models and deck. The builder uses Anki's backend. GUIDs, native book/card UUIDs, model IDs, field IDs, template IDs and source deck IDs stay stable. Isolated review components have separate preview identities from the combined course and the earlier phone prototype.
 
-The reading artwork uses Noto Sans JP at weight 400 for kana and SF Pro Text Regular at 72 source pixels for romaji. Noto Serif JP and Yomogi remain limited to selected alternate-form examples. The bundled Japanese font masters retain their OFL notices.
+The reading artwork uses Noto Sans JP at weight 400 for kana; it prints no romaji. SF Pro Text Regular is used only by the cover masters’ lettering (covers 2 and 3), outlined in their committed SVGs. Noto Serif JP and Yomogi remain limited to selected alternate-form examples. The bundled Japanese font masters retain their OFL notices.
 
-Install SF Pro separately from https://developer.apple.com/fonts/ under Apple’s terms. The default input is /Library/Fonts/SF-Pro-Text-Regular.otf. For another location, set:
+To make the cover masters again (or to run the source check, which verifies every pinned font), install SF Pro separately from https://developer.apple.com/fonts/ under Apple’s terms. The default input is /Library/Fonts/SF-Pro-Text-Regular.otf. For another location, set:
 
 ```sh
 export RECTOVERSO_SF_PRO_FONT=/absolute/path/to/SF-Pro-Text-Regular.otf
 ```
 
-The exact expected SHA-256 is eabf0a67833bbe3c80c800e6ce3f36b65e92f3b6ac1d6226ba2981e5cb3a74a5, recorded in artwork/fonts/provenance.json. A missing or different file fails validation; there is no font fallback. No SF Pro binary is downloaded by the build, committed, or included in the packages. The rendered mixed-font artwork is currently a local Apple-platform UI prototype; this does not claim publication clearance under Apple’s font terms.
+The exact expected SHA-256 is eabf0a67833bbe3c80c800e6ce3f36b65e92f3b6ac1d6226ba2981e5cb3a74a5, recorded in artwork/fonts/provenance.json. A missing or different file fails validation; there is no font fallback. No SF Pro binary is downloaded by the build, committed, or included in the packages. The owner cleared SF Pro for the deck’s published pictures (docs/decisions.md, 2026-11-10), when the reading charts still drew it; no card picture draws it now.
 
 Build and verify everything into a new external directory:
 
@@ -66,6 +66,18 @@ Each of the 92 reading notes still has its own four files, named rv-kana-<target
 
 The normal CI command rebuilds and validates these figures. Reading regressions cover sparse edge rows, all target/reading/ordinal/mask mappings, separate note/card identities and label fit. Anki checks verify the actual preparation asset hashes and dimensions; the previous-edition check also compares every referenced image’s bytes, alongside sound bytes and full study-history preservation. Existing collections can retain unused old full-table media; new packages include only cropped tables. Native checks require app PR #831 and remain separately reported.
 
+
+### The lit row (#8)
+
+The reading cards are lit figures (the deck kit’s card payload, “A prepared figure”, `"mode": "lit"`, as the Periodic table’s name cards): the app shows the figure behind the review, nothing masked, outlines the card’s region in gold and asks for its reading, the region’s `title`, which is the answer. The region is the card’s kana; the preparation has that one region, at the kana’s script-global ordinal, and the card’s occlusion has no siblings.
+
+The figure is the card’s kana’s own row of the gojūon (さ: さ し す せ そ; や: や ゆ よ; わ: わ を; ん alone), each kana in its vowel’s slot (a i u e o, left to right), so や/ゆ/よ and わ/を keep their standard places, with no romaji, headers or lines. The row’s kana the card has taught (the target and every same-script kana of its row introduced up to it in the authored sequence) are in ink; the row’s others are ghosts (#BDBAB3 light, #49443C dark); the card’s kana is gold. Over the course each row fills in. Only the inked kana are the card’s `visibleKana`, so only they join what it requires; the ghosts are listed as `ghostKana`.
+
+The whole row stays in view because blank paper pads it. The app centres a lit region in the question’s window and zooms in until it is about 41 to 44 points (`OcclusionFraming`), and the window is narrower than the canvas beside the bar or a fold. So the row’s pitch is set against the region: the farthest kana, four pitches and half a kana from the one asked, stays within 4.1 regions of it, which the closed Duo’s and a 402-point phone’s windows hold. The figure is wide enough that book pose keeps the row under its page’s window without zooming. It is 2,560 × 4,096 pixels (143-pixel pitch, 154-pixel region, kana at 132 pixels): 1.6 times as tall as wide, taller than any question window for its width, so the width sets the scale, and no taller than the 4,096 pixels the app decodes a figure at (a figure scaled down first can miss the app’s size check by a pixel and lose its canvas). The kana come out at about 37 points on a 402-point phone, 40 on the closed Duo and 56 in book pose. Every kana’s ink stays out of its neighbours’ squares, so the outline round the card’s kana never crosses another.
+
+The note opens with the row and its romaji (`さ sa · <b>し shi</b> · す su · せ se · そ so`), then the card’s own note: the answer gives the row’s readings, irregular ones included. Anki shows the asked kana in bold; the app reads a note as plain text, so it shows the row without the bold. A lit region’s `detail` isn’t shown by the app, so the figure has none.
+
+The pictures are indexed PNGs (paper and 16 antialiasing steps to each colour, every flat colour exact), named rv-kana-<target>-litrow-<light|dark>-<source|clean>.png so nothing collides with earlier editions’ figures; contentModifiedAt advances. Notes, cards, GUIDs, card ids and order are unchanged; the update over 1.0.0-rc.3 and 1.0.0-rc.4 keeps every card, note and review. The masked crops, the whole charts and the answer pictures described above are superseded; their introduction rule remains.
 
 ### Kana-only answers and Romaji details (#832)
 

@@ -64,13 +64,19 @@ def course(language,artwork=None,only_type=None,beginner_trial=False):
    if kind=='reading':requires+=[k for k in assets['figures'][q['id']]['visibleKana'] if k!=q['target'] and k not in requires]
    if requires:payload['requires']=requires
    if q.get('introduces'):payload['introduces']=list(q['introduces'])
+  # A reading's note opens with its kana's row, the kana asked in bold (Anki's; the app reads the
+  # note as plain text), so the answer gives the row's readings, irregular ones included.
+  row_line=''
+  if kind=='reading':
+   c=forms[q['target']];members=sorted((k for k in forms.values() if k['script']==c['script'] and k['row']==c['row']),key=lambda k:k['column'])
+   row_line=' · '.join(('<b>'+html.escape(k['kana']+' '+k['reading'])+'</b>') if k==c else html.escape(k['kana']+' '+k['reading']) for k in members)
   for appendix in q.get('appendices',[]):
    entry=trial['guide'] if trial and appendix=='course' else guide[appendix]
    note+='\n\n'+entry['title'][language]+'\n'+entry.get('noteBody',entry['body'])[language]
   back=q.get('answer','');extra='';prompt_audio='';answer_audio='';romaji=''
   if kind=='reading':
    c=forms[q['target']];f=assets['figures'][q['id']];front='<img src="'+f['question']['file']+'" alt="'+c['kana']+'">';media.add(f['question']['file'])
-   # Each cropped figure belongs to this same standalone note; sharing a note
+   # Each row figure belongs to this same standalone note; sharing a note
    # would impose the app's one-sibling-per-day limit on course introductions.
    payload.update(occlusion=f['occlusion'],preparation=f['preparation'],originalOcclusionAnswer=c['reading'])
    for k in ['source','clean','darkSource','darkClean']:
@@ -91,7 +97,7 @@ def course(language,artwork=None,only_type=None,beginner_trial=False):
   if answer_audio:back+='[sound:'+answer_audio+']';media.add(answer_audio)
   search={'v':1,'fields':[{'name':'Kana','values':[forms[q['target']]['kana']] if kind=='reading' else q.get('accepted',[q.get('display','')])},{'name':'Exercise' if language=='en' else 'Exercice','values':[kind]}]}
   if q.get('appendices'):search['fields'].append({'name':'Reference' if language=='en' else 'Référence','values':[guide[k]['title'][language] for k in q['appendices']]})
-  fields=dict(zip(FIELDS,[front,back,instruction,hint,q.get('meaning',{}).get(language,''),html.escape(note).replace('\n','<br>'),json.dumps(search,ensure_ascii=False),html.escape(json.dumps(payload,ensure_ascii=False))+extra,html.escape(romaji)]))
+  fields=dict(zip(FIELDS,[front,back,instruction,hint,q.get('meaning',{}).get(language,''),(row_line+'<br>' if row_line else '')+html.escape(note).replace('\n','<br>'),json.dumps(search,ensure_ascii=False),html.escape(json.dumps(payload,ensure_ascii=False))+extra,html.escape(romaji)]))
   notes.append({'guid':guid,'model':'kana','fields':fields,'tags':['exercise::'+kind,'stage::'+str(q['stage'])],'due':index+1,'itemId':q['id']});kinds.add(kind)
  details=(
   '{{#Romaji}}<section class="context"><input type="button" class="details-button" value="'
@@ -107,8 +113,7 @@ def course(language,artwork=None,only_type=None,beginner_trial=False):
  if trial:meta.update(description=trial['description'][language],headline=trial['headline'])
  meta['pictures']=sorted(n for n in media if n.endswith('.png'))
  font_by_file={f['file']:f.get('font','NotoSansJP.ttf') for f in assets['files']}
- mixed={f['file'] for f in assets['files'] if 'SF-Pro-Text-Regular.otf' in f.get('fonts',[])}
- meta['imageCredits']=[({'file':n,'original':'scripts/render_artwork.py','source':'Original composition: Noto Sans JP kana (OFL-1.1) with romaji drawn in SF Pro Text (Apple; the font itself is not redistributed)','creator':'Simon Pinkas','license':'CC-BY-4.0'} if n in mixed else {'file':n,'original':'artwork/fonts/'+font_by_file[n],'source':'Original composition using pinned open fonts (OFL-1.1)','creator':'Simon Pinkas','license':'CC-BY-4.0'}) for n in meta['pictures']]
+ meta['imageCredits']=[{'file':n,'original':'artwork/fonts/'+font_by_file[n],'source':'Original composition using pinned open fonts (OFL-1.1)','creator':'Simon Pinkas','license':'CC-BY-4.0'} for n in meta['pictures']]
  meta['sounds']=sorted(n for n in media if n.endswith('.mp3'))
  return meta,notes,{'kana':model},{'id':deck_id,'name':trial['title'][language] if trial else words['title']+(' · '+words.get(only_type,only_type)+' · '+('review' if language=='en' else 'à relire') if only_type else ''),'description':trial['description'][language] if trial else words['description']}
 

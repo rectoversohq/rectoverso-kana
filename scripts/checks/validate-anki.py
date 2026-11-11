@@ -1,7 +1,7 @@
 """Validate a rendered component through Anki import/render/study/reimport."""
 import argparse,hashlib,html,json,re,tempfile
 from pathlib import Path
-from PIL import Image
+from PIL import Image, ImageDraw
 import sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from source_data import course,ordered,questions as source_questions
@@ -88,35 +88,45 @@ def inspect(package,output):
     if direction in ('listening','contrast'):verify_kana_detail(card,note,p,question,meta['language'])
     else:assert not note['Romaji'] and 'rv-details' not in after and 'resources' not in p
     if direction=='reading':
-     assert not sounds and p['kind']=='occlusion' and p['preparation']['mode']=='hideAll'
+     # Lit (#8): the card's row of the chart, padded, the card's kana in gold and its region, taught
+     # kana in ink, the row's others as ghosts, nothing else; titled. The note opens with the row.
+     assert not sounds and p['kind']=='occlusion' and p['preparation']['mode']=='lit'
      target=forms[note.guid.split('-read-',1)[1]]
      script=[c for c in kana if c['script']==target['script']]
-     start=max(0,min(target['row']-1,8));top=start*360
-     visible=[c for c in script if start<=c['row']<start+3 and c['id'] in introduced[question['id']]]
-     def box(c):return [[(83+176*c['column'])/1000,(223+360*c['row']-top)/1080],[.13,70/1080]]
+     members=[c for c in script if c['row']==target['row']]
+     taught=[c for c in members if c['id'] in introduced[question['id']]]
+     W,H,PITCH,REGION=2560,4096,143,154
+     def square(c):return (W//2-2*PITCH+PITCH*c['column']-REGION//2,H//2-REGION//2,REGION,REGION)
+     def box(c):x,y,w,h=square(c);return [[x/W,y/H],[w/W,h/H]]
      regions=p['preparation']['regions'];occlusion=p['occlusion']
-     assert [(r['id'],r['ordinal'],r['answer'],r['geometry']['coordinates']) for r in regions]==[(c['id'],script.index(c)+1,c['reading'],sum(box(c),[])) for c in visible]
-     assert occlusion['mode']=='hideAll' and occlusion['imageSize']==[1000,1080]
+     assert regions==[{'id':target['id'],'ordinal':script.index(target)+1,'kind':'label','geometry':{'kind':'rect','coordinates':sum(box(target),[])},'answer':target['reading'],'title':target['reading']}]
+     assert occlusion['mode']=='hideAll' and occlusion['imageSize']==[W,H] and occlusion['siblings']==[]
      assert occlusion['ordinal']==script.index(target)+1 and occlusion['box']==box(target)
      assert occlusion['label']==target['reading'] and p['noteID']==note.guid
-     assert occlusion['siblings']==[{'rect':{'_0':box(c)}} for c in visible if c!=target]
      assert occlusion['imageName']==p['preparation']['source']['file']
+     assert re.findall(r'src="([^"]+)"',note['Front'])==['rv-kana-'+target['id']+'-question.png']
+     in_row=sorted(members,key=lambda c:c['column'])
+     assert note['Note'].startswith(' · '.join(('<b>'+c['kana']+' '+c['reading']+'</b>') if c==target else c['kana']+' '+c['reading'] for c in in_row)+'<br>'),note['Note']
      for role in ['source','clean','darkSource','darkClean']:
       asset=p['preparation'][role];path=Path(col.media.dir())/asset['file']
-      assert '-introduced-' in asset['file'] and [asset['width'],asset['height']]==[1000,1080]
+      assert '-litrow-' in asset['file'] and [asset['width'],asset['height']]==[W,H]
       assert hashlib.sha256(path.read_bytes()).hexdigest()==asset['sha256']
       with Image.open(path) as image:
-       assert image.size==(1000,1080)
+       image=image.convert('RGB');assert image.size==(W,H)
        dark=role.startswith('dark');paper=(33,30,24) if dark else (250,250,249);gold=(255,210,91) if dark else (169,104,8)
-       cx=148+176*target['column'];cy=38+360*target['row']-top
-       # The gold glyph remains; a line below it could look like another stroke.
-       assert image.crop((cx-23,cy+108,cx+24,cy+112)).getextrema()==tuple((v,v) for v in paper)
-       assert gold in image.crop((cx-65,cy-10,cx+65,cy+108)).getdata()
-       for future in script:
-        if start<=future['row']<start+3 and future not in visible:
-         fx=148+176*future['column'];fy=38+360*future['row']-top
-         for area in ((fx-65,fy,fx+65,fy+108),(fx-65,fy+185,fx+65,fy+255)):
-          assert image.crop(area).getextrema()==tuple((v,v) for v in paper),('Future kana or reading visible',future['id'],question['id'])
+       ink=(237,230,216) if dark else (26,24,20);ghost=(73,68,60) if dark else (189,186,179)
+       def colors(c):
+        x,y,w,h=square(c);return {k for _,k in image.crop((x,y,x+w,y+h)).getcolors(1<<24)}
+       for c in members:
+        found=colors(c)
+        if c==target:assert (gold in found and ink not in found) if role in ('source','darkSource') else found=={paper},c['id']
+        elif c in taught:assert ink in found and ghost not in found and gold not in found,(asset['file'],c['id'])
+        else:assert ghost in found and ink not in found and gold not in found,(asset['file'],c['id'])
+       # Nothing else is drawn: no romaji, no headers, no lines, no other row.
+       rest=image.copy();draw=ImageDraw.Draw(rest)
+       for c in members:
+        x,y,w,h=square(c);draw.rectangle((x,y,x+w-1,y+h-1),fill=paper)
+       assert rest.getextrema()==tuple((v,v) for v in paper),('Ink outside the row',asset['file'])
      assert '[sound:' in note['Back'] and card.answer_av_tags() and p['originalOcclusionAnswer'] in note['Back']
     if direction=='listening':
      assert len(sounds)==1 and note['Front']=='[sound:'+sounds[0]+']' and len(card.question_av_tags())==1 and p['kind']=='basic'
