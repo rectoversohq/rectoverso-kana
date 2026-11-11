@@ -1,13 +1,13 @@
 {
   "id": "rectoverso-kana",
-  "version": "1.0.0-rc.4",
-  "releaseTag": "v1.0.0-rc.4",
+  "version": "1.0.0",
+  "releaseTag": "v1.0.0",
   "guidPrefix": "rv-kana",
   "identityBase": 1794200000,
-  "contentModifiedAt": "2026-11-11T20:28:26Z",
+  "contentModifiedAt": "2026-11-11T23:03:00Z",
   "publication": {
     "remote": "https://github.com/rectoversohq/rectoverso-kana",
-    "release": "https://github.com/rectoversohq/rectoverso-kana/releases/tag/v1.0.0-rc.4",
+    "release": "https://github.com/rectoversohq/rectoverso-kana/releases/tag/v1.0.0",
     "approved": true,
     "visibility": "public"
   },
@@ -26,6 +26,10 @@
   "description": {
     "en": "Start with hiragana, then learn katakana. Connect each kana with its sound in both directions: read it and recall the sound, or listen and recall the character.\n\nWatch single-kana answers appear stroke by stroke. Practice sound marks, small kana and long vowels through short words, with explanations and comparisons to help you tell similar characters apart. No previous Japanese needed; handwriting is optional.",
     "fr": "Commencez par les hiragana, puis apprenez les katakana. Associez chaque kana à sa prononciation dans les deux sens : lisez-le et retrouvez le son, ou écoutez et retrouvez le caractère.\n\nLes réponses d’un seul kana se dessinent trait par trait. Exercez-vous aux signes qui modifient la prononciation, aux petits kana et aux voyelles longues à travers des mots courts, avec des explications et des comparaisons entre caractères proches. Aucune connaissance préalable du japonais n’est nécessaire ; écrire reste facultatif."
+  },
+  "whatsNew": {
+    "en": "Each kana is now read alone, large, in a writing square; its row of the chart appears after the answer. Four alternate forms use a textbook typeface. The recordings were made again, in the same voice.",
+    "fr": "Chaque kana se lit désormais seul, en grand, dans un carré d’écriture ; sa ligne du tableau apparaît après la réponse. Quatre variantes utilisent une police de style scolaire. Les enregistrements ont été refaits, avec la même voix."
   },
   "languages": {
     "en": {
@@ -2819,7 +2823,7 @@
   "sources": [
     {
       "name": "Kana — original course and compositions, Simon Pinkas",
-      "version": "1.0.0-rc.4",
+      "version": "1.0.0",
       "url": "https://github.com/rectoversohq/rectoverso-kana",
       "license": "CC-BY-4.0 (original material; third-party contributions separately credited)"
     },
@@ -2874,7 +2878,7 @@
     "artwork": "artwork"
   },
   "reviewStatus": {
-    "publication": "release candidate, approved by the owner for RectoVerso's gallery in TestFlight (2026-11-10); 1.0.0 follows the listening review",
+    "publication": "released, approved by the owner (2026-11-12) after trying it on an iPhone; the recordings approved by ear on 2026-11-11, not a native-speaker review",
     "copyAndNames": "Owner-approved (2026-11-10): the title Kana, the Languages category, the gallery headline and description, and the sample (the listening card ふ, whose answer the app draws with the brush)",
     "questionTypes": [
       "reading",

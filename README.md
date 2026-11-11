@@ -1,6 +1,6 @@
 # Kana
 
-An English/French beginner course, at its release candidate 1.0.0-rc.4, which the owner approved for RectoVerso’s gallery in TestFlight (1.0.0 follows the listening review), following the owner-confirmed [course brief](docs/course-brief.md). Its 292 questions were authored one type at a time, with separate Astra reviewers at high effort for facts and pedagogy.
+An English/French beginner course, at version 1.0.0, which the owner approved for release, following the owner-confirmed [course brief](docs/course-brief.md). Its 292 questions were authored one type at a time, with separate Astra reviewers at high effort for facts and pedagogy.
 
 | Type | Questions |
 | --- | ---: |
@@ -33,7 +33,7 @@ The first eight questions introduce あ・い and then う・え through reading
 
 An isolated [20-question beginner trial](docs/beginner-trial.md) is available with `--beginner-trial`. It has its own study identities and reuses the reviewed opening. Use scheduled Review with four new questions, In deck order and After reviews; the authored source checks do not implement app-side exposure gating. [App prerequisite handoff](docs/app-prerequisite-handoff.md). [Gallery cover build and remaining integration](docs/gallery-todo.md).
 
-The owner-approved title is **Kana** in both languages. This single repository shares Japanese content and media between the English and French packages. Gallery copy and sample remain working candidates for owner review. The shared `study` preset declares deck order, four new questions per day and placement after reviews, using [app #823 / #805](https://github.com/simonpinkas/RectoVerso/pull/823). A supporting app applies it only when first adding the deck from the gallery; direct APKG imports keep their existing options. No release, gallery pin or phone installation is authorized by these local review packages.
+The owner-approved title is **Kana** in both languages. This single repository shares Japanese content and media between the English and French packages. The gallery copy and the sample are owner-approved. The shared `study` preset declares deck order, four new questions per day and placement after reviews, using [app #823 / #805](https://github.com/simonpinkas/RectoVerso/pull/823). A supporting app applies it only when first adding the deck from the gallery; direct APKG imports keep their existing options. A release, a gallery pin and a phone installation each wait for the owner’s go.
 
 © Simon Pinkas. Original authored material: CC BY 4.0. The bundled Japanese fonts use OFL-1.1, with complete notices in artwork/fonts/. SF Pro (Apple), for the Latin lettering of covers 2 and 3 only, outlined in their artwork; the font file isn’t included. The owner cleared it for publication under Apple’s terms (2026-11-10). The Japanese recordings (`LicenseRef-Microsoft-Azure-AI-Speech`) are Microsoft’s Nanami voice through Azure AI Speech, at −20%, under Microsoft’s Product Terms for Azure; not CC BY 4.0 and not relicensed here. The owner approved all 133 by ear (2026-11-11), not a native-speaker review; three are spoken from other text than their card shows, and provenance.json’s inputNote says why.
 

@@ -2,7 +2,7 @@
 
 **Read `kit/AGENTS.md` first.** The deck kit ([rectoverso-deck-kit](https://github.com/rectoversohq/rectoverso-deck-kit), a submodule at `kit/`: `git submodule update --init kit`) holds what every deck follows: the deck contract, its check, and the rules for authoring, covers, languages, versions and releases. This file adds this deck’s own rules.
 
-Read README.md, rectoverso.json, docs/course-brief.md and docs/review.md before authoring. This is a release candidate of a multilingual gallery deck (1.0.0-rc.4), which the owner approved for RectoVerso’s gallery in TestFlight; 1.0.0 follows the listening review, on the owner’s go. The owner authorized sequential construction of question types with two Astra reviewers at high effort: factual accuracy and pedagogy. The app repository is read-only.
+Read README.md, rectoverso.json, docs/course-brief.md and docs/review.md before authoring. This is a multilingual gallery deck at version 1.0.0, which the owner approved for release (2026-11-12). The owner authorized sequential construction of question types with two Astra reviewers at high effort: factual accuracy and pedagogy. The app repository is read-only.
 
 ## Authoring and review
 
@@ -22,7 +22,7 @@ Keep GUIDs, model/field/template/deck IDs and package identities stable once stu
 
 Prerequisites are part of the contract (app #876, the Library page’s “Prerequisites”): each note’s “RectoVerso” payload says what its card requires and what it introduces, as lists of this course’s own tokens (lowercase words and digits with hyphens: hira-3042, hira-marks-g). Only a card that teaches introduces: a reading introduces its kana, a rule its rule. A card requires everything it shows or asks that another card teaches: a listening, word, comparison, variant or checkpoint question its kana and rules, and a reading the other kana its answer’s row shows as taught (visibleKana). The app’s Lesson mode holds a card back until the cards that introduce what it requires have been answered. scripts/source_data.py writes both keys from the source’s requires/introduces and the artwork record; the complete course and the beginner trial carry them, a type preview declares nothing (it could not teach what it requires). The gallery’s check refuses a token no card of the package introduces, a card that could never come, and a deck’s order that asks before it teaches; tests/test_prerequisite_payload.py holds the packages to the same rules.
 
-The authoritative contract is the deck kit’s, pinned at `kit/` (kit/docs/contract.md, kit/docs/card-payload.md, kit/docs/prerequisites.md): never edit a file under `kit/` from here, and a new field, value or form is a change to the kit, made there first. Moving the pin is a pull request of its own. publication.approved is the owner’s to set, edition by edition: the candidate 1.0.0-rc.4 is approved for the gallery in TestFlight, and a passing check is never itself an approval.
+The authoritative contract is the deck kit’s, pinned at `kit/` (kit/docs/contract.md, kit/docs/card-payload.md, kit/docs/prerequisites.md): never edit a file under `kit/` from here, and a new field, value or form is a change to the kit, made there first. Moving the pin is a pull request of its own. publication.approved is the owner’s to set, edition by edition: the candidate 1.0.0-rc.4 was approved for the gallery in TestFlight and 1.0.0 for release, and a passing check is never itself an approval.
 
 ## Validation and Git
 
