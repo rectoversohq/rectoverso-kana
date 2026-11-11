@@ -54,7 +54,7 @@ def course(language,artwork=None,only_type=None,beginner_trial=False):
  identity_key=prefix if trial else 'rv-kana'
  notes=[];media=set();kinds=set()
  for index,q in enumerate(items):
-  kind=q['type'];guid=f'{prefix}-{language}-{q["id"]}';payload={'v':1,'book':book,'card':str(uuid.uuid5(NS,guid)),'kind':'basic','noteID':guid}
+  kind=q['type'];guid=f'{prefix}-{language}-{q["id"]}';payload={'v':1,'book':book,'card':str(uuid.uuid5(NS,guid)),'kind':'occlusion' if kind=='reading' else 'basic','noteID':guid}
   instruction=q['instruction'][language];hint='';note=q['note'][language];
   # The app's Lesson mode (its Library page, "Prerequisites"): what the card requires and what it
   # introduces, in the course's own tokens. A reading also requires the other kana its figure
@@ -70,11 +70,11 @@ def course(language,artwork=None,only_type=None,beginner_trial=False):
   back=q.get('answer','');extra='';prompt_audio='';answer_audio='';romaji=''
   if kind=='reading':
    c=forms[q['target']];f=assets['figures'][q['id']];front='<img src="'+f['question']['file']+'" alt="'+c['kana']+'">';media.add(f['question']['file'])
-   # The answer: the reading, then its row of the chart filling in, a picture beside the answer
-   # (the deck kit's card payload, "The words come from the visible fields"), shown once claimed.
-   members=[forms[k] for k in sorted(f['visibleKana']+f['ghostKana'],key=lambda k:forms[k]['column'])]
-   alt=words['chartDescription'].format(first=members[0]['kana'],row=', '.join(m['kana']+' '+m['reading'] for m in members),taught=len(f['visibleKana']),total=len(members),kana=c['kana'])
-   back+='<img src="'+f['answer']['file']+'" alt="'+html.escape(alt,quote=True)+'">';media.add(f['answer']['file'])
+   # Each row figure belongs to this same standalone note; sharing a note
+   # would impose the app's one-sibling-per-day limit on course introductions.
+   payload.update(occlusion=f['occlusion'],preparation=f['preparation'],originalOcclusionAnswer=c['reading'])
+   for k in ['source','clean','darkSource','darkClean']:
+    media.add(f[k]['file']);extra+='<img src="'+f[k]['file']+'">'
    answer_audio=c['audio']
   elif kind=='listening':
    front='';prompt_audio=q['audio'];back=' / '.join(q['accepted']);romaji=q['answerReading'];answer_audio=q['audio'];hint=words['listenOnePrompt'] if len(q['accepted'])>1 else ''

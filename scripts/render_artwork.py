@@ -7,25 +7,22 @@ from font_sources import font_path
 from source_data import reading_introductions
 
 ROOT=Path(__file__).resolve().parents[1]
-# A reading card's answer shows its kana's own row of the gojūon (さ: さ し す せ そ; や: や ゆ よ; わ: わ を;
-# ん alone), each kana in its vowel's slot (a i u e o, left to right), its romaji under it, so the row
-# teaches its family, irregular readings (shi, chi, tsu, fu) included. The app sets a picture beside a
-# text answer across the answer's column (314 pt on a 402-pt phone), so five slots across fix the
-# kana's size; the strip is no taller than the kana and their romaji need, so it stands whole on
-# the sheet. 1,050 pixels wide: at least the device's pixels on a 3x phone. The app shows one answer
-# picture in light and dark alike, so the row is printed on its own paper, as the question is.
-CELL=210
-COLUMNS=5
-W,H=COLUMNS*CELL,268
-KANA_SIZE=140
-KANA_Y=104
-ROMAJI_SIZE=50
-ROMAJI_BASELINE=238
-REGION=170
-FRAME=4
-CHART={'paper':'#FAFAF9','ink':'#1A1814','ghost':'#BDBAB3','accent':'#A96808'}
-PALETTES={'light':{'paper':'#FAFAF9','ink':'#1A1814','accent':'#A96808'},'dark':{'paper':'#211E18','ink':'#EDE6D8','accent':'#FFD25B'}}
-# Each chart is indexed: paper, then STEPS antialiasing steps from paper to ink, to the ghost and
+# A reading card's figure is its kana's own row of the gojūon (さ: さ し す せ そ; や: や ゆ よ; わ: わ を; ん
+# alone), each kana in its vowel's slot (a i u e o, left to right), lit (the deck kit's "mode":
+# "lit"). The app centres a lit region in the question's window and zooms out until it fits there
+# (`OcclusionFraming`), and the window is narrower than the figure's canvas beside the bar or a
+# fold: so the region is the row itself, from its first kana to its last, and the whole row stands
+# in the window in every pose; the card's kana is the one in gold. The figure is a row's width (half
+# a cell either side) and taller than any window is for its width, so the width sets the scale.
+# CELL pixels a cell keep it sharp at its largest on a 3x screen.
+CELL=340
+MARGIN=CELL//2
+CELLS_HIGH=14
+W,H=5*CELL+2*MARGIN,CELLS_HIGH*CELL
+ROW_Y=H//2
+KANA_SIZE=224
+PALETTES={'light':{'paper':'#FAFAF9','ink':'#1A1814','ghost':'#BDBAB3','accent':'#A96808'},'dark':{'paper':'#211E18','ink':'#EDE6D8','ghost':'#49443C','accent':'#FFD25B'}}
+# Each figure is indexed: paper, then STEPS antialiasing steps from paper to ink, to the ghost and
 # to gold, so every flat colour stays exact and the file small.
 STEPS=16
 ROLES=('ink','ghost','accent')
@@ -43,19 +40,23 @@ def text_center(im,text,xy,size,color,hand=False,serif=False):
 def save(im,out,name):
  p=out/name;im.save(p,optimize=True)
  return {'file':name,'width':im.width,'height':im.height,'sha256':sha(p)}
-def slot(c):
- """A kana's slot in the row, in pixels: its vowel's fifth of the strip, top to bottom."""
- return (CELL*c['column'],0,CELL,H)
 def square(c):
- """The square a kana keeps to; the card's own is outlined in gold."""
- x=CELL*c['column']+(CELL-REGION)//2
- return (x,KANA_Y-REGION//2,REGION,REGION)
+ """A kana's cell in the figure, in pixels: its vowel's slot of the row."""
+ return (MARGIN+CELL*c['column'],ROW_Y-CELL//2,CELL,CELL)
+def span(members):
+ """The row's region, in pixels: from its first kana's cell to its last's."""
+ first=min(c['column'] for c in members);last=max(c['column'] for c in members)
+ return (MARGIN+CELL*first,ROW_Y-CELL//2,CELL*(last-first+1),CELL)
 
 def row(target,forms,introduced):
  """The target's row: its kana taught by this card in ink (the target among them), the rest ghosts."""
  members=[c for c in forms if c['row']==target['row']]
  taught=[c for c in members if c['id'] in introduced or c==target]
  return taught,[c for c in members if c not in taught]
+
+def normalized_box(members):
+ x,y,w,h=span(members)
+ return [[x/W,y/H],[w/W,h/H]]
 
 
 def hexrgb(h):return tuple(int(h[i:i+2],16) for i in (1,3,5))
@@ -69,29 +70,22 @@ def level(role):
  offset=1+ROLES.index(role)*STEPS
  return [0 if a==0 else offset+max(0,-(-a*STEPS//255)-1) for a in range(256)]
 def glyphs(forms):
- """Each kana's coverage in its slot, with its romaji under it, drawn once: the places never change."""
+ """Each kana's coverage in its cell, drawn once: the places never change."""
  result={}
  for f in forms:
-  x,y,w,h=slot(f);sx,sy,sw,sh=square(f)
-  # Drawn with a slot's room round it: the kana keeps to its square and its romaji to the slot,
-  # so no slot takes in a neighbor's ink.
+  x,y,w,h=square(f)
+  # Drawn with a cell's room round it: every kana keeps to its own cell.
   room=CELL;probe=Image.new('L',(w+2*room,h+2*room),0)
-  text_center(probe,f['kana'],(sx-x+sw//2+room,KANA_Y+room),KANA_SIZE,255)
+  text_center(probe,f['kana'],(w//2+room,h//2+room),KANA_SIZE,255)
   b=probe.getbbox()
-  if not (room+sx-x<=b[0] and room+sy<=b[1] and b[2]<=room+sx-x+sw and b[3]<=room+sy+sh):raise ValueError('The kana falls outside its square: '+f['id'])
-  # Every romaji on one baseline, centred in its slot.
-  ImageDraw.Draw(probe).text((w//2+room,ROMAJI_BASELINE+room),f['reading'],font=font(ROMAJI_SIZE),fill=255,anchor='ms')
-  b=probe.getbbox()
-  if not (room+8<=b[0] and room+8<=b[1] and b[2]<=room+w-8 and b[3]<=room+h-8):raise ValueError('The romaji falls outside its slot: '+f['id'])
+  if not (room<=b[0] and room<=b[1] and b[2]<=room+w and b[3]<=room+h):raise ValueError('The kana falls outside its cell: '+f['id'])
   result[f['id']]=probe.crop((room,room,room+w,room+h))
  return result
-def figure(members,coverage,roles):
- """The row with each kana and its romaji in its role (ink, ghost or accent), the accent's square outlined."""
- im=Image.new('P',(W,H),0);im.putpalette(palette(CHART))
+def figure(members,coverage,roles,pal):
+ """The row with each kana in its role (ink, ghost or accent), or left out (None)."""
+ im=Image.new('P',(W,H),0);im.putpalette(palette(pal))
  for f in members:
-  x,y,_,_=slot(f);im.paste(coverage[f['id']].point(level(roles[f['id']])),(x,y))
-  if roles[f['id']]=='accent':
-   sx,sy,sw,sh=square(f);ImageDraw.Draw(im).rectangle((sx,sy,sx+sw-1,sy+sh-1),outline=1+ROLES.index('accent')*STEPS+STEPS-1,width=FRAME)
+  if roles.get(f['id']):x,y,_,_=square(f);im.paste(coverage[f['id']].point(level(roles[f['id']])),(x,y))
  return im
 
 def render(output,only_type=None):
@@ -105,17 +99,30 @@ def render(output,only_type=None):
  for script in ['hira','kata']:
   forms=[c for c in kana if c['script']==script]
   coverage=glyphs(forms)
+  ordinals={f['id']:i+1 for i,f in enumerate(forms)}
   for q in [q for q in questions if q['type']=='reading' and q['target'].startswith(script+'-')]:
    c=next(c for c in forms if c['id']==q['target']);assets={}
    taught,ghosts=row(c,forms,introductions[q['id']])
+   members=sorted(taught+ghosts,key=lambda f:f['column'])
    assets['visibleKana']=[f['id'] for f in taught]
    assets['ghostKana']=[f['id'] for f in ghosts]
-   # The card's row, filling in over the course: what this card has taught in ink, the rest faint,
-   # the card's kana and its romaji in gold. It's the answer's picture, shown once answered.
-   roles={f['id']:'ink' if f in taught else 'ghost' for f in taught+ghosts}|{c['id']:'accent'}
-   assets['answer']=save(figure(taught+ghosts,coverage,roles),output,f'rv-kana-{c["id"]}-answer-row.png');record['files'].append(assets['answer'])
+   # Lit (the deck kit's card payload, "A prepared figure"): the row shown and outlined by the app,
+   # the card's kana in gold; its reading is the region's title, the answer.
+   region={'id':c['id'],'ordinal':ordinals[c['id']],'kind':'label','geometry':{'kind':'rect','coordinates':sum(normalized_box(members),[])},'answer':c['reading'],'title':c['reading']}
+   roles={f['id']:'ink' if f in taught else 'ghost' for f in members}
+   size=(W,H)
+   for mode,pal in PALETTES.items():
+    # Over the course each row fills in. The source adds the card's kana in gold; the clean
+    # figure leaves its cell empty.
+    source=figure(members,coverage,roles|{c['id']:'accent'},pal);clean=figure(members,coverage,roles|{c['id']:None},pal)
+    for role,im in [('source',source),('clean',clean)]:
+     key=role if mode=='light' else 'dark'+role.capitalize()
+     assets[key]=save(im,output,f'rv-kana-{c["id"]}-litrow-{mode}-{role}.png')
+     record['files'].append(assets[key])
    standalone=Image.new('RGB',(700,500),PALETTES['light']['paper']);text_center(standalone,c['kana'],(350,245),280,PALETTES['light']['ink'])
    assets['question']=save(standalone,output,f'rv-kana-{c["id"]}-question.png');record['files'].append(assets['question'])
+   assets['occlusion']={'imageName':assets['source']['file'],'box':normalized_box(members),'siblings':[],'label':c['reading'],'mode':'hideAll','ordinal':ordinals[c['id']],'imageSize':list(size)}
+   assets['preparation']={'version':1,**{k:assets[k] for k in ['source','clean','darkSource','darkClean']},'masksSHA256':hashlib.sha256(b'').hexdigest(),'mode':'lit','regions':[region],'canvas':{'method':'flat-srgb-v1','light':[250/255,250/255,249/255],'dark':[33/255,30/255,24/255]}}
    record['figures'][q['id']]=assets
   print('Rendered',sum(q['type']=='reading' and q['target'].startswith(script+'-') for q in questions),script,'reading figures',flush=True)
  # Later question types use isolated word/contrast/alternate figures.
