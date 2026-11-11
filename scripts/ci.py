@@ -41,7 +41,7 @@ def ci(output,previous=None):
         build(language,trial,artwork=other_artwork,beginner_trial=True)
         command('scripts/checks/validate-rebuild.py',output/'trials'/trial.name,trial,output/'evidence'/f'{language}-trial-rebuild.json')
     command('scripts/checks/verify-covers.py','--output',output/'first/packages','--compare',output/'second/packages')
-    report=dict(coverPNGs=6,independentCoverBytesExact=True,status='pass',beginnerTrialCards=20,cards=source['cards'],types=source['types'],languages=['en','fr'],independentArtworkBytesExact=True,independentPackageSemanticsExact=True,studyProgressPreserved=True,publicationApproved=False,nativeChecks='partial; see docs/review.md',newAudioListening='pending')
+    report=dict(coverPNGs=6,independentCoverBytesExact=True,status='pass',beginnerTrialCards=20,cards=source['cards'],types=source['types'],languages=['en','fr'],independentArtworkBytesExact=True,independentPackageSemanticsExact=True,studyProgressPreserved=True,publicationApproved=False,nativeChecks='partial; see docs/review.md',audioListening='owner-approved by ear; not a native-speaker review')
     (output/'result.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report),flush=True)
 
 if __name__=='__main__':

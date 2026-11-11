@@ -133,7 +133,8 @@
   },
   {
     "file": "rv-kana-rule-kata-shu.mp3",
-    "input": "シュ",
+    "input": "しゅ",
+    "inputNote": "Spoken as しゅ, in hiragana: as シュ, nothing was heard (Azure’s recognizer agreed). The card shows シュ. The owner’s pick, by ear, 2026-11-11.",
     "reading": "shu",
     "purpose": "rule-kata-shu"
   },

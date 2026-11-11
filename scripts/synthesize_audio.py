@@ -97,7 +97,7 @@ def author(requests, cache, region=REGION, interval=3.5, regenerate=False):
     provenance = json.loads((DESTINATION/'provenance.json').read_text())
     known = {row['file']: row for row in provenance}
     if regenerate:
-        requests = [{k: row[k] for k in ('file', 'input', 'reading', 'purpose', 'sourceId', 'voice', 'rate') if k in row} for row in provenance]
+        requests = [{k: row[k] for k in ('file', 'input', 'inputNote', 'reading', 'purpose', 'sourceId', 'voice', 'rate') if k in row} for row in provenance]
     speech = None
     try:
         for request in requests:
