@@ -34,9 +34,12 @@ Audio authoring is a separate online operation, never part of a package build:
 
 ```sh
 python scripts/synthesize_audio.py --requests source/audio/requests-type-07.json --cache /external/provider-originals
+python scripts/synthesize_audio.py --regenerate --cache /external/provider-originals
 ```
 
-It uses ja-JP-NanamiNeural at −20%, preserves provider originals externally, uses scripts/audio_processing.py to retain conservatively detected speech (-65 dBFS in 5 ms windows), with 40 ms lead and 75 ms tail, and applies constant gain toward -20 dBFS active RMS, capped at -3 dBFS peak and +10 dB gain. Speech is never time-stretched or pitch-shifted. The #826 preparation of the existing 131 frozen MP3s used their previous bytes, not a new synthesis: preparation826 records each previous SHA-256 and signal metadata; top-level hashes and signal fields describe the current file. Original inputs and before/after measurements are retained externally in builds/sound-player-826-20261108/audio/. Frozen input/hash disagreements fail instead of silently replacing an approved file. ffmpeg is needed only for authoring, not normal builds.
+The provider is Azure AI Speech, through its REST API in the Speech resource’s region (--region, switzerlandnorth by default), asking for lossless 24 kHz 16-bit mono WAV (riff-24khz-16bit-mono-pcm), the processing’s own rate. The key is read from the login Keychain at run time (account azure-speech, service rectoverso-azure-speech), never printed, logged, passed on a command line or written to a file. Requests are paced for the free tier (one every 3.5 s, --interval), back off on HTTP 429 and stop at a repeated 401 or 403. --requests appends new requests and refuses a change to a recorded one; --regenerate synthesizes every recording in provenance.json again from its own input, voice and rate, replacing its file and its row (a cached original is reused, so an interrupted run resumes without new requests). Where the text a voice needs differs from what a card shows, the request’s input is the spoken text and its inputNote says why.
+
+It uses ja-JP-NanamiNeural at −20%, preserves provider originals externally, uses scripts/audio_processing.py to retain conservatively detected speech (-65 dBFS in 5 ms windows), with 40 ms lead and 75 ms tail, and applies constant gain toward -20 dBFS active RMS, capped at -3 dBFS peak and +10 dB gain. Speech is never time-stretched or pitch-shifted. Every recording was synthesized again through Azure for #6, from the same inputs, voice and rate; each provenance row names its engine, its provider original’s SHA-256 and the processed file’s hash and signal fields. The earlier edge-tts recordings and their provenance are retained externally in builds/azure-recordings-20261111/ beside this checkout. Frozen input/hash disagreements fail instead of silently replacing an approved file. ffmpeg is needed only for authoring, not normal builds.
 
 Native iPhone/Duo validation is separate from offline CI. The owner reauthorized simulator use on 2026-11-08. Respect the app repository's device locks and restore/shut down owned simulators afterward. Current coverage and limits are in docs/review.md; native evidence and replayable paths stay in the external output directory. Normal-size iPhone reveal/replay checks wait for the sheet animation before testing one ordinary answer scroll. The compact noteBody is emitted into native answer notes; body retains the full guide/reference text for documentation and descriptions. Source/build passes are not publication approval or native-speaker audio clearance.
 
@@ -92,7 +95,7 @@ The two new frozen sources are authored with the existing voice and processing s
 python scripts/synthesize_audio.py --requests source/audio/requests-v02.json --cache /external/kana-provider-originals
 ```
 
-Normal builds never synthesize audio. The 131 existing recordings and their provenance are unchanged; the two new files retain pending human listening review. All 668 existing rendered image records and geometry remain identical; only the two new words’ light/dark isolated figures are added to the artwork manifest. Those isolated word figures are review renders, not packaged word prompts.
+Normal builds never synthesize audio. All 668 existing rendered image records and geometry remain identical; only the two new words’ light/dark isolated figures are added to the artwork manifest. Those isolated word figures are review renders, not packaged word prompts.
 
 
 ### Isolated beginner trial

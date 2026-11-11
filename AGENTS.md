@@ -10,7 +10,7 @@ Build one question type, validate its packages and rendered behavior, and addres
 
 The confirmed course brief owns pedagogy and scope. The owner decides final names, copy, sample, categories, coverage changes, covers and releases. Working metadata remains unapproved until reviewed. Add dated owner decisions to docs/decisions.md, preserving earlier entries.
 
-Each language is complete. English is American English. French is France’s French: « guillemets », narrow no-break spaces before ; : ! ? and %, typographic apostrophes and …; a deck is « un deck ». Shared Japanese content and media have one source. Original prose/compositions are © Simon Pinkas, CC BY 4.0; font and audio terms retain their own provenance. The Japanese recordings are Microsoft’s Nanami voice, made through edge-tts: the owner decided (2026-11-10) to publish them as they are and accepts that risk. They are not CC BY 4.0 and not relicensed: never present them as licensed or cleared for redistribution.
+Each language is complete. English is American English. French is France’s French: « guillemets », narrow no-break spaces before ; : ! ? and %, typographic apostrophes and …; a deck is « un deck ». Shared Japanese content and media have one source. Original prose/compositions are © Simon Pinkas, CC BY 4.0; font and audio terms retain their own provenance. The Japanese recordings are Microsoft’s Nanami voice, made through Azure AI Speech under Microsoft’s Product Terms for Azure (#6); scripts/synthesize_audio.py reads the Speech key from the login Keychain at run time, and the key never enters the repository, a log or a command line. The recordings are not CC BY 4.0 and not relicensed here: never present them as part of the deck’s own license.
 
 ## Source and contract
 

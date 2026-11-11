@@ -25,7 +25,8 @@
   },
   {
     "file": "rv-kana-check-tamago.mp3",
-    "input": "卵",
+    "input": "たまご",
+    "inputNote": "Spoken as たまご, in kana: as 卵, the voice read “tengo”. The card shows 卵. The owner’s pick, by ear, 2026-11-11.",
     "reading": "tamago",
     "purpose": "check-tamago"
   },
