@@ -54,40 +54,41 @@ def course(language,artwork=None,only_type=None,beginner_trial=False):
  identity_key=prefix if trial else 'rv-kana'
  notes=[];media=set();kinds=set()
  for index,q in enumerate(items):
-  kind=q['type'];guid=f'{prefix}-{language}-{q["id"]}';payload={'v':1,'book':book,'card':str(uuid.uuid5(NS,guid)),'kind':'occlusion' if kind=='reading' else 'basic','noteID':guid}
+  kind=q['type'];guid=f'{prefix}-{language}-{q["id"]}';payload={'v':1,'book':book,'card':str(uuid.uuid5(NS,guid)),'kind':'occlusion' if kind in ('reading','variant') else 'basic','noteID':guid}
   instruction=q['instruction'][language];hint='';note=q['note'][language];
   # The app's Lesson mode (its Library page, "Prerequisites"): what the card requires and what it
-  # introduces, in the course's own tokens. A reading also requires the other kana its figure
-  # shows. A type preview alone can't teach what it requires, so it declares nothing.
+  # introduces, in the course's own tokens. A reading also requires the other kana its answer's
+  # row shows as taught. A type preview alone can't teach what it requires, so it declares nothing.
   if only_type is None:
    requires=list(q.get('requires',[]))
    if kind=='reading':requires+=[k for k in assets['figures'][q['id']]['visibleKana'] if k!=q['target'] and k not in requires]
    if requires:payload['requires']=requires
    if q.get('introduces'):payload['introduces']=list(q['introduces'])
-  # A reading's note opens with its kana's row, the kana asked in bold (Anki's; the app reads the
-  # note as plain text), so the answer gives the row's readings, irregular ones included.
-  row_line=''
-  if kind=='reading':
-   c=forms[q['target']];members=sorted((k for k in forms.values() if k['script']==c['script'] and k['row']==c['row']),key=lambda k:k['column'])
-   row_line=' · '.join(('<b>'+html.escape(k['kana']+' '+k['reading'])+'</b>') if k==c else html.escape(k['kana']+' '+k['reading']) for k in members)
   for appendix in q.get('appendices',[]):
    entry=trial['guide'] if trial and appendix=='course' else guide[appendix]
    note+='\n\n'+entry['title'][language]+'\n'+entry.get('noteBody',entry['body'])[language]
   back=q.get('answer','');extra='';prompt_audio='';answer_audio='';romaji=''
-  if kind=='reading':
-   c=forms[q['target']];f=assets['figures'][q['id']];front='<img src="'+f['question']['file']+'" alt="'+c['kana']+'">';media.add(f['question']['file'])
-   # Each row figure belongs to this same standalone note; sharing a note
-   # would impose the app's one-sibling-per-day limit on course introductions.
-   payload.update(occlusion=f['occlusion'],preparation=f['preparation'],originalOcclusionAnswer=c['reading'])
+  if kind in ('reading','variant'):
+   # One kana alone in its writing square, lit (the deck kit's card payload, "A prepared figure"):
+   # a reading's, or an alternate form's in its own face. Each figure belongs to this same
+   # standalone note; sharing a note would impose the app's one-sibling-per-day limit on course
+   # introductions.
+   f=assets['figures'][q['id']];shown=forms[q['target']]['kana'] if kind=='reading' else q['display']
+   alt=shown if kind=='reading' else ('Kana in an alternate style' if language=='en' else 'Kana dans un autre style')
+   front='<img src="'+f['question']['file']+'" alt="'+alt+'">';media.add(f['question']['file'])
+   payload.update(occlusion=f['occlusion'],preparation=f['preparation'],originalOcclusionAnswer=q['answer'])
    for k in ['source','clean','darkSource','darkClean']:
     media.add(f[k]['file']);extra+='<img src="'+f[k]['file']+'">'
-   answer_audio=c['audio']
+   if kind=='reading':
+    # Once answered, the kana's row of the chart, filling in, under its name: a picture the app
+    # shows under the answer (the payload's resources), which Anki packs with the note.
+    payload['resources']=[{'name':words['rowLabel'],'text':'','images':[f['row']['file']]}]
+    media.add(f['row']['file']);extra+='<img src="'+f['row']['file']+'">'
+   answer_audio=forms[q['target']]['audio'] if kind=='reading' else q.get('audio','')
   elif kind=='listening':
    front='';prompt_audio=q['audio'];back=' / '.join(q['accepted']);romaji=q['answerReading'];answer_audio=q['audio'];hint=words['listenOnePrompt'] if len(q['accepted'])>1 else ''
   else:
    front=html.escape(q['display'])
-   if kind=='variant':
-    f=assets['figures'][q['id']];front='<img src="'+f['dark']['file']+'" alt="'+('Kana in an alternate style' if language=='en' else 'Kana dans un autre style')+'">';media.add(f['dark']['file'])
    answer_audio=q.get('audio','')
    # Context meanings remain on the answer; the task caption supplies no reading clue.
    if kind=='contrast':prompt_audio=q['audio'];back=q['answerKana'];romaji=q['answerReading']
@@ -97,7 +98,7 @@ def course(language,artwork=None,only_type=None,beginner_trial=False):
   if answer_audio:back+='[sound:'+answer_audio+']';media.add(answer_audio)
   search={'v':1,'fields':[{'name':'Kana','values':[forms[q['target']]['kana']] if kind=='reading' else q.get('accepted',[q.get('display','')])},{'name':'Exercise' if language=='en' else 'Exercice','values':[kind]}]}
   if q.get('appendices'):search['fields'].append({'name':'Reference' if language=='en' else 'Référence','values':[guide[k]['title'][language] for k in q['appendices']]})
-  fields=dict(zip(FIELDS,[front,back,instruction,hint,q.get('meaning',{}).get(language,''),(row_line+'<br>' if row_line else '')+html.escape(note).replace('\n','<br>'),json.dumps(search,ensure_ascii=False),html.escape(json.dumps(payload,ensure_ascii=False))+extra,html.escape(romaji)]))
+  fields=dict(zip(FIELDS,[front,back,instruction,hint,q.get('meaning',{}).get(language,''),html.escape(note).replace('\n','<br>'),json.dumps(search,ensure_ascii=False),html.escape(json.dumps(payload,ensure_ascii=False))+extra,html.escape(romaji)]))
   notes.append({'guid':guid,'model':'kana','fields':fields,'tags':['exercise::'+kind,'stage::'+str(q['stage'])],'due':index+1,'itemId':q['id']});kinds.add(kind)
  details=(
   '{{#Romaji}}<section class="context"><input type="button" class="details-button" value="'

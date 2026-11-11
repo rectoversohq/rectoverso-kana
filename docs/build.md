@@ -2,7 +2,7 @@
 
 Install requirements.txt with Python 3.12. The shared interface is scripts/source_data.py::inputs(language), returning metadata, notes, models and deck. The builder uses Anki's backend. GUIDs, native book/card UUIDs, model IDs, field IDs, template IDs and source deck IDs stay stable. Isolated review components have separate preview identities from the combined course and the earlier phone prototype.
 
-The reading artwork uses Noto Sans JP at weight 400 for kana; it prints no romaji. SF Pro Text Regular is used only by the cover masters’ lettering (covers 2 and 3), outlined in their committed SVGs. Noto Serif JP and Yomogi remain limited to selected alternate-form examples. The bundled Japanese font masters retain their OFL notices.
+The reading artwork uses Noto Sans JP at weight 400 for kana; a question prints no romaji, and the row shown after the answer prints each kana’s. SF Pro Text Regular is used only by the cover masters’ lettering (covers 2 and 3), outlined in their committed SVGs. Noto Serif JP and Klee One (SemiBold) remain limited to the alternate-form cards. The bundled Japanese font masters retain their OFL notices.
 
 To make the cover masters again (or to run the source check, which verifies every pinned font), install SF Pro separately from https://developer.apple.com/fonts/ under Apple’s terms. The default input is /Library/Fonts/SF-Pro-Text-Regular.otf. For another location, set:
 
@@ -78,6 +78,20 @@ The whole row stays in view because blank paper pads it. The app centres a lit r
 The note opens with the row and its romaji (`さ sa · <b>し shi</b> · す su · せ se · そ so`), then the card’s own note: the answer gives the row’s readings, irregular ones included. Anki shows the asked kana in bold; the app reads a note as plain text, so it shows the row without the bold. A lit region’s `detail` isn’t shown by the app, so the figure has none.
 
 The pictures are indexed PNGs (paper and 16 antialiasing steps to each colour, every flat colour exact), named rv-kana-<target>-litrow-<light|dark>-<source|clean>.png so nothing collides with earlier editions’ figures; contentModifiedAt advances. Notes, cards, GUIDs, card ids and order are unchanged; the update over 1.0.0-rc.3 and 1.0.0-rc.4 keeps every card, note and review. The masked crops, the whole charts and the answer pictures described above are superseded; their introduction rule remains.
+
+### The writing square (#12)
+
+The owner found the lit row confusing and its kana small, and the row a hint: a slot gives the vowel, a known neighbor the consonant. A reading card now asks its kana alone, and so does an alternate-form card. Both are lit figures of one region.
+
+The page is 3,072 × 2,048 pixels, its paper the app’s canvas. In its middle is a writing square of 1,024 pixels, the lit region, which the app outlines in gold: a dashed cross through its middle in the palette’s line colour (4-pixel lines, 22-pixel dashes), and the kana’s ink centred on it, in ink. Nothing else is drawn. Each face is sized so that あ’s ink is 753 pixels wide, 73.5 % of the square: Noto Sans JP at 946 pixels for the 92 readings, Klee One SemiBold at 1,067 for さ き り ふ and Noto Serif JP at 982 for そ シ ツ ン; every kana drawn keeps 64 pixels or more from the square’s edge.
+
+The app opens a lit region with its shorter side at about 44 points unless the figure’s fill scale is larger: max(canvas width / figure width, window height / figure height) (`OcclusionFraming.openingScale`). The page is wide, so on a phone the window’s height sets the scale and the square is half that height: measured at 286 points on a 402-point iPhone, 317 at 430 and 218 on the closed Duo, whose short window then keeps room for the answer (a tall page, sized by the width, gave 314 points there and hid the romaji under the buttons). In book pose the canvas’s width sets it, about 317 points on its page. The square has three pixels a point or more at each. The app centres the region in the window, and the kana is at the page’s centre, so nothing is cut in any pose.
+
+The square without a kana, the preparation’s clean picture, is one file a mode, shared by all 100 figures (rv-kana-square-<light|dark>-clean.png). The others are rv-kana-<target>-square-<light|dark>-source.png, and rv-kana-<question>-square-… for an alternate form: new names, so nothing collides with an earlier edition’s pictures. They are indexed PNGs, about 12 kB each.
+
+Once a reading is answered, its row shows as a picture under the answer: the payload’s `resources`, one entry named **Row** / **Ligne** with an empty text and the picture rv-kana-<target>-rowstrip.png. The strip is 1,056 × 302 pixels, dark in light and dark mode alike (#1A1814; the app shows one picture in both): each kana of the row in its vowel’s slot over its romaji, the one asked in gold (#FFD25B), the kana taught by then in cream (#EDE6D8), the others faint (#756E62); や ゆ よ and わ を keep their slots, ん sits in the middle. The cream kana are the card’s `visibleKana`, which it requires, as before; the faint ones its `ghostKana`. The note no longer opens with the row as text. VoiceOver says the entry’s name and that it is a picture: the app has no description for a resource’s picture, so the row’s readings aren’t spoken.
+
+The alternate-form cards were picture cards on a dark plate; they are lit squares now, in light and dark, their kind `occlusion`. さ き り ふ moved from Yomogi to Klee One, a textbook face, and their notes say so; そ シ ツ ン keep Noto Serif JP. Yomogi left the repository and the credits. Notes, cards, GUIDs, card ids, order, prerequisites and recordings are unchanged, and contentModifiedAt advances; the update over 1.0.0-rc.3 and 1.0.0-rc.4 keeps every card, note and review. The lit row above is superseded.
 
 ### Kana-only answers and Romaji details (#832)
 

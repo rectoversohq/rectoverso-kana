@@ -13,5 +13,6 @@
   "variant": "Another form",
   "checkpoint": "Reading check",
   "listenOnePrompt": "Recall one valid form.",
-  "romajiLabel": "Romaji"
+  "romajiLabel": "Romaji",
+  "rowLabel": "Row"
 }

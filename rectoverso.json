@@ -1,13 +1,13 @@
 {
   "id": "rectoverso-kana",
-  "version": "1.0.0-rc.4",
-  "releaseTag": "v1.0.0-rc.4",
+  "version": "1.0.0",
+  "releaseTag": "v1.0.0",
   "guidPrefix": "rv-kana",
   "identityBase": 1794200000,
-  "contentModifiedAt": "2026-11-11T18:38:24Z",
+  "contentModifiedAt": "2026-11-11T23:03:00Z",
   "publication": {
     "remote": "https://github.com/rectoversohq/rectoverso-kana",
-    "release": "https://github.com/rectoversohq/rectoverso-kana/releases/tag/v1.0.0-rc.4",
+    "release": "https://github.com/rectoversohq/rectoverso-kana/releases/tag/v1.0.0",
     "approved": true,
     "visibility": "public"
   },
@@ -26,6 +26,10 @@
   "description": {
     "en": "Start with hiragana, then learn katakana. Connect each kana with its sound in both directions: read it and recall the sound, or listen and recall the character.\n\nWatch single-kana answers appear stroke by stroke. Practice sound marks, small kana and long vowels through short words, with explanations and comparisons to help you tell similar characters apart. No previous Japanese needed; handwriting is optional.",
     "fr": "Commencez par les hiragana, puis apprenez les katakana. Associez chaque kana à sa prononciation dans les deux sens : lisez-le et retrouvez le son, ou écoutez et retrouvez le caractère.\n\nLes réponses d’un seul kana se dessinent trait par trait. Exercez-vous aux signes qui modifient la prononciation, aux petits kana et aux voyelles longues à travers des mots courts, avec des explications et des comparaisons entre caractères proches. Aucune connaissance préalable du japonais n’est nécessaire ; écrire reste facultatif."
+  },
+  "whatsNew": {
+    "en": "Each kana is now read alone, large, in a writing square; its row of the chart appears after the answer. Four alternate forms use a textbook typeface. The recordings were made again, in the same voice.",
+    "fr": "Chaque kana se lit désormais seul, en grand, dans un carré d’écriture ; sa ligne du tableau apparaît après la réponse. Quatre variantes utilisent une police de style scolaire. Les enregistrements ont été refaits, avec la même voix."
   },
   "languages": {
     "en": {
@@ -55,36 +59,8 @@
   "license": "CC-BY-4.0",
   "proOnly": false,
   "renderedPictures": true,
-  "pictures": 468,
+  "pictures": 394,
   "imageCredits": [
-    {
-      "file": "rv-kana-hira-3042-litrow-dark-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3042-litrow-dark-source.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3042-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3042-litrow-light-source.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
     {
       "file": "rv-kana-hira-3042-question.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
@@ -93,28 +69,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3044-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3042-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3044-litrow-dark-source.png",
+      "file": "rv-kana-hira-3042-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3044-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3044-litrow-light-source.png",
+      "file": "rv-kana-hira-3042-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -128,28 +97,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3046-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3044-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3046-litrow-dark-source.png",
+      "file": "rv-kana-hira-3044-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3046-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3046-litrow-light-source.png",
+      "file": "rv-kana-hira-3044-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -163,28 +125,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3048-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3046-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3048-litrow-dark-source.png",
+      "file": "rv-kana-hira-3046-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3048-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3048-litrow-light-source.png",
+      "file": "rv-kana-hira-3046-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -198,28 +153,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-304a-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3048-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-304a-litrow-dark-source.png",
+      "file": "rv-kana-hira-3048-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-304a-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-304a-litrow-light-source.png",
+      "file": "rv-kana-hira-3048-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -233,28 +181,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-304b-litrow-dark-clean.png",
+      "file": "rv-kana-hira-304a-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-304b-litrow-dark-source.png",
+      "file": "rv-kana-hira-304a-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-304b-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-304b-litrow-light-source.png",
+      "file": "rv-kana-hira-304a-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -268,28 +209,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-304d-litrow-dark-clean.png",
+      "file": "rv-kana-hira-304b-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-304d-litrow-dark-source.png",
+      "file": "rv-kana-hira-304b-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-304d-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-304d-litrow-light-source.png",
+      "file": "rv-kana-hira-304b-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -303,28 +237,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-304f-litrow-dark-clean.png",
+      "file": "rv-kana-hira-304d-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-304f-litrow-dark-source.png",
+      "file": "rv-kana-hira-304d-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-304f-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-304f-litrow-light-source.png",
+      "file": "rv-kana-hira-304d-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -338,28 +265,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3051-litrow-dark-clean.png",
+      "file": "rv-kana-hira-304f-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3051-litrow-dark-source.png",
+      "file": "rv-kana-hira-304f-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3051-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3051-litrow-light-source.png",
+      "file": "rv-kana-hira-304f-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -373,28 +293,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3053-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3051-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3053-litrow-dark-source.png",
+      "file": "rv-kana-hira-3051-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3053-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3053-litrow-light-source.png",
+      "file": "rv-kana-hira-3051-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -408,28 +321,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3055-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3053-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3055-litrow-dark-source.png",
+      "file": "rv-kana-hira-3053-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3055-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3055-litrow-light-source.png",
+      "file": "rv-kana-hira-3053-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -443,28 +349,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3057-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3055-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3057-litrow-dark-source.png",
+      "file": "rv-kana-hira-3055-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3057-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3057-litrow-light-source.png",
+      "file": "rv-kana-hira-3055-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -478,28 +377,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3059-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3057-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3059-litrow-dark-source.png",
+      "file": "rv-kana-hira-3057-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3059-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3059-litrow-light-source.png",
+      "file": "rv-kana-hira-3057-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -513,28 +405,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-305b-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3059-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-305b-litrow-dark-source.png",
+      "file": "rv-kana-hira-3059-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-305b-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-305b-litrow-light-source.png",
+      "file": "rv-kana-hira-3059-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -548,28 +433,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-305d-litrow-dark-clean.png",
+      "file": "rv-kana-hira-305b-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-305d-litrow-dark-source.png",
+      "file": "rv-kana-hira-305b-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-305d-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-305d-litrow-light-source.png",
+      "file": "rv-kana-hira-305b-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -583,28 +461,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-305f-litrow-dark-clean.png",
+      "file": "rv-kana-hira-305d-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-305f-litrow-dark-source.png",
+      "file": "rv-kana-hira-305d-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-305f-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-305f-litrow-light-source.png",
+      "file": "rv-kana-hira-305d-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -618,28 +489,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3061-litrow-dark-clean.png",
+      "file": "rv-kana-hira-305f-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3061-litrow-dark-source.png",
+      "file": "rv-kana-hira-305f-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3061-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3061-litrow-light-source.png",
+      "file": "rv-kana-hira-305f-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -653,28 +517,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3064-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3061-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3064-litrow-dark-source.png",
+      "file": "rv-kana-hira-3061-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3064-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3064-litrow-light-source.png",
+      "file": "rv-kana-hira-3061-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -688,28 +545,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3066-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3064-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3066-litrow-dark-source.png",
+      "file": "rv-kana-hira-3064-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3066-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3066-litrow-light-source.png",
+      "file": "rv-kana-hira-3064-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -723,28 +573,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3068-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3066-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3068-litrow-dark-source.png",
+      "file": "rv-kana-hira-3066-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3068-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3068-litrow-light-source.png",
+      "file": "rv-kana-hira-3066-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -758,28 +601,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-306a-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3068-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-306a-litrow-dark-source.png",
+      "file": "rv-kana-hira-3068-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-306a-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-306a-litrow-light-source.png",
+      "file": "rv-kana-hira-3068-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -793,28 +629,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-306b-litrow-dark-clean.png",
+      "file": "rv-kana-hira-306a-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-306b-litrow-dark-source.png",
+      "file": "rv-kana-hira-306a-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-306b-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-306b-litrow-light-source.png",
+      "file": "rv-kana-hira-306a-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -828,28 +657,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-306c-litrow-dark-clean.png",
+      "file": "rv-kana-hira-306b-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-306c-litrow-dark-source.png",
+      "file": "rv-kana-hira-306b-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-306c-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-306c-litrow-light-source.png",
+      "file": "rv-kana-hira-306b-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -863,28 +685,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-306d-litrow-dark-clean.png",
+      "file": "rv-kana-hira-306c-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-306d-litrow-dark-source.png",
+      "file": "rv-kana-hira-306c-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-306d-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-306d-litrow-light-source.png",
+      "file": "rv-kana-hira-306c-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -898,28 +713,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-306e-litrow-dark-clean.png",
+      "file": "rv-kana-hira-306d-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-306e-litrow-dark-source.png",
+      "file": "rv-kana-hira-306d-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-306e-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-306e-litrow-light-source.png",
+      "file": "rv-kana-hira-306d-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -933,28 +741,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-306f-litrow-dark-clean.png",
+      "file": "rv-kana-hira-306e-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-306f-litrow-dark-source.png",
+      "file": "rv-kana-hira-306e-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-306f-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-306f-litrow-light-source.png",
+      "file": "rv-kana-hira-306e-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -968,28 +769,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3072-litrow-dark-clean.png",
+      "file": "rv-kana-hira-306f-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3072-litrow-dark-source.png",
+      "file": "rv-kana-hira-306f-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3072-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3072-litrow-light-source.png",
+      "file": "rv-kana-hira-306f-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1003,28 +797,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3075-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3072-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3075-litrow-dark-source.png",
+      "file": "rv-kana-hira-3072-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3075-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3075-litrow-light-source.png",
+      "file": "rv-kana-hira-3072-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1038,28 +825,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3078-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3075-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3078-litrow-dark-source.png",
+      "file": "rv-kana-hira-3075-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3078-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3078-litrow-light-source.png",
+      "file": "rv-kana-hira-3075-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1073,28 +853,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-307b-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3078-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-307b-litrow-dark-source.png",
+      "file": "rv-kana-hira-3078-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-307b-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-307b-litrow-light-source.png",
+      "file": "rv-kana-hira-3078-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1108,28 +881,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-307e-litrow-dark-clean.png",
+      "file": "rv-kana-hira-307b-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-307e-litrow-dark-source.png",
+      "file": "rv-kana-hira-307b-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-307e-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-307e-litrow-light-source.png",
+      "file": "rv-kana-hira-307b-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1143,28 +909,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-307f-litrow-dark-clean.png",
+      "file": "rv-kana-hira-307e-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-307f-litrow-dark-source.png",
+      "file": "rv-kana-hira-307e-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-307f-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-307f-litrow-light-source.png",
+      "file": "rv-kana-hira-307e-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1178,28 +937,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3080-litrow-dark-clean.png",
+      "file": "rv-kana-hira-307f-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3080-litrow-dark-source.png",
+      "file": "rv-kana-hira-307f-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3080-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3080-litrow-light-source.png",
+      "file": "rv-kana-hira-307f-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1213,28 +965,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3081-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3080-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3081-litrow-dark-source.png",
+      "file": "rv-kana-hira-3080-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3081-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3081-litrow-light-source.png",
+      "file": "rv-kana-hira-3080-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1248,28 +993,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3082-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3081-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3082-litrow-dark-source.png",
+      "file": "rv-kana-hira-3081-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3082-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3082-litrow-light-source.png",
+      "file": "rv-kana-hira-3081-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1283,28 +1021,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3084-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3082-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3084-litrow-dark-source.png",
+      "file": "rv-kana-hira-3082-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3084-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3084-litrow-light-source.png",
+      "file": "rv-kana-hira-3082-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1318,28 +1049,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3086-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3084-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3086-litrow-dark-source.png",
+      "file": "rv-kana-hira-3084-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3086-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3086-litrow-light-source.png",
+      "file": "rv-kana-hira-3084-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1353,28 +1077,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3088-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3086-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3088-litrow-dark-source.png",
+      "file": "rv-kana-hira-3086-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3088-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3088-litrow-light-source.png",
+      "file": "rv-kana-hira-3086-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1388,28 +1105,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3089-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3088-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3089-litrow-dark-source.png",
+      "file": "rv-kana-hira-3088-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3089-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3089-litrow-light-source.png",
+      "file": "rv-kana-hira-3088-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1423,28 +1133,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-308a-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3089-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-308a-litrow-dark-source.png",
+      "file": "rv-kana-hira-3089-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-308a-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-308a-litrow-light-source.png",
+      "file": "rv-kana-hira-3089-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1458,28 +1161,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-308b-litrow-dark-clean.png",
+      "file": "rv-kana-hira-308a-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-308b-litrow-dark-source.png",
+      "file": "rv-kana-hira-308a-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-308b-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-308b-litrow-light-source.png",
+      "file": "rv-kana-hira-308a-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1493,28 +1189,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-308c-litrow-dark-clean.png",
+      "file": "rv-kana-hira-308b-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-308c-litrow-dark-source.png",
+      "file": "rv-kana-hira-308b-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-308c-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-308c-litrow-light-source.png",
+      "file": "rv-kana-hira-308b-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1528,28 +1217,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-308d-litrow-dark-clean.png",
+      "file": "rv-kana-hira-308c-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-308d-litrow-dark-source.png",
+      "file": "rv-kana-hira-308c-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-308d-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-308d-litrow-light-source.png",
+      "file": "rv-kana-hira-308c-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1563,28 +1245,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-308f-litrow-dark-clean.png",
+      "file": "rv-kana-hira-308d-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-308f-litrow-dark-source.png",
+      "file": "rv-kana-hira-308d-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-308f-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-308f-litrow-light-source.png",
+      "file": "rv-kana-hira-308d-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1598,28 +1273,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3092-litrow-dark-clean.png",
+      "file": "rv-kana-hira-308f-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3092-litrow-dark-source.png",
+      "file": "rv-kana-hira-308f-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3092-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3092-litrow-light-source.png",
+      "file": "rv-kana-hira-308f-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1633,28 +1301,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3093-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3092-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3093-litrow-dark-source.png",
+      "file": "rv-kana-hira-3092-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-hira-3093-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-hira-3093-litrow-light-source.png",
+      "file": "rv-kana-hira-3092-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1668,28 +1329,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30a2-litrow-dark-clean.png",
+      "file": "rv-kana-hira-3093-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30a2-litrow-dark-source.png",
+      "file": "rv-kana-hira-3093-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30a2-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30a2-litrow-light-source.png",
+      "file": "rv-kana-hira-3093-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1703,28 +1357,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30a4-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30a2-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30a4-litrow-dark-source.png",
+      "file": "rv-kana-kata-30a2-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30a4-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30a4-litrow-light-source.png",
+      "file": "rv-kana-kata-30a2-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1738,28 +1385,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30a6-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30a4-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30a6-litrow-dark-source.png",
+      "file": "rv-kana-kata-30a4-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30a6-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30a6-litrow-light-source.png",
+      "file": "rv-kana-kata-30a4-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1773,28 +1413,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30a8-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30a6-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30a8-litrow-dark-source.png",
+      "file": "rv-kana-kata-30a6-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30a8-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30a8-litrow-light-source.png",
+      "file": "rv-kana-kata-30a6-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1808,28 +1441,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30aa-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30a8-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30aa-litrow-dark-source.png",
+      "file": "rv-kana-kata-30a8-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30aa-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30aa-litrow-light-source.png",
+      "file": "rv-kana-kata-30a8-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1843,28 +1469,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ab-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30aa-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ab-litrow-dark-source.png",
+      "file": "rv-kana-kata-30aa-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ab-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30ab-litrow-light-source.png",
+      "file": "rv-kana-kata-30aa-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1878,28 +1497,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ad-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30ab-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ad-litrow-dark-source.png",
+      "file": "rv-kana-kata-30ab-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ad-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30ad-litrow-light-source.png",
+      "file": "rv-kana-kata-30ab-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1913,28 +1525,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30af-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30ad-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30af-litrow-dark-source.png",
+      "file": "rv-kana-kata-30ad-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30af-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30af-litrow-light-source.png",
+      "file": "rv-kana-kata-30ad-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1948,28 +1553,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30b1-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30af-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30b1-litrow-dark-source.png",
+      "file": "rv-kana-kata-30af-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30b1-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30b1-litrow-light-source.png",
+      "file": "rv-kana-kata-30af-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -1983,28 +1581,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30b3-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30b1-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30b3-litrow-dark-source.png",
+      "file": "rv-kana-kata-30b1-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30b3-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30b3-litrow-light-source.png",
+      "file": "rv-kana-kata-30b1-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2018,28 +1609,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30b5-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30b3-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30b5-litrow-dark-source.png",
+      "file": "rv-kana-kata-30b3-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30b5-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30b5-litrow-light-source.png",
+      "file": "rv-kana-kata-30b3-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2053,28 +1637,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30b7-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30b5-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30b7-litrow-dark-source.png",
+      "file": "rv-kana-kata-30b5-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30b7-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30b7-litrow-light-source.png",
+      "file": "rv-kana-kata-30b5-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2088,28 +1665,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30b9-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30b7-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30b9-litrow-dark-source.png",
+      "file": "rv-kana-kata-30b7-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30b9-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30b9-litrow-light-source.png",
+      "file": "rv-kana-kata-30b7-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2123,28 +1693,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30bb-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30b9-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30bb-litrow-dark-source.png",
+      "file": "rv-kana-kata-30b9-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30bb-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30bb-litrow-light-source.png",
+      "file": "rv-kana-kata-30b9-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2158,28 +1721,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30bd-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30bb-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30bd-litrow-dark-source.png",
+      "file": "rv-kana-kata-30bb-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30bd-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30bd-litrow-light-source.png",
+      "file": "rv-kana-kata-30bb-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2193,28 +1749,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30bf-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30bd-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30bf-litrow-dark-source.png",
+      "file": "rv-kana-kata-30bd-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30bf-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30bf-litrow-light-source.png",
+      "file": "rv-kana-kata-30bd-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2228,28 +1777,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30c1-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30bf-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30c1-litrow-dark-source.png",
+      "file": "rv-kana-kata-30bf-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30c1-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30c1-litrow-light-source.png",
+      "file": "rv-kana-kata-30bf-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2263,28 +1805,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30c4-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30c1-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30c4-litrow-dark-source.png",
+      "file": "rv-kana-kata-30c1-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30c4-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30c4-litrow-light-source.png",
+      "file": "rv-kana-kata-30c1-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2298,28 +1833,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30c6-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30c4-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30c6-litrow-dark-source.png",
+      "file": "rv-kana-kata-30c4-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30c6-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30c6-litrow-light-source.png",
+      "file": "rv-kana-kata-30c4-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2333,28 +1861,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30c8-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30c6-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30c8-litrow-dark-source.png",
+      "file": "rv-kana-kata-30c6-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30c8-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30c8-litrow-light-source.png",
+      "file": "rv-kana-kata-30c6-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2368,28 +1889,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ca-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30c8-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ca-litrow-dark-source.png",
+      "file": "rv-kana-kata-30c8-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ca-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30ca-litrow-light-source.png",
+      "file": "rv-kana-kata-30c8-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2403,28 +1917,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30cb-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30ca-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30cb-litrow-dark-source.png",
+      "file": "rv-kana-kata-30ca-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30cb-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30cb-litrow-light-source.png",
+      "file": "rv-kana-kata-30ca-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2438,28 +1945,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30cc-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30cb-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30cc-litrow-dark-source.png",
+      "file": "rv-kana-kata-30cb-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30cc-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30cc-litrow-light-source.png",
+      "file": "rv-kana-kata-30cb-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2473,28 +1973,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30cd-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30cc-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30cd-litrow-dark-source.png",
+      "file": "rv-kana-kata-30cc-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30cd-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30cd-litrow-light-source.png",
+      "file": "rv-kana-kata-30cc-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2508,28 +2001,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ce-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30cd-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ce-litrow-dark-source.png",
+      "file": "rv-kana-kata-30cd-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ce-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30ce-litrow-light-source.png",
+      "file": "rv-kana-kata-30cd-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2543,28 +2029,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30cf-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30ce-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30cf-litrow-dark-source.png",
+      "file": "rv-kana-kata-30ce-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30cf-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30cf-litrow-light-source.png",
+      "file": "rv-kana-kata-30ce-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2578,28 +2057,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30d2-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30cf-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30d2-litrow-dark-source.png",
+      "file": "rv-kana-kata-30cf-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30d2-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30d2-litrow-light-source.png",
+      "file": "rv-kana-kata-30cf-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2613,28 +2085,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30d5-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30d2-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30d5-litrow-dark-source.png",
+      "file": "rv-kana-kata-30d2-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30d5-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30d5-litrow-light-source.png",
+      "file": "rv-kana-kata-30d2-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2648,28 +2113,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30d8-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30d5-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30d8-litrow-dark-source.png",
+      "file": "rv-kana-kata-30d5-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30d8-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30d8-litrow-light-source.png",
+      "file": "rv-kana-kata-30d5-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2683,28 +2141,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30db-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30d8-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30db-litrow-dark-source.png",
+      "file": "rv-kana-kata-30d8-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30db-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30db-litrow-light-source.png",
+      "file": "rv-kana-kata-30d8-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2718,28 +2169,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30de-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30db-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30de-litrow-dark-source.png",
+      "file": "rv-kana-kata-30db-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30de-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30de-litrow-light-source.png",
+      "file": "rv-kana-kata-30db-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2753,28 +2197,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30df-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30de-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30df-litrow-dark-source.png",
+      "file": "rv-kana-kata-30de-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30df-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30df-litrow-light-source.png",
+      "file": "rv-kana-kata-30de-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2788,28 +2225,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e0-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30df-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e0-litrow-dark-source.png",
+      "file": "rv-kana-kata-30df-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e0-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30e0-litrow-light-source.png",
+      "file": "rv-kana-kata-30df-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2823,28 +2253,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e1-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30e0-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e1-litrow-dark-source.png",
+      "file": "rv-kana-kata-30e0-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e1-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30e1-litrow-light-source.png",
+      "file": "rv-kana-kata-30e0-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2858,28 +2281,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e2-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30e1-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e2-litrow-dark-source.png",
+      "file": "rv-kana-kata-30e1-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e2-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30e2-litrow-light-source.png",
+      "file": "rv-kana-kata-30e1-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2893,28 +2309,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e4-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30e2-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e4-litrow-dark-source.png",
+      "file": "rv-kana-kata-30e2-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e4-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30e4-litrow-light-source.png",
+      "file": "rv-kana-kata-30e2-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2928,28 +2337,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e6-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30e4-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e6-litrow-dark-source.png",
+      "file": "rv-kana-kata-30e4-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e6-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30e6-litrow-light-source.png",
+      "file": "rv-kana-kata-30e4-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2963,28 +2365,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e8-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30e6-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e8-litrow-dark-source.png",
+      "file": "rv-kana-kata-30e6-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e8-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30e8-litrow-light-source.png",
+      "file": "rv-kana-kata-30e6-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -2998,28 +2393,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e9-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30e8-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e9-litrow-dark-source.png",
+      "file": "rv-kana-kata-30e8-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30e9-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30e9-litrow-light-source.png",
+      "file": "rv-kana-kata-30e8-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -3033,28 +2421,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ea-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30e9-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ea-litrow-dark-source.png",
+      "file": "rv-kana-kata-30e9-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ea-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30ea-litrow-light-source.png",
+      "file": "rv-kana-kata-30e9-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -3068,28 +2449,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30eb-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30ea-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30eb-litrow-dark-source.png",
+      "file": "rv-kana-kata-30ea-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30eb-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30eb-litrow-light-source.png",
+      "file": "rv-kana-kata-30ea-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -3103,28 +2477,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ec-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30eb-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ec-litrow-dark-source.png",
+      "file": "rv-kana-kata-30eb-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ec-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30ec-litrow-light-source.png",
+      "file": "rv-kana-kata-30eb-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -3138,28 +2505,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ed-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30ec-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ed-litrow-dark-source.png",
+      "file": "rv-kana-kata-30ec-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ed-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30ed-litrow-light-source.png",
+      "file": "rv-kana-kata-30ec-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -3173,28 +2533,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ef-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30ed-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ef-litrow-dark-source.png",
+      "file": "rv-kana-kata-30ed-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30ef-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30ef-litrow-light-source.png",
+      "file": "rv-kana-kata-30ed-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -3208,28 +2561,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30f2-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30ef-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30f2-litrow-dark-source.png",
+      "file": "rv-kana-kata-30ef-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30f2-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30f2-litrow-light-source.png",
+      "file": "rv-kana-kata-30ef-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -3243,28 +2589,21 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30f3-litrow-dark-clean.png",
+      "file": "rv-kana-kata-30f2-rowstrip.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30f3-litrow-dark-source.png",
+      "file": "rv-kana-kata-30f2-square-dark-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-kata-30f3-litrow-light-clean.png",
-      "original": "artwork/fonts/NotoSansJP.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-kata-30f3-litrow-light-source.png",
+      "file": "rv-kana-kata-30f2-square-light-source.png",
       "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -3278,56 +2617,203 @@
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-variant-hira-304d-dark.png",
-      "original": "artwork/fonts/Yomogi-Regular.ttf",
+      "file": "rv-kana-kata-30f3-rowstrip.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-variant-hira-3055-dark.png",
-      "original": "artwork/fonts/Yomogi-Regular.ttf",
+      "file": "rv-kana-kata-30f3-square-dark-source.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-variant-hira-305d-dark.png",
+      "file": "rv-kana-kata-30f3-square-light-source.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-square-dark-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-square-light-clean.png",
+      "original": "artwork/fonts/NotoSansJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-hira-304d-question.png",
+      "original": "artwork/fonts/KleeOne-SemiBold.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-hira-304d-square-dark-source.png",
+      "original": "artwork/fonts/KleeOne-SemiBold.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-hira-304d-square-light-source.png",
+      "original": "artwork/fonts/KleeOne-SemiBold.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-hira-3055-question.png",
+      "original": "artwork/fonts/KleeOne-SemiBold.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-hira-3055-square-dark-source.png",
+      "original": "artwork/fonts/KleeOne-SemiBold.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-hira-3055-square-light-source.png",
+      "original": "artwork/fonts/KleeOne-SemiBold.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-hira-305d-question.png",
       "original": "artwork/fonts/NotoSerifJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-variant-hira-3075-dark.png",
-      "original": "artwork/fonts/Yomogi-Regular.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-variant-hira-308a-dark.png",
-      "original": "artwork/fonts/Yomogi-Regular.ttf",
-      "source": "Original composition using pinned open fonts (OFL-1.1)",
-      "creator": "Simon Pinkas",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "file": "rv-kana-variant-kata-30b7-dark.png",
+      "file": "rv-kana-variant-hira-305d-square-dark-source.png",
       "original": "artwork/fonts/NotoSerifJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-variant-kata-30c4-dark.png",
+      "file": "rv-kana-variant-hira-305d-square-light-source.png",
       "original": "artwork/fonts/NotoSerifJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
       "license": "CC-BY-4.0"
     },
     {
-      "file": "rv-kana-variant-kata-30f3-dark.png",
+      "file": "rv-kana-variant-hira-3075-question.png",
+      "original": "artwork/fonts/KleeOne-SemiBold.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-hira-3075-square-dark-source.png",
+      "original": "artwork/fonts/KleeOne-SemiBold.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-hira-3075-square-light-source.png",
+      "original": "artwork/fonts/KleeOne-SemiBold.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-hira-308a-question.png",
+      "original": "artwork/fonts/KleeOne-SemiBold.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-hira-308a-square-dark-source.png",
+      "original": "artwork/fonts/KleeOne-SemiBold.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-hira-308a-square-light-source.png",
+      "original": "artwork/fonts/KleeOne-SemiBold.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-kata-30b7-question.png",
+      "original": "artwork/fonts/NotoSerifJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-kata-30b7-square-dark-source.png",
+      "original": "artwork/fonts/NotoSerifJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-kata-30b7-square-light-source.png",
+      "original": "artwork/fonts/NotoSerifJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-kata-30c4-question.png",
+      "original": "artwork/fonts/NotoSerifJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-kata-30c4-square-dark-source.png",
+      "original": "artwork/fonts/NotoSerifJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-kata-30c4-square-light-source.png",
+      "original": "artwork/fonts/NotoSerifJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-kata-30f3-question.png",
+      "original": "artwork/fonts/NotoSerifJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-kata-30f3-square-dark-source.png",
+      "original": "artwork/fonts/NotoSerifJP.ttf",
+      "source": "Original composition using pinned open fonts (OFL-1.1)",
+      "creator": "Simon Pinkas",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "rv-kana-variant-kata-30f3-square-light-source.png",
       "original": "artwork/fonts/NotoSerifJP.ttf",
       "source": "Original composition using pinned open fonts (OFL-1.1)",
       "creator": "Simon Pinkas",
@@ -3337,7 +2823,7 @@
   "sources": [
     {
       "name": "Kana — original course and compositions, Simon Pinkas",
-      "version": "1.0.0-rc.4",
+      "version": "1.0.0",
       "url": "https://github.com/rectoversohq/rectoverso-kana",
       "license": "CC-BY-4.0 (original material; third-party contributions separately credited)"
     },
@@ -3360,9 +2846,9 @@
       "license": "OFL-1.1"
     },
     {
-      "name": "Yomogi — The Yomogi Project Authors",
-      "version": "008f47a",
-      "url": "https://github.com/google/fonts/tree/008f47aa68a60f07e4f6adc926ab78e19a88d92f/ofl/yomogi",
+      "name": "Klee One — The Klee Project Authors",
+      "version": "8b05327",
+      "url": "https://github.com/fontworks-fonts/Klee/tree/8b0532731b63ad8a445ca341d8d7d941079b83ab",
       "license": "OFL-1.1"
     },
     {
@@ -3392,7 +2878,7 @@
     "artwork": "artwork"
   },
   "reviewStatus": {
-    "publication": "release candidate, approved by the owner for RectoVerso's gallery in TestFlight (2026-11-10); 1.0.0 follows the listening review",
+    "publication": "released, approved by the owner (2026-11-12) after trying it on an iPhone; the recordings approved by ear on 2026-11-11, not a native-speaker review",
     "copyAndNames": "Owner-approved (2026-11-10): the title Kana, the Languages category, the gallery headline and description, and the sample (the listening card ふ, whose answer the app draws with the brush)",
     "questionTypes": [
       "reading",

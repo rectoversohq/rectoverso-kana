@@ -167,3 +167,29 @@ The owner, firmly: the row belongs on the canvas, not in a small answer picture.
 ## 2026-11-11 — The reading card, settled (#8)
 
 The owner, after a grilling session: the question is the lit figure of the card's kana's own row, taught kana in ink, the rest as ghosts, no romaji; the lit region is the card's kana alone, so the app's gold outline surrounds only the kana asked; the whole row stays in view by padding the figure with blank paper (the deck, not an app change), the margins set from the app's framing; the answer is the region's title, the romaji, and the note opens with the row as text, `さ sa · し shi · す su · せ se · そ so`, the asked kana and its romaji in bold. The app reads a note as plain text, so the bold shows in Anki only. The version stays 1.0.0-rc.4.
+
+
+## 2026-11-11 — The kana alone in a writing square, its row after the answer (#12)
+
+The owner, after trying six designs of the reading card in a day and a grilling session on captures from the simulators and a prototype deck:
+
+- **The question is the kana alone.** A row hints: a slot gives the vowel, a known neighbor the consonant, against the brief’s “without romaji or hints”. The brief’s sentence on the reading figure says so now.
+- **The kana is about half the screen’s width,** in a writing square with a dashed cross of middle strength, in Noto Sans JP, its ink centered in the square; the app’s gold outline of the lit region is the square’s edge. The owner chose the square with guides over the plain square and over a picture card, which has no dark version; and Noto Sans JP over Klee One, on which the alternate-form cards and several notes depend.
+- **The deck alone, no app change.** A lit figure opens at its fill scale when that is larger than the app’s 44-point rule; a wide page lets the window’s height set it, so the closed Duo keeps room for the answer.
+- **After the answer, the row filling in** on a dark strip, one picture right in light and dark, under **Row** / **Ligne**: the kana asked in gold, the kana taught in cream, the others faint, each over its romaji, the faint ones too. The note no longer opens with the row as text.
+- **The eight alternate-form cards take the same square.** さ き り ふ move from Yomogi to Klee One, with the note’s wording the owner approved (“a textbook-style typeface, close to handwriting”; « de style scolaire, proche de l’écriture à la main »); そ シ ツ ン keep Noto Serif JP. Yomogi leaves the repository and the credits; Klee One SemiBold (OFL-1.1, The Klee Project Authors) is pinned and credited.
+
+No kana, order, prerequisite, question text, recording or identity changes; contentModifiedAt advances, and an update keeps every card, note and review. Not decided here: the version’s number and its approval, which are the owner’s at its release. Known limit: VoiceOver names the row’s picture without reading it, since the app has no description for a resource’s picture.
+
+
+## 2026-11-11 — The chart on the question's canvas, tried again and set aside (#12)
+
+Once the app no longer opened a figure small and framed (simonpinkas/RectoVerso#954), the owner asked to try the whole kana chart on the question's canvas again, the asked kana lit in it as the Periodic table's cells. Prototypes, captured on the iPhone 17 and tried on the owner's phone: the whole chart in view (the kana about 31 points, and no room left for the answer), the chart at the closest the app opens it (80-point cells), then bands of the chart round the asked kana, set looser, in the traditional layout (vowels down, families as columns from the right, as MEXT's sheet), at about 70 points a kana. The owner: “never mind, doesn't work, let's keep the previous version with the dashed lines.” The reading cards stay as decided above: the kana alone in its writing square, its row on the dark strip after the answer. Nothing in the source changed for the try.
+
+
+## 2026-11-12 — 1.0.0, approved for release
+
+The owner, after trying the built packages on an iPhone 15 Pro Max: “I validate the kana deck let's release it as is.” The version is **1.0.0**, the first full release: the two things it waited for are done, the owner's test and the listening review of the recordings (approved by ear on 2026-11-11; not a native-speaker review). The owner approved the edition's what's-new text in English and French, and gave one go for the three steps of the release: the pull requests #10, #11 and #13 merged into main in that order, the tag, and the release with its files. The app's pin moves in the app's own pull request, on its own go.
+
+It carries, over 1.0.0-rc.4: the recordings made again through Azure AI Speech (#6), and the reading and alternate-form cards as a kana alone in its writing square, with the row after the answer (#12; #8's lit row, merged with it, is superseded). No note, card, identity, order or prerequisite changed; contentModifiedAt advances, and the update over 1.0.0-rc.3 and 1.0.0-rc.4 keeps every card, note and review. It needs RectoVerso with simonpinkas/RectoVerso#953: before that fix a review closing on one of these cards could freeze the app.
+
