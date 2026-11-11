@@ -65,54 +65,13 @@
         "hira-3044",
         "hira-3046",
         "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-304a"
       ],
       "answer": {
-        "file": "rv-kana-hira-3042-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "ed320195ecc0b16f4f002c2a583d31945baa42f8c2b1be55610541b776a76162"
+        "file": "rv-kana-hira-3042-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "f62a8ae605950774b1a0d3c817df9c1a58f957716e0481134d9883dc649d9d6c"
       },
       "question": {
         "file": "rv-kana-hira-3042-question.png",
@@ -129,54 +88,13 @@
       "ghostKana": [
         "hira-3046",
         "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-304a"
       ],
       "answer": {
-        "file": "rv-kana-hira-3044-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "c7440fa6fae5504298c078481715199f1a2ce9d3f4c20e89b7f4a1457e55badf"
+        "file": "rv-kana-hira-3044-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "93ce76a36f7585c83719638c34fe1edb939aad1276d7269b5d1b69129bc27107"
       },
       "question": {
         "file": "rv-kana-hira-3044-question.png",
@@ -193,54 +111,13 @@
       ],
       "ghostKana": [
         "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-304a"
       ],
       "answer": {
-        "file": "rv-kana-hira-3046-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "a60491ba85cd0f195b4272e3e8665726c2172ee016960d3f767c677848b894f5"
+        "file": "rv-kana-hira-3046-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "c5699e103ebf3c7ff0dfefa5ca5496e4bdd8b28fac6da0b444668e9b75fdec9b"
       },
       "question": {
         "file": "rv-kana-hira-3046-question.png",
@@ -257,54 +134,13 @@
         "hira-3048"
       ],
       "ghostKana": [
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-304a"
       ],
       "answer": {
-        "file": "rv-kana-hira-3048-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "a4c1d7e20f2beb774a8f10039fa179b576d64c2a8be99eabee699a1349995481"
+        "file": "rv-kana-hira-3048-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "61bf3f4467e014c1f50a5ffdd03fa0be137ad59b863d5efe185051f7bf07fac9"
       },
       "question": {
         "file": "rv-kana-hira-3048-question.png",
@@ -321,54 +157,12 @@
         "hira-3048",
         "hira-304a"
       ],
-      "ghostKana": [
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-hira-304a-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "a6e971af1404a4cc5fdfcead1ae83314c2341d4f28588222b5a01e2eb5200657"
+        "file": "rv-kana-hira-304a-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "05b20da34f474f26c5192dd718ceb33eff13d53015daf89bf630c5a080db0687"
       },
       "question": {
         "file": "rv-kana-hira-304a-question.png",
@@ -379,60 +173,19 @@
     },
     "read-hira-304b": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
         "hira-304b"
       ],
       "ghostKana": [
         "hira-304d",
         "hira-304f",
         "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-3053"
       ],
       "answer": {
-        "file": "rv-kana-hira-304b-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "f411633f4b675fbdd54fc03686c5ba88affdf6211170d3eb2610b59784ea6adc"
+        "file": "rv-kana-hira-304b-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "5d81ef8863815904e7c972a0ca0f336b3c8fa4a3b788bf7380aacb842f870e0f"
       },
       "question": {
         "file": "rv-kana-hira-304b-question.png",
@@ -443,60 +196,19 @@
     },
     "read-hira-304d": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
         "hira-304b",
         "hira-304d"
       ],
       "ghostKana": [
         "hira-304f",
         "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-3053"
       ],
       "answer": {
-        "file": "rv-kana-hira-304d-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "ab1104dbc3d86706a2ec37e72807a22f23d86a3225c38bf833e8d7a20e73933a"
+        "file": "rv-kana-hira-304d-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "bee7f2f64c04ecbe82af1d28bffdf1b9f41f1fe438ca0f469b067fd7ef7f9466"
       },
       "question": {
         "file": "rv-kana-hira-304d-question.png",
@@ -507,60 +219,19 @@
     },
     "read-hira-304f": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
         "hira-304b",
         "hira-304d",
         "hira-304f"
       ],
       "ghostKana": [
         "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-3053"
       ],
       "answer": {
-        "file": "rv-kana-hira-304f-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "2b05fa0a3c85eb73ca0b9b0d7433c77a59f0aa730a9f251c48e20c50f5915e62"
+        "file": "rv-kana-hira-304f-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "4b59591b0e615ba58259cf9ac6dde1467699b076f8f5313595096ff6f7b2ecb1"
       },
       "question": {
         "file": "rv-kana-hira-304f-question.png",
@@ -571,60 +242,19 @@
     },
     "read-hira-3051": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
         "hira-304b",
         "hira-304d",
         "hira-304f",
         "hira-3051"
       ],
       "ghostKana": [
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-3053"
       ],
       "answer": {
-        "file": "rv-kana-hira-3051-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "7a90de25bb1555e629d5993dd02a2c717fcda71ff1d172c90c1bfde8a818fe86"
+        "file": "rv-kana-hira-3051-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "6eb2879745f606b229a16f013b64c34eb81ad658967b306acca2fd912645d610"
       },
       "question": {
         "file": "rv-kana-hira-3051-question.png",
@@ -635,60 +265,18 @@
     },
     "read-hira-3053": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
         "hira-304b",
         "hira-304d",
         "hira-304f",
         "hira-3051",
         "hira-3053"
       ],
-      "ghostKana": [
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-hira-3053-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "f3601073b464f4f53ee1b592ed0d07a22d7e0d78c3a65e96ee06ceacf4a6a4ea"
+        "file": "rv-kana-hira-3053-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "5d79d17b3738895963868b972055fc9b7c29f10d385e98b1979ebf83395528bc"
       },
       "question": {
         "file": "rv-kana-hira-3053-question.png",
@@ -699,60 +287,19 @@
     },
     "read-hira-3055": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
         "hira-3055"
       ],
       "ghostKana": [
         "hira-3057",
         "hira-3059",
         "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-305d"
       ],
       "answer": {
-        "file": "rv-kana-hira-3055-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "6e6596422cb1b8813dbcb4f41eea09963b72f6fe0def76e81d99c05714c5fd30"
+        "file": "rv-kana-hira-3055-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "12cd3db12b17b4fdb57610f6a09f23dbb7c723acaee3aaa7e06bce24406ae6b4"
       },
       "question": {
         "file": "rv-kana-hira-3055-question.png",
@@ -763,60 +310,19 @@
     },
     "read-hira-3057": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
         "hira-3055",
         "hira-3057"
       ],
       "ghostKana": [
         "hira-3059",
         "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-305d"
       ],
       "answer": {
-        "file": "rv-kana-hira-3057-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "b2f419ee511bdf2b23d278e1e62b25056f951f33ae7b5ffd5a5fd59b7e9142bf"
+        "file": "rv-kana-hira-3057-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "d6a306332c0433ca7078c1cb46abf4fc96592b5a4b08b21433d2b529b326d565"
       },
       "question": {
         "file": "rv-kana-hira-3057-question.png",
@@ -827,60 +333,19 @@
     },
     "read-hira-3059": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
         "hira-3055",
         "hira-3057",
         "hira-3059"
       ],
       "ghostKana": [
         "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-305d"
       ],
       "answer": {
-        "file": "rv-kana-hira-3059-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "3f8aefa93025a65e976b417ae8a8b4da27fd11162854df9ca6557b024333668a"
+        "file": "rv-kana-hira-3059-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "1c47dee8b34ffe130a1460f16cea5ffcf28d1622137c056108f5882cb860a4c4"
       },
       "question": {
         "file": "rv-kana-hira-3059-question.png",
@@ -891,60 +356,19 @@
     },
     "read-hira-305b": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
         "hira-3055",
         "hira-3057",
         "hira-3059",
         "hira-305b"
       ],
       "ghostKana": [
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-305d"
       ],
       "answer": {
-        "file": "rv-kana-hira-305b-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "2808fd1b3ec707268e247d2ab34f2c82a4c2665baa329f02d5b96a45089b682a"
+        "file": "rv-kana-hira-305b-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "fa2bdff8907f60342f9e446d9e7e2b680481cb3af68b1e596dc3f111f154f448"
       },
       "question": {
         "file": "rv-kana-hira-305b-question.png",
@@ -955,60 +379,18 @@
     },
     "read-hira-305d": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
         "hira-3055",
         "hira-3057",
         "hira-3059",
         "hira-305b",
         "hira-305d"
       ],
-      "ghostKana": [
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-hira-305d-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "81136d1a488d092e0171dd5f880d1e14a45aa3b1178a4aff209e3092678bd9a5"
+        "file": "rv-kana-hira-305d-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "e1a2bda39c8201f93f23846709011039a73c37d47f468913e3f2d68ed87feea9"
       },
       "question": {
         "file": "rv-kana-hira-305d-question.png",
@@ -1019,60 +401,19 @@
     },
     "read-hira-305f": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
         "hira-305f"
       ],
       "ghostKana": [
         "hira-3061",
         "hira-3064",
         "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-3068"
       ],
       "answer": {
-        "file": "rv-kana-hira-305f-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "801645574f003905308aabd8665569a68084a0b25a8dea1b440682cc506223e7"
+        "file": "rv-kana-hira-305f-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "b2017cbf2d5a100cff75747ae690bbd29db0e9c0d8623587dc78a683a512d7ea"
       },
       "question": {
         "file": "rv-kana-hira-305f-question.png",
@@ -1083,60 +424,19 @@
     },
     "read-hira-3061": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
         "hira-305f",
         "hira-3061"
       ],
       "ghostKana": [
         "hira-3064",
         "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-3068"
       ],
       "answer": {
-        "file": "rv-kana-hira-3061-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "d033f306f99e29d9e74d86d57b2ac72ba65c8c4b560b8c93a6753f9d9a991cce"
+        "file": "rv-kana-hira-3061-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "bb95b4f3653a5993552d07d2f79c4d57c165b64bf3b1f1901814760550547610"
       },
       "question": {
         "file": "rv-kana-hira-3061-question.png",
@@ -1147,60 +447,19 @@
     },
     "read-hira-3064": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
         "hira-305f",
         "hira-3061",
         "hira-3064"
       ],
       "ghostKana": [
         "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-3068"
       ],
       "answer": {
-        "file": "rv-kana-hira-3064-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "e5e207e43c572904bdb25f7a8711d5bcb0c9afae5129a314f095d94c6308831b"
+        "file": "rv-kana-hira-3064-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "a56891a4b616d356038d7094f0544db982b0c12039eabc91cd4a298776196e15"
       },
       "question": {
         "file": "rv-kana-hira-3064-question.png",
@@ -1211,60 +470,19 @@
     },
     "read-hira-3066": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
         "hira-305f",
         "hira-3061",
         "hira-3064",
         "hira-3066"
       ],
       "ghostKana": [
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-3068"
       ],
       "answer": {
-        "file": "rv-kana-hira-3066-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "1478f9f1129e56f29f2f4cefc98aff71d4711abfe90325243c365908aa0a4192"
+        "file": "rv-kana-hira-3066-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "0998162caa8242d5a3e911e37fee8a6bd9c9fa03be3f5c8f9b8b5b683791a991"
       },
       "question": {
         "file": "rv-kana-hira-3066-question.png",
@@ -1275,60 +493,18 @@
     },
     "read-hira-3068": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
         "hira-305f",
         "hira-3061",
         "hira-3064",
         "hira-3066",
         "hira-3068"
       ],
-      "ghostKana": [
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-hira-3068-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "93db761be549b76265e4c9dd674d4c2eb3e00b507e60677fee8281b803785406"
+        "file": "rv-kana-hira-3068-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "7dd733d32a64a821de053443d50e2e35e01716fb34358cf55f0ff1bd787da447"
       },
       "question": {
         "file": "rv-kana-hira-3068-question.png",
@@ -1339,60 +515,19 @@
     },
     "read-hira-306a": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
         "hira-306a"
       ],
       "ghostKana": [
         "hira-306b",
         "hira-306c",
         "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-306e"
       ],
       "answer": {
-        "file": "rv-kana-hira-306a-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "d6ad4ed797126b8a0ca8194a6d7c35f3a85f374e16cebc490c20d581b4895c78"
+        "file": "rv-kana-hira-306a-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "217196c8fe2c62c661652130eb1c0657b876f7afdd3ce74096709d5002016e2a"
       },
       "question": {
         "file": "rv-kana-hira-306a-question.png",
@@ -1403,60 +538,19 @@
     },
     "read-hira-306b": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
         "hira-306a",
         "hira-306b"
       ],
       "ghostKana": [
         "hira-306c",
         "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-306e"
       ],
       "answer": {
-        "file": "rv-kana-hira-306b-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "eda7f9f1f10621bcd120286c3bad306ad4b6e3188c013e9724819b9d9ef0ecce"
+        "file": "rv-kana-hira-306b-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "f561bdd3a7163adfc6bf54ce71414f40ffe951e6d609bbbc0e233e6be96e28bf"
       },
       "question": {
         "file": "rv-kana-hira-306b-question.png",
@@ -1467,60 +561,19 @@
     },
     "read-hira-306c": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
         "hira-306a",
         "hira-306b",
         "hira-306c"
       ],
       "ghostKana": [
         "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-306e"
       ],
       "answer": {
-        "file": "rv-kana-hira-306c-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "78d825145a75dc79620e5a330c742c10fdcf6caa19a3f177684b78db7970dc6f"
+        "file": "rv-kana-hira-306c-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "007b1bbd56b22dd115c4c8e20cea49698e6da5a947a24a9a2f6ebebdb85991c9"
       },
       "question": {
         "file": "rv-kana-hira-306c-question.png",
@@ -1531,60 +584,19 @@
     },
     "read-hira-306d": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
         "hira-306a",
         "hira-306b",
         "hira-306c",
         "hira-306d"
       ],
       "ghostKana": [
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-306e"
       ],
       "answer": {
-        "file": "rv-kana-hira-306d-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "36f33204e8b267cecff05fad77813af1fd1e84274180324be6baadf7181505b2"
+        "file": "rv-kana-hira-306d-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "450b0ab9e7b239c2b5f3f4d79082699d2b961194f330846848e092039d0c525f"
       },
       "question": {
         "file": "rv-kana-hira-306d-question.png",
@@ -1595,60 +607,18 @@
     },
     "read-hira-306e": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
         "hira-306a",
         "hira-306b",
         "hira-306c",
         "hira-306d",
         "hira-306e"
       ],
-      "ghostKana": [
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-hira-306e-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "a1e7c6af529ee0124c9a5e3ef85f618c0c79e50a7f51c6b919584cca6c0c688f"
+        "file": "rv-kana-hira-306e-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "e9d5c34ff492237660d5274374b0ac09d48a692e993bd515571b45354f3630f6"
       },
       "question": {
         "file": "rv-kana-hira-306e-question.png",
@@ -1659,60 +629,19 @@
     },
     "read-hira-306f": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
         "hira-306f"
       ],
       "ghostKana": [
         "hira-3072",
         "hira-3075",
         "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-307b"
       ],
       "answer": {
-        "file": "rv-kana-hira-306f-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "8f0a919911f69c82bde39d203aceed196fa54bf458ef1428d806692a27ffdf96"
+        "file": "rv-kana-hira-306f-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "21e3bf2c834ea386c9a9bfc35fa9934cf5a4d4e4e6aa12050edc521206bcd00d"
       },
       "question": {
         "file": "rv-kana-hira-306f-question.png",
@@ -1723,60 +652,19 @@
     },
     "read-hira-3072": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
         "hira-306f",
         "hira-3072"
       ],
       "ghostKana": [
         "hira-3075",
         "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-307b"
       ],
       "answer": {
-        "file": "rv-kana-hira-3072-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "e20c70c64decd293cc255a5ba8963eaf2473fe159ae1229755a23ca12562be1c"
+        "file": "rv-kana-hira-3072-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "764d64f6416e5444d10adb46d105d1278fc313f1382cbe0e808211fb1f8c50d0"
       },
       "question": {
         "file": "rv-kana-hira-3072-question.png",
@@ -1787,60 +675,19 @@
     },
     "read-hira-3075": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
         "hira-306f",
         "hira-3072",
         "hira-3075"
       ],
       "ghostKana": [
         "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-307b"
       ],
       "answer": {
-        "file": "rv-kana-hira-3075-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "c441b44a3e2e9559ca757ac6c9d5ba0865721528b8d14bff61951503bae09ca5"
+        "file": "rv-kana-hira-3075-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "38c69284783977d1269c3155cd0d5dfb3458b66b0894e309fedca3e24cf0e7d0"
       },
       "question": {
         "file": "rv-kana-hira-3075-question.png",
@@ -1851,60 +698,19 @@
     },
     "read-hira-3078": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
         "hira-306f",
         "hira-3072",
         "hira-3075",
         "hira-3078"
       ],
       "ghostKana": [
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-307b"
       ],
       "answer": {
-        "file": "rv-kana-hira-3078-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "ffa4dc2ae1285fcb722dc6c3f81d18e477fc289bb106e834dd441f8b9df27351"
+        "file": "rv-kana-hira-3078-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "96dc4fe841753928bcafc0289e3e0f84c173ea767671fad984cc702931531647"
       },
       "question": {
         "file": "rv-kana-hira-3078-question.png",
@@ -1915,60 +721,18 @@
     },
     "read-hira-307b": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
         "hira-306f",
         "hira-3072",
         "hira-3075",
         "hira-3078",
         "hira-307b"
       ],
-      "ghostKana": [
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-hira-307b-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "4201c397876acb5e82c2d1ce6ea1a11d784f2bd70040b6fdf8b4510bd3834422"
+        "file": "rv-kana-hira-307b-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "a570cba46549936efe8e620efbe00158ca8f0990414e5648475231414e5a3a9e"
       },
       "question": {
         "file": "rv-kana-hira-307b-question.png",
@@ -1979,60 +743,19 @@
     },
     "read-hira-307e": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
         "hira-307e"
       ],
       "ghostKana": [
         "hira-307f",
         "hira-3080",
         "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-3082"
       ],
       "answer": {
-        "file": "rv-kana-hira-307e-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "9b956afd13ffd67809fefc89804ff2aac5c5f49fd8c3ae567f57e130835382cc"
+        "file": "rv-kana-hira-307e-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "9ecb7c8d19b97c73dfeab38242922f733851df68be18ee0f1796d97343753610"
       },
       "question": {
         "file": "rv-kana-hira-307e-question.png",
@@ -2043,60 +766,19 @@
     },
     "read-hira-307f": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
         "hira-307e",
         "hira-307f"
       ],
       "ghostKana": [
         "hira-3080",
         "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-3082"
       ],
       "answer": {
-        "file": "rv-kana-hira-307f-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "71721433d9d4f2915c0d56a849e9dc94f53d191d3a01ee626a8e4618e9b85f8f"
+        "file": "rv-kana-hira-307f-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "c2195092b6b8bbd4f0dfd05d13ff3815b1df26e428a7ec718a2fd7230d997547"
       },
       "question": {
         "file": "rv-kana-hira-307f-question.png",
@@ -2107,60 +789,19 @@
     },
     "read-hira-3080": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
         "hira-307e",
         "hira-307f",
         "hira-3080"
       ],
       "ghostKana": [
         "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-3082"
       ],
       "answer": {
-        "file": "rv-kana-hira-3080-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "0dedb105e8c8de657b026e9a8c31f9be4740abfeaeb150e031d6f6af5171f571"
+        "file": "rv-kana-hira-3080-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "713b917f4d03a3b5afd3428aa21364d6ff848baa4d82bdcd85dbb990ab8122de"
       },
       "question": {
         "file": "rv-kana-hira-3080-question.png",
@@ -2171,60 +812,19 @@
     },
     "read-hira-3081": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
         "hira-307e",
         "hira-307f",
         "hira-3080",
         "hira-3081"
       ],
       "ghostKana": [
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-3082"
       ],
       "answer": {
-        "file": "rv-kana-hira-3081-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "324f314d53589e627c68114d85558f5c9a5da3ef2c01e9bfd974a41c4f4393df"
+        "file": "rv-kana-hira-3081-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "b473024eb9f5ed03a8190cd553845f59b88f88a58f3e99af28bb1d7d4d6d059b"
       },
       "question": {
         "file": "rv-kana-hira-3081-question.png",
@@ -2235,60 +835,18 @@
     },
     "read-hira-3082": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
         "hira-307e",
         "hira-307f",
         "hira-3080",
         "hira-3081",
         "hira-3082"
       ],
-      "ghostKana": [
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-hira-3082-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "02da55c87fd281d2efc0d602262572306fd0a3c950d90c959d0c8decfee5785c"
+        "file": "rv-kana-hira-3082-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "dff83ce4c64d687e9f55653ab8c192f1a546b8dcc3aac466ddf2344479191aac"
       },
       "question": {
         "file": "rv-kana-hira-3082-question.png",
@@ -2299,60 +857,17 @@
     },
     "read-hira-3084": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
         "hira-3084"
       ],
       "ghostKana": [
         "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-3088"
       ],
       "answer": {
-        "file": "rv-kana-hira-3084-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "b6f413d1e86acf5b12a354bdfb2fd28e7e992e40194857ff16d56040453adeac"
+        "file": "rv-kana-hira-3084-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "cb0f5e7640c54dd6e3ce65bd735ca3e8a950f6f872ebae7780d4c1e3315d5c4f"
       },
       "question": {
         "file": "rv-kana-hira-3084-question.png",
@@ -2363,60 +878,17 @@
     },
     "read-hira-3086": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
         "hira-3084",
         "hira-3086"
       ],
       "ghostKana": [
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-3088"
       ],
       "answer": {
-        "file": "rv-kana-hira-3086-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "22bad4cabf11b5091d6dd73ebf20bd56ca6eb1fc8ab9aa3565d2af29d6ed230d"
+        "file": "rv-kana-hira-3086-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "d0f4d7094fb6077657fe1dde1333f2205bac92075fe1474e734db79e59e5016f"
       },
       "question": {
         "file": "rv-kana-hira-3086-question.png",
@@ -2427,60 +899,16 @@
     },
     "read-hira-3088": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
         "hira-3084",
         "hira-3086",
         "hira-3088"
       ],
-      "ghostKana": [
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-hira-3088-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "c54b563356fb45e914beeef8d67f249e14c9109e65bf0d6345f152bbfd7ef377"
+        "file": "rv-kana-hira-3088-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "32abdc56594f879b2b98ff8300bb83b51c551a43708d371edea1e3b8b25b06df"
       },
       "question": {
         "file": "rv-kana-hira-3088-question.png",
@@ -2491,60 +919,19 @@
     },
     "read-hira-3089": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
         "hira-3089"
       ],
       "ghostKana": [
         "hira-308a",
         "hira-308b",
         "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-308d"
       ],
       "answer": {
-        "file": "rv-kana-hira-3089-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "0870969d19294ef4651107ff9283ed3a26e9e37766572713dc245f25346d2b02"
+        "file": "rv-kana-hira-3089-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "ebcf0a6f30b0909e382c7b1e63003dd1081d8235060fb6e16416a14aadd95dd1"
       },
       "question": {
         "file": "rv-kana-hira-3089-question.png",
@@ -2555,60 +942,19 @@
     },
     "read-hira-308a": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
         "hira-3089",
         "hira-308a"
       ],
       "ghostKana": [
         "hira-308b",
         "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-308d"
       ],
       "answer": {
-        "file": "rv-kana-hira-308a-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "2a2e349061cd3bef524555eafb5cc2322bcac013f15040d32b945b6f4e413a38"
+        "file": "rv-kana-hira-308a-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "e20f66e0403fa9aaeeebfd92134530ddd8a8b8edfbbebdf0fcb422064f627cec"
       },
       "question": {
         "file": "rv-kana-hira-308a-question.png",
@@ -2619,60 +965,19 @@
     },
     "read-hira-308b": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
         "hira-3089",
         "hira-308a",
         "hira-308b"
       ],
       "ghostKana": [
         "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-308d"
       ],
       "answer": {
-        "file": "rv-kana-hira-308b-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "3ac491c46499a476dbbe70d007399166708d3ce26abdc526fdf4e231b38c83d6"
+        "file": "rv-kana-hira-308b-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "a6a3a9d64d3d7b16e493a9fac3ecfc510b1b92405a39f47a0e572c5724242632"
       },
       "question": {
         "file": "rv-kana-hira-308b-question.png",
@@ -2683,60 +988,19 @@
     },
     "read-hira-308c": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
         "hira-3089",
         "hira-308a",
         "hira-308b",
         "hira-308c"
       ],
       "ghostKana": [
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
+        "hira-308d"
       ],
       "answer": {
-        "file": "rv-kana-hira-308c-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "7dc651c2b27d5707af6c4cbe48195a953d04fab3752c24204f5a8e2b99795621"
+        "file": "rv-kana-hira-308c-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "a611ac14421548a9018ec2d9e8613a11aab8cfd3ddd23960ec39fe0d18d3caef"
       },
       "question": {
         "file": "rv-kana-hira-308c-question.png",
@@ -2747,60 +1011,18 @@
     },
     "read-hira-308d": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
         "hira-3089",
         "hira-308a",
         "hira-308b",
         "hira-308c",
         "hira-308d"
       ],
-      "ghostKana": [
-        "hira-308f",
-        "hira-3092",
-        "hira-3093"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-hira-308d-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "e87197fce2762fe5c4852d239fccb308cb7ead90f10ee0e68a42f14e3fd81d99"
+        "file": "rv-kana-hira-308d-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "9fcd34ec88c6bf3c1b08214858793d3e634b271f4b9a09f52d0e2093ac86bd98"
       },
       "question": {
         "file": "rv-kana-hira-308d-question.png",
@@ -2811,60 +1033,16 @@
     },
     "read-hira-308f": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
         "hira-308f"
       ],
       "ghostKana": [
-        "hira-3092",
-        "hira-3093"
+        "hira-3092"
       ],
       "answer": {
-        "file": "rv-kana-hira-308f-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "7f3e48a1a680ef127c2518078d3eaecfd09ab304654e2cd7aa6007468e00705d"
+        "file": "rv-kana-hira-308f-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "ce8b6cecce217242b7218cb059957993e80f8ae73d6c7ce6498cab078b39a0c1"
       },
       "question": {
         "file": "rv-kana-hira-308f-question.png",
@@ -2875,60 +1053,15 @@
     },
     "read-hira-3092": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
         "hira-308f",
         "hira-3092"
       ],
-      "ghostKana": [
-        "hira-3093"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-hira-3092-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "8dd89aa00d49465e3ad89cc4755e95d362e8c122c65f75c2a286d0090341da38"
+        "file": "rv-kana-hira-3092-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "b3b24b8f1ccfb3f828268cbf403c75fb0c33abab9b2021fd63e07fc64b7373c8"
       },
       "question": {
         "file": "rv-kana-hira-3092-question.png",
@@ -2939,59 +1072,14 @@
     },
     "read-hira-3093": {
       "visibleKana": [
-        "hira-3042",
-        "hira-3044",
-        "hira-3046",
-        "hira-3048",
-        "hira-304a",
-        "hira-304b",
-        "hira-304d",
-        "hira-304f",
-        "hira-3051",
-        "hira-3053",
-        "hira-3055",
-        "hira-3057",
-        "hira-3059",
-        "hira-305b",
-        "hira-305d",
-        "hira-305f",
-        "hira-3061",
-        "hira-3064",
-        "hira-3066",
-        "hira-3068",
-        "hira-306a",
-        "hira-306b",
-        "hira-306c",
-        "hira-306d",
-        "hira-306e",
-        "hira-306f",
-        "hira-3072",
-        "hira-3075",
-        "hira-3078",
-        "hira-307b",
-        "hira-307e",
-        "hira-307f",
-        "hira-3080",
-        "hira-3081",
-        "hira-3082",
-        "hira-3084",
-        "hira-3086",
-        "hira-3088",
-        "hira-3089",
-        "hira-308a",
-        "hira-308b",
-        "hira-308c",
-        "hira-308d",
-        "hira-308f",
-        "hira-3092",
         "hira-3093"
       ],
       "ghostKana": [],
       "answer": {
-        "file": "rv-kana-hira-3093-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "1493528c218b0321d3f9ccb28216ef17b9c3bb6c3740d64e3b560e4921a52c7b"
+        "file": "rv-kana-hira-3093-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "a3db211a2dbf235a2b70916a13d10b0eb20ab995deae9cb84dc17056747fbc66"
       },
       "question": {
         "file": "rv-kana-hira-3093-question.png",
@@ -3008,54 +1096,13 @@
         "kata-30a4",
         "kata-30a6",
         "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30aa"
       ],
       "answer": {
-        "file": "rv-kana-kata-30a2-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "eda9ac211c9140dabbcbc8544786ef745c0b7094bbc791846567d03fb00a5d14"
+        "file": "rv-kana-kata-30a2-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "9e5b43965c6bdecfb68714742a8f8b310fa6a335f43012ce3f0f7df03e3b1a1e"
       },
       "question": {
         "file": "rv-kana-kata-30a2-question.png",
@@ -3072,54 +1119,13 @@
       "ghostKana": [
         "kata-30a6",
         "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30aa"
       ],
       "answer": {
-        "file": "rv-kana-kata-30a4-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "ffb81a9f38f90078879a63c4a9aa4a84009daebeafc93fbc0a129be3b0b423d2"
+        "file": "rv-kana-kata-30a4-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "89bc8a26856e1946477774f70aeba6e6aada368e61a9fe3ef35919db452d254e"
       },
       "question": {
         "file": "rv-kana-kata-30a4-question.png",
@@ -3136,54 +1142,13 @@
       ],
       "ghostKana": [
         "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30aa"
       ],
       "answer": {
-        "file": "rv-kana-kata-30a6-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "5074be17891d0dc85b178c927dc2a16923499a980481e0891703eaad148c0485"
+        "file": "rv-kana-kata-30a6-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "b0bf4190b6d75c664607f7dd7c0b73683900f29ebe11fbd054832db01776dc65"
       },
       "question": {
         "file": "rv-kana-kata-30a6-question.png",
@@ -3200,54 +1165,13 @@
         "kata-30a8"
       ],
       "ghostKana": [
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30aa"
       ],
       "answer": {
-        "file": "rv-kana-kata-30a8-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "bf5b2ea88e73bbe868eb0d98b3181d14d8126a2534ed0d7b8706b451b97d61ad"
+        "file": "rv-kana-kata-30a8-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "9bde3a60859553027d1322e997c8cf41ee15a79e61afd52844d109cab7fafe99"
       },
       "question": {
         "file": "rv-kana-kata-30a8-question.png",
@@ -3264,54 +1188,12 @@
         "kata-30a8",
         "kata-30aa"
       ],
-      "ghostKana": [
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-kata-30aa-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "e1d20e48c2f5ae892bec36c4a89c5a7900c55c8137d75555c4ad1a294b3931ab"
+        "file": "rv-kana-kata-30aa-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "9b0aec35c7305a5e858009bef2a2635b186c542f2847f35e3bf9a5023045874a"
       },
       "question": {
         "file": "rv-kana-kata-30aa-question.png",
@@ -3322,60 +1204,19 @@
     },
     "read-kata-30ab": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
         "kata-30ab"
       ],
       "ghostKana": [
         "kata-30ad",
         "kata-30af",
         "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30b3"
       ],
       "answer": {
-        "file": "rv-kana-kata-30ab-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "13afcfa4d1a457e0a121ca21a2bde20f3e08857cb388844b7b46e6e4533cd2c2"
+        "file": "rv-kana-kata-30ab-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "3db84047a55b8de38ab13b7d9be661ac6e5f885fb3c6979cdb4b7fb5c232eca3"
       },
       "question": {
         "file": "rv-kana-kata-30ab-question.png",
@@ -3386,60 +1227,19 @@
     },
     "read-kata-30ad": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
         "kata-30ab",
         "kata-30ad"
       ],
       "ghostKana": [
         "kata-30af",
         "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30b3"
       ],
       "answer": {
-        "file": "rv-kana-kata-30ad-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "f42e5cba196ba724f6e141ce183ac2dd5a4e4370c6f914bb8400978ca1e19436"
+        "file": "rv-kana-kata-30ad-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "59350fb55d6902788b7d6443772b694539b4f6e69a0b3143354799650254f86a"
       },
       "question": {
         "file": "rv-kana-kata-30ad-question.png",
@@ -3450,60 +1250,19 @@
     },
     "read-kata-30af": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
         "kata-30ab",
         "kata-30ad",
         "kata-30af"
       ],
       "ghostKana": [
         "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30b3"
       ],
       "answer": {
-        "file": "rv-kana-kata-30af-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "5afc18af52fea6d3b7f434b5eccd26fbdcd6bf10f4e0abd59fe5d8653803e375"
+        "file": "rv-kana-kata-30af-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "5854dfc100e1481f5ffce9e940d91c1ba5a0c038a81045add76c4bd0ea6c4e77"
       },
       "question": {
         "file": "rv-kana-kata-30af-question.png",
@@ -3514,60 +1273,19 @@
     },
     "read-kata-30b1": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
         "kata-30ab",
         "kata-30ad",
         "kata-30af",
         "kata-30b1"
       ],
       "ghostKana": [
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30b3"
       ],
       "answer": {
-        "file": "rv-kana-kata-30b1-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "7d570d7041df7296dd4400b4a7be06338aca2b8022d21790c3236ba03ef5df08"
+        "file": "rv-kana-kata-30b1-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "74b9181941a1b2ef04294ba3f3fd1c0798c66c48531e392ef89c9e105572663d"
       },
       "question": {
         "file": "rv-kana-kata-30b1-question.png",
@@ -3578,60 +1296,18 @@
     },
     "read-kata-30b3": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
         "kata-30ab",
         "kata-30ad",
         "kata-30af",
         "kata-30b1",
         "kata-30b3"
       ],
-      "ghostKana": [
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-kata-30b3-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "13ad6482478c2946ab0b985b228f25d0330863141a7cf499ea5ab16a330f07e6"
+        "file": "rv-kana-kata-30b3-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "aa7417edd225a5c41958ac0920d598f68e3dd3f53865292120a316b902eb6183"
       },
       "question": {
         "file": "rv-kana-kata-30b3-question.png",
@@ -3642,60 +1318,19 @@
     },
     "read-kata-30b5": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
         "kata-30b5"
       ],
       "ghostKana": [
         "kata-30b7",
         "kata-30b9",
         "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30bd"
       ],
       "answer": {
-        "file": "rv-kana-kata-30b5-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "c2dbe51adc9c2a400c5abcbd4b64548e63d69479b2c0b2d5b5da9c369090f1cc"
+        "file": "rv-kana-kata-30b5-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "500fe60b9e5088b483aa3b307cd512a775e7196bafd9271b6fed3e35bc5a6df5"
       },
       "question": {
         "file": "rv-kana-kata-30b5-question.png",
@@ -3706,60 +1341,19 @@
     },
     "read-kata-30b7": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
         "kata-30b5",
         "kata-30b7"
       ],
       "ghostKana": [
         "kata-30b9",
         "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30bd"
       ],
       "answer": {
-        "file": "rv-kana-kata-30b7-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "55e624cfa2fdd138596134d7fe8f700c68bbfad27f45ebab573d563ae541f5c1"
+        "file": "rv-kana-kata-30b7-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "8cdde342fb1534d53841a68d5a2c26a58d55cb85d38531609c81693b3998a6ef"
       },
       "question": {
         "file": "rv-kana-kata-30b7-question.png",
@@ -3770,60 +1364,19 @@
     },
     "read-kata-30b9": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
         "kata-30b5",
         "kata-30b7",
         "kata-30b9"
       ],
       "ghostKana": [
         "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30bd"
       ],
       "answer": {
-        "file": "rv-kana-kata-30b9-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "4de12d2a485d93ee4f04a017dc389447e24c49790acfa5a7d5ad2926de2f9620"
+        "file": "rv-kana-kata-30b9-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "ff35fd8f632f0afedf68896094c7ea758a81450ec44d75a50a83052a5cb09da7"
       },
       "question": {
         "file": "rv-kana-kata-30b9-question.png",
@@ -3834,60 +1387,19 @@
     },
     "read-kata-30bb": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
         "kata-30b5",
         "kata-30b7",
         "kata-30b9",
         "kata-30bb"
       ],
       "ghostKana": [
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30bd"
       ],
       "answer": {
-        "file": "rv-kana-kata-30bb-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "6c32c2d9c67c034b4e9181f5c21d10ded4a1dfd98bb5e71a320c3781def8b192"
+        "file": "rv-kana-kata-30bb-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "928f98250e2449e7af2b79b0b5fe4d819244a8c6c3bbf3a00ddeebbec9a2f16b"
       },
       "question": {
         "file": "rv-kana-kata-30bb-question.png",
@@ -3898,60 +1410,18 @@
     },
     "read-kata-30bd": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
         "kata-30b5",
         "kata-30b7",
         "kata-30b9",
         "kata-30bb",
         "kata-30bd"
       ],
-      "ghostKana": [
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-kata-30bd-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "c1c4bc5e0a38e8ca132d6e51c2de8b71d0fc8f18544bd918027421be49dcba0f"
+        "file": "rv-kana-kata-30bd-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "9a05cb3d8a92434348460b77f78a701e9ffdc5b8f11ae222322abbbc0f861e89"
       },
       "question": {
         "file": "rv-kana-kata-30bd-question.png",
@@ -3962,60 +1432,19 @@
     },
     "read-kata-30bf": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
         "kata-30bf"
       ],
       "ghostKana": [
         "kata-30c1",
         "kata-30c4",
         "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30c8"
       ],
       "answer": {
-        "file": "rv-kana-kata-30bf-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "712a78ed613368c377a7bb3e212c5b8e739938718468e51a9e0b2155971e5046"
+        "file": "rv-kana-kata-30bf-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "6e6fdfd4aaf6615871e212bea3a974cac83ce6ec336d595b101268c28ce0e90c"
       },
       "question": {
         "file": "rv-kana-kata-30bf-question.png",
@@ -4026,60 +1455,19 @@
     },
     "read-kata-30c1": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
         "kata-30bf",
         "kata-30c1"
       ],
       "ghostKana": [
         "kata-30c4",
         "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30c8"
       ],
       "answer": {
-        "file": "rv-kana-kata-30c1-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "e00b8083d56f0a953aa3bfaf05273f4023a0214007c5b53aef8fb0a6ff148581"
+        "file": "rv-kana-kata-30c1-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "17afe81116910b03e9de005c46d813a628f71a3367773c6fd6074f91498e6f59"
       },
       "question": {
         "file": "rv-kana-kata-30c1-question.png",
@@ -4090,60 +1478,19 @@
     },
     "read-kata-30c4": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
         "kata-30bf",
         "kata-30c1",
         "kata-30c4"
       ],
       "ghostKana": [
         "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30c8"
       ],
       "answer": {
-        "file": "rv-kana-kata-30c4-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "4c13ed74c5dc2a8358bf7dfc7312927fd4557cc3a7e4b28c00bd01f375330e5b"
+        "file": "rv-kana-kata-30c4-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "7aa8523abe4922521e006ca52ce3a266ba7b7d695cab45e1b487756c3fe0f96a"
       },
       "question": {
         "file": "rv-kana-kata-30c4-question.png",
@@ -4154,60 +1501,19 @@
     },
     "read-kata-30c6": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
         "kata-30bf",
         "kata-30c1",
         "kata-30c4",
         "kata-30c6"
       ],
       "ghostKana": [
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30c8"
       ],
       "answer": {
-        "file": "rv-kana-kata-30c6-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "895a53acebd1bf63c5ec0429bcd6162ce9290eae0d0c5fe3c56710e96d297880"
+        "file": "rv-kana-kata-30c6-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "035e9345617b0a8905c7dc4caa64488347c6b170bcf4e16662de9b6be761f179"
       },
       "question": {
         "file": "rv-kana-kata-30c6-question.png",
@@ -4218,60 +1524,18 @@
     },
     "read-kata-30c8": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
         "kata-30bf",
         "kata-30c1",
         "kata-30c4",
         "kata-30c6",
         "kata-30c8"
       ],
-      "ghostKana": [
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-kata-30c8-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "5cf0e43eb81b4f84052881f7ea09b98648ac8dc42d0ef2de95e9d11bc6cb9580"
+        "file": "rv-kana-kata-30c8-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "048bf9a653be77d767c90dcd51a23b96963ec28b33214afaef40a62aa96eb800"
       },
       "question": {
         "file": "rv-kana-kata-30c8-question.png",
@@ -4282,60 +1546,19 @@
     },
     "read-kata-30ca": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
         "kata-30ca"
       ],
       "ghostKana": [
         "kata-30cb",
         "kata-30cc",
         "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30ce"
       ],
       "answer": {
-        "file": "rv-kana-kata-30ca-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "631601d6bd6735cfe1577aa0ef670901eaf0d6d12917ddebe3a1a4019b5df3fb"
+        "file": "rv-kana-kata-30ca-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "f9814d7c852bf25648f0bb6636f2f448eeeb78305c374ec27565cbbfc9bc3aaf"
       },
       "question": {
         "file": "rv-kana-kata-30ca-question.png",
@@ -4346,60 +1569,19 @@
     },
     "read-kata-30cb": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
         "kata-30ca",
         "kata-30cb"
       ],
       "ghostKana": [
         "kata-30cc",
         "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30ce"
       ],
       "answer": {
-        "file": "rv-kana-kata-30cb-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "41fa3c1d8058dfa86f8d2b51715c23d296d4a800dfec937094355b58d58323d7"
+        "file": "rv-kana-kata-30cb-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "ec16471594dfa87a8faeb84f079d4818e6d60a0cbf14e497906eb23b097b301b"
       },
       "question": {
         "file": "rv-kana-kata-30cb-question.png",
@@ -4410,60 +1592,19 @@
     },
     "read-kata-30cc": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
         "kata-30ca",
         "kata-30cb",
         "kata-30cc"
       ],
       "ghostKana": [
         "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30ce"
       ],
       "answer": {
-        "file": "rv-kana-kata-30cc-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "00ce047e9a3aee29eb4b563b821122c6b68b463dfa697204607f11316cbb0ecd"
+        "file": "rv-kana-kata-30cc-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "a1036d53460b8402cc0e2ac8e7e8339f4642a791d6428dafda46427210d7a462"
       },
       "question": {
         "file": "rv-kana-kata-30cc-question.png",
@@ -4474,60 +1615,19 @@
     },
     "read-kata-30cd": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
         "kata-30ca",
         "kata-30cb",
         "kata-30cc",
         "kata-30cd"
       ],
       "ghostKana": [
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30ce"
       ],
       "answer": {
-        "file": "rv-kana-kata-30cd-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "31ba7cf7ee0df95225fa6915b64783d6db08fe0e55266a650607d212a340708a"
+        "file": "rv-kana-kata-30cd-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "d05de1f1e0c7cfd31d2abcfa91d469da372d5594c101fb36048b42b7ec31d8d6"
       },
       "question": {
         "file": "rv-kana-kata-30cd-question.png",
@@ -4538,60 +1638,18 @@
     },
     "read-kata-30ce": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
         "kata-30ca",
         "kata-30cb",
         "kata-30cc",
         "kata-30cd",
         "kata-30ce"
       ],
-      "ghostKana": [
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-kata-30ce-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "a8a839d6dee7ca8c1c635b3ce85061348f7111f45cc5792af362949ec6727ae0"
+        "file": "rv-kana-kata-30ce-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "52cdca60be1a7d2d0584733d25e3f97e5fa26498ae5d14015271e3601fae184c"
       },
       "question": {
         "file": "rv-kana-kata-30ce-question.png",
@@ -4602,60 +1660,19 @@
     },
     "read-kata-30cf": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
         "kata-30cf"
       ],
       "ghostKana": [
         "kata-30d2",
         "kata-30d5",
         "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30db"
       ],
       "answer": {
-        "file": "rv-kana-kata-30cf-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "2cff9abb730f65746f92877a789a59593f70b8d5e4b8708cb58d6de82539b764"
+        "file": "rv-kana-kata-30cf-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "a5129cf6587abb6be85de207a73258749e8dc8dc5939235303950a298517998d"
       },
       "question": {
         "file": "rv-kana-kata-30cf-question.png",
@@ -4666,60 +1683,19 @@
     },
     "read-kata-30d2": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
         "kata-30cf",
         "kata-30d2"
       ],
       "ghostKana": [
         "kata-30d5",
         "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30db"
       ],
       "answer": {
-        "file": "rv-kana-kata-30d2-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "4dbc5a00efd1bf7c4d97600ca6425bc719fd97669503e4e32b293b97f7ef471a"
+        "file": "rv-kana-kata-30d2-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "7f39895d8dfdd77a401b76dac49030de3a8dbed2a9915f8c4bc1c47c7512bdba"
       },
       "question": {
         "file": "rv-kana-kata-30d2-question.png",
@@ -4730,60 +1706,19 @@
     },
     "read-kata-30d5": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
         "kata-30cf",
         "kata-30d2",
         "kata-30d5"
       ],
       "ghostKana": [
         "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30db"
       ],
       "answer": {
-        "file": "rv-kana-kata-30d5-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "2d9a0b3c26ac8529c86a6017af81bf6f5184a83cdc9c43a82236f0f0648e4149"
+        "file": "rv-kana-kata-30d5-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "e8491f610b4eb30b97fff44e7d49675d675afcc366f68e486f7a2c3032572894"
       },
       "question": {
         "file": "rv-kana-kata-30d5-question.png",
@@ -4794,60 +1729,19 @@
     },
     "read-kata-30d8": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
         "kata-30cf",
         "kata-30d2",
         "kata-30d5",
         "kata-30d8"
       ],
       "ghostKana": [
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30db"
       ],
       "answer": {
-        "file": "rv-kana-kata-30d8-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "dc6d354a57f3a871360b8be30b12d2f6ae0aa5fa74d69452e11daa46c74d5282"
+        "file": "rv-kana-kata-30d8-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "f88e425b36879567bccd76324a0dba55d32973a45b01cbbf40dde02d350707c3"
       },
       "question": {
         "file": "rv-kana-kata-30d8-question.png",
@@ -4858,60 +1752,18 @@
     },
     "read-kata-30db": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
         "kata-30cf",
         "kata-30d2",
         "kata-30d5",
         "kata-30d8",
         "kata-30db"
       ],
-      "ghostKana": [
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-kata-30db-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "4bd0df88adfcbab490faf7799c312105acbdb8789759168f4f682382b1d84626"
+        "file": "rv-kana-kata-30db-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "fef992ecd95a29990c3ddbecf0b2d12dd9e8e165fd2506fe1827a29cd3dd2055"
       },
       "question": {
         "file": "rv-kana-kata-30db-question.png",
@@ -4922,60 +1774,19 @@
     },
     "read-kata-30de": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
         "kata-30de"
       ],
       "ghostKana": [
         "kata-30df",
         "kata-30e0",
         "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30e2"
       ],
       "answer": {
-        "file": "rv-kana-kata-30de-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "9229631528542edddab2eef6f0893ffaa7563a3267f32758dc8636615ac373f8"
+        "file": "rv-kana-kata-30de-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "d292dedf02011495be8b705d87e138ef54f012e6e447be7cb80d6071705d0f22"
       },
       "question": {
         "file": "rv-kana-kata-30de-question.png",
@@ -4986,60 +1797,19 @@
     },
     "read-kata-30df": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
         "kata-30de",
         "kata-30df"
       ],
       "ghostKana": [
         "kata-30e0",
         "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30e2"
       ],
       "answer": {
-        "file": "rv-kana-kata-30df-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "ab0990a1d5e9ce106952014a5c9fc1dba3b59277788ea68c273d343f3a3cc6c2"
+        "file": "rv-kana-kata-30df-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "490d65b62b540964d36f086b721a98f1f9892cfd9817df4445d76e875aa92761"
       },
       "question": {
         "file": "rv-kana-kata-30df-question.png",
@@ -5050,60 +1820,19 @@
     },
     "read-kata-30e0": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
         "kata-30de",
         "kata-30df",
         "kata-30e0"
       ],
       "ghostKana": [
         "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30e2"
       ],
       "answer": {
-        "file": "rv-kana-kata-30e0-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "4795a32223cf226261056154194519e587ef0c7ca0ae35e8cf36ae5a2caf8c63"
+        "file": "rv-kana-kata-30e0-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "cd10f1e90e982aa527e5a1d8a0a868fda973e6c5c515bca65c3dbc63dcce6a99"
       },
       "question": {
         "file": "rv-kana-kata-30e0-question.png",
@@ -5114,60 +1843,19 @@
     },
     "read-kata-30e1": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
         "kata-30de",
         "kata-30df",
         "kata-30e0",
         "kata-30e1"
       ],
       "ghostKana": [
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30e2"
       ],
       "answer": {
-        "file": "rv-kana-kata-30e1-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "4d0d080d400b5dbdc25346c6830fca282cec5fa1c3f34109f8a00c0f1b15863c"
+        "file": "rv-kana-kata-30e1-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "3756fde75d1c0e78791816b561e17c3bb243e44788d5b4fa193aaf6f4b4a7e22"
       },
       "question": {
         "file": "rv-kana-kata-30e1-question.png",
@@ -5178,60 +1866,18 @@
     },
     "read-kata-30e2": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
         "kata-30de",
         "kata-30df",
         "kata-30e0",
         "kata-30e1",
         "kata-30e2"
       ],
-      "ghostKana": [
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-kata-30e2-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "ec4852a121407eef098750b22cbeefe06c7213101643773c31d7d2712041ff5c"
+        "file": "rv-kana-kata-30e2-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "a0c43cd59c0d026d42e8dae7e8ef3fdd81e151ec7da3d1da015fc5895b9acb9b"
       },
       "question": {
         "file": "rv-kana-kata-30e2-question.png",
@@ -5242,60 +1888,17 @@
     },
     "read-kata-30e4": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
         "kata-30e4"
       ],
       "ghostKana": [
         "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30e8"
       ],
       "answer": {
-        "file": "rv-kana-kata-30e4-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "ee7ca30f9211bc7a3d1f5f606ac4cb7a49d0676fa4d301fc74eecada3b03ffa2"
+        "file": "rv-kana-kata-30e4-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "768499a57ddc605b838af9f6ba439f5404bd7a81c475a69b57dfc0e37dd5fbfe"
       },
       "question": {
         "file": "rv-kana-kata-30e4-question.png",
@@ -5306,60 +1909,17 @@
     },
     "read-kata-30e6": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
         "kata-30e4",
         "kata-30e6"
       ],
       "ghostKana": [
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30e8"
       ],
       "answer": {
-        "file": "rv-kana-kata-30e6-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "7473c03d20fee2beb79919c7fc1372297ed5a3443291da08094a5ee81c95cd8c"
+        "file": "rv-kana-kata-30e6-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "28aa30b48e8142facc50bf23f1334ff15306f37b0354e43fed0110d6f8a7d1f1"
       },
       "question": {
         "file": "rv-kana-kata-30e6-question.png",
@@ -5370,60 +1930,16 @@
     },
     "read-kata-30e8": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
         "kata-30e4",
         "kata-30e6",
         "kata-30e8"
       ],
-      "ghostKana": [
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-kata-30e8-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "4418d75ee41a285ac0075d7e3de3eaeab22dd7af5637f03186b4f21d4988a472"
+        "file": "rv-kana-kata-30e8-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "ec7ccc4479c364a71553e4c9319c32c28f80429751ddffec95c125cfc51e93a8"
       },
       "question": {
         "file": "rv-kana-kata-30e8-question.png",
@@ -5434,60 +1950,19 @@
     },
     "read-kata-30e9": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
         "kata-30e9"
       ],
       "ghostKana": [
         "kata-30ea",
         "kata-30eb",
         "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30ed"
       ],
       "answer": {
-        "file": "rv-kana-kata-30e9-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "625edd962b6d632ed7c399ef7ba959bcaa7fe4460ed316add1111b1e0e4ec848"
+        "file": "rv-kana-kata-30e9-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "4489f31180f5cac775717a4adecd7a3e822f6f89beca99902e648c449eb0b1e8"
       },
       "question": {
         "file": "rv-kana-kata-30e9-question.png",
@@ -5498,60 +1973,19 @@
     },
     "read-kata-30ea": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
         "kata-30e9",
         "kata-30ea"
       ],
       "ghostKana": [
         "kata-30eb",
         "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30ed"
       ],
       "answer": {
-        "file": "rv-kana-kata-30ea-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "6ef189f14aefaec1ff5250ce091122430191790e1a042e1449fc7a27dca0a3cf"
+        "file": "rv-kana-kata-30ea-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "e1d298db950a7eca3c256c8a03c67992d7c148dfbfe90e369caf160ab8793940"
       },
       "question": {
         "file": "rv-kana-kata-30ea-question.png",
@@ -5562,60 +1996,19 @@
     },
     "read-kata-30eb": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
         "kata-30e9",
         "kata-30ea",
         "kata-30eb"
       ],
       "ghostKana": [
         "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30ed"
       ],
       "answer": {
-        "file": "rv-kana-kata-30eb-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "d1f207c00fb36564cdd8cf59253eb727b79c9bac1cbbd5de755678cfe8586573"
+        "file": "rv-kana-kata-30eb-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "080b27869eb81c6d64f2ff8421fad81e252b7ef4e9107ff8e57c9fbb682b5f44"
       },
       "question": {
         "file": "rv-kana-kata-30eb-question.png",
@@ -5626,60 +2019,19 @@
     },
     "read-kata-30ec": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
         "kata-30e9",
         "kata-30ea",
         "kata-30eb",
         "kata-30ec"
       ],
       "ghostKana": [
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30ed"
       ],
       "answer": {
-        "file": "rv-kana-kata-30ec-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "9ee1bc57a8b41b157fe4c075f47addc8dbc26f4c7bb9832ab771a91bac43062f"
+        "file": "rv-kana-kata-30ec-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "c083e8170e76f0f9da1b38724d57a1aa3063e7af6bdee2131d6ab5bc7a8cdf43"
       },
       "question": {
         "file": "rv-kana-kata-30ec-question.png",
@@ -5690,60 +2042,18 @@
     },
     "read-kata-30ed": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
         "kata-30e9",
         "kata-30ea",
         "kata-30eb",
         "kata-30ec",
         "kata-30ed"
       ],
-      "ghostKana": [
-        "kata-30ef",
-        "kata-30f2",
-        "kata-30f3"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-kata-30ed-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "af128c621452c722dfd54e30027a03e308a2e1939ebd0b45f68a67eb9007b132"
+        "file": "rv-kana-kata-30ed-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "f4d5936cbeafa04de21917ceb690ac94976e185d5b7976d55e191c25e9adb816"
       },
       "question": {
         "file": "rv-kana-kata-30ed-question.png",
@@ -5754,60 +2064,16 @@
     },
     "read-kata-30ef": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
         "kata-30ef"
       ],
       "ghostKana": [
-        "kata-30f2",
-        "kata-30f3"
+        "kata-30f2"
       ],
       "answer": {
-        "file": "rv-kana-kata-30ef-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "85867c8cd169d4bb87de0ad6a095df44b68bb57d246600d6906e42bc632e03e3"
+        "file": "rv-kana-kata-30ef-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "7c4488d0210be28e6cda4ffcb5a7c1624cb916c1d164fe5470f11f56bb061a56"
       },
       "question": {
         "file": "rv-kana-kata-30ef-question.png",
@@ -5818,60 +2084,15 @@
     },
     "read-kata-30f2": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
         "kata-30ef",
         "kata-30f2"
       ],
-      "ghostKana": [
-        "kata-30f3"
-      ],
+      "ghostKana": [],
       "answer": {
-        "file": "rv-kana-kata-30f2-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "9e5ae6d284fb3c822f9a8dc650df7c265364aa04e42eb512a5a55dfbe7a8c5de"
+        "file": "rv-kana-kata-30f2-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "5003e174a8e023da626a306b291cc26ed4d530ac5b9c0c07c2115a0b3191c115"
       },
       "question": {
         "file": "rv-kana-kata-30f2-question.png",
@@ -5882,59 +2103,14 @@
     },
     "read-kata-30f3": {
       "visibleKana": [
-        "kata-30a2",
-        "kata-30a4",
-        "kata-30a6",
-        "kata-30a8",
-        "kata-30aa",
-        "kata-30ab",
-        "kata-30ad",
-        "kata-30af",
-        "kata-30b1",
-        "kata-30b3",
-        "kata-30b5",
-        "kata-30b7",
-        "kata-30b9",
-        "kata-30bb",
-        "kata-30bd",
-        "kata-30bf",
-        "kata-30c1",
-        "kata-30c4",
-        "kata-30c6",
-        "kata-30c8",
-        "kata-30ca",
-        "kata-30cb",
-        "kata-30cc",
-        "kata-30cd",
-        "kata-30ce",
-        "kata-30cf",
-        "kata-30d2",
-        "kata-30d5",
-        "kata-30d8",
-        "kata-30db",
-        "kata-30de",
-        "kata-30df",
-        "kata-30e0",
-        "kata-30e1",
-        "kata-30e2",
-        "kata-30e4",
-        "kata-30e6",
-        "kata-30e8",
-        "kata-30e9",
-        "kata-30ea",
-        "kata-30eb",
-        "kata-30ec",
-        "kata-30ed",
-        "kata-30ef",
-        "kata-30f2",
         "kata-30f3"
       ],
       "ghostKana": [],
       "answer": {
-        "file": "rv-kana-kata-30f3-answer-chart.png",
-        "width": 1040,
-        "height": 488,
-        "sha256": "d6cbb987bd02abbc413624debf905c70a8d5f55f3f1f51737c43abafb100a87a"
+        "file": "rv-kana-kata-30f3-answer-row.png",
+        "width": 1050,
+        "height": 268,
+        "sha256": "4dc857f8df2830e262312dcddc2a6b25a3e5f2c5d4b2036994e370edf56c815e"
       },
       "question": {
         "file": "rv-kana-kata-30f3-question.png",
@@ -7642,10 +3818,10 @@
   },
   "files": [
     {
-      "file": "rv-kana-hira-3042-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "ed320195ecc0b16f4f002c2a583d31945baa42f8c2b1be55610541b776a76162"
+      "file": "rv-kana-hira-3042-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "f62a8ae605950774b1a0d3c817df9c1a58f957716e0481134d9883dc649d9d6c"
     },
     {
       "file": "rv-kana-hira-3042-question.png",
@@ -7654,10 +3830,10 @@
       "sha256": "7152c6cf2ea481facbd5f0a6fe1167be52e9bd1df2c5ee1fcfebc86f06e5fead"
     },
     {
-      "file": "rv-kana-hira-3044-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "c7440fa6fae5504298c078481715199f1a2ce9d3f4c20e89b7f4a1457e55badf"
+      "file": "rv-kana-hira-3044-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "93ce76a36f7585c83719638c34fe1edb939aad1276d7269b5d1b69129bc27107"
     },
     {
       "file": "rv-kana-hira-3044-question.png",
@@ -7666,10 +3842,10 @@
       "sha256": "0ee7fe6ba056ca59b765453a35c1b4afa88a660b2216e5786efb68ae1feef958"
     },
     {
-      "file": "rv-kana-hira-3046-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "a60491ba85cd0f195b4272e3e8665726c2172ee016960d3f767c677848b894f5"
+      "file": "rv-kana-hira-3046-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "c5699e103ebf3c7ff0dfefa5ca5496e4bdd8b28fac6da0b444668e9b75fdec9b"
     },
     {
       "file": "rv-kana-hira-3046-question.png",
@@ -7678,10 +3854,10 @@
       "sha256": "f490dfda076454223e850e3559385063fae58beed36de2769c2ec774bcc2a9f1"
     },
     {
-      "file": "rv-kana-hira-3048-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "a4c1d7e20f2beb774a8f10039fa179b576d64c2a8be99eabee699a1349995481"
+      "file": "rv-kana-hira-3048-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "61bf3f4467e014c1f50a5ffdd03fa0be137ad59b863d5efe185051f7bf07fac9"
     },
     {
       "file": "rv-kana-hira-3048-question.png",
@@ -7690,10 +3866,10 @@
       "sha256": "2be469793bc2797c3b415e446b7c7d118ecc32b56314377653d8fc84879a6787"
     },
     {
-      "file": "rv-kana-hira-304a-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "a6e971af1404a4cc5fdfcead1ae83314c2341d4f28588222b5a01e2eb5200657"
+      "file": "rv-kana-hira-304a-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "05b20da34f474f26c5192dd718ceb33eff13d53015daf89bf630c5a080db0687"
     },
     {
       "file": "rv-kana-hira-304a-question.png",
@@ -7702,10 +3878,10 @@
       "sha256": "117ec79ba32e65eca31a909c5005888710c2154169747a2643d287766721715b"
     },
     {
-      "file": "rv-kana-hira-304b-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "f411633f4b675fbdd54fc03686c5ba88affdf6211170d3eb2610b59784ea6adc"
+      "file": "rv-kana-hira-304b-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "5d81ef8863815904e7c972a0ca0f336b3c8fa4a3b788bf7380aacb842f870e0f"
     },
     {
       "file": "rv-kana-hira-304b-question.png",
@@ -7714,10 +3890,10 @@
       "sha256": "fa7f6d555e90e51fac532c3911c6b2cb79a74327e29ab66d98dc82a6826d1db4"
     },
     {
-      "file": "rv-kana-hira-304d-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "ab1104dbc3d86706a2ec37e72807a22f23d86a3225c38bf833e8d7a20e73933a"
+      "file": "rv-kana-hira-304d-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "bee7f2f64c04ecbe82af1d28bffdf1b9f41f1fe438ca0f469b067fd7ef7f9466"
     },
     {
       "file": "rv-kana-hira-304d-question.png",
@@ -7726,10 +3902,10 @@
       "sha256": "2be15943d0ffabf43e0c07685a5a730c09861e61b66b71a04b60275f0aaee790"
     },
     {
-      "file": "rv-kana-hira-304f-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "2b05fa0a3c85eb73ca0b9b0d7433c77a59f0aa730a9f251c48e20c50f5915e62"
+      "file": "rv-kana-hira-304f-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "4b59591b0e615ba58259cf9ac6dde1467699b076f8f5313595096ff6f7b2ecb1"
     },
     {
       "file": "rv-kana-hira-304f-question.png",
@@ -7738,10 +3914,10 @@
       "sha256": "9c37bc8be2a9368facd9c1f722b7b6ac448cb6eb6156a257edba1ce69e9f242d"
     },
     {
-      "file": "rv-kana-hira-3051-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "7a90de25bb1555e629d5993dd02a2c717fcda71ff1d172c90c1bfde8a818fe86"
+      "file": "rv-kana-hira-3051-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "6eb2879745f606b229a16f013b64c34eb81ad658967b306acca2fd912645d610"
     },
     {
       "file": "rv-kana-hira-3051-question.png",
@@ -7750,10 +3926,10 @@
       "sha256": "c31527bf51bc4eecca6dd8a446ef3faa4f648cb17ff9f92d677b6f7dd7924fad"
     },
     {
-      "file": "rv-kana-hira-3053-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "f3601073b464f4f53ee1b592ed0d07a22d7e0d78c3a65e96ee06ceacf4a6a4ea"
+      "file": "rv-kana-hira-3053-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "5d79d17b3738895963868b972055fc9b7c29f10d385e98b1979ebf83395528bc"
     },
     {
       "file": "rv-kana-hira-3053-question.png",
@@ -7762,10 +3938,10 @@
       "sha256": "b99e8bd760db72a524b23546c641eb5313065286769f8e325bb70abea8f953d4"
     },
     {
-      "file": "rv-kana-hira-3055-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "6e6596422cb1b8813dbcb4f41eea09963b72f6fe0def76e81d99c05714c5fd30"
+      "file": "rv-kana-hira-3055-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "12cd3db12b17b4fdb57610f6a09f23dbb7c723acaee3aaa7e06bce24406ae6b4"
     },
     {
       "file": "rv-kana-hira-3055-question.png",
@@ -7774,10 +3950,10 @@
       "sha256": "0f9ec54fb7e9194c25441f55763b8408d767607b8d489edebac64ae06dc4e7d0"
     },
     {
-      "file": "rv-kana-hira-3057-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "b2f419ee511bdf2b23d278e1e62b25056f951f33ae7b5ffd5a5fd59b7e9142bf"
+      "file": "rv-kana-hira-3057-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "d6a306332c0433ca7078c1cb46abf4fc96592b5a4b08b21433d2b529b326d565"
     },
     {
       "file": "rv-kana-hira-3057-question.png",
@@ -7786,10 +3962,10 @@
       "sha256": "d883c9dcb50ecd0051ca9b293454dd549f0b4847d6c170ddbd9eab8e5065f912"
     },
     {
-      "file": "rv-kana-hira-3059-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "3f8aefa93025a65e976b417ae8a8b4da27fd11162854df9ca6557b024333668a"
+      "file": "rv-kana-hira-3059-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "1c47dee8b34ffe130a1460f16cea5ffcf28d1622137c056108f5882cb860a4c4"
     },
     {
       "file": "rv-kana-hira-3059-question.png",
@@ -7798,10 +3974,10 @@
       "sha256": "2dc710fa841eb38c1df0dc83ac65c425e18c1078312f32713180115fcf8e01c1"
     },
     {
-      "file": "rv-kana-hira-305b-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "2808fd1b3ec707268e247d2ab34f2c82a4c2665baa329f02d5b96a45089b682a"
+      "file": "rv-kana-hira-305b-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "fa2bdff8907f60342f9e446d9e7e2b680481cb3af68b1e596dc3f111f154f448"
     },
     {
       "file": "rv-kana-hira-305b-question.png",
@@ -7810,10 +3986,10 @@
       "sha256": "a9f1e416a9cc1bead8e2fb11d23a76826cc3ec456cf3bec6473065118be599e4"
     },
     {
-      "file": "rv-kana-hira-305d-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "81136d1a488d092e0171dd5f880d1e14a45aa3b1178a4aff209e3092678bd9a5"
+      "file": "rv-kana-hira-305d-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "e1a2bda39c8201f93f23846709011039a73c37d47f468913e3f2d68ed87feea9"
     },
     {
       "file": "rv-kana-hira-305d-question.png",
@@ -7822,10 +3998,10 @@
       "sha256": "55cad2094b8144af0a11f6ecbb9d1cee84a19e7d736b719dc234b051ae48fd9a"
     },
     {
-      "file": "rv-kana-hira-305f-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "801645574f003905308aabd8665569a68084a0b25a8dea1b440682cc506223e7"
+      "file": "rv-kana-hira-305f-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "b2017cbf2d5a100cff75747ae690bbd29db0e9c0d8623587dc78a683a512d7ea"
     },
     {
       "file": "rv-kana-hira-305f-question.png",
@@ -7834,10 +4010,10 @@
       "sha256": "4e7c1654ce1267e91508046287052a54e39dee4b8432ba635ac00785432ed63e"
     },
     {
-      "file": "rv-kana-hira-3061-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "d033f306f99e29d9e74d86d57b2ac72ba65c8c4b560b8c93a6753f9d9a991cce"
+      "file": "rv-kana-hira-3061-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "bb95b4f3653a5993552d07d2f79c4d57c165b64bf3b1f1901814760550547610"
     },
     {
       "file": "rv-kana-hira-3061-question.png",
@@ -7846,10 +4022,10 @@
       "sha256": "ac1235b88a3ec265e5efd4bb4cc7016b37e4d008ec9d9f127ac3cf24fadae890"
     },
     {
-      "file": "rv-kana-hira-3064-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "e5e207e43c572904bdb25f7a8711d5bcb0c9afae5129a314f095d94c6308831b"
+      "file": "rv-kana-hira-3064-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "a56891a4b616d356038d7094f0544db982b0c12039eabc91cd4a298776196e15"
     },
     {
       "file": "rv-kana-hira-3064-question.png",
@@ -7858,10 +4034,10 @@
       "sha256": "ad59edd94684913da415e0112f81d5471dd2d8cb60170399ccb9c4aac32d86c2"
     },
     {
-      "file": "rv-kana-hira-3066-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "1478f9f1129e56f29f2f4cefc98aff71d4711abfe90325243c365908aa0a4192"
+      "file": "rv-kana-hira-3066-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "0998162caa8242d5a3e911e37fee8a6bd9c9fa03be3f5c8f9b8b5b683791a991"
     },
     {
       "file": "rv-kana-hira-3066-question.png",
@@ -7870,10 +4046,10 @@
       "sha256": "55836f50b23b5fed1af89a0641b962b6b38b64767d06d5ed0a6247d8c28bb29c"
     },
     {
-      "file": "rv-kana-hira-3068-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "93db761be549b76265e4c9dd674d4c2eb3e00b507e60677fee8281b803785406"
+      "file": "rv-kana-hira-3068-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "7dd733d32a64a821de053443d50e2e35e01716fb34358cf55f0ff1bd787da447"
     },
     {
       "file": "rv-kana-hira-3068-question.png",
@@ -7882,10 +4058,10 @@
       "sha256": "91b998aa23af180fd9523f0fe4461a8f4bd0d65add10f6535541e0908765e2ad"
     },
     {
-      "file": "rv-kana-hira-306a-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "d6ad4ed797126b8a0ca8194a6d7c35f3a85f374e16cebc490c20d581b4895c78"
+      "file": "rv-kana-hira-306a-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "217196c8fe2c62c661652130eb1c0657b876f7afdd3ce74096709d5002016e2a"
     },
     {
       "file": "rv-kana-hira-306a-question.png",
@@ -7894,10 +4070,10 @@
       "sha256": "bd640bc6f89ec9f13e3b9c11ba3c99c6a080adbe2f6533801d780f85ce7c754c"
     },
     {
-      "file": "rv-kana-hira-306b-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "eda7f9f1f10621bcd120286c3bad306ad4b6e3188c013e9724819b9d9ef0ecce"
+      "file": "rv-kana-hira-306b-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "f561bdd3a7163adfc6bf54ce71414f40ffe951e6d609bbbc0e233e6be96e28bf"
     },
     {
       "file": "rv-kana-hira-306b-question.png",
@@ -7906,10 +4082,10 @@
       "sha256": "d1d2d7351c4456e34d2493d6258a733b1ac5b77eb8f5420ca369b6d9d47b0656"
     },
     {
-      "file": "rv-kana-hira-306c-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "78d825145a75dc79620e5a330c742c10fdcf6caa19a3f177684b78db7970dc6f"
+      "file": "rv-kana-hira-306c-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "007b1bbd56b22dd115c4c8e20cea49698e6da5a947a24a9a2f6ebebdb85991c9"
     },
     {
       "file": "rv-kana-hira-306c-question.png",
@@ -7918,10 +4094,10 @@
       "sha256": "a9729fd6dff3e15462d40acb92dc190ed6040134e719a485e638a72ecbb06d7a"
     },
     {
-      "file": "rv-kana-hira-306d-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "36f33204e8b267cecff05fad77813af1fd1e84274180324be6baadf7181505b2"
+      "file": "rv-kana-hira-306d-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "450b0ab9e7b239c2b5f3f4d79082699d2b961194f330846848e092039d0c525f"
     },
     {
       "file": "rv-kana-hira-306d-question.png",
@@ -7930,10 +4106,10 @@
       "sha256": "0e886c4e12ae0b4bb44254d2385721db19e9d49257265de397f3e2cbc071a4bd"
     },
     {
-      "file": "rv-kana-hira-306e-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "a1e7c6af529ee0124c9a5e3ef85f618c0c79e50a7f51c6b919584cca6c0c688f"
+      "file": "rv-kana-hira-306e-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "e9d5c34ff492237660d5274374b0ac09d48a692e993bd515571b45354f3630f6"
     },
     {
       "file": "rv-kana-hira-306e-question.png",
@@ -7942,10 +4118,10 @@
       "sha256": "8735241cedc88c67e819cc25cb2eaeaa2980873758c8e6bdb81e35b1e10f8eaa"
     },
     {
-      "file": "rv-kana-hira-306f-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "8f0a919911f69c82bde39d203aceed196fa54bf458ef1428d806692a27ffdf96"
+      "file": "rv-kana-hira-306f-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "21e3bf2c834ea386c9a9bfc35fa9934cf5a4d4e4e6aa12050edc521206bcd00d"
     },
     {
       "file": "rv-kana-hira-306f-question.png",
@@ -7954,10 +4130,10 @@
       "sha256": "8925f546ed4e3fca164ea309dbbc8c95ba5e991c89fff7a24da4ea1bc035d7fd"
     },
     {
-      "file": "rv-kana-hira-3072-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "e20c70c64decd293cc255a5ba8963eaf2473fe159ae1229755a23ca12562be1c"
+      "file": "rv-kana-hira-3072-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "764d64f6416e5444d10adb46d105d1278fc313f1382cbe0e808211fb1f8c50d0"
     },
     {
       "file": "rv-kana-hira-3072-question.png",
@@ -7966,10 +4142,10 @@
       "sha256": "adc4015e1f065a851185359193cf5a124b9adaf67efb5b68ce0e5a4e0db28b6a"
     },
     {
-      "file": "rv-kana-hira-3075-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "c441b44a3e2e9559ca757ac6c9d5ba0865721528b8d14bff61951503bae09ca5"
+      "file": "rv-kana-hira-3075-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "38c69284783977d1269c3155cd0d5dfb3458b66b0894e309fedca3e24cf0e7d0"
     },
     {
       "file": "rv-kana-hira-3075-question.png",
@@ -7978,10 +4154,10 @@
       "sha256": "5f16f616942bddcdd39fc011d799c6092542bf13333c9dfedaa468218ac34d89"
     },
     {
-      "file": "rv-kana-hira-3078-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "ffa4dc2ae1285fcb722dc6c3f81d18e477fc289bb106e834dd441f8b9df27351"
+      "file": "rv-kana-hira-3078-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "96dc4fe841753928bcafc0289e3e0f84c173ea767671fad984cc702931531647"
     },
     {
       "file": "rv-kana-hira-3078-question.png",
@@ -7990,10 +4166,10 @@
       "sha256": "8f2094be4eb78c412f0cd96814ac2e502a90358bef23e8b092cd994443640e0c"
     },
     {
-      "file": "rv-kana-hira-307b-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "4201c397876acb5e82c2d1ce6ea1a11d784f2bd70040b6fdf8b4510bd3834422"
+      "file": "rv-kana-hira-307b-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "a570cba46549936efe8e620efbe00158ca8f0990414e5648475231414e5a3a9e"
     },
     {
       "file": "rv-kana-hira-307b-question.png",
@@ -8002,10 +4178,10 @@
       "sha256": "289942c89f5915545e8224486aa5b7f69152c9c6b698e53748af3e84daef4217"
     },
     {
-      "file": "rv-kana-hira-307e-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "9b956afd13ffd67809fefc89804ff2aac5c5f49fd8c3ae567f57e130835382cc"
+      "file": "rv-kana-hira-307e-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "9ecb7c8d19b97c73dfeab38242922f733851df68be18ee0f1796d97343753610"
     },
     {
       "file": "rv-kana-hira-307e-question.png",
@@ -8014,10 +4190,10 @@
       "sha256": "4fe10e00ab26bb807e68b00e6876bcd53be95b0aaf70b562a8c6607153baf102"
     },
     {
-      "file": "rv-kana-hira-307f-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "71721433d9d4f2915c0d56a849e9dc94f53d191d3a01ee626a8e4618e9b85f8f"
+      "file": "rv-kana-hira-307f-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "c2195092b6b8bbd4f0dfd05d13ff3815b1df26e428a7ec718a2fd7230d997547"
     },
     {
       "file": "rv-kana-hira-307f-question.png",
@@ -8026,10 +4202,10 @@
       "sha256": "5a7dc6df0bd57046ca6e608b55c582d53d2481cfb7fdb29cadc329fe3ad549cb"
     },
     {
-      "file": "rv-kana-hira-3080-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "0dedb105e8c8de657b026e9a8c31f9be4740abfeaeb150e031d6f6af5171f571"
+      "file": "rv-kana-hira-3080-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "713b917f4d03a3b5afd3428aa21364d6ff848baa4d82bdcd85dbb990ab8122de"
     },
     {
       "file": "rv-kana-hira-3080-question.png",
@@ -8038,10 +4214,10 @@
       "sha256": "53c968152337780dea1d164fe72f9a71e2e92e7eb6b4f5e876e65752aca33f27"
     },
     {
-      "file": "rv-kana-hira-3081-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "324f314d53589e627c68114d85558f5c9a5da3ef2c01e9bfd974a41c4f4393df"
+      "file": "rv-kana-hira-3081-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "b473024eb9f5ed03a8190cd553845f59b88f88a58f3e99af28bb1d7d4d6d059b"
     },
     {
       "file": "rv-kana-hira-3081-question.png",
@@ -8050,10 +4226,10 @@
       "sha256": "16f443aaa37f13a98222d9b722e73f0a5d3852a2aef34cca36161796a6ee2158"
     },
     {
-      "file": "rv-kana-hira-3082-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "02da55c87fd281d2efc0d602262572306fd0a3c950d90c959d0c8decfee5785c"
+      "file": "rv-kana-hira-3082-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "dff83ce4c64d687e9f55653ab8c192f1a546b8dcc3aac466ddf2344479191aac"
     },
     {
       "file": "rv-kana-hira-3082-question.png",
@@ -8062,10 +4238,10 @@
       "sha256": "0a0036ff3d300abd321662bcc032bddee85c9e40c6cabbab9243a3de1d5dd27c"
     },
     {
-      "file": "rv-kana-hira-3084-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "b6f413d1e86acf5b12a354bdfb2fd28e7e992e40194857ff16d56040453adeac"
+      "file": "rv-kana-hira-3084-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "cb0f5e7640c54dd6e3ce65bd735ca3e8a950f6f872ebae7780d4c1e3315d5c4f"
     },
     {
       "file": "rv-kana-hira-3084-question.png",
@@ -8074,10 +4250,10 @@
       "sha256": "7e400496410836e8c960c08d177bf99456f80763b253ddb27c32aac8646f8a4a"
     },
     {
-      "file": "rv-kana-hira-3086-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "22bad4cabf11b5091d6dd73ebf20bd56ca6eb1fc8ab9aa3565d2af29d6ed230d"
+      "file": "rv-kana-hira-3086-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "d0f4d7094fb6077657fe1dde1333f2205bac92075fe1474e734db79e59e5016f"
     },
     {
       "file": "rv-kana-hira-3086-question.png",
@@ -8086,10 +4262,10 @@
       "sha256": "7dbc540c5d9df646c75922496943029b2106807337695e328c6256255ed55253"
     },
     {
-      "file": "rv-kana-hira-3088-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "c54b563356fb45e914beeef8d67f249e14c9109e65bf0d6345f152bbfd7ef377"
+      "file": "rv-kana-hira-3088-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "32abdc56594f879b2b98ff8300bb83b51c551a43708d371edea1e3b8b25b06df"
     },
     {
       "file": "rv-kana-hira-3088-question.png",
@@ -8098,10 +4274,10 @@
       "sha256": "681194369c4b57e204a4f492b8a2c4f4999aa85ecf3a945e5e831f75e27b2400"
     },
     {
-      "file": "rv-kana-hira-3089-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "0870969d19294ef4651107ff9283ed3a26e9e37766572713dc245f25346d2b02"
+      "file": "rv-kana-hira-3089-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "ebcf0a6f30b0909e382c7b1e63003dd1081d8235060fb6e16416a14aadd95dd1"
     },
     {
       "file": "rv-kana-hira-3089-question.png",
@@ -8110,10 +4286,10 @@
       "sha256": "76e92411f4b951e9e0d497b485d36fcbcc51a9ea910365b66bd9c7490098e5f6"
     },
     {
-      "file": "rv-kana-hira-308a-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "2a2e349061cd3bef524555eafb5cc2322bcac013f15040d32b945b6f4e413a38"
+      "file": "rv-kana-hira-308a-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "e20f66e0403fa9aaeeebfd92134530ddd8a8b8edfbbebdf0fcb422064f627cec"
     },
     {
       "file": "rv-kana-hira-308a-question.png",
@@ -8122,10 +4298,10 @@
       "sha256": "f87f716157b8a5ce327591e5aa1ca252d22b3eb0e57d0db58c2a1c4ce9ecc7bc"
     },
     {
-      "file": "rv-kana-hira-308b-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "3ac491c46499a476dbbe70d007399166708d3ce26abdc526fdf4e231b38c83d6"
+      "file": "rv-kana-hira-308b-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "a6a3a9d64d3d7b16e493a9fac3ecfc510b1b92405a39f47a0e572c5724242632"
     },
     {
       "file": "rv-kana-hira-308b-question.png",
@@ -8134,10 +4310,10 @@
       "sha256": "edda2f8218514f923e73d139dbb285e3508768a469f301b4499676b42bab406a"
     },
     {
-      "file": "rv-kana-hira-308c-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "7dc651c2b27d5707af6c4cbe48195a953d04fab3752c24204f5a8e2b99795621"
+      "file": "rv-kana-hira-308c-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "a611ac14421548a9018ec2d9e8613a11aab8cfd3ddd23960ec39fe0d18d3caef"
     },
     {
       "file": "rv-kana-hira-308c-question.png",
@@ -8146,10 +4322,10 @@
       "sha256": "1e5ce2cfc4ff0d72c911b81d73f725dba5ddd8a689d32f724fb54b56d9287482"
     },
     {
-      "file": "rv-kana-hira-308d-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "e87197fce2762fe5c4852d239fccb308cb7ead90f10ee0e68a42f14e3fd81d99"
+      "file": "rv-kana-hira-308d-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "9fcd34ec88c6bf3c1b08214858793d3e634b271f4b9a09f52d0e2093ac86bd98"
     },
     {
       "file": "rv-kana-hira-308d-question.png",
@@ -8158,10 +4334,10 @@
       "sha256": "4111307bbeb271eac62973d1b68efa922bd820de31c30116e4b371d54e26699c"
     },
     {
-      "file": "rv-kana-hira-308f-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "7f3e48a1a680ef127c2518078d3eaecfd09ab304654e2cd7aa6007468e00705d"
+      "file": "rv-kana-hira-308f-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "ce8b6cecce217242b7218cb059957993e80f8ae73d6c7ce6498cab078b39a0c1"
     },
     {
       "file": "rv-kana-hira-308f-question.png",
@@ -8170,10 +4346,10 @@
       "sha256": "4273dd637ffe0798e6ddc1c6162f3f20f8e77a4d4fd8614c033bbceb95d3d70a"
     },
     {
-      "file": "rv-kana-hira-3092-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "8dd89aa00d49465e3ad89cc4755e95d362e8c122c65f75c2a286d0090341da38"
+      "file": "rv-kana-hira-3092-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "b3b24b8f1ccfb3f828268cbf403c75fb0c33abab9b2021fd63e07fc64b7373c8"
     },
     {
       "file": "rv-kana-hira-3092-question.png",
@@ -8182,10 +4358,10 @@
       "sha256": "e8751bd832b5375b2e275982182956dcff47016466087d8da003627aafa3e919"
     },
     {
-      "file": "rv-kana-hira-3093-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "1493528c218b0321d3f9ccb28216ef17b9c3bb6c3740d64e3b560e4921a52c7b"
+      "file": "rv-kana-hira-3093-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "a3db211a2dbf235a2b70916a13d10b0eb20ab995deae9cb84dc17056747fbc66"
     },
     {
       "file": "rv-kana-hira-3093-question.png",
@@ -8194,10 +4370,10 @@
       "sha256": "3da47265e13372db18578643a75881b6896e85842b03b8e8f59521bf7b0f4e9c"
     },
     {
-      "file": "rv-kana-kata-30a2-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "eda9ac211c9140dabbcbc8544786ef745c0b7094bbc791846567d03fb00a5d14"
+      "file": "rv-kana-kata-30a2-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "9e5b43965c6bdecfb68714742a8f8b310fa6a335f43012ce3f0f7df03e3b1a1e"
     },
     {
       "file": "rv-kana-kata-30a2-question.png",
@@ -8206,10 +4382,10 @@
       "sha256": "48058ec2a1c2c0e0e8de81701a63a8956d59e85f10f26b83f3d50f0cfa54951d"
     },
     {
-      "file": "rv-kana-kata-30a4-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "ffb81a9f38f90078879a63c4a9aa4a84009daebeafc93fbc0a129be3b0b423d2"
+      "file": "rv-kana-kata-30a4-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "89bc8a26856e1946477774f70aeba6e6aada368e61a9fe3ef35919db452d254e"
     },
     {
       "file": "rv-kana-kata-30a4-question.png",
@@ -8218,10 +4394,10 @@
       "sha256": "ed09243fd6f9b931ccf68c0250a290f909fc08157ab8b1322e008729d8b9e191"
     },
     {
-      "file": "rv-kana-kata-30a6-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "5074be17891d0dc85b178c927dc2a16923499a980481e0891703eaad148c0485"
+      "file": "rv-kana-kata-30a6-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "b0bf4190b6d75c664607f7dd7c0b73683900f29ebe11fbd054832db01776dc65"
     },
     {
       "file": "rv-kana-kata-30a6-question.png",
@@ -8230,10 +4406,10 @@
       "sha256": "f900a59b4e9ff86334a28f339aea88b8fd897c4f41b5bb9dd8000a82a81d1ac1"
     },
     {
-      "file": "rv-kana-kata-30a8-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "bf5b2ea88e73bbe868eb0d98b3181d14d8126a2534ed0d7b8706b451b97d61ad"
+      "file": "rv-kana-kata-30a8-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "9bde3a60859553027d1322e997c8cf41ee15a79e61afd52844d109cab7fafe99"
     },
     {
       "file": "rv-kana-kata-30a8-question.png",
@@ -8242,10 +4418,10 @@
       "sha256": "c3ecd53e79be81597c0959d5345a3bfd700ce6260e6d0b968b21308ab22f804c"
     },
     {
-      "file": "rv-kana-kata-30aa-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "e1d20e48c2f5ae892bec36c4a89c5a7900c55c8137d75555c4ad1a294b3931ab"
+      "file": "rv-kana-kata-30aa-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "9b0aec35c7305a5e858009bef2a2635b186c542f2847f35e3bf9a5023045874a"
     },
     {
       "file": "rv-kana-kata-30aa-question.png",
@@ -8254,10 +4430,10 @@
       "sha256": "518545ea55a793966d125ff68e77c6da37b3d39d03e147ff9018b32e0738d06e"
     },
     {
-      "file": "rv-kana-kata-30ab-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "13afcfa4d1a457e0a121ca21a2bde20f3e08857cb388844b7b46e6e4533cd2c2"
+      "file": "rv-kana-kata-30ab-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "3db84047a55b8de38ab13b7d9be661ac6e5f885fb3c6979cdb4b7fb5c232eca3"
     },
     {
       "file": "rv-kana-kata-30ab-question.png",
@@ -8266,10 +4442,10 @@
       "sha256": "cf6b9617a25cd431a5466bf0835f96a2707d95635fe39b4e0f99f6fce8c78f06"
     },
     {
-      "file": "rv-kana-kata-30ad-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "f42e5cba196ba724f6e141ce183ac2dd5a4e4370c6f914bb8400978ca1e19436"
+      "file": "rv-kana-kata-30ad-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "59350fb55d6902788b7d6443772b694539b4f6e69a0b3143354799650254f86a"
     },
     {
       "file": "rv-kana-kata-30ad-question.png",
@@ -8278,10 +4454,10 @@
       "sha256": "739cd3d7064f93549901687f34779684a2ee50417dc9dfb026e0c179b744d027"
     },
     {
-      "file": "rv-kana-kata-30af-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "5afc18af52fea6d3b7f434b5eccd26fbdcd6bf10f4e0abd59fe5d8653803e375"
+      "file": "rv-kana-kata-30af-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "5854dfc100e1481f5ffce9e940d91c1ba5a0c038a81045add76c4bd0ea6c4e77"
     },
     {
       "file": "rv-kana-kata-30af-question.png",
@@ -8290,10 +4466,10 @@
       "sha256": "3fcae00071cac6784635d03141348a1fee67f23367fd971c578b2d1cd8124038"
     },
     {
-      "file": "rv-kana-kata-30b1-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "7d570d7041df7296dd4400b4a7be06338aca2b8022d21790c3236ba03ef5df08"
+      "file": "rv-kana-kata-30b1-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "74b9181941a1b2ef04294ba3f3fd1c0798c66c48531e392ef89c9e105572663d"
     },
     {
       "file": "rv-kana-kata-30b1-question.png",
@@ -8302,10 +4478,10 @@
       "sha256": "c06348e7a67106280c54e4c6adbfea9e4e0e658d1f579ef832f6a487e7e5f201"
     },
     {
-      "file": "rv-kana-kata-30b3-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "13ad6482478c2946ab0b985b228f25d0330863141a7cf499ea5ab16a330f07e6"
+      "file": "rv-kana-kata-30b3-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "aa7417edd225a5c41958ac0920d598f68e3dd3f53865292120a316b902eb6183"
     },
     {
       "file": "rv-kana-kata-30b3-question.png",
@@ -8314,10 +4490,10 @@
       "sha256": "fa718a477379a7d8952868a284e52ec4ebd8d3e2187a4d6b063ef5621ca1349d"
     },
     {
-      "file": "rv-kana-kata-30b5-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "c2dbe51adc9c2a400c5abcbd4b64548e63d69479b2c0b2d5b5da9c369090f1cc"
+      "file": "rv-kana-kata-30b5-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "500fe60b9e5088b483aa3b307cd512a775e7196bafd9271b6fed3e35bc5a6df5"
     },
     {
       "file": "rv-kana-kata-30b5-question.png",
@@ -8326,10 +4502,10 @@
       "sha256": "58421387bb851ce8d6a0d6077a1eff8241305fe25232a530f350e64e0760f6cb"
     },
     {
-      "file": "rv-kana-kata-30b7-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "55e624cfa2fdd138596134d7fe8f700c68bbfad27f45ebab573d563ae541f5c1"
+      "file": "rv-kana-kata-30b7-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "8cdde342fb1534d53841a68d5a2c26a58d55cb85d38531609c81693b3998a6ef"
     },
     {
       "file": "rv-kana-kata-30b7-question.png",
@@ -8338,10 +4514,10 @@
       "sha256": "5db212170318f724c84ade6fd8d4b7f185da207da8a7a34e57c95f84b92ff763"
     },
     {
-      "file": "rv-kana-kata-30b9-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "4de12d2a485d93ee4f04a017dc389447e24c49790acfa5a7d5ad2926de2f9620"
+      "file": "rv-kana-kata-30b9-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "ff35fd8f632f0afedf68896094c7ea758a81450ec44d75a50a83052a5cb09da7"
     },
     {
       "file": "rv-kana-kata-30b9-question.png",
@@ -8350,10 +4526,10 @@
       "sha256": "a01217c3a274a3789797e64d51d07829c1963e6ed4883e2dee107644309553db"
     },
     {
-      "file": "rv-kana-kata-30bb-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "6c32c2d9c67c034b4e9181f5c21d10ded4a1dfd98bb5e71a320c3781def8b192"
+      "file": "rv-kana-kata-30bb-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "928f98250e2449e7af2b79b0b5fe4d819244a8c6c3bbf3a00ddeebbec9a2f16b"
     },
     {
       "file": "rv-kana-kata-30bb-question.png",
@@ -8362,10 +4538,10 @@
       "sha256": "a5dd016b149f84debdefda488d8ab9017468675037a88ab234715aba04eaca98"
     },
     {
-      "file": "rv-kana-kata-30bd-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "c1c4bc5e0a38e8ca132d6e51c2de8b71d0fc8f18544bd918027421be49dcba0f"
+      "file": "rv-kana-kata-30bd-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "9a05cb3d8a92434348460b77f78a701e9ffdc5b8f11ae222322abbbc0f861e89"
     },
     {
       "file": "rv-kana-kata-30bd-question.png",
@@ -8374,10 +4550,10 @@
       "sha256": "ce9d9d392f5292412d481c5540ef0e892ecd368223a9267ae58241062fbda348"
     },
     {
-      "file": "rv-kana-kata-30bf-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "712a78ed613368c377a7bb3e212c5b8e739938718468e51a9e0b2155971e5046"
+      "file": "rv-kana-kata-30bf-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "6e6fdfd4aaf6615871e212bea3a974cac83ce6ec336d595b101268c28ce0e90c"
     },
     {
       "file": "rv-kana-kata-30bf-question.png",
@@ -8386,10 +4562,10 @@
       "sha256": "e00f44200a723b282f1584ddf1cb5ad822f58ec6e1da246640bda7b6a7b84161"
     },
     {
-      "file": "rv-kana-kata-30c1-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "e00b8083d56f0a953aa3bfaf05273f4023a0214007c5b53aef8fb0a6ff148581"
+      "file": "rv-kana-kata-30c1-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "17afe81116910b03e9de005c46d813a628f71a3367773c6fd6074f91498e6f59"
     },
     {
       "file": "rv-kana-kata-30c1-question.png",
@@ -8398,10 +4574,10 @@
       "sha256": "f2a458f505741b963360600f328d2e8e41cd67ff30194bd52d8bf067a7b5be11"
     },
     {
-      "file": "rv-kana-kata-30c4-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "4c13ed74c5dc2a8358bf7dfc7312927fd4557cc3a7e4b28c00bd01f375330e5b"
+      "file": "rv-kana-kata-30c4-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "7aa8523abe4922521e006ca52ce3a266ba7b7d695cab45e1b487756c3fe0f96a"
     },
     {
       "file": "rv-kana-kata-30c4-question.png",
@@ -8410,10 +4586,10 @@
       "sha256": "04dc4efd4ce135d587857f0dd10524a6c00f3fdf69b960b38ae64941c25302a5"
     },
     {
-      "file": "rv-kana-kata-30c6-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "895a53acebd1bf63c5ec0429bcd6162ce9290eae0d0c5fe3c56710e96d297880"
+      "file": "rv-kana-kata-30c6-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "035e9345617b0a8905c7dc4caa64488347c6b170bcf4e16662de9b6be761f179"
     },
     {
       "file": "rv-kana-kata-30c6-question.png",
@@ -8422,10 +4598,10 @@
       "sha256": "4c7ee733c740cf6e63ad983555463f5c6ee709a6c2aca8fec529da57a3ded0ba"
     },
     {
-      "file": "rv-kana-kata-30c8-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "5cf0e43eb81b4f84052881f7ea09b98648ac8dc42d0ef2de95e9d11bc6cb9580"
+      "file": "rv-kana-kata-30c8-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "048bf9a653be77d767c90dcd51a23b96963ec28b33214afaef40a62aa96eb800"
     },
     {
       "file": "rv-kana-kata-30c8-question.png",
@@ -8434,10 +4610,10 @@
       "sha256": "51da41a9117ed1cc486fc5994c08cd1abb792547e13c665b49da3b4a7b384039"
     },
     {
-      "file": "rv-kana-kata-30ca-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "631601d6bd6735cfe1577aa0ef670901eaf0d6d12917ddebe3a1a4019b5df3fb"
+      "file": "rv-kana-kata-30ca-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "f9814d7c852bf25648f0bb6636f2f448eeeb78305c374ec27565cbbfc9bc3aaf"
     },
     {
       "file": "rv-kana-kata-30ca-question.png",
@@ -8446,10 +4622,10 @@
       "sha256": "7063788638f39d767b2b6c420ad3c066f4b8bb15964c3ca397b8589d9bcb24d4"
     },
     {
-      "file": "rv-kana-kata-30cb-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "41fa3c1d8058dfa86f8d2b51715c23d296d4a800dfec937094355b58d58323d7"
+      "file": "rv-kana-kata-30cb-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "ec16471594dfa87a8faeb84f079d4818e6d60a0cbf14e497906eb23b097b301b"
     },
     {
       "file": "rv-kana-kata-30cb-question.png",
@@ -8458,10 +4634,10 @@
       "sha256": "086abb4855c2096cde405e17ba731561cf73892a5130d40c30e77b79684109cf"
     },
     {
-      "file": "rv-kana-kata-30cc-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "00ce047e9a3aee29eb4b563b821122c6b68b463dfa697204607f11316cbb0ecd"
+      "file": "rv-kana-kata-30cc-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "a1036d53460b8402cc0e2ac8e7e8339f4642a791d6428dafda46427210d7a462"
     },
     {
       "file": "rv-kana-kata-30cc-question.png",
@@ -8470,10 +4646,10 @@
       "sha256": "e843a15f589d07376a71a753f09b122e9087eff1cae1c5e96ea6cea400c4a95c"
     },
     {
-      "file": "rv-kana-kata-30cd-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "31ba7cf7ee0df95225fa6915b64783d6db08fe0e55266a650607d212a340708a"
+      "file": "rv-kana-kata-30cd-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "d05de1f1e0c7cfd31d2abcfa91d469da372d5594c101fb36048b42b7ec31d8d6"
     },
     {
       "file": "rv-kana-kata-30cd-question.png",
@@ -8482,10 +4658,10 @@
       "sha256": "6685b5f9edba4fafad82684c59e24d840572921489d0a37d6f60e41c08f2f8ae"
     },
     {
-      "file": "rv-kana-kata-30ce-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "a8a839d6dee7ca8c1c635b3ce85061348f7111f45cc5792af362949ec6727ae0"
+      "file": "rv-kana-kata-30ce-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "52cdca60be1a7d2d0584733d25e3f97e5fa26498ae5d14015271e3601fae184c"
     },
     {
       "file": "rv-kana-kata-30ce-question.png",
@@ -8494,10 +4670,10 @@
       "sha256": "b779de869c66fcc68992ca025e8141e40a34c7759012116864d86c660b84038f"
     },
     {
-      "file": "rv-kana-kata-30cf-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "2cff9abb730f65746f92877a789a59593f70b8d5e4b8708cb58d6de82539b764"
+      "file": "rv-kana-kata-30cf-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "a5129cf6587abb6be85de207a73258749e8dc8dc5939235303950a298517998d"
     },
     {
       "file": "rv-kana-kata-30cf-question.png",
@@ -8506,10 +4682,10 @@
       "sha256": "4f8d7e9f0708a25471376cc6343531c372f713618c1e3071fdeca69a46b21f45"
     },
     {
-      "file": "rv-kana-kata-30d2-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "4dbc5a00efd1bf7c4d97600ca6425bc719fd97669503e4e32b293b97f7ef471a"
+      "file": "rv-kana-kata-30d2-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "7f39895d8dfdd77a401b76dac49030de3a8dbed2a9915f8c4bc1c47c7512bdba"
     },
     {
       "file": "rv-kana-kata-30d2-question.png",
@@ -8518,10 +4694,10 @@
       "sha256": "a60aeada11fa8873317beed180340e7538f2c4904147f7ec3ef344851224ee44"
     },
     {
-      "file": "rv-kana-kata-30d5-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "2d9a0b3c26ac8529c86a6017af81bf6f5184a83cdc9c43a82236f0f0648e4149"
+      "file": "rv-kana-kata-30d5-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "e8491f610b4eb30b97fff44e7d49675d675afcc366f68e486f7a2c3032572894"
     },
     {
       "file": "rv-kana-kata-30d5-question.png",
@@ -8530,10 +4706,10 @@
       "sha256": "5490fe933dbdbf91ac2b457261ebc6d6a340044ab5957e1a850c9c9d82deceed"
     },
     {
-      "file": "rv-kana-kata-30d8-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "dc6d354a57f3a871360b8be30b12d2f6ae0aa5fa74d69452e11daa46c74d5282"
+      "file": "rv-kana-kata-30d8-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "f88e425b36879567bccd76324a0dba55d32973a45b01cbbf40dde02d350707c3"
     },
     {
       "file": "rv-kana-kata-30d8-question.png",
@@ -8542,10 +4718,10 @@
       "sha256": "a4b61278c54adf3268ecaee40e37695f72235ac42d4b119a862c1c78fad52b41"
     },
     {
-      "file": "rv-kana-kata-30db-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "4bd0df88adfcbab490faf7799c312105acbdb8789759168f4f682382b1d84626"
+      "file": "rv-kana-kata-30db-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "fef992ecd95a29990c3ddbecf0b2d12dd9e8e165fd2506fe1827a29cd3dd2055"
     },
     {
       "file": "rv-kana-kata-30db-question.png",
@@ -8554,10 +4730,10 @@
       "sha256": "2e73535c36416ae05be70ff0c342bd5e55a0820dcd025c9c713eef469d87b283"
     },
     {
-      "file": "rv-kana-kata-30de-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "9229631528542edddab2eef6f0893ffaa7563a3267f32758dc8636615ac373f8"
+      "file": "rv-kana-kata-30de-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "d292dedf02011495be8b705d87e138ef54f012e6e447be7cb80d6071705d0f22"
     },
     {
       "file": "rv-kana-kata-30de-question.png",
@@ -8566,10 +4742,10 @@
       "sha256": "fd627e9d9c16e1b4b00929e9cb62cfbd3f55a2c45db52fc3fbf9cbe37abb6592"
     },
     {
-      "file": "rv-kana-kata-30df-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "ab0990a1d5e9ce106952014a5c9fc1dba3b59277788ea68c273d343f3a3cc6c2"
+      "file": "rv-kana-kata-30df-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "490d65b62b540964d36f086b721a98f1f9892cfd9817df4445d76e875aa92761"
     },
     {
       "file": "rv-kana-kata-30df-question.png",
@@ -8578,10 +4754,10 @@
       "sha256": "e017402fd64313415cd66e5c008a0c7c0d09b1abddc0dba5106e8e4a43c06f49"
     },
     {
-      "file": "rv-kana-kata-30e0-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "4795a32223cf226261056154194519e587ef0c7ca0ae35e8cf36ae5a2caf8c63"
+      "file": "rv-kana-kata-30e0-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "cd10f1e90e982aa527e5a1d8a0a868fda973e6c5c515bca65c3dbc63dcce6a99"
     },
     {
       "file": "rv-kana-kata-30e0-question.png",
@@ -8590,10 +4766,10 @@
       "sha256": "39f0afb1105cd6ea16fa5e2db296147f14312f43374340eb9162f19bb3b7799d"
     },
     {
-      "file": "rv-kana-kata-30e1-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "4d0d080d400b5dbdc25346c6830fca282cec5fa1c3f34109f8a00c0f1b15863c"
+      "file": "rv-kana-kata-30e1-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "3756fde75d1c0e78791816b561e17c3bb243e44788d5b4fa193aaf6f4b4a7e22"
     },
     {
       "file": "rv-kana-kata-30e1-question.png",
@@ -8602,10 +4778,10 @@
       "sha256": "16d7726f05b167eba971a07bce5928991e714e3633e58669f886a0796a2d6239"
     },
     {
-      "file": "rv-kana-kata-30e2-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "ec4852a121407eef098750b22cbeefe06c7213101643773c31d7d2712041ff5c"
+      "file": "rv-kana-kata-30e2-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "a0c43cd59c0d026d42e8dae7e8ef3fdd81e151ec7da3d1da015fc5895b9acb9b"
     },
     {
       "file": "rv-kana-kata-30e2-question.png",
@@ -8614,10 +4790,10 @@
       "sha256": "77f292a4241f90ffd22d28946c2c135475043b8b13334abafa08242e09227171"
     },
     {
-      "file": "rv-kana-kata-30e4-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "ee7ca30f9211bc7a3d1f5f606ac4cb7a49d0676fa4d301fc74eecada3b03ffa2"
+      "file": "rv-kana-kata-30e4-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "768499a57ddc605b838af9f6ba439f5404bd7a81c475a69b57dfc0e37dd5fbfe"
     },
     {
       "file": "rv-kana-kata-30e4-question.png",
@@ -8626,10 +4802,10 @@
       "sha256": "3e7f3c330bd0c4512ff05fa1987d0ee09ada8fe75645448f3f96d50198aca20f"
     },
     {
-      "file": "rv-kana-kata-30e6-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "7473c03d20fee2beb79919c7fc1372297ed5a3443291da08094a5ee81c95cd8c"
+      "file": "rv-kana-kata-30e6-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "28aa30b48e8142facc50bf23f1334ff15306f37b0354e43fed0110d6f8a7d1f1"
     },
     {
       "file": "rv-kana-kata-30e6-question.png",
@@ -8638,10 +4814,10 @@
       "sha256": "8968fc5140051313de8ad0e4d50b51314a2d4a7a59687ce8fced5a7c5fb69ed7"
     },
     {
-      "file": "rv-kana-kata-30e8-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "4418d75ee41a285ac0075d7e3de3eaeab22dd7af5637f03186b4f21d4988a472"
+      "file": "rv-kana-kata-30e8-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "ec7ccc4479c364a71553e4c9319c32c28f80429751ddffec95c125cfc51e93a8"
     },
     {
       "file": "rv-kana-kata-30e8-question.png",
@@ -8650,10 +4826,10 @@
       "sha256": "2e6381383392f38b681a053181b73a729df6e7e677003aae50777f6c7bb812d6"
     },
     {
-      "file": "rv-kana-kata-30e9-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "625edd962b6d632ed7c399ef7ba959bcaa7fe4460ed316add1111b1e0e4ec848"
+      "file": "rv-kana-kata-30e9-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "4489f31180f5cac775717a4adecd7a3e822f6f89beca99902e648c449eb0b1e8"
     },
     {
       "file": "rv-kana-kata-30e9-question.png",
@@ -8662,10 +4838,10 @@
       "sha256": "9f80c732eb490a55d0ff8532edada3b3ecf75c5d5099096e2a7ad78b71b6b8f5"
     },
     {
-      "file": "rv-kana-kata-30ea-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "6ef189f14aefaec1ff5250ce091122430191790e1a042e1449fc7a27dca0a3cf"
+      "file": "rv-kana-kata-30ea-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "e1d298db950a7eca3c256c8a03c67992d7c148dfbfe90e369caf160ab8793940"
     },
     {
       "file": "rv-kana-kata-30ea-question.png",
@@ -8674,10 +4850,10 @@
       "sha256": "537364027d3d97c1f45a5f98daad8c80820c21fa2721d892efcd70699d17cf71"
     },
     {
-      "file": "rv-kana-kata-30eb-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "d1f207c00fb36564cdd8cf59253eb727b79c9bac1cbbd5de755678cfe8586573"
+      "file": "rv-kana-kata-30eb-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "080b27869eb81c6d64f2ff8421fad81e252b7ef4e9107ff8e57c9fbb682b5f44"
     },
     {
       "file": "rv-kana-kata-30eb-question.png",
@@ -8686,10 +4862,10 @@
       "sha256": "da9d19a9ad4fbd7787cd72a718f7a614b5a539a826177de359c73ac4b5466c50"
     },
     {
-      "file": "rv-kana-kata-30ec-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "9ee1bc57a8b41b157fe4c075f47addc8dbc26f4c7bb9832ab771a91bac43062f"
+      "file": "rv-kana-kata-30ec-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "c083e8170e76f0f9da1b38724d57a1aa3063e7af6bdee2131d6ab5bc7a8cdf43"
     },
     {
       "file": "rv-kana-kata-30ec-question.png",
@@ -8698,10 +4874,10 @@
       "sha256": "727e8e2735430ecd27154c76cac04972caed84e82eed44f4b0b48aabfc3e55ec"
     },
     {
-      "file": "rv-kana-kata-30ed-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "af128c621452c722dfd54e30027a03e308a2e1939ebd0b45f68a67eb9007b132"
+      "file": "rv-kana-kata-30ed-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "f4d5936cbeafa04de21917ceb690ac94976e185d5b7976d55e191c25e9adb816"
     },
     {
       "file": "rv-kana-kata-30ed-question.png",
@@ -8710,10 +4886,10 @@
       "sha256": "19e8c1b7933049aeac3998a3b631e8d302c787bc2b6e065b9ab34bb7c747a2fd"
     },
     {
-      "file": "rv-kana-kata-30ef-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "85867c8cd169d4bb87de0ad6a095df44b68bb57d246600d6906e42bc632e03e3"
+      "file": "rv-kana-kata-30ef-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "7c4488d0210be28e6cda4ffcb5a7c1624cb916c1d164fe5470f11f56bb061a56"
     },
     {
       "file": "rv-kana-kata-30ef-question.png",
@@ -8722,10 +4898,10 @@
       "sha256": "7156c663be4031b53419f8928661fab60c662a26eab1f5b19d81b1f60b3754ac"
     },
     {
-      "file": "rv-kana-kata-30f2-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "9e5ae6d284fb3c822f9a8dc650df7c265364aa04e42eb512a5a55dfbe7a8c5de"
+      "file": "rv-kana-kata-30f2-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "5003e174a8e023da626a306b291cc26ed4d530ac5b9c0c07c2115a0b3191c115"
     },
     {
       "file": "rv-kana-kata-30f2-question.png",
@@ -8734,10 +4910,10 @@
       "sha256": "0c4e723ca7fbcccf0c20abe061335a0a1779c05a89f776d2e52604f2318e93df"
     },
     {
-      "file": "rv-kana-kata-30f3-answer-chart.png",
-      "width": 1040,
-      "height": 488,
-      "sha256": "d6cbb987bd02abbc413624debf905c70a8d5f55f3f1f51737c43abafb100a87a"
+      "file": "rv-kana-kata-30f3-answer-row.png",
+      "width": 1050,
+      "height": 268,
+      "sha256": "4dc857f8df2830e262312dcddc2a6b25a3e5f2c5d4b2036994e370edf56c815e"
     },
     {
       "file": "rv-kana-kata-30f3-question.png",

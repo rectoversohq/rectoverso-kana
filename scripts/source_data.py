@@ -70,10 +70,10 @@ def course(language,artwork=None,only_type=None,beginner_trial=False):
   back=q.get('answer','');extra='';prompt_audio='';answer_audio='';romaji=''
   if kind=='reading':
    c=forms[q['target']];f=assets['figures'][q['id']];front='<img src="'+f['question']['file']+'" alt="'+c['kana']+'">';media.add(f['question']['file'])
-   # The answer: the reading, then the whole chart filling in, a picture beside the answer
+   # The answer: the reading, then its row of the chart filling in, a picture beside the answer
    # (the deck kit's card payload, "The words come from the visible fields"), shown once claimed.
-   script=words['hiragana' if c['script']=='hira' else 'katakana']
-   alt=words['chartDescription'].format(script=script,taught=len(f['visibleKana']),total=len(f['visibleKana'])+len(f['ghostKana']),kana=c['kana'])
+   members=[forms[k] for k in sorted(f['visibleKana']+f['ghostKana'],key=lambda k:forms[k]['column'])]
+   alt=words['chartDescription'].format(first=members[0]['kana'],row=', '.join(m['kana']+' '+m['reading'] for m in members),taught=len(f['visibleKana']),total=len(members),kana=c['kana'])
    back+='<img src="'+f['answer']['file']+'" alt="'+html.escape(alt,quote=True)+'">';media.add(f['answer']['file'])
    answer_audio=c['audio']
   elif kind=='listening':

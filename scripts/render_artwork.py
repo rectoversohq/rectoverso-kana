@@ -7,20 +7,23 @@ from font_sources import font_path
 from source_data import reading_introductions
 
 ROOT=Path(__file__).resolve().parents[1]
-# A reading card's answer shows its script's whole gojūon chart, always the same: eleven columns
-# (–, k, s, t, n, h, m, y, r, w, n), left to right, by five rows (a i u e o), in CELL-pixel cells
-# with a MARGIN round them. The app gives a picture beside a text answer a short, wide place (about
-# 120 pt high, at most the answer's column wide), so the chart lies on its side, as wide as
-# that column on a 3x screen. The app shows one answer picture in light and dark alike, so the
-# chart is printed on its own paper.
-CELL=92
-MARGIN=14
-COLUMNS,ROWS=11,5
-W,H=COLUMNS*CELL+2*MARGIN,ROWS*CELL+2*MARGIN
-KANA_SIZE=61
-REGION=78
-FRAME=3
-CHART={'paper':'#FAFAF9','ink':'#1A1814','ghost':'#CDCBC6','accent':'#A96808'}
+# A reading card's answer shows its kana's own row of the gojūon (さ: さ し す せ そ; や: や ゆ よ; わ: わ を;
+# ん alone), each kana in its vowel's slot (a i u e o, left to right), its romaji under it, so the row
+# teaches its family, irregular readings (shi, chi, tsu, fu) included. The app sets a picture beside a
+# text answer across the answer's column (314 pt on a 402-pt phone), so five slots across fix the
+# kana's size; the strip is no taller than the kana and their romaji need, so it stands whole on
+# the sheet. 1,050 pixels wide: at least the device's pixels on a 3x phone. The app shows one answer
+# picture in light and dark alike, so the row is printed on its own paper, as the question is.
+CELL=210
+COLUMNS=5
+W,H=COLUMNS*CELL,268
+KANA_SIZE=140
+KANA_Y=104
+ROMAJI_SIZE=50
+ROMAJI_BASELINE=238
+REGION=170
+FRAME=4
+CHART={'paper':'#FAFAF9','ink':'#1A1814','ghost':'#BDBAB3','accent':'#A96808'}
 PALETTES={'light':{'paper':'#FAFAF9','ink':'#1A1814','accent':'#A96808'},'dark':{'paper':'#211E18','ink':'#EDE6D8','accent':'#FFD25B'}}
 # Each chart is indexed: paper, then STEPS antialiasing steps from paper to ink, to the ghost and
 # to gold, so every flat colour stays exact and the file small.
@@ -40,18 +43,19 @@ def text_center(im,text,xy,size,color,hand=False,serif=False):
 def save(im,out,name):
  p=out/name;im.save(p,optimize=True)
  return {'file':name,'width':im.width,'height':im.height,'sha256':sha(p)}
-def center(c):
- """A kana's center in the chart's pixels: its consonant's column, its vowel's row."""
- return MARGIN+CELL*c['row']+CELL//2,MARGIN+CELL*c['column']+CELL//2
-def geometry(c):
- """The square a kana keeps to, in pixels; the card's own is outlined in gold."""
- cx,cy=center(c)
- return (cx-REGION//2,cy-REGION//2,REGION,REGION)
+def slot(c):
+ """A kana's slot in the row, in pixels: its vowel's fifth of the strip, top to bottom."""
+ return (CELL*c['column'],0,CELL,H)
+def square(c):
+ """The square a kana keeps to; the card's own is outlined in gold."""
+ x=CELL*c['column']+(CELL-REGION)//2
+ return (x,KANA_Y-REGION//2,REGION,REGION)
 
-def chart(target,forms,introduced):
- """The whole chart: the kana taught by this card in ink (the target among them), the rest ghosts."""
- taught=[c for c in forms if c['id'] in introduced or c==target]
- return taught,[c for c in forms if c not in taught]
+def row(target,forms,introduced):
+ """The target's row: its kana taught by this card in ink (the target among them), the rest ghosts."""
+ members=[c for c in forms if c['row']==target['row']]
+ taught=[c for c in members if c['id'] in introduced or c==target]
+ return taught,[c for c in members if c not in taught]
 
 
 def hexrgb(h):return tuple(int(h[i:i+2],16) for i in (1,3,5))
@@ -65,26 +69,29 @@ def level(role):
  offset=1+ROLES.index(role)*STEPS
  return [0 if a==0 else offset+max(0,-(-a*STEPS//255)-1) for a in range(256)]
 def glyphs(forms):
- """Each kana's coverage in its own square, drawn once: the chart's places never change."""
+ """Each kana's coverage in its slot, with its romaji under it, drawn once: the places never change."""
  result={}
  for f in forms:
-  x,y,w,h=geometry(f);fx,fy=center(f)
-  # Drawn with a cell's room round its square: every kana's glyph keeps to its own square, so no
-  # square takes in a neighbor's ink.
+  x,y,w,h=slot(f);sx,sy,sw,sh=square(f)
+  # Drawn with a slot's room round it: the kana keeps to its square and its romaji to the slot,
+  # so no slot takes in a neighbor's ink.
   room=CELL;probe=Image.new('L',(w+2*room,h+2*room),0)
-  text_center(probe,f['kana'],((fx-x)+room,(fy-y)+room),KANA_SIZE,255)
+  text_center(probe,f['kana'],(sx-x+sw//2+room,KANA_Y+room),KANA_SIZE,255)
   b=probe.getbbox()
-  if not (room<=b[0] and room<=b[1] and b[2]<=room+w and b[3]<=room+h):raise ValueError('The kana falls outside its region: '+f['id'])
-  im=probe.crop((room,room,room+w,room+h))
-  result[f['id']]=im
+  if not (room+sx-x<=b[0] and room+sy<=b[1] and b[2]<=room+sx-x+sw and b[3]<=room+sy+sh):raise ValueError('The kana falls outside its square: '+f['id'])
+  # Every romaji on one baseline, centred in its slot.
+  ImageDraw.Draw(probe).text((w//2+room,ROMAJI_BASELINE+room),f['reading'],font=font(ROMAJI_SIZE),fill=255,anchor='ms')
+  b=probe.getbbox()
+  if not (room+8<=b[0] and room+8<=b[1] and b[2]<=room+w-8 and b[3]<=room+h-8):raise ValueError('The romaji falls outside its slot: '+f['id'])
+  result[f['id']]=probe.crop((room,room,room+w,room+h))
  return result
-def figure(forms,coverage,roles):
- """The chart with each kana in its role (ink, ghost or accent), the accent's square outlined."""
+def figure(members,coverage,roles):
+ """The row with each kana and its romaji in its role (ink, ghost or accent), the accent's square outlined."""
  im=Image.new('P',(W,H),0);im.putpalette(palette(CHART))
- for f in forms:
-  x,y,_,_=geometry(f);im.paste(coverage[f['id']].point(level(roles[f['id']])),(x,y))
+ for f in members:
+  x,y,_,_=slot(f);im.paste(coverage[f['id']].point(level(roles[f['id']])),(x,y))
   if roles[f['id']]=='accent':
-   x,y,w,h=geometry(f);ImageDraw.Draw(im).rectangle((x,y,x+w-1,y+h-1),outline=1+ROLES.index('accent')*STEPS+STEPS-1,width=FRAME)
+   sx,sy,sw,sh=square(f);ImageDraw.Draw(im).rectangle((sx,sy,sx+sw-1,sy+sh-1),outline=1+ROLES.index('accent')*STEPS+STEPS-1,width=FRAME)
  return im
 
 def render(output,only_type=None):
@@ -100,13 +107,13 @@ def render(output,only_type=None):
   coverage=glyphs(forms)
   for q in [q for q in questions if q['type']=='reading' and q['target'].startswith(script+'-')]:
    c=next(c for c in forms if c['id']==q['target']);assets={}
-   taught,ghosts=chart(c,forms,introductions[q['id']])
+   taught,ghosts=row(c,forms,introductions[q['id']])
    assets['visibleKana']=[f['id'] for f in taught]
    assets['ghostKana']=[f['id'] for f in ghosts]
-   # Over the course the chart fills in: what this card has taught in ink, the rest faint, the
-   # card's kana in gold in its outlined square. It's the answer's picture, shown once claimed.
-   roles={f['id']:'ink' if f in taught else 'ghost' for f in forms}|{c['id']:'accent'}
-   assets['answer']=save(figure(forms,coverage,roles),output,f'rv-kana-{c["id"]}-answer-chart.png');record['files'].append(assets['answer'])
+   # The card's row, filling in over the course: what this card has taught in ink, the rest faint,
+   # the card's kana and its romaji in gold. It's the answer's picture, shown once answered.
+   roles={f['id']:'ink' if f in taught else 'ghost' for f in taught+ghosts}|{c['id']:'accent'}
+   assets['answer']=save(figure(taught+ghosts,coverage,roles),output,f'rv-kana-{c["id"]}-answer-row.png');record['files'].append(assets['answer'])
    standalone=Image.new('RGB',(700,500),PALETTES['light']['paper']);text_center(standalone,c['kana'],(350,245),280,PALETTES['light']['ink'])
    assets['question']=save(standalone,output,f'rv-kana-{c["id"]}-question.png');record['files'].append(assets['question'])
    record['figures'][q['id']]=assets

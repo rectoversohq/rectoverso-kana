@@ -14,7 +14,5 @@
   "checkpoint": "Bilan de lecture",
   "listenOnePrompt": "Une forme suffit.",
   "romajiLabel": "Romaji",
-  "hiragana": "hiragana",
-  "katakana": "katakana",
-  "chartDescription": "Le tableau des {script} : {taught} sur {total} appris jusqu’ici, {kana} en doré."
+  "chartDescription": "La rangée de {first} : {row}. {taught} sur {total} appris jusqu’ici, {kana} en doré."
 }

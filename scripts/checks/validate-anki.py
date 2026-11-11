@@ -88,34 +88,30 @@ def inspect(package,output):
     if direction in ('listening','contrast'):verify_kana_detail(card,note,p,question,meta['language'])
     else:assert not note['Romaji'] and 'rv-details' not in after and 'resources' not in p
     if direction=='reading':
-     # The question is the big kana alone; the answer is its reading, then the whole chart (#8):
-     # what the card has taught in ink, the rest ghosts, the card's kana in gold in a gold square.
+     # The question is the big kana alone; the answer is its reading, then its row (#8): each kana
+     # over its romaji, what the card has taught in ink, the rest ghosts, the card's own in gold.
      assert not sounds and p['kind']=='basic' and not {'occlusion','preparation','originalOcclusionAnswer'}&set(p)
      target=forms[note.guid.split('-read-',1)[1]]
      script=[c for c in kana if c['script']==target['script']]
-     taught=[c for c in script if c['id'] in introduced[question['id']]]
+     members=[c for c in script if c['row']==target['row']]
+     taught=[c for c in members if c['id'] in introduced[question['id']]]
      pictures=re.findall(r'src="([^"]+)"',note['Back'])
-     assert pictures==['rv-kana-'+target['id']+'-answer-chart.png'] and note['Back'].startswith(target['reading']+'<img ')
-     assert re.findall(r'src="([^"]+)"',note['Front'])==['rv-kana-'+target['id']+'-question.png'] and 'answer-chart' not in front
+     assert pictures==['rv-kana-'+target['id']+'-answer-row.png'] and note['Back'].startswith(target['reading']+'<img ')
+     assert re.findall(r'src="([^"]+)"',note['Front'])==['rv-kana-'+target['id']+'-question.png'] and 'answer-row' not in front
      assert pictures[0] not in front and pictures[0] in after
      path=Path(col.media.dir())/pictures[0]
      with Image.open(path) as image:
-      assert image.mode=='P' and image.size==(1040,488)
+      assert image.mode=='P' and image.size==(1050,268)
       image=image.convert('RGB')
-     paper,ink,ghost,gold=(250,250,249),(26,24,20),(205,203,198),(169,104,8)
-     def square(c):return (14+92*c['row']+7,14+92*c['column']+7,78,78)
-     def colors(c):
-      x,y,w,h=square(c);return {k for _,k in image.crop((x,y,x+w,y+h)).getcolors(1<<24)}
-     for c in script:
-      found=colors(c)
-      if c==target:assert gold in found and ink not in found and ghost not in found,c['id']
+     paper,ink,ghost,gold=(250,250,249),(26,24,20),(189,186,179),(169,104,8)
+     # Each vowel's slot: the kana and its romaji, in one colour; an empty slot is paper.
+     for column in range(5):
+      found={k for _,k in image.crop((210*column,0,210*column+210,268)).getcolors(1<<24)}
+      c=next((m for m in members if m['column']==column),None)
+      if c is None:assert found=={paper},(pictures[0],column)
+      elif c==target:assert gold in found and ink not in found and ghost not in found,c['id']
       elif c in taught:assert ink in found and ghost not in found and gold not in found,(pictures[0],c['id'])
       else:assert ghost in found and ink not in found and gold not in found,(pictures[0],c['id'])
-     # Nothing else is drawn: no romaji, no headers, no lines.
-     rest=image.copy();draw=ImageDraw.Draw(rest)
-     for c in script:
-      x,y,w,h=square(c);draw.rectangle((x,y,x+w-1,y+h-1),fill=paper)
-     assert rest.getextrema()==tuple((v,v) for v in paper),('Ink outside the kana',pictures[0])
      assert '[sound:' in note['Back'] and card.answer_av_tags()
     if direction=='listening':
      assert len(sounds)==1 and note['Front']=='[sound:'+sounds[0]+']' and len(card.question_av_tags())==1 and p['kind']=='basic'
