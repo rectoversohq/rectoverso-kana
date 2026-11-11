@@ -4,7 +4,7 @@
   "releaseTag": "v1.0.0-rc.4",
   "guidPrefix": "rv-kana",
   "identityBase": 1794200000,
-  "contentModifiedAt": "2026-11-10T18:29:08Z",
+  "contentModifiedAt": "2026-11-11T14:22:45Z",
   "publication": {
     "remote": "https://github.com/rectoversohq/rectoverso-kana",
     "release": "https://github.com/rectoversohq/rectoverso-kana/releases/tag/v1.0.0-rc.4",
@@ -3372,16 +3372,10 @@
       "license": "Apple SF Pro license (font binary not redistributed)"
     },
     {
-      "name": "Microsoft — Nanami Japanese voice",
+      "name": "Microsoft — Nanami Japanese voice, through Azure AI Speech",
       "version": "ja-JP-NanamiNeural, rate −20%",
-      "url": "https://www.microsoft.com/en-us/edge/features/read-aloud",
-      "license": "LicenseRef-Microsoft-Read-Aloud-Not-Relicensed"
-    },
-    {
-      "name": "edge-tts — rany and contributors (audio authoring tool)",
-      "version": "7.3.1",
-      "url": "https://github.com/rany2/edge-tts",
-      "license": "LGPLv3; MIT for srt_composer.py (tool code only)"
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support",
+      "license": "Microsoft Product Terms for Azure AI Speech (not CC BY 4.0; not relicensed here)"
     },
     {
       "name": "Teaching references — MEXT, Agency for Cultural Affairs, TUFS and The Japan Foundation",
