@@ -7,88 +7,124 @@ from font_sources import font_path
 from source_data import reading_introductions
 
 ROOT=Path(__file__).resolve().parents[1]
-# A reading card's figure is its kana's own row of the gojūon (さ: さ し す せ そ; や: や ゆ よ; わ: わ を; ん
-# alone), each kana in its vowel's slot (a i u e o, left to right), lit (the deck kit's "mode":
-# "lit"): the region is the card's kana, which the app outlines. The app centres that region in the
-# question's window and zooms in until it is about 41 to 44 points (`OcclusionFraming`), and the
-# window is narrower than the canvas beside the bar or a fold: so the row's pitch is set against the
-# region (the farthest kana, four pitches and half a kana from the one asked, within 4.1 regions,
-# what the closed Duo's and a 402-point phone's windows hold), and blank paper pads the row so the
-# figure is wide enough that book pose keeps it under its page's window without zooming. The figure
-# is taller than any question window for its width (1.6 times as tall), so the width sets the
-# scale, and no taller than the 4,096 pixels the app decodes a figure at, so it is never scaled
-# down first (a scaled figure can miss the app's size check by a pixel and lose its canvas).
-PITCH=143
-REGION=154
-KANA_SIZE=132
-W,H=2560,4096
-ROW_X=W//2-2*PITCH
-ROW_Y=H//2
+# A reading card, and an alternate-form card, asks one kana alone: the kana in a writing square, its
+# ink centred, over the square's dashed cross (#12). The figure is lit (the deck kit's "mode":
+# "lit"): the region is the square, which the app outlines in gold and centres in the question's
+# window. The app opens a lit region with its shorter side at about 44 points, unless the figure's
+# fill scale is larger: max(canvas width / figure width, window height / figure height)
+# (`OcclusionFraming.openingScale`). The page is wide, so the window's height sets the scale on a
+# phone, and the square is half the page's height: 286 points on a 402-point iPhone, 317 at 430,
+# 218 on the closed Duo, whose short window keeps room for the answer. In book pose the canvas's
+# width sets it: 317 points. At every one of them the square has at least three pixels a point.
+W,H=3072,2048
+SIDE=1024
+SQUARE=((W-SIDE)//2,(H-SIDE)//2,SIDE,SIDE)
+# Each face at the size where あ's ink is 753 pixels wide (73.5 % of the square): about half the
+# width of a phone's screen. Every kana drawn keeps MARGIN pixels or more from the square's edge.
+FACES={'sans':('NotoSansJP.ttf',946),'textbook':('KleeOne-SemiBold.ttf',1067),'serif':('NotoSerifJP.ttf',982)}
+MARGIN=64
+# The cross: dashes through the square's middle, in the palette's line colour.
+GUIDE_LINE,GUIDE_DASH=4,22
 PALETTES={'light':{'paper':'#FAFAF9','ink':'#1A1814','ghost':'#BDBAB3','accent':'#A96808'},'dark':{'paper':'#211E18','ink':'#EDE6D8','ghost':'#49443C','accent':'#FFD25B'}}
-# Each figure is indexed: paper, then STEPS antialiasing steps from paper to ink, to the ghost and
-# to gold, so every flat colour stays exact and the file small.
+# After a reading's answer, its kana's row of the chart on a dark strip (さ: さ し す せ そ; や: や ゆ よ;
+# わ: わ を; ん alone, in the middle), each kana over its romaji in its vowel's slot: the kana asked
+# in gold, the row's kana taught by then in cream, the others faint. The app shows one picture in
+# light and dark; the strip is dark in both, as the app's own dark button on a light sheet.
+STRIP={'paper':'#1A1814','ink':'#EDE6D8','ghost':'#756E62','accent':'#FFD25B'}
+SLOT,STRIP_PAD,STRIP_KANA,STRIP_ROMAJI=200,28,128,50
+STRIP_W,STRIP_H=5*SLOT+2*STRIP_PAD,302
+# Each figure is indexed: its flat colours, then STEPS antialiasing steps from paper to each ink, so
+# every flat colour stays exact (the page's paper is the app's canvas) and the file small.
 STEPS=16
-ROLES=('ink','ghost','accent')
+STRIP_ROLES=('ink','ghost','accent')
 
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 @lru_cache(maxsize=20)
-def font(size,hand=False,serif=False):
- name='Yomogi-Regular.ttf' if hand else ('NotoSerifJP.ttf' if serif else 'NotoSansJP.ttf')
+def font(size,name='NotoSansJP.ttf'):
  f=ImageFont.truetype(str(font_path(name)),size)
- if not hand:f.set_variation_by_axes([400])
+ if name.startswith('Noto'):f.set_variation_by_axes([400])
  return f
-def text_center(im,text,xy,size,color,hand=False,serif=False):
- d=ImageDraw.Draw(im);f=font(size,hand,serif);b=d.textbbox((0,0),text,font=f)
+def text_center(im,text,xy,size,color,name='NotoSansJP.ttf'):
+ d=ImageDraw.Draw(im);f=font(size,name);b=d.textbbox((0,0),text,font=f)
  d.text((xy[0]-(b[0]+b[2])/2,xy[1]-(b[1]+b[3])/2),text,font=f,fill=color)
 def save(im,out,name):
  p=out/name;im.save(p,optimize=True)
  return {'file':name,'width':im.width,'height':im.height,'sha256':sha(p)}
-def square(c):
- """The square round a kana, in pixels, in its vowel's slot of the row; the card's own is its region."""
- return (ROW_X+PITCH*c['column']-REGION//2,ROW_Y-REGION//2,REGION,REGION)
+def hexrgb(h):return tuple(int(h[i:i+2],16) for i in (1,3,5))
+def steps(paper,end):
+ return [tuple(round(a+(b-a)*i/STEPS) for a,b in zip(paper,end)) for i in range(1,STEPS+1)]
+def level(offset):
+ """Maps a glyph's coverage (0 to 255) to its ink's palette index from `offset`; no coverage is 0, the paper."""
+ return [0 if a==0 else offset+max(0,-(-a*STEPS//255)-1) for a in range(256)]
+def solid(coverage):return coverage.point(lambda a:255 if a else 0)
+
+def normalized_square():
+ x,y,w,h=SQUARE
+ return [[x/W,y/H],[w/W,h/H]]
+
+@lru_cache(maxsize=None)
+def ink(kana,face):
+ """The kana's coverage, cut to its ink: what is centred in the square."""
+ name,size=FACES[face];probe=Image.new('L',(3*size,3*size),0)
+ ImageDraw.Draw(probe).text((size,size),kana,font=font(size,name),fill=255)
+ coverage=probe.crop(probe.getbbox())
+ if coverage.width>SIDE-2*MARGIN or coverage.height>SIDE-2*MARGIN:raise ValueError('The kana does not keep to its square: '+kana)
+ return coverage
+def ink_box(kana,face):
+ """Where the kana's ink sits on the page, in pixels: centred in the square."""
+ coverage=ink(kana,face)
+ return ((W-coverage.width)//2,(H-coverage.height)//2,coverage.width,coverage.height)
+def page(kana,face,pal):
+ """The page: the square's dashed cross, and the kana's ink centred on it; without a kana, the square alone."""
+ paper=hexrgb(pal['paper']);im=Image.new('P',(W,H),0)
+ im.putpalette([v for c in [paper,hexrgb(pal['ghost'])]+steps(paper,hexrgb(pal['ink'])) for v in c])
+ d=ImageDraw.Draw(im);x,y,_,_=SQUARE
+ for t in range(0,SIDE,2*GUIDE_DASH):
+  end=min(SIDE,t+GUIDE_DASH)-1
+  d.rectangle((W//2-GUIDE_LINE//2,y+t,W//2+GUIDE_LINE//2-1,y+end),fill=1)
+  d.rectangle((x+t,H//2-GUIDE_LINE//2,x+end,H//2+GUIDE_LINE//2-1),fill=1)
+ if kana:
+  coverage=ink(kana,face)
+  im.paste(coverage.point(level(2)),ink_box(kana,face)[:2],solid(coverage))
+ return im
 
 def row(target,forms,introduced):
- """The target's row: its kana taught by this card in ink (the target among them), the rest ghosts."""
+ """The target's row: its kana taught by this card (the target among them), then the rest."""
  members=[c for c in forms if c['row']==target['row']]
  taught=[c for c in members if c['id'] in introduced or c==target]
  return taught,[c for c in members if c not in taught]
-
-def normalized_box(c):
- x,y,w,h=square(c)
- return [[x/W,y/H],[w/W,h/H]]
-
-
-def hexrgb(h):return tuple(int(h[i:i+2],16) for i in (1,3,5))
-def palette(pal):
- paper=hexrgb(pal['paper']);colors=[paper]
- for role in ROLES:
-  end=hexrgb(pal[role]);colors+=[tuple(round(a+(b-a)*i/STEPS) for a,b in zip(paper,end)) for i in range(1,STEPS+1)]
- return [v for c in colors for v in c]
-def level(role):
- """Maps a glyph's coverage (0 to 255) to its role's palette index; no coverage is paper."""
- offset=1+ROLES.index(role)*STEPS
- return [0 if a==0 else offset+max(0,-(-a*STEPS//255)-1) for a in range(256)]
-def glyphs(forms):
- """Each kana's coverage in its square, drawn once: the places never change."""
- result={}
- for f in forms:
-  x,y,w,h=square(f)
-  # Drawn with room round it: every kana keeps to its own square.
-  room=REGION;probe=Image.new('L',(w+2*room,h+2*room),0)
-  text_center(probe,f['kana'],(w//2+room,h//2+room),KANA_SIZE,255)
-  b=probe.getbbox()
-  if not (room<=b[0] and room<=b[1] and b[2]<=room+w and b[3]<=room+h):raise ValueError('The kana falls outside its square: '+f['id'])
-  # Squares overlap a little at this pitch: the ink keeps out of its neighbours' squares, so the
-  # app's outline round the card's kana never crosses another.
-  if not (room+REGION-PITCH<=b[0] and b[2]<=room+PITCH):raise ValueError("The kana reaches a neighbour's square: "+f['id'])
-  result[f['id']]=probe.crop((room,room,room+w,room+h))
- return result
-def figure(members,coverage,roles,pal):
- """The row with each kana in its role (ink, ghost or accent), or left out (None)."""
- im=Image.new('P',(W,H),0);im.putpalette(palette(pal))
- for f in members:
-  if roles.get(f['id']):x,y,_,_=square(f);im.paste(coverage[f['id']].point(level(roles[f['id']])),(x,y))
+def strip_slot(c,members):
+ """The middle of the kana's slot on the strip, in pixels: its vowel's, or the strip's for a row of one."""
+ return STRIP_W//2 if len(members)==1 else STRIP_PAD+SLOT*c['column']+SLOT//2
+def strip(target,taught,ghosts):
+ """The row after the answer: each kana on the line, over its romaji, in its role's colour."""
+ paper=hexrgb(STRIP['paper']);im=Image.new('P',(STRIP_W,STRIP_H),0)
+ im.putpalette([v for c in [paper]+[s for role in STRIP_ROLES for s in steps(paper,hexrgb(STRIP[role]))] for v in c])
+ members=sorted(taught+ghosts,key=lambda c:c['column'])
+ for c in members:
+  role='accent' if c==target else ('ink' if c in taught else 'ghost')
+  for text,size,baseline in ((c['kana'],STRIP_KANA,STRIP_PAD+136),(c['reading'],STRIP_ROMAJI,STRIP_PAD+222)):
+   coverage=Image.new('L',(STRIP_W,STRIP_H),0)
+   ImageDraw.Draw(coverage).text((strip_slot(c,members),baseline),text,font=font(size),fill=255,anchor='ms')
+   im.paste(coverage.point(level(1+STRIP_ROLES.index(role)*STEPS)),(0,0),solid(coverage))
  return im
+
+def lit(output,record,key,item,kana,face,clean,ordinal=1):
+ """A lit figure of one kana in its square: its pages in light and dark, the clean ones shared by
+ every figure (the square without a kana), and the picture Anki shows as the question."""
+ name=FACES[face][0];assets={}
+ for mode,pal in PALETTES.items():
+  role='source' if mode=='light' else 'darkSource'
+  assets[role]=save(page(kana,face,pal),output,f'rv-kana-{key}-square-{mode}-source.png')
+  record['files'].append(assets[role]|{'font':name})
+  assets['clean' if mode=='light' else 'darkClean']=clean[mode]
+ standalone=Image.new('RGB',(700,500),PALETTES['light']['paper'])
+ text_center(standalone,kana,(350,245),280,PALETTES['light']['ink'],name)
+ assets['question']=save(standalone,output,f'rv-kana-{key}-question.png');record['files'].append(assets['question']|{'font':name})
+ region={'id':item['id'],'ordinal':ordinal,'kind':'label','geometry':{'kind':'rect','coordinates':sum(normalized_square(),[])},'answer':item['reading'],'title':item['reading']}
+ assets['occlusion']={'imageName':assets['source']['file'],'box':normalized_square(),'siblings':[],'label':item['reading'],'mode':'hideAll','ordinal':ordinal,'imageSize':[W,H]}
+ assets['preparation']={'version':1,**{k:assets[k] for k in ['source','clean','darkSource','darkClean']},'masksSHA256':hashlib.sha256(b'').hexdigest(),'mode':'lit','regions':[region],'canvas':{'method':'flat-srgb-v1','light':[250/255,250/255,249/255],'dark':[33/255,30/255,24/255]}}
+ return assets
 
 def render(output,only_type=None):
  if output.resolve().is_relative_to(ROOT):raise ValueError('Rendered artwork belongs outside the source checkout')
@@ -98,43 +134,35 @@ def render(output,only_type=None):
  introductions=reading_introductions(questions)
  if only_type:questions=[q for q in questions if q['type']==only_type]
  record={'format':1,'fonts':json.loads((ROOT/'artwork/fonts/provenance.json').read_text()),'figures':{},'files':[]}
+ clean={}
+ if any(q['type'] in ('reading','variant') for q in questions):
+  for mode,pal in PALETTES.items():
+   clean[mode]=save(page(None,None,pal),output,f'rv-kana-square-{mode}-clean.png');record['files'].append(clean[mode]|{'font':'NotoSansJP.ttf'})
  for script in ['hira','kata']:
   forms=[c for c in kana if c['script']==script]
-  coverage=glyphs(forms)
   ordinals={f['id']:i+1 for i,f in enumerate(forms)}
   for q in [q for q in questions if q['type']=='reading' and q['target'].startswith(script+'-')]:
-   c=next(c for c in forms if c['id']==q['target']);assets={}
+   c=next(c for c in forms if c['id']==q['target'])
    taught,ghosts=row(c,forms,introductions[q['id']])
-   members=sorted(taught+ghosts,key=lambda f:f['column'])
+   assets=lit(output,record,c['id'],c,c['kana'],'sans',clean,ordinals[c['id']])
+   # What the answer's row shows as taught, the card among them: the card requires the others.
    assets['visibleKana']=[f['id'] for f in taught]
    assets['ghostKana']=[f['id'] for f in ghosts]
-   # Lit (the deck kit's card payload, "A prepared figure"): the row shown, the card's kana in gold
-   # and outlined by the app; its reading is the region's title, the answer.
-   region={'id':c['id'],'ordinal':ordinals[c['id']],'kind':'label','geometry':{'kind':'rect','coordinates':sum(normalized_box(c),[])},'answer':c['reading'],'title':c['reading']}
-   roles={f['id']:'ink' if f in taught else 'ghost' for f in members}
-   size=(W,H)
-   for mode,pal in PALETTES.items():
-    # Over the course each row fills in. The source adds the card's kana in gold; the clean
-    # figure leaves its cell empty.
-    source=figure(members,coverage,roles|{c['id']:'accent'},pal);clean=figure(members,coverage,roles|{c['id']:None},pal)
-    for role,im in [('source',source),('clean',clean)]:
-     key=role if mode=='light' else 'dark'+role.capitalize()
-     assets[key]=save(im,output,f'rv-kana-{c["id"]}-litrow-{mode}-{role}.png')
-     record['files'].append(assets[key])
-   standalone=Image.new('RGB',(700,500),PALETTES['light']['paper']);text_center(standalone,c['kana'],(350,245),280,PALETTES['light']['ink'])
-   assets['question']=save(standalone,output,f'rv-kana-{c["id"]}-question.png');record['files'].append(assets['question'])
-   assets['occlusion']={'imageName':assets['source']['file'],'box':normalized_box(c),'siblings':[],'label':c['reading'],'mode':'hideAll','ordinal':ordinals[c['id']],'imageSize':list(size)}
-   assets['preparation']={'version':1,**{k:assets[k] for k in ['source','clean','darkSource','darkClean']},'masksSHA256':hashlib.sha256(b'').hexdigest(),'mode':'lit','regions':[region],'canvas':{'method':'flat-srgb-v1','light':[250/255,250/255,249/255],'dark':[33/255,30/255,24/255]}}
+   assets['row']=save(strip(c,taught,ghosts),output,f'rv-kana-{c["id"]}-rowstrip.png');record['files'].append(assets['row']|{'font':'NotoSansJP.ttf'})
    record['figures'][q['id']]=assets
   print('Rendered',sum(q['type']=='reading' and q['target'].startswith(script+'-') for q in questions),script,'reading figures',flush=True)
- # Later question types use isolated word/contrast/alternate figures.
- for q in [q for q in questions if q['type'] not in ['reading','listening']]:
+ # An alternate form is read in the same square, in its own face: a textbook face close to
+ # handwriting, or a serif one.
+ for q in [q for q in questions if q['type']=='variant']:
+  record['figures'][q['id']]=lit(output,record,q['id'],{'id':q['id'],'reading':q['answer']},q['display'],q['fontStyle'],clean)
+ # Rule, word, comparison and checkpoint questions keep their isolated figures.
+ for q in [q for q in questions if q['type'] not in ['reading','listening','variant']]:
   target=q.get('display',q.get('answerKana',''))
   for mode,pal in PALETTES.items():
    im=Image.new('RGB',(1000,600),pal['paper'])
-   text_center(im,target,(500,275),min(230,650//max(1,len(target))),pal['ink'],q.get('handwritten',False),q.get('fontStyle')=='serif')
+   text_center(im,target,(500,275),min(230,650//max(1,len(target))),pal['ink'])
    entry=save(im,output,f'rv-kana-{q["id"]}-{mode}.png');record['files'].append(entry)
-   entry['font']='Yomogi-Regular.ttf' if q.get('handwritten') else ('NotoSerifJP.ttf' if q.get('fontStyle')=='serif' else 'NotoSansJP.ttf')
+   entry['font']='NotoSansJP.ttf'
    record['figures'].setdefault(q['id'],{})[mode]=entry
  (output/'artwork.json').write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n')
  return record

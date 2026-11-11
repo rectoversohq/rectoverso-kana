@@ -13,5 +13,6 @@
   "variant": "Une autre forme",
   "checkpoint": "Bilan de lecture",
   "listenOnePrompt": "Une forme suffit.",
-  "romajiLabel": "Romaji"
+  "romajiLabel": "Romaji",
+  "rowLabel": "Ligne"
 }

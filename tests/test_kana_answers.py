@@ -28,7 +28,9 @@ class KanaAnswerTests(unittest.TestCase):
                     seen+=1;single+=len(kana)==1;grouped+=len(kana)>1
                 else:
                     self.assertEqual(f['Romaji'],'')
-                    self.assertNotIn('resources',native)
+                    # A reading's only resource is its row's picture (#12); no other card has one.
+                    if q['type']=='reading':self.assertEqual([r['text'] for r in native['resources']],[''])
+                    else:self.assertNotIn('resources',native)
             self.assertEqual((seen,single,grouped),(106,100,6))
             template=models['kana']['templates'][0]
             self.assertNotIn('Romaji',template['qfmt'])

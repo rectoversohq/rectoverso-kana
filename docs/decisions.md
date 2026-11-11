@@ -167,3 +167,17 @@ The owner, firmly: the row belongs on the canvas, not in a small answer picture.
 ## 2026-11-11 — The reading card, settled (#8)
 
 The owner, after a grilling session: the question is the lit figure of the card's kana's own row, taught kana in ink, the rest as ghosts, no romaji; the lit region is the card's kana alone, so the app's gold outline surrounds only the kana asked; the whole row stays in view by padding the figure with blank paper (the deck, not an app change), the margins set from the app's framing; the answer is the region's title, the romaji, and the note opens with the row as text, `さ sa · し shi · す su · せ se · そ so`, the asked kana and its romaji in bold. The app reads a note as plain text, so the bold shows in Anki only. The version stays 1.0.0-rc.4.
+
+
+## 2026-11-11 — The kana alone in a writing square, its row after the answer (#12)
+
+The owner, after trying six designs of the reading card in a day and a grilling session on captures from the simulators and a prototype deck:
+
+- **The question is the kana alone.** A row hints: a slot gives the vowel, a known neighbor the consonant, against the brief’s “without romaji or hints”. The brief’s sentence on the reading figure says so now.
+- **The kana is about half the screen’s width,** in a writing square with a dashed cross of middle strength, in Noto Sans JP, its ink centered in the square; the app’s gold outline of the lit region is the square’s edge. The owner chose the square with guides over the plain square and over a picture card, which has no dark version; and Noto Sans JP over Klee One, on which the alternate-form cards and several notes depend.
+- **The deck alone, no app change.** A lit figure opens at its fill scale when that is larger than the app’s 44-point rule; a wide page lets the window’s height set it, so the closed Duo keeps room for the answer.
+- **After the answer, the row filling in** on a dark strip, one picture right in light and dark, under **Row** / **Ligne**: the kana asked in gold, the kana taught in cream, the others faint, each over its romaji, the faint ones too. The note no longer opens with the row as text.
+- **The eight alternate-form cards take the same square.** さ き り ふ move from Yomogi to Klee One, with the note’s wording the owner approved (“a textbook-style typeface, close to handwriting”; « de style scolaire, proche de l’écriture à la main »); そ シ ツ ン keep Noto Serif JP. Yomogi leaves the repository and the credits; Klee One SemiBold (OFL-1.1, The Klee Project Authors) is pinned and credited.
+
+No kana, order, prerequisite, question text, recording or identity changes; contentModifiedAt advances, and an update keeps every card, note and review. Not decided here: the version’s number and its approval, which are the owner’s at its release. Known limit: VoiceOver names the row’s picture without reading it, since the app has no description for a resource’s picture.
+

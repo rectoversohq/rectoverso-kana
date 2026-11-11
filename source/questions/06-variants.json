@@ -11,15 +11,14 @@
     "display": "さ",
     "answer": "sa",
     "audio": "rv-kana-sound-sa.mp3",
-    "fontStyle": "hand",
-    "handwritten": true,
+    "fontStyle": "textbook",
     "instruction": {
       "en": "Read this hiragana.",
       "fr": "Comment se lit ce hiragana ?"
     },
     "note": {
-      "en": "This is さ, read sa, shown in Yomogi. This is a handwritten-style typeface, not a stroke-order demonstration. Handwriting and print may connect or separate parts differently. Recognize the character; you do not need to copy this style.",
-      "fr": "Il s’agit de さ, qui se lit sa, dans la police Yomogi. Cette police évoque l’écriture manuscrite ; elle ne démontre pas l’ordre des traits. L’écriture et l’impression peuvent relier ou séparer certaines parties différemment. Reconnaissez le caractère ; vous n’avez pas à reproduire ce style."
+      "en": "This is さ, read sa, shown in Klee One. This is a textbook-style typeface, close to handwriting; it is not a stroke-order demonstration. Handwriting and print may connect or separate parts differently. Recognize the character; you do not need to copy this style.",
+      "fr": "Il s’agit de さ, qui se lit sa, dans la police Klee One. Cette police de style scolaire est proche de l’écriture à la main ; elle ne démontre pas l’ordre des traits. L’écriture et l’impression peuvent relier ou séparer certaines parties différemment. Reconnaissez le caractère ; vous n’avez pas à reproduire ce style."
     },
     "references": [
       "mext-kana",
@@ -38,15 +37,14 @@
     "display": "き",
     "answer": "ki",
     "audio": "rv-kana-sound-ki.mp3",
-    "fontStyle": "hand",
-    "handwritten": true,
+    "fontStyle": "textbook",
     "instruction": {
       "en": "Read this hiragana.",
       "fr": "Comment se lit ce hiragana ?"
     },
     "note": {
-      "en": "This is き, read ki, shown in Yomogi. This is a handwritten-style typeface, not a stroke-order demonstration. Handwriting and print may connect or separate parts differently. Recognize the character; you do not need to copy this style.",
-      "fr": "Il s’agit de き, qui se lit ki, dans la police Yomogi. Cette police évoque l’écriture manuscrite ; elle ne démontre pas l’ordre des traits. L’écriture et l’impression peuvent relier ou séparer certaines parties différemment. Reconnaissez le caractère ; vous n’avez pas à reproduire ce style."
+      "en": "This is き, read ki, shown in Klee One. This is a textbook-style typeface, close to handwriting; it is not a stroke-order demonstration. Handwriting and print may connect or separate parts differently. Recognize the character; you do not need to copy this style.",
+      "fr": "Il s’agit de き, qui se lit ki, dans la police Klee One. Cette police de style scolaire est proche de l’écriture à la main ; elle ne démontre pas l’ordre des traits. L’écriture et l’impression peuvent relier ou séparer certaines parties différemment. Reconnaissez le caractère ; vous n’avez pas à reproduire ce style."
     },
     "references": [
       "mext-kana",
@@ -65,15 +63,14 @@
     "display": "り",
     "answer": "ri",
     "audio": "rv-kana-sound-ri.mp3",
-    "fontStyle": "hand",
-    "handwritten": true,
+    "fontStyle": "textbook",
     "instruction": {
       "en": "Read this hiragana.",
       "fr": "Comment se lit ce hiragana ?"
     },
     "note": {
-      "en": "This is り, read ri, shown in Yomogi. This is a handwritten-style typeface, not a stroke-order demonstration. Handwriting and print may connect or separate parts differently. Recognize the character; you do not need to copy this style.",
-      "fr": "Il s’agit de り, qui se lit ri, dans la police Yomogi. Cette police évoque l’écriture manuscrite ; elle ne démontre pas l’ordre des traits. L’écriture et l’impression peuvent relier ou séparer certaines parties différemment. Reconnaissez le caractère ; vous n’avez pas à reproduire ce style."
+      "en": "This is り, read ri, shown in Klee One. This is a textbook-style typeface, close to handwriting; it is not a stroke-order demonstration. Handwriting and print may connect or separate parts differently. Recognize the character; you do not need to copy this style.",
+      "fr": "Il s’agit de り, qui se lit ri, dans la police Klee One. Cette police de style scolaire est proche de l’écriture à la main ; elle ne démontre pas l’ordre des traits. L’écriture et l’impression peuvent relier ou séparer certaines parties différemment. Reconnaissez le caractère ; vous n’avez pas à reproduire ce style."
     },
     "references": [
       "mext-kana",
@@ -92,15 +89,14 @@
     "display": "ふ",
     "answer": "fu",
     "audio": "rv-kana-sound-fu.mp3",
-    "fontStyle": "hand",
-    "handwritten": true,
+    "fontStyle": "textbook",
     "instruction": {
       "en": "Read this hiragana.",
       "fr": "Comment se lit ce hiragana ?"
     },
     "note": {
-      "en": "This is ふ, read fu, shown in Yomogi. This is a handwritten-style typeface, not a stroke-order demonstration. Handwriting and print may connect or separate parts differently. Recognize the character; you do not need to copy this style.",
-      "fr": "Il s’agit de ふ, qui se lit fu, dans la police Yomogi. Cette police évoque l’écriture manuscrite ; elle ne démontre pas l’ordre des traits. L’écriture et l’impression peuvent relier ou séparer certaines parties différemment. Reconnaissez le caractère ; vous n’avez pas à reproduire ce style."
+      "en": "This is ふ, read fu, shown in Klee One. This is a textbook-style typeface, close to handwriting; it is not a stroke-order demonstration. Handwriting and print may connect or separate parts differently. Recognize the character; you do not need to copy this style.",
+      "fr": "Il s’agit de ふ, qui se lit fu, dans la police Klee One. Cette police de style scolaire est proche de l’écriture à la main ; elle ne démontre pas l’ordre des traits. L’écriture et l’impression peuvent relier ou séparer certaines parties différemment. Reconnaissez le caractère ; vous n’avez pas à reproduire ce style."
     },
     "references": [
       "mext-kana",
@@ -120,7 +116,6 @@
     "answer": "so",
     "audio": "rv-kana-sound-so.mp3",
     "fontStyle": "serif",
-    "handwritten": false,
     "instruction": {
       "en": "Read this hiragana.",
       "fr": "Comment se lit ce hiragana ?"
@@ -147,7 +142,6 @@
     "answer": "shi",
     "audio": "rv-kana-sound-shi.mp3",
     "fontStyle": "serif",
-    "handwritten": false,
     "instruction": {
       "en": "Read this katakana.",
       "fr": "Comment se lit ce katakana ?"
@@ -174,7 +168,6 @@
     "answer": "tsu",
     "audio": "rv-kana-sound-tsu.mp3",
     "fontStyle": "serif",
-    "handwritten": false,
     "instruction": {
       "en": "Read this katakana.",
       "fr": "Comment se lit ce katakana ?"
@@ -201,7 +194,6 @@
     "answer": "n",
     "audio": "rv-kana-sound-n.mp3",
     "fontStyle": "serif",
-    "handwritten": false,
     "instruction": {
       "en": "Read this katakana.",
       "fr": "Comment se lit ce katakana ?"

@@ -86,54 +86,58 @@ def inspect(package,output):
     question=questions[note.guid.split('-'+meta['language']+'-',1)[1]]
     assert note['Kicker']==question['instruction'][meta['language']] and note['Kicker'] in front
     if direction in ('listening','contrast'):verify_kana_detail(card,note,p,question,meta['language'])
-    else:assert not note['Romaji'] and 'rv-details' not in after and 'resources' not in p
-    if direction=='reading':
-     # Lit (#8): the card's row of the chart, padded, the card's kana in gold and its region, taught
-     # kana in ink, the row's others as ghosts, nothing else; titled. The note opens with the row.
-     assert not sounds and p['kind']=='occlusion' and p['preparation']['mode']=='lit'
-     target=forms[note.guid.split('-read-',1)[1]]
-     script=[c for c in kana if c['script']==target['script']]
-     members=[c for c in script if c['row']==target['row']]
-     taught=[c for c in members if c['id'] in introduced[question['id']]]
-     W,H,PITCH,REGION=2560,4096,143,154
-     def square(c):return (W//2-2*PITCH+PITCH*c['column']-REGION//2,H//2-REGION//2,REGION,REGION)
-     def box(c):x,y,w,h=square(c);return [[x/W,y/H],[w/W,h/H]]
+    else:assert not note['Romaji'] and 'rv-details' not in after and (direction=='reading' or 'resources' not in p)
+    if direction in ('reading','variant'):
+     # Lit (#12): one kana alone in its writing square, its ink centred over the square's dashed
+     # cross, nothing else on the page; titled. A reading's row comes after the answer, as a
+     # picture under its name; its note no longer opens with the row.
+     assert not sounds and not card.question_av_tags() and p['kind']=='occlusion' and p['preparation']['mode']=='lit'
+     W,H,SIDE=3072,2048,1024;x0,y0=(W-SIDE)//2,(H-SIDE)//2
+     box=[[x0/W,y0/H],[SIDE/W,SIDE/H]]
+     if direction=='reading':
+      target=forms[note.guid.split('-read-',1)[1]];key=target['id'];region=target['id'];reading=target['reading']
+      script=[c for c in kana if c['script']==target['script']];ordinal=script.index(target)+1
+     else:key=region=question['id'];reading=question['answer'];ordinal=1
      regions=p['preparation']['regions'];occlusion=p['occlusion']
-     assert regions==[{'id':target['id'],'ordinal':script.index(target)+1,'kind':'label','geometry':{'kind':'rect','coordinates':sum(box(target),[])},'answer':target['reading'],'title':target['reading']}]
+     assert regions==[{'id':region,'ordinal':ordinal,'kind':'label','geometry':{'kind':'rect','coordinates':sum(box,[])},'answer':reading,'title':reading}]
      assert occlusion['mode']=='hideAll' and occlusion['imageSize']==[W,H] and occlusion['siblings']==[]
-     assert occlusion['ordinal']==script.index(target)+1 and occlusion['box']==box(target)
-     assert occlusion['label']==target['reading'] and p['noteID']==note.guid
+     assert occlusion['ordinal']==ordinal and occlusion['box']==box
+     assert occlusion['label']==reading and p['noteID']==note.guid
      assert occlusion['imageName']==p['preparation']['source']['file']
-     assert re.findall(r'src="([^"]+)"',note['Front'])==['rv-kana-'+target['id']+'-question.png']
-     in_row=sorted(members,key=lambda c:c['column'])
-     assert note['Note'].startswith(' · '.join(('<b>'+c['kana']+' '+c['reading']+'</b>') if c==target else c['kana']+' '+c['reading'] for c in in_row)+'<br>'),note['Note']
+     assert re.findall(r'src="([^"]+)"',note['Front'])==['rv-kana-'+key+'-question.png']
      for role in ['source','clean','darkSource','darkClean']:
       asset=p['preparation'][role];path=Path(col.media.dir())/asset['file']
-      assert '-litrow-' in asset['file'] and [asset['width'],asset['height']]==[W,H]
+      assert '-square-' in asset['file'] and [asset['width'],asset['height']]==[W,H]
       assert hashlib.sha256(path.read_bytes()).hexdigest()==asset['sha256']
       with Image.open(path) as image:
        image=image.convert('RGB');assert image.size==(W,H)
-       dark=role.startswith('dark');paper=(33,30,24) if dark else (250,250,249);gold=(255,210,91) if dark else (169,104,8)
+       dark=role.startswith('dark');paper=(33,30,24) if dark else (250,250,249)
        ink=(237,230,216) if dark else (26,24,20);ghost=(73,68,60) if dark else (189,186,179)
-       def colors(c):
-        x,y,w,h=square(c);return {k for _,k in image.crop((x,y,x+w,y+h)).getcolors(1<<24)}
-       for c in members:
-        found=colors(c)
-        if c==target:assert (gold in found and ink not in found) if role in ('source','darkSource') else found=={paper},c['id']
-        elif c in taught:assert ink in found and ghost not in found and gold not in found,(asset['file'],c['id'])
-        else:assert ghost in found and ink not in found and gold not in found,(asset['file'],c['id'])
-       # Nothing else is drawn: no romaji, no headers, no lines, no other row.
-       rest=image.copy();draw=ImageDraw.Draw(rest)
-       for c in members:
-        x,y,w,h=square(c);draw.rectangle((x,y,x+w-1,y+h-1),fill=paper)
-       assert rest.getextrema()==tuple((v,v) for v in paper),('Ink outside the row',asset['file'])
+       found={k for _,k in image.getcolors(1<<24)}
+       # The cross in the line colour; the kana's ink on the page that shows it, none on the clean one.
+       assert paper in found and ghost in found and ((ink in found) == (role in ('source','darkSource'))),asset['file']
+       # Nothing is drawn outside the square: no row, no romaji, no headers.
+       rest=image.copy();ImageDraw.Draw(rest).rectangle((x0,y0,x0+SIDE-1,y0+SIDE-1),fill=paper)
+       assert rest.getextrema()==tuple((v,v) for v in paper),('Ink outside the square',asset['file'])
+     if direction=='reading':
+      members=[c for c in script if c['row']==target['row']]
+      strip='rv-kana-'+key+'-rowstrip.png'
+      assert p['resources']==[{'name':'Row' if meta['language']=='en' else 'Ligne','text':'','images':[strip]}]
+      with Image.open(Path(col.media.dir())/strip) as image:
+       image=image.convert('RGB');found={k for _,k in image.getcolors(1<<24)}
+       taught=[c for c in members if c['id'] in introduced[question['id']] and c!=target]
+       # The kana asked in gold, on the strip's dark paper; cream only if the row has kana taught
+       # before it, the faint ink only if it has kana still to come.
+       assert image.getpixel((0,0))==(26,24,20) and (255,210,91) in found
+       assert ((237,230,216) in found)==bool(taught) and ((117,110,98) in found)==(len(taught)+1<len(members)),strip
+      assert not note['Note'].startswith(target['kana']) and ' · ' not in note['Note'],note['Note']
      assert '[sound:' in note['Back'] and card.answer_av_tags() and p['originalOcclusionAnswer'] in note['Back']
     if direction=='listening':
      assert len(sounds)==1 and note['Front']=='[sound:'+sounds[0]+']' and len(card.question_av_tags())==1 and p['kind']=='basic'
      assert note['Kicker'].strip() and ('Listen' not in note['Meta'] and 'Écoutez' not in note['Meta'])
     if direction=='contrast':
      assert sounds and card.question_av_tags() and card.answer_av_tags() and p['kind']=='basic'
-    if direction in ['rule','word','variant','checkpoint']:
+    if direction in ['rule','word','checkpoint']:
      assert not sounds and not card.question_av_tags() and p['kind']=='basic'
      assert '[sound:' in note['Back'] and card.answer_av_tags()
     assert note['Note'].strip()
