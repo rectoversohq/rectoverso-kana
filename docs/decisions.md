@@ -181,3 +181,8 @@ The owner, after trying six designs of the reading card in a day and a grilling 
 
 No kana, order, prerequisite, question text, recording or identity changes; contentModifiedAt advances, and an update keeps every card, note and review. Not decided here: the version’s number and its approval, which are the owner’s at its release. Known limit: VoiceOver names the row’s picture without reading it, since the app has no description for a resource’s picture.
 
+
+## 2026-11-11 — The chart on the question's canvas, tried again and set aside (#12)
+
+Once the app no longer opened a figure small and framed (simonpinkas/RectoVerso#954), the owner asked to try the whole kana chart on the question's canvas again, the asked kana lit in it as the Periodic table's cells. Prototypes, captured on the iPhone 17 and tried on the owner's phone: the whole chart in view (the kana about 31 points, and no room left for the answer), the chart at the closest the app opens it (80-point cells), then bands of the chart round the asked kana, set looser, in the traditional layout (vowels down, families as columns from the right, as MEXT's sheet), at about 70 points a kana. The owner: “never mind, doesn't work, let's keep the previous version with the dashed lines.” The reading cards stay as decided above: the kana alone in its writing square, its row on the dark strip after the answer. Nothing in the source changed for the try.
+
