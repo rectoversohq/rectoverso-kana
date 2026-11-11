@@ -105,8 +105,8 @@ def inspect(package,output):
      assert occlusion['label']==target['reading'] and p['noteID']==note.guid
      assert occlusion['imageName']==p['preparation']['source']['file']
      assert re.findall(r'src="([^"]+)"',note['Front'])==['rv-kana-'+target['id']+'-question.png']
-     ordered=sorted(members,key=lambda c:c['column'])
-     assert note['Note'].startswith(' · '.join(('<b>'+c['kana']+' '+c['reading']+'</b>') if c==target else c['kana']+' '+c['reading'] for c in ordered)+'<br>'),note['Note']
+     in_row=sorted(members,key=lambda c:c['column'])
+     assert note['Note'].startswith(' · '.join(('<b>'+c['kana']+' '+c['reading']+'</b>') if c==target else c['kana']+' '+c['reading'] for c in in_row)+'<br>'),note['Note']
      for role in ['source','clean','darkSource','darkClean']:
       asset=p['preparation'][role];path=Path(col.media.dir())/asset['file']
       assert '-litrow-' in asset['file'] and [asset['width'],asset['height']]==[W,H]
