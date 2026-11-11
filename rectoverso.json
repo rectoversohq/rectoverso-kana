@@ -3366,16 +3366,16 @@
       "license": "OFL-1.1"
     },
     {
-      "name": "SF Pro — Apple (lettering of covers 2 and 3)",
+      "name": "SF Pro — Apple (Latin lettering of covers 2 and 3 only)",
       "version": "SF Pro Text Regular (checksum-pinned)",
       "url": "https://developer.apple.com/fonts/",
-      "license": "Apple SF Pro license (font binary not redistributed)"
+      "license": "Apple’s SF Pro terms: outlined in the covers’ artwork, the font file isn’t included; cleared for publication by the owner (2026-11-10)"
     },
     {
       "name": "Microsoft — Nanami Japanese voice, through Azure AI Speech",
       "version": "ja-JP-NanamiNeural, rate −20%",
       "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support",
-      "license": "Microsoft Product Terms for Azure AI Speech (not CC BY 4.0; not relicensed here)"
+      "license": "LicenseRef-Microsoft-Azure-AI-Speech"
     },
     {
       "name": "Teaching references — MEXT, Agency for Cultural Affairs, TUFS and The Japan Foundation",

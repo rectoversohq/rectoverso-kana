@@ -132,3 +132,18 @@ The owner then listened to all 133 on a review sheet (2026-11-11) and approved t
 ## 2026-11-11 — Reading cards are lit figures, without romaji, drawn at 3x (#8)
 
 The owner, settling RectoVerso's simulator findings on the reading cards (simonpinkas/RectoVerso#898, #899): a reading card masked the romaji printed under its kana, so the app framed the mask, not the kana, and the answer sheet's magnifier cut the kana in book pose and open flat. The reading cards are now lit figures (the deck kit's `"mode": "lit"`, as the Periodic table's name cards): the whole chart, nothing masked, the card's kana in gold and its square outlined by the app, its reading the region's title and the answer. The owner chose to drop the printed romaji rather than bold them; each kana now sits in the middle of its row. The charts were drawn at 2.4 to 2.8 device pixels a source pixel on a 3x phone and read soft: they are drawn at three pixels a chart unit (3,000 × 3,240), every region scaled with them. New file names (-lit-) keep an update from colliding with the masked pictures, and contentModifiedAt advances. No note, card, GUID, id, order or answer changes; the update over 1.0.0-rc.3 and 1.0.0-rc.4 keeps every card, note and review. No card picture draws SF Pro now; it stays for the lettering of covers 2 and 3, outlined in their masters, and its credit says so. The packages grow from about 9 MB to 18 MB a language. For the next candidate, 1.0.0-rc.5, whose number and approval are the owner's at its release.
+
+
+## 2026-11-11 — The recordings' credit carries an SPDX-style id (#6)
+
+The owner: the recordings' credit names its terms with an SPDX-style id, as the edge-tts credit did (LicenseRef-Microsoft-Read-Aloud-Not-Relicensed): `LicenseRef-Microsoft-Azure-AI-Speech`, Microsoft’s Nanami voice through Azure AI Speech, under Microsoft’s Product Terms for Azure; not CC BY 4.0 and not relicensed here. The credits page (in both languages), rectoverso.json’s credit and the README say so. No recording changes.
+
+
+## 2026-11-11 — SF Pro's credit names the covers only (#8)
+
+The owner: SF Pro's credit says what the deck now uses it for, “SF Pro (Apple), for the Latin lettering of covers 2 and 3 only, outlined in their artwork; the font file isn’t included”, and keeps the owner's clearance of 2026-11-10 as the reason it may be published, under Apple's font terms. The credits page (in both languages), rectoverso.json's credit and the README say so.
+
+
+## 2026-11-11 — Reading cards show the whole chart, filling in card by card (#8)
+
+The owner tried the lit cards on an iPhone 15 Pro Max: better, but the kana around the target were unclear (the three-row window showed only what had been taught: sometimes many, sometimes none), the kana was lost in whitespace, and the card lacked delight. From mockups the owner chose “A, the chart fills in”: every reading card's figure is its script's whole gojūon chart, always the same (five columns, a i u e o, by eleven rows, –, k, s, t, n, h, m, y, r, w, n; や/ゆ/よ and わ/を in their standard cells, ん on its own row; no romaji, no headers). The kana the card has taught (the same introductions as before) are in ink, every other kana a faint ghost in the palette's line colour, the target lit in gold; over the course the learner sees the chart fill in. The chart fills the figure (180-unit cells, 20-unit margins, kana at 118 units), drawn at three pixels a unit (2,820 × 6,060), its pictures indexed so every flat colour stays exact. Only the inked kana count as the card's visibleKana and requirements. New file names (-chart-), contentModifiedAt advances; no note, card, GUID, id, order or answer changes. The packages are about 44 MB a language. The version stays 1.0.0-rc.4.
