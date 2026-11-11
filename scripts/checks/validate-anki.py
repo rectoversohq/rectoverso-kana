@@ -88,17 +88,16 @@ def inspect(package,output):
     if direction in ('listening','contrast'):verify_kana_detail(card,note,p,question,meta['language'])
     else:assert not note['Romaji'] and 'rv-details' not in after and 'resources' not in p
     if direction=='reading':
-     # Lit (#8): the card's row of the chart, the row its region, the card's kana in gold, taught
-     # kana in ink, the row's others as ghosts, nothing else; titled.
+     # Lit (#8): the card's row of the chart, padded, the card's kana in gold and its region, taught
+     # kana in ink, the row's others as ghosts, nothing else; titled. The note opens with the row.
      assert not sounds and p['kind']=='occlusion' and p['preparation']['mode']=='lit'
      target=forms[note.guid.split('-read-',1)[1]]
      script=[c for c in kana if c['script']==target['script']]
      members=[c for c in script if c['row']==target['row']]
      taught=[c for c in members if c['id'] in introduced[question['id']]]
-     W,H,CELL=2040,4760,340
-     def square(c):return (CELL//2+CELL*c['column'],H//2-CELL//2,CELL,CELL)
-     first,last=min(c['column'] for c in members),max(c['column'] for c in members)
-     def box(c):return [[(CELL//2+CELL*first)/W,(H//2-CELL//2)/H],[CELL*(last-first+1)/W,CELL/H]]
+     W,H,PITCH,REGION=2560,4096,143,154
+     def square(c):return (W//2-2*PITCH+PITCH*c['column']-REGION//2,H//2-REGION//2,REGION,REGION)
+     def box(c):x,y,w,h=square(c);return [[x/W,y/H],[w/W,h/H]]
      regions=p['preparation']['regions'];occlusion=p['occlusion']
      assert regions==[{'id':target['id'],'ordinal':script.index(target)+1,'kind':'label','geometry':{'kind':'rect','coordinates':sum(box(target),[])},'answer':target['reading'],'title':target['reading']}]
      assert occlusion['mode']=='hideAll' and occlusion['imageSize']==[W,H] and occlusion['siblings']==[]
@@ -106,6 +105,8 @@ def inspect(package,output):
      assert occlusion['label']==target['reading'] and p['noteID']==note.guid
      assert occlusion['imageName']==p['preparation']['source']['file']
      assert re.findall(r'src="([^"]+)"',note['Front'])==['rv-kana-'+target['id']+'-question.png']
+     ordered=sorted(members,key=lambda c:c['column'])
+     assert note['Note'].startswith(' · '.join(('<b>'+c['kana']+' '+c['reading']+'</b>') if c==target else c['kana']+' '+c['reading'] for c in ordered)+'<br>'),note['Note']
      for role in ['source','clean','darkSource','darkClean']:
       asset=p['preparation'][role];path=Path(col.media.dir())/asset['file']
       assert '-litrow-' in asset['file'] and [asset['width'],asset['height']]==[W,H]

@@ -64,6 +64,12 @@ def course(language,artwork=None,only_type=None,beginner_trial=False):
    if kind=='reading':requires+=[k for k in assets['figures'][q['id']]['visibleKana'] if k!=q['target'] and k not in requires]
    if requires:payload['requires']=requires
    if q.get('introduces'):payload['introduces']=list(q['introduces'])
+  # A reading's note opens with its kana's row, the kana asked in bold (Anki's; the app reads the
+  # note as plain text), so the answer gives the row's readings, irregular ones included.
+  row_line=''
+  if kind=='reading':
+   c=forms[q['target']];members=sorted((k for k in forms.values() if k['script']==c['script'] and k['row']==c['row']),key=lambda k:k['column'])
+   row_line=' · '.join(('<b>'+html.escape(k['kana']+' '+k['reading'])+'</b>') if k==c else html.escape(k['kana']+' '+k['reading']) for k in members)
   for appendix in q.get('appendices',[]):
    entry=trial['guide'] if trial and appendix=='course' else guide[appendix]
    note+='\n\n'+entry['title'][language]+'\n'+entry.get('noteBody',entry['body'])[language]
@@ -91,7 +97,7 @@ def course(language,artwork=None,only_type=None,beginner_trial=False):
   if answer_audio:back+='[sound:'+answer_audio+']';media.add(answer_audio)
   search={'v':1,'fields':[{'name':'Kana','values':[forms[q['target']]['kana']] if kind=='reading' else q.get('accepted',[q.get('display','')])},{'name':'Exercise' if language=='en' else 'Exercice','values':[kind]}]}
   if q.get('appendices'):search['fields'].append({'name':'Reference' if language=='en' else 'Référence','values':[guide[k]['title'][language] for k in q['appendices']]})
-  fields=dict(zip(FIELDS,[front,back,instruction,hint,q.get('meaning',{}).get(language,''),html.escape(note).replace('\n','<br>'),json.dumps(search,ensure_ascii=False),html.escape(json.dumps(payload,ensure_ascii=False))+extra,html.escape(romaji)]))
+  fields=dict(zip(FIELDS,[front,back,instruction,hint,q.get('meaning',{}).get(language,''),(row_line+'<br>' if row_line else '')+html.escape(note).replace('\n','<br>'),json.dumps(search,ensure_ascii=False),html.escape(json.dumps(payload,ensure_ascii=False))+extra,html.escape(romaji)]))
   notes.append({'guid':guid,'model':'kana','fields':fields,'tags':['exercise::'+kind,'stage::'+str(q['stage'])],'due':index+1,'itemId':q['id']});kinds.add(kind)
  details=(
   '{{#Romaji}}<section class="context"><input type="button" class="details-button" value="'

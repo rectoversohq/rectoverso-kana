@@ -9,18 +9,21 @@ from source_data import reading_introductions
 ROOT=Path(__file__).resolve().parents[1]
 # A reading card's figure is its kana's own row of the gojūon (さ: さ し す せ そ; や: や ゆ よ; わ: わ を; ん
 # alone), each kana in its vowel's slot (a i u e o, left to right), lit (the deck kit's "mode":
-# "lit"). The app centres a lit region in the question's window and zooms out until it fits there
-# (`OcclusionFraming`), and the window is narrower than the figure's canvas beside the bar or a
-# fold: so the region is the row itself, from its first kana to its last, and the whole row stands
-# in the window in every pose; the card's kana is the one in gold. The figure is a row's width (half
-# a cell either side) and taller than any window is for its width, so the width sets the scale.
-# CELL pixels a cell keep it sharp at its largest on a 3x screen.
-CELL=340
-MARGIN=CELL//2
-CELLS_HIGH=14
-W,H=5*CELL+2*MARGIN,CELLS_HIGH*CELL
+# "lit"): the region is the card's kana, which the app outlines. The app centres that region in the
+# question's window and zooms in until it is about 41 to 44 points (`OcclusionFraming`), and the
+# window is narrower than the canvas beside the bar or a fold: so the row's pitch is set against the
+# region (the farthest kana, four pitches and half a kana from the one asked, within 4.1 regions,
+# what the closed Duo's and a 402-point phone's windows hold), and blank paper pads the row so the
+# figure is wide enough that book pose keeps it under its page's window without zooming. The figure
+# is taller than any question window for its width (1.6 times as tall), so the width sets the
+# scale, and no taller than the 4,096 pixels the app decodes a figure at, so it is never scaled
+# down first (a scaled figure can miss the app's size check by a pixel and lose its canvas).
+PITCH=143
+REGION=154
+KANA_SIZE=132
+W,H=2560,4096
+ROW_X=W//2-2*PITCH
 ROW_Y=H//2
-KANA_SIZE=224
 PALETTES={'light':{'paper':'#FAFAF9','ink':'#1A1814','ghost':'#BDBAB3','accent':'#A96808'},'dark':{'paper':'#211E18','ink':'#EDE6D8','ghost':'#49443C','accent':'#FFD25B'}}
 # Each figure is indexed: paper, then STEPS antialiasing steps from paper to ink, to the ghost and
 # to gold, so every flat colour stays exact and the file small.
@@ -41,12 +44,8 @@ def save(im,out,name):
  p=out/name;im.save(p,optimize=True)
  return {'file':name,'width':im.width,'height':im.height,'sha256':sha(p)}
 def square(c):
- """A kana's cell in the figure, in pixels: its vowel's slot of the row."""
- return (MARGIN+CELL*c['column'],ROW_Y-CELL//2,CELL,CELL)
-def span(members):
- """The row's region, in pixels: from its first kana's cell to its last's."""
- first=min(c['column'] for c in members);last=max(c['column'] for c in members)
- return (MARGIN+CELL*first,ROW_Y-CELL//2,CELL*(last-first+1),CELL)
+ """The square round a kana, in pixels, in its vowel's slot of the row; the card's own is its region."""
+ return (ROW_X+PITCH*c['column']-REGION//2,ROW_Y-REGION//2,REGION,REGION)
 
 def row(target,forms,introduced):
  """The target's row: its kana taught by this card in ink (the target among them), the rest ghosts."""
@@ -54,8 +53,8 @@ def row(target,forms,introduced):
  taught=[c for c in members if c['id'] in introduced or c==target]
  return taught,[c for c in members if c not in taught]
 
-def normalized_box(members):
- x,y,w,h=span(members)
+def normalized_box(c):
+ x,y,w,h=square(c)
  return [[x/W,y/H],[w/W,h/H]]
 
 
@@ -70,15 +69,18 @@ def level(role):
  offset=1+ROLES.index(role)*STEPS
  return [0 if a==0 else offset+max(0,-(-a*STEPS//255)-1) for a in range(256)]
 def glyphs(forms):
- """Each kana's coverage in its cell, drawn once: the places never change."""
+ """Each kana's coverage in its square, drawn once: the places never change."""
  result={}
  for f in forms:
   x,y,w,h=square(f)
-  # Drawn with a cell's room round it: every kana keeps to its own cell.
-  room=CELL;probe=Image.new('L',(w+2*room,h+2*room),0)
+  # Drawn with room round it: every kana keeps to its own square.
+  room=REGION;probe=Image.new('L',(w+2*room,h+2*room),0)
   text_center(probe,f['kana'],(w//2+room,h//2+room),KANA_SIZE,255)
   b=probe.getbbox()
-  if not (room<=b[0] and room<=b[1] and b[2]<=room+w and b[3]<=room+h):raise ValueError('The kana falls outside its cell: '+f['id'])
+  if not (room<=b[0] and room<=b[1] and b[2]<=room+w and b[3]<=room+h):raise ValueError('The kana falls outside its square: '+f['id'])
+  # Squares overlap a little at this pitch: the ink keeps out of its neighbours' squares, so the
+  # app's outline round the card's kana never crosses another.
+  if not (room+REGION-PITCH<=b[0] and b[2]<=room+PITCH):raise ValueError("The kana reaches a neighbour's square: "+f['id'])
   result[f['id']]=probe.crop((room,room,room+w,room+h))
  return result
 def figure(members,coverage,roles,pal):
@@ -106,9 +108,9 @@ def render(output,only_type=None):
    members=sorted(taught+ghosts,key=lambda f:f['column'])
    assets['visibleKana']=[f['id'] for f in taught]
    assets['ghostKana']=[f['id'] for f in ghosts]
-   # Lit (the deck kit's card payload, "A prepared figure"): the row shown and outlined by the app,
-   # the card's kana in gold; its reading is the region's title, the answer.
-   region={'id':c['id'],'ordinal':ordinals[c['id']],'kind':'label','geometry':{'kind':'rect','coordinates':sum(normalized_box(members),[])},'answer':c['reading'],'title':c['reading']}
+   # Lit (the deck kit's card payload, "A prepared figure"): the row shown, the card's kana in gold
+   # and outlined by the app; its reading is the region's title, the answer.
+   region={'id':c['id'],'ordinal':ordinals[c['id']],'kind':'label','geometry':{'kind':'rect','coordinates':sum(normalized_box(c),[])},'answer':c['reading'],'title':c['reading']}
    roles={f['id']:'ink' if f in taught else 'ghost' for f in members}
    size=(W,H)
    for mode,pal in PALETTES.items():
@@ -121,7 +123,7 @@ def render(output,only_type=None):
      record['files'].append(assets[key])
    standalone=Image.new('RGB',(700,500),PALETTES['light']['paper']);text_center(standalone,c['kana'],(350,245),280,PALETTES['light']['ink'])
    assets['question']=save(standalone,output,f'rv-kana-{c["id"]}-question.png');record['files'].append(assets['question'])
-   assets['occlusion']={'imageName':assets['source']['file'],'box':normalized_box(members),'siblings':[],'label':c['reading'],'mode':'hideAll','ordinal':ordinals[c['id']],'imageSize':list(size)}
+   assets['occlusion']={'imageName':assets['source']['file'],'box':normalized_box(c),'siblings':[],'label':c['reading'],'mode':'hideAll','ordinal':ordinals[c['id']],'imageSize':list(size)}
    assets['preparation']={'version':1,**{k:assets[k] for k in ['source','clean','darkSource','darkClean']},'masksSHA256':hashlib.sha256(b'').hexdigest(),'mode':'lit','regions':[region],'canvas':{'method':'flat-srgb-v1','light':[250/255,250/255,249/255],'dark':[33/255,30/255,24/255]}}
    record['figures'][q['id']]=assets
   print('Rendered',sum(q['type']=='reading' and q['target'].startswith(script+'-') for q in questions),script,'reading figures',flush=True)

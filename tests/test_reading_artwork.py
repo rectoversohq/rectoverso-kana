@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
-from render_artwork import square,span,row,W,H,CELL,MARGIN
+from render_artwork import square,row,W,H,PITCH,REGION,ROW_X
 from source_data import course,questions,ordered,reading_introductions
 
 ROLES=('source','clean','darkSource','darkClean')
@@ -19,13 +19,22 @@ class ReadingArtworkTests(unittest.TestCase):
         cls.introductions=reading_introductions()
         cls.figures=json.loads((ROOT/'artwork/artwork.json').read_text())['figures']
 
-    def test_the_figure_is_a_rows_width_and_taller_than_any_window(self):
-        self.assertEqual((W,H),(2040,4760))
-        self.assertGreater(H/W,874/402)
+    def test_the_row_is_padded_so_the_app_keeps_it_whole(self):
+        # The app decodes a figure at 4,096 pixels at most; a question window is under 1.6 times as
+        # tall as the canvas is wide.
+        self.assertEqual((W,H),(2560,4096))
+        self.assertGreaterEqual(H/W,1.6)
+        # The app zooms until the region is about 41 points and centres it in the window, 342
+        # points wide on the closed Duo: the farthest kana, four pitches and half a kana away,
+        # stays within 4.17 regions of the one asked.
+        self.assertLessEqual((4*PITCH+0.42*PITCH)/REGION,171/41)
+        # Book pose fills the 951-point canvas with the figure, unzoomed, and the page's window
+        # holds 238 points either side of the kana asked.
+        self.assertLessEqual((4*PITCH+0.42*PITCH)*951/W,238)
+        self.assertGreaterEqual(REGION*951/W,44)
         for c in self.kana:
             x,y,w,h=square(c)
-            self.assertEqual((x,w,h),(MARGIN+CELL*c['column'],CELL,CELL))
-        # や/ゆ/よ and わ/を in their standard slots, ん alone.
+            self.assertEqual((x+w//2,w,h),(ROW_X+PITCH*c['column'],REGION,REGION))
         self.assertEqual({(c['row'],c['column']) for c in self.kana if c['row'] in (7,9,10) and c['script']=='hira'},{(7,0),(7,2),(7,4),(9,0),(9,4),(10,0)})
 
     def test_all_92_figures_are_lit_rows_with_one_titled_region(self):
@@ -35,14 +44,11 @@ class ReadingArtworkTests(unittest.TestCase):
             taught,ghosts=row(target,forms,self.introductions['read-'+target['id']])
             members=sorted(taught+ghosts,key=lambda c:c['column'])
             def box():
-                x,y,w,h=span(members);return [[x/W,y/H],[w/W,h/H]]
+                x,y,w,h=square(target);return [[x/W,y/H],[w/W,h/H]]
             with self.subTest(target=target['id']):
                 self.assertEqual({c['row'] for c in members},{target['row']})
                 self.assertEqual(len(members),sum(c['row']==target['row'] for c in forms))
                 self.assertIn(target,taught)
-                # The region is the whole row, so the app keeps all of it in the window.
-                x,y,w,h=span(members)
-                self.assertEqual((x,w),(MARGIN+CELL*members[0]['column'],CELL*(members[-1]['column']-members[0]['column']+1)))
                 self.assertEqual(figure['visibleKana'],[c['id'] for c in taught])
                 self.assertEqual(figure['ghostKana'],[c['id'] for c in ghosts])
                 occlusion=figure['occlusion'];preparation=figure['preparation']
@@ -74,6 +80,10 @@ class ReadingArtworkTests(unittest.TestCase):
             payloads=[json.JSONDecoder().raw_decode(html.unescape(n['fields']['RectoVerso']))[0] for n in reading]
             self.assertEqual(len({p['card'] for p in payloads}),92)
             for n,p in zip(reading,payloads):
+                target=next(k for k in self.kana if 'read-'+k['id']==n['itemId'])
+                members=sorted((k for k in self.kana if k['script']==target['script'] and k['row']==target['row']),key=lambda k:k['column'])
+                row_line=' · '.join(('<b>'+k['kana']+' '+k['reading']+'</b>') if k==target else k['kana']+' '+k['reading'] for k in members)
+                self.assertTrue(n['fields']['Note'].startswith(row_line+'<br>'),n['fields']['Note'])
                 self.assertEqual(p['kind'],'occlusion')
                 self.assertEqual(p['noteID'],n['guid'])
                 self.assertEqual(p['occlusion'],self.figures[n['itemId']]['occlusion'])
