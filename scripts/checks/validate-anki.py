@@ -88,38 +88,44 @@ def inspect(package,output):
     if direction in ('listening','contrast'):verify_kana_detail(card,note,p,question,meta['language'])
     else:assert not note['Romaji'] and 'rv-details' not in after and 'resources' not in p
     if direction=='reading':
-     # Lit (#8): the whole chart at 3x, no romaji, the card's kana in gold; one region, titled.
+     # Lit (#8): the whole chart at 3x, no romaji, what the card has taught in ink, the rest ghosts,
+     # the card's kana in gold; one region, titled.
      assert not sounds and p['kind']=='occlusion' and p['preparation']['mode']=='lit'
      target=forms[note.guid.split('-read-',1)[1]]
      script=[c for c in kana if c['script']==target['script']]
-     start=max(0,min(target['row']-1,8));top=start*360
-     visible=[c for c in script if start<=c['row']<start+3 and c['id'] in introduced[question['id']]]
-     def square(c):return (148+176*c['column']-75,360*c['row']-top+180-75,150,150)
-     def box(c):x,y,w,h=square(c);return [[x/1000,y/1080],[w/1000,h/1080]]
+     taught=[c for c in script if c['id'] in introduced[question['id']]]
+     W,H=940,2020
+     def square(c):return (20+180*c['column']+15,20+180*c['row']+15,150,150)
+     def box(c):x,y,w,h=square(c);return [[x/W,y/H],[w/W,h/H]]
      regions=p['preparation']['regions'];occlusion=p['occlusion']
      assert regions==[{'id':target['id'],'ordinal':script.index(target)+1,'kind':'label','geometry':{'kind':'rect','coordinates':sum(box(target),[])},'answer':target['reading'],'title':target['reading']}]
-     assert occlusion['mode']=='hideAll' and occlusion['imageSize']==[3000,3240] and occlusion['siblings']==[]
+     assert occlusion['mode']=='hideAll' and occlusion['imageSize']==[3*W,3*H] and occlusion['siblings']==[]
      assert occlusion['ordinal']==script.index(target)+1 and occlusion['box']==box(target)
      assert occlusion['label']==target['reading'] and p['noteID']==note.guid
      assert occlusion['imageName']==p['preparation']['source']['file']
      for role in ['source','clean','darkSource','darkClean']:
       asset=p['preparation'][role];path=Path(col.media.dir())/asset['file']
-      assert '-lit-' in asset['file'] and [asset['width'],asset['height']]==[3000,3240]
+      assert '-chart-' in asset['file'] and [asset['width'],asset['height']]==[3*W,3*H]
       assert hashlib.sha256(path.read_bytes()).hexdigest()==asset['sha256']
       with Image.open(path) as image:
-       image=image.convert('RGB');assert image.size==(3000,3240)
+       image=image.convert('RGB');assert image.size==(3*W,3*H)
        dark=role.startswith('dark');paper=(33,30,24) if dark else (250,250,249);gold=(255,210,91) if dark else (169,104,8)
+       ink=(237,230,216) if dark else (26,24,20);ghost=(73,68,60) if dark else (221,220,216)
        blank=tuple((v,v) for v in paper)
-       x,y,w,h=(3*v for v in square(target));lit=image.crop((x,y,x+w,y+h))
+       def colors(c):
+        x,y,w,h=(3*v for v in square(c));return {k for _,k in image.crop((x,y,x+w,y+h)).getcolors(1<<24)}
        # The source shows the card's kana in gold in its square; the clean chart leaves it empty.
-       assert (gold in {c for _,c in lit.getcolors(1<<24)}) if role in ('source','darkSource') else lit.getextrema()==blank
-       # Nothing else is drawn: no romaji, no future kana; only the visible kana and the dividers.
+       lit=colors(target)
+       assert (gold in lit and ink not in lit) if role in ('source','darkSource') else lit=={paper}
+       # Every other kana is drawn: in ink once taught, else a ghost, never both.
+       for c in script:
+        if c!=target:
+         found=colors(c);assert ((ink in found and ghost not in found) if c in taught else (ghost in found and ink not in found)),(asset['file'],c['id'])
+       # Nothing else is drawn: no romaji, no headers, no lines.
        rest=image.copy();draw=ImageDraw.Draw(rest)
-       for c in visible:
+       for c in script:
         x,y,w,h=(3*v for v in square(c));draw.rectangle((x,y,x+w-1,y+h-1),fill=paper)
-       for row in range(min(c['row'] for c in visible),max(c['row'] for c in visible)):
-        ly=(360*(row+1)-top)*3;draw.rectangle((0,ly-3,2999,ly+3),fill=paper)
-       assert rest.getextrema()==blank,('Ink outside the visible kana',asset['file'])
+       assert rest.getextrema()==blank,('Ink outside the kana',asset['file'])
      assert '[sound:' in note['Back'] and card.answer_av_tags() and p['originalOcclusionAnswer'] in note['Back']
     if direction=='listening':
      assert len(sounds)==1 and note['Front']=='[sound:'+sounds[0]+']' and len(card.question_av_tags())==1 and p['kind']=='basic'

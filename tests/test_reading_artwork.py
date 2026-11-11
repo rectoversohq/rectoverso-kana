@@ -1,4 +1,4 @@
-"""Lit reading figures: introduced kana only, no romaji, the card's kana in gold, drawn at 3x."""
+"""Reading figures: the whole chart, taught kana in ink, the rest ghosts, the card's kana in gold, drawn at 3x."""
 import html
 import json
 import sys
@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
-from render_artwork import geometry,reading_window,SCALE
+from render_artwork import geometry,chart,SCALE,W,H
 from source_data import course,questions,ordered,reading_introductions
 
 ROLES=('source','clean','darkSource','darkClean')
@@ -19,40 +19,42 @@ class ReadingArtworkTests(unittest.TestCase):
         cls.introductions=reading_introductions()
         cls.figures=json.loads((ROOT/'artwork/artwork.json').read_text())['figures']
 
-    def test_windows_retain_the_frame_and_exclude_unintroduced_cells(self):
+    def test_the_chart_is_the_whole_gojuon_and_its_squares_fill_it(self):
+        self.assertEqual((W,H),(940,2020))
         for script in ('hira','kata'):
             forms=[c for c in self.kana if c['script']==script]
-            for target in forms:
-                top,visible=reading_window(target,forms,self.introductions['read-'+target['id']])
-                start=max(0,min(target['row']-1,8))
-                self.assertEqual(top,start*360)
-                self.assertLessEqual({c['row'] for c in visible},set(range(start,start+3)))
-                self.assertTrue(all(c['id'] in self.introductions['read-'+target['id']] for c in visible))
-                self.assertIn(target,visible)
-                for c in visible:
-                    x,y,w,h=geometry(c,top)
-                    self.assertTrue(0<=x<x+w<=1000 and 0<=y<y+h<=1080)
-                # Squares never overlap: each is its own kana's.
-                for a in visible:
-                    for b in visible:
-                        if a!=b:
-                            ax,ay,aw,ah=geometry(a,top);bx,by,bw,bh=geometry(b,top)
-                            self.assertTrue(ax+aw<=bx or bx+bw<=ax or ay+ah<=by or by+bh<=ay)
-            self.assertEqual(reading_window(forms[-1],forms,self.introductions['read-'+forms[-1]['id']])[0],2880)
-            self.assertEqual(len(reading_window(forms[-1],forms,self.introductions['read-'+forms[-1]['id']])[1]),8)
+            self.assertEqual(len(forms),46)
+            # や/ゆ/よ and わ/を in their standard cells, ん on its own row.
+            self.assertEqual({(c['row'],c['column']) for c in forms if c['row'] in (7,9,10)},{(7,0),(7,2),(7,4),(9,0),(9,4),(10,0)})
+            for c in forms:
+                x,y,w,h=geometry(c)
+                self.assertTrue(0<=x<x+w<=W and 0<=y<y+h<=H)
+            for a in forms:
+                for b in forms:
+                    if a!=b:
+                        ax,ay,aw,ah=geometry(a);bx,by,bw,bh=geometry(b)
+                        self.assertTrue(ax+aw<=bx or bx+bw<=ax or ay+ah<=by or by+bh<=ay)
+            # The chart fills in: the first card shows one kana in ink, the last its whole script.
+            first=next(q for q in ordered(questions()) if q['type']=='reading' and q['target'].startswith(script))
+            last=[q for q in ordered(questions()) if q['type']=='reading' and q['target'].startswith(script)][-1]
+            target=lambda q:next(c for c in forms if c['id']==q['target'])
+            self.assertEqual(len(chart(target(first),forms,self.introductions[first['id']])[0]),1)
+            self.assertEqual(len(chart(target(last),forms,self.introductions[last['id']])[1]),0)
 
     def test_all_92_figures_are_lit_with_one_titled_region_at_the_target_global_ordinal(self):
         for target in self.kana:
             forms=[c for c in self.kana if c['script']==target['script']]
             figure=self.figures['read-'+target['id']]
-            start=max(0,min(target['row']-1,8));top=start*360
-            visible=[c for c in forms if start<=c['row']<start+3 and c['id'] in self.introductions['read-'+target['id']]]
+            taught=[c for c in forms if c['id'] in self.introductions['read-'+target['id']]]
             def box(c):
-                x,y,w,h=geometry(c,top);return [[x/1000,y/1080],[w/1000,h/1080]]
+                x,y,w,h=geometry(c);return [[x/W,y/H],[w/W,h/H]]
             with self.subTest(target=target['id']):
-                self.assertEqual(figure['crop'],{'top':top,'height':1080,'rows':sorted({c['row'] for c in visible})})
+                self.assertIn(target,taught)
+                self.assertEqual(figure['visibleKana'],[c['id'] for c in taught])
+                self.assertEqual(figure['ghostKana'],[c['id'] for c in forms if c not in taught])
+                self.assertNotIn('crop',figure)
                 occlusion=figure['occlusion'];preparation=figure['preparation']
-                self.assertEqual(occlusion['imageSize'],[3000,3240])
+                self.assertEqual(occlusion['imageSize'],[W*SCALE,H*SCALE])
                 self.assertEqual(occlusion['ordinal'],forms.index(target)+1)
                 self.assertEqual(occlusion['box'],box(target))
                 self.assertEqual(occlusion['label'],target['reading'])
@@ -63,17 +65,16 @@ class ReadingArtworkTests(unittest.TestCase):
                 self.assertEqual(preparation['regions'],[{'id':target['id'],'ordinal':forms.index(target)+1,'kind':'label','geometry':{'kind':'rect','coordinates':sum(box(target),[])},'answer':target['reading'],'title':target['reading']}])
                 self.assertEqual(occlusion['imageName'],figure['source']['file'])
                 for role in ROLES:self.assertEqual(preparation[role],figure[role])
-                self.assertEqual(figure['visibleKana'],[c['id'] for c in visible])
 
-    def test_lit_names_avoid_collisions_with_every_previous_table_edition(self):
+    def test_chart_names_avoid_collisions_with_every_previous_table_edition(self):
         table_files=set();questions=set()
         for target in self.kana:
             f=self.figures['read-'+target['id']]
             for role in ROLES:
                 asset=f[role];table_files.add(asset['file'])
-                self.assertEqual((asset['width'],asset['height']),(1000*SCALE,1080*SCALE))
+                self.assertEqual((asset['width'],asset['height']),(W*SCALE,H*SCALE))
                 self.assertNotIn('fonts',asset)
-                self.assertTrue(asset['file'].startswith('rv-kana-'+target['id']+'-lit-'))
+                self.assertTrue(asset['file'].startswith('rv-kana-'+target['id']+'-chart-'))
             q=f['question'];questions.add(q['file'])
             self.assertEqual(q['file'],'rv-kana-'+target['id']+'-question.png')
             self.assertEqual((q['width'],q['height']),(700,500))
