@@ -3375,7 +3375,7 @@
       "name": "Microsoft — Nanami Japanese voice, through Azure AI Speech",
       "version": "ja-JP-NanamiNeural, rate −20%",
       "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support",
-      "license": "Microsoft Product Terms for Azure AI Speech (not CC BY 4.0; not relicensed here)"
+      "license": "LicenseRef-Microsoft-Azure-AI-Speech"
     },
     {
       "name": "Teaching references — MEXT, Agency for Cultural Affairs, TUFS and The Japan Foundation",
