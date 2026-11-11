@@ -13,5 +13,8 @@
   "variant": "Another form",
   "checkpoint": "Reading check",
   "listenOnePrompt": "Recall one valid form.",
-  "romajiLabel": "Romaji"
+  "romajiLabel": "Romaji",
+  "hiragana": "hiragana",
+  "katakana": "katakana",
+  "chartDescription": "The {script} chart: {taught} of {total} learned so far, {kana} in gold."
 }
